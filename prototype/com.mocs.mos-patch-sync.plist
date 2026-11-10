@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  launchd job: run weekly_sync.sh every Monday at 06:00.
+  Install (once):
+    cp com.mocs.mos-patch-sync.plist ~/Library/LaunchAgents/
+    launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.mocs.mos-patch-sync.plist
+  Run now (test):   launchctl kickstart -k gui/$(id -u)/com.mocs.mos-patch-sync
+  Remove:           launchctl bootout gui/$(id -u)/com.mocs.mos-patch-sync
+  Logs:             ~/Library/Logs/mos-patch-sync.log  (+ launchd stdout/stderr below)
+-->
+<plist version="1.0">
+<dict>
+  <key>Label</key><string>com.mocs.mos-patch-sync</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/wizbot/mocs/oracle-patch/weekly_sync.sh</string>
+  </array>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key><string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Weekday</key><integer>1</integer>
+    <key>Hour</key><integer>6</integer>
+    <key>Minute</key><integer>0</integer>
+  </dict>
+  <key>StandardOutPath</key><string>/Users/wizbot/Library/Logs/mos-patch-sync.launchd.out</string>
+  <key>StandardErrorPath</key><string>/Users/wizbot/Library/Logs/mos-patch-sync.launchd.err</string>
+  <key>RunAtLoad</key><false/>
+</dict>
+</plist>
