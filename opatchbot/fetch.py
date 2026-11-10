@@ -100,7 +100,7 @@ def _fetch_one(cfg: Config, cycle_id: str, entry: ManifestEntry, file: PatchFile
         return "failed", f"{file.name}: {e}"
 
 
-def fetch_manifest(manifest: Manifest, cfg: Config, client: AruClient, parallel: int = 2) -> FetchResult:
+def fetch_manifest(manifest: Manifest, cfg: Config, client: AruClient, parallel: int = 2, write: bool = True) -> FetchResult:
     result = FetchResult(manifest.cycle_id)
     jobs = [(e, f) for e in manifest.entries if e.status == "resolved" for f in e.files]
     stop = {"auth": False}
@@ -131,11 +131,16 @@ def fetch_manifest(manifest: Manifest, cfg: Config, client: AruClient, parallel:
                 log.warning("%s", err)
 
     _move_superseded(cfg, manifest)
+    if write:
+        write_manifest(cfg, manifest)
+    return result
+
+
+def write_manifest(cfg: Config, manifest: Manifest) -> None:
     out = cfg.stage_root / manifest.cycle_id
     out.mkdir(parents=True, exist_ok=True)
     manifest.to_json(out / "manifest.json")
     (out / "MANIFEST.md").write_text(manifest.to_markdown(), encoding="utf-8")
-    return result
 
 
 def _move_superseded(cfg: Config, manifest: Manifest) -> None:

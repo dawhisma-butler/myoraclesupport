@@ -11,7 +11,7 @@ from pathlib import Path
 
 from . import __version__
 from .aru import AruClient
-from .config import load_config, load_secrets
+from .config import TYPES, load_config, load_secrets, parse_types
 from .notify import Notifier
 from .run import Services, heartbeat, monitor_once, prune, run_cycle
 from .state import StateStore
@@ -37,8 +37,11 @@ def build_parser() -> argparse.ArgumentParser:
     sub.add_parser("token", parents=[common], help="mint a download token from the saved session")
     sub.add_parser("status", parents=[common], help="show cycle states")
     sub.add_parser("monitor", parents=[common], help="daily: detect releases and run due cycles")
+    type_help = ("patch types to include, comma separated: " + ", ".join(f"{k}={v}" for k, v in TYPES.items())
+                 + " (default: everything). A filtered run updates only those items and sends no email.")
     for name in ("resolve", "fetch", "run"):
         p = sub.add_parser(name, parents=[common], help=f"{name} one cycle"); p.add_argument("cycle_id")
+        p.add_argument("--type", dest="types", default=None, metavar="DB,MW,PT,AP", help=type_help)
     sub.add_parser("heartbeat", parents=[common], help="send the monthly alive email")
     p = sub.add_parser("prune", parents=[common], help="remove old cycle folders beyond keep_cycles"); p.add_argument("--yes", action="store_true")
     return ap
@@ -92,17 +95,23 @@ def main(argv: list[str] | None = None, services: Services | None = None) -> int
         return 0
     if args.cmd == "monitor":
         return monitor_once(svc, today)
+    areas = None
+    if args.cmd in ("resolve", "fetch", "run"):
+        try:
+            areas = parse_types(args.types)
+        except ValueError as e:
+            print(e, file=sys.stderr); return 1
     if args.cmd == "resolve":  # review only: no state change, never touches manifest.json
         from .resolve import resolve_cycle
         from .run import carry_verified, peek_record
         rec = peek_record(svc, args.cycle_id)
-        m = resolve_cycle(args.cycle_id, rec.scheduled, svc.cfg, svc.client)
+        m = resolve_cycle(args.cycle_id, rec.scheduled, svc.cfg, svc.client, areas)
         out = svc.cfg.stage_root / args.cycle_id; out.mkdir(parents=True, exist_ok=True)
         carry_verified(m, out / "manifest.json")
         m.to_json(out / "manifest.review.json"); (out / "MANIFEST.review.md").write_text(m.to_markdown(), encoding="utf-8")
         print(m.to_markdown()); return 0
     if args.cmd in ("fetch", "run"):
-        return run_cycle(args.cycle_id, svc, today)
+        return run_cycle(args.cycle_id, svc, today, areas)
     if args.cmd == "heartbeat":
         return heartbeat(svc, today)
     if args.cmd == "prune":

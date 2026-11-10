@@ -41,7 +41,7 @@ def _outcome(manifest: Manifest, result: FetchResult) -> str:
     return "partial" if (result.failed or missing or not manifest.all_verified()) else "fetched"
 
 
-def _summary(manifest: Manifest, result: FetchResult) -> str:
+def summary(manifest: Manifest, result: FetchResult) -> str:
     lines = [f"Cycle {manifest.cycle_id} ({manifest.kind}), scheduled {manifest.scheduled.isoformat()}.",
              f"Verified now: {result.verified}; already present: {result.skipped}; failed: {len(result.failed)}.", ""]
     if result.failed:
@@ -54,16 +54,16 @@ def _summary(manifest: Manifest, result: FetchResult) -> str:
 
 
 def msg_first_pass(manifest: Manifest, result: FetchResult) -> tuple[str, str]:
-    return f"{PREFIX} {manifest.cycle_id}: {_outcome(manifest, result)}", "First pass for this cycle.\n\n" + _summary(manifest, result)
+    return f"{PREFIX} {manifest.cycle_id}: {_outcome(manifest, result)}", "First pass for this cycle.\n\n" + summary(manifest, result)
 
 
 def msg_changed(manifest: Manifest, result: FetchResult, newly_verified: list[str]) -> tuple[str, str]:
-    body = "Progress since the last run. Newly verified:\n" + "".join(f"  - {n}\n" for n in newly_verified) + "\n" + _summary(manifest, result)
+    body = "Progress since the last run. Newly verified:\n" + "".join(f"  - {n}\n" for n in newly_verified) + "\n" + summary(manifest, result)
     return f"{PREFIX} {manifest.cycle_id}: {_outcome(manifest, result)}", body
 
 
 def msg_window_closed(manifest: Manifest, result: FetchResult) -> tuple[str, str]:
-    return f"{PREFIX} {manifest.cycle_id}: {_outcome(manifest, result)} (window closed)", "Cycle window closed; final state.\n\n" + _summary(manifest, result)
+    return f"{PREFIX} {manifest.cycle_id}: {_outcome(manifest, result)} (window closed)", "Cycle window closed; final state.\n\n" + summary(manifest, result)
 
 
 def msg_needs_human(cycle_id: str, command: str) -> tuple[str, str]:

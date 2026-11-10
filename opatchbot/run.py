@@ -9,11 +9,11 @@ from typing import Any, Callable
 
 from .aru import AruClient, AuthError
 from .config import Config
-from .fetch import FetchResult, fetch_manifest
+from .fetch import FetchResult, fetch_manifest, write_manifest
 from .manifest import Manifest
 from .monitor import (aru_fallback_released, detect, fetch_alerts_page, late_cycles, parse_alerts_page,
                       third_tuesday)
-from .notify import (Notifier, msg_changed, msg_first_pass, msg_heartbeat, msg_late, msg_needs_human,
+from .notify import (Notifier, summary, msg_changed, msg_first_pass, msg_heartbeat, msg_late, msg_needs_human,
                      msg_window_closed)
 from .resolve import resolve_cycle
 from .state import LEGAL, CycleRecord, StateStore
@@ -90,17 +90,56 @@ def _refresh_token_or_raise(svc: Services) -> None:
     svc.token_store.write(fetch_token_with_relogin(svc.browser, relogin))
 
 
-def _resolve_and_fetch(svc: Services, cycle_id: str, scheduled: date, stage: Path) -> tuple[Manifest, FetchResult, set[str], dict]:
-    manifest = resolve_cycle(cycle_id, scheduled, svc.cfg, svc.client)
+def _resolve_and_fetch(svc: Services, cycle_id: str, scheduled: date, stage: Path,
+                       areas: set[str] | None = None) -> tuple[Manifest, FetchResult, set[str], dict]:
+    manifest = resolve_cycle(cycle_id, scheduled, svc.cfg, svc.client, areas)
     before, prev_picks = carry_verified(manifest, stage / "manifest.json")
-    result = fetch_manifest(manifest, svc.cfg, svc.client)
+    result = fetch_manifest(manifest, svc.cfg, svc.client, write=areas is None)
     if result.auth_failed:
         raise AuthError("token rejected during download")
     return manifest, result, before, prev_picks
 
 
-def run_cycle(cycle_id: str, svc: Services, today: date) -> int:
-    """0 fetched, 1 partial, 2 needs human, 3 failed (window closed with gaps), 4 error, 6 email failed."""
+def run_filtered(cycle_id: str, svc: Services, areas: set[str]) -> int:
+    """Manual `run --type ...`: resolve and fetch only items in `areas`, merge them into the cycle's
+    manifest.json, print a summary. Cycle status, the monitor's once-per-day marker and email are left alone,
+    so a partial run never looks like a completed cycle. 0 all selected items verified, 1 not all, 2 needs
+    human, 4 error."""
+    rec = peek_record(svc, cycle_id)
+    stage = svc.cfg.stage_root / cycle_id
+    try:
+        try:
+            manifest, result, _, _ = _resolve_and_fetch(svc, cycle_id, rec.scheduled, stage, areas)
+        except AuthError as e:
+            log.warning("%s: %s; refreshing token and retrying once", cycle_id, e)
+            _refresh_token_or_raise(svc)
+            manifest, result, _, _ = _resolve_and_fetch(svc, cycle_id, rec.scheduled, stage, areas)
+    except (AuthError, SessionExpired) as e:
+        log.error("%s: %s", cycle_id, e)
+        print(f"needs human: {e}\nRun: {LOGIN_HINT}")
+        return EXIT["needs_human"]
+    except Exception as e:
+        log.exception("%s: filtered run failed: %s", cycle_id, e)
+        print(f"error: {type(e).__name__}: {e}")
+        return EXIT["error"]
+    prior = None
+    if (stage / "manifest.json").exists():
+        try:
+            prior = Manifest.from_json(stage / "manifest.json")
+        except Exception:
+            prior = None
+    write_manifest(svc.cfg, manifest.merged_into(prior))
+    print(f"Filtered run ({', '.join(sorted(areas))}); cycle status and email unchanged.\n")
+    print(summary(manifest, result))
+    complete = manifest.all_verified() and not any(e.status == "missing" for e in manifest.entries)
+    return 0 if complete else 1
+
+
+def run_cycle(cycle_id: str, svc: Services, today: date, areas: set[str] | None = None) -> int:
+    """0 fetched, 1 partial, 2 needs human, 3 failed (window closed with gaps), 4 error, 6 email failed.
+    With `areas` (from --type) this is a manual partial run: see run_filtered."""
+    if areas:
+        return run_filtered(cycle_id, svc, areas)
     rec = _ensure_record(svc, cycle_id)
     stage = svc.cfg.stage_root / cycle_id
     try:

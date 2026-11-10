@@ -13,6 +13,23 @@ SELECTORS = {
     "db_release_update", "db_ojvm", "db_jdk", "opatch",
 }
 CADENCES = {"quarterly", "monthly"}
+# Patch type codes used on the command line (--type, add, del) and the inventory area each one covers.
+TYPES = {"DB": "database", "MW": "middleware", "PT": "peopletools", "AP": "apps"}
+AREAS = set(TYPES.values())
+
+
+def parse_types(value: str | None) -> set[str] | None:
+    """'DB,PT' -> {'database', 'peopletools'}; None/'' -> None (everything)."""
+    if not value:
+        return None
+    areas = set()
+    for code in value.replace(" ", "").upper().split(","):
+        if not code:
+            continue
+        if code not in TYPES:
+            raise ValueError(f"unknown patch type {code!r}; use one or more of {', '.join(TYPES)} (comma separated)")
+        areas.add(TYPES[code])
+    return areas or None
 
 
 @dataclass
@@ -29,6 +46,8 @@ class InventoryItem:
     def __post_init__(self) -> None:
         if self.selector not in SELECTORS:
             raise ValueError(f"{self.name}: unknown selector {self.selector!r}")
+        if self.area not in AREAS:
+            raise ValueError(f"{self.name}: unknown area {self.area!r} (one of {', '.join(sorted(AREAS))})")
         if self.cadence not in CADENCES:
             raise ValueError(f"{self.name}: unknown cadence {self.cadence!r}")
 

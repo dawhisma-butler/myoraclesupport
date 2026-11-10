@@ -59,6 +59,15 @@ class Manifest:
         return cls(d["cycle_id"], d["kind"], date.fromisoformat(d["scheduled"]),
                    datetime.fromisoformat(d["created"]), entries)
 
+    def merged_into(self, prior: "Manifest | None") -> "Manifest":
+        """Prior manifest with this manifest's entries replacing the same items (a --type run updates only
+        its own items). Prior order is kept; items new to the manifest are appended."""
+        if prior is None:
+            return self
+        mine = {e.item: e for e in self.entries}
+        entries = [mine.pop(e.item, e) for e in prior.entries] + [e for e in self.entries if e.item in mine]
+        return Manifest(prior.cycle_id, prior.kind, prior.scheduled, self.created, entries)
+
     # -- views ---------------------------------------------------------------------------------
     def expected(self) -> list[ManifestEntry]:
         return [e for e in self.entries if e.status != "not_expected"]

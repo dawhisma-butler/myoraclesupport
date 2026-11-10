@@ -122,8 +122,10 @@ def resolve_item(item: InventoryItem, client: AruClient | None, window: Window, 
     return _entry(item, "resolved" if patch else "missing", reason, patch)
 
 
-def resolve_cycle(cycle_id: str, scheduled: date, cfg: Config, client: AruClient) -> Manifest:
+def resolve_cycle(cycle_id: str, scheduled: date, cfg: Config, client: AruClient,
+                  areas: set[str] | None = None) -> Manifest:
+    """Manifest for the inventory, or only the items whose area is in `areas` (from --type)."""
     kind = cycle_id.rsplit("-", 1)[1]
     window = window_for(scheduled, cfg)
-    entries = [resolve_item(item, client, window, kind) for item in cfg.inventory]
+    entries = [resolve_item(item, client, window, kind) for item in cfg.inventory if areas is None or item.area in areas]
     return Manifest(cycle_id, kind, scheduled, datetime.now(timezone.utc), entries)
