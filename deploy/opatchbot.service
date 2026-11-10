@@ -8,5 +8,6 @@ Type=oneshot
 User=oracle
 Environment=OPATCHBOT_CONFIG=/opt/app/patch/config.yaml
 Environment=OPATCHBOT_SECRETS=/home/oracle/.mos/secrets.env
+UnsetEnvironment=LD_LIBRARY_PATH
 ExecStart=/opt/app/patch/venv/bin/opatchbot monitor
 Nice=10

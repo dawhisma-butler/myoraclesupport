@@ -33,7 +33,7 @@ Stage layout: `<stage_root>/<YYYY-MM-CPU|CSPU>/<area>/<item>/<file>` with `MANIF
 | runs as | `oracle` (home `/home/oracle`) |
 | `secrets.env`, `session.json`, `token.txt` (`secrets_dir`, dir 0700, files 0600) | `/home/oracle/.mos` |
 | headless Chromium (no desktop, no display) | `/home/oracle/.cache/ms-playwright` |
-| command | `/usr/local/bin/opatchbot` → `/opt/app/patch/venv/bin/opatchbot` |
+| command | `/usr/local/bin/opatchbot`, a wrapper that clears `LD_LIBRARY_PATH` and runs `/opt/app/patch/venv/bin/opatchbot` |
 
 `opatchbot` reads `/opt/app/patch/config.yaml` and `/home/oracle/.mos/secrets.env` by default (override with
 `--config`/`--secrets` or `OPATCHBOT_CONFIG`/`OPATCHBOT_SECRETS`). It refuses to run as root, so every file it
@@ -138,6 +138,9 @@ Quarterly items are reported as "not expected" in CSPU months.
 * Token lifetime is 60 minutes; the client refreshes from the saved session when < 10 minutes remain.
 * `opatchbot --today YYYY-MM-DD ...` replays a date for testing; `--notify stdout` prints emails instead of sending.
 * Re-running `opatchbot run <cycle>` is safe: verified files are skipped, partial downloads resume, and files superseded by a newer pick move to `<item>/superseded/`.
+* Always run `opatchbot` through `/usr/local/bin/opatchbot` (or with `env -u LD_LIBRARY_PATH`). oracle's profile
+  usually puts `$ORACLE_HOME/lib` on `LD_LIBRARY_PATH`; its older libraries (e.g. libexpat) make Python fail with
+  `undefined symbol: XML_SetBillionLaughsAttackProtectionMaximumAmplification`. The systemd units unset it too.
 * Exit codes: 0 fetched, 1 partial, 2 needs human (run `opatchbot login`), 3 failed (window closed with gaps), 4 error (transient; retried next day), 5 another run in progress, 6 email relay failed.
 * `monitor`, `run`, `fetch`, `add` and `del` take a lock (`state_dir/opatchbot.lock`), so they never run at the same
   time; a second one exits 5. Session and token files are replaced atomically, so the weekly login cannot

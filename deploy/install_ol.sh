@@ -9,6 +9,7 @@
 #   /opt/data2/download/patch   downloaded patches (stage_root)
 #   /home/oracle/.mos           secrets.env, session.json, token.txt (0700 dir, 0600 files)
 #   runs as user oracle; Chromium (headless, no desktop) under /home/oracle/.cache/ms-playwright
+#   /usr/local/bin/opatchbot: wrapper that clears LD_LIBRARY_PATH (Oracle home libraries break Python)
 set -euo pipefail
 APP_USER="${APP_USER:-oracle}"
 APP_HOME="${APP_HOME:-/opt/app/patch}"
@@ -47,7 +48,16 @@ as_app "$APP_HOME/venv/bin/playwright" install chromium
 [[ -f "$APP_HOME/config.yaml" ]] || install -o "$APP_USER" -g "$GRP" -m 0640 "$REPO/config.example.yaml" "$APP_HOME/config.yaml"
 [[ -f "$SECRETS_DIR/secrets.env" ]] || install -o "$APP_USER" -g "$GRP" -m 0600 "$REPO/secrets.env.example" "$SECRETS_DIR/secrets.env"
 
-ln -sfn "$APP_HOME/venv/bin/opatchbot" /usr/local/bin/opatchbot
+# Command wrapper. oracle's login profile usually sets LD_LIBRARY_PATH=$ORACLE_HOME/lib, which holds older
+# copies of system libraries (e.g. libexpat) that break Python ("undefined symbol: XML_SetBillionLaughs...").
+# opatchbot never needs Oracle's libraries, so the wrapper clears it.
+rm -f /usr/local/bin/opatchbot
+cat > /usr/local/bin/opatchbot <<WRAP
+#!/bin/sh
+unset LD_LIBRARY_PATH
+exec "$APP_HOME/venv/bin/opatchbot" "\$@"
+WRAP
+chmod 0755 /usr/local/bin/opatchbot
 
 # systemd timers (installed, not enabled)
 install -m 0644 "$REPO"/deploy/opatchbot.service "$REPO"/deploy/opatchbot.timer \
