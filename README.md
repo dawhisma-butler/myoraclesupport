@@ -19,7 +19,7 @@ Prototype scripts and the authentication findings that led here: `prototype/READ
 | daily | `opatchbot monitor` | Parses https://www.oracle.com/security-alerts/, marks cycles released, runs due cycles once per day each until their window closes (even after everything visible is fetched, because Oracle adds CPU-dated patchsets for up to two weeks), emails late/needs-human notices. |
 | one cycle | `opatchbot run 2026-10-CPU [--type DB,MW,PT,AP]` | Resolve the manifest from Oracle's ARU patch services, download with resume, verify, hardlink files already staged in earlier cycles, write `MANIFEST.md`, email. With `--type`, only those patch types (see below). |
 | what to search | `opatchbot list`, `add`, `del`, `discover` | Show and maintain the inventory (software versions) in `config.yaml`; Oracle ids are looked up once at `add` time and pinned. |
-| look | `opatchbot status` | Cycle table and token expiry. `opatchbot resolve <cycle> [--type ...]` searches and prints the manifest without downloading or changing state (writes `manifest.review.json`/`MANIFEST.review.md` only). |
+| look | `opatchbot status` | Cycle table and token expiry. `opatchbot resolve <cycle> [--type ...] [--email]` searches and prints the manifest without downloading or changing state (writes `manifest.review.json`/`MANIFEST.review.md` only); `--email` also mails it to `notify.recipients`. |
 | housekeeping | `opatchbot prune --yes`, `opatchbot heartbeat` | Remove cycle folders beyond `keep_cycles` (never partial ones); monthly "alive" email. |
 
 Stage layout: `<stage_root>/<YYYY-MM-CPU|CSPU>/<area>/<item>/<file>` with `MANIFEST.md` and `manifest.json` per cycle.

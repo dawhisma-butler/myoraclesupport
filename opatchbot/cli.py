@@ -51,6 +51,9 @@ def build_parser() -> argparse.ArgumentParser:
         p.add_argument("--item", dest="items", default=None, metavar="NAME[,NAME]",
                        help="only these inventory items, comma separated, as `opatchbot list` names them "
                             "(e.g. pt-8.61). Same rules as --type; with both, an item must match both.")
+        if name == "resolve":
+            p.add_argument("--email", action="store_true",
+                           help="also email the patch list to notify.recipients (nothing is downloaded)")
     sub.add_parser("heartbeat", parents=[common], help="send the monthly alive email")
     p = sub.add_parser("prune", parents=[common], help="remove old cycle folders beyond keep_cycles"); p.add_argument("--yes", action="store_true")
 
@@ -249,7 +252,13 @@ def _dispatch(args, svc, today) -> int:
         out = svc.cfg.stage_root / args.cycle_id; out.mkdir(parents=True, exist_ok=True)
         carry_verified(m, out / "manifest.json")
         m.to_json(out / "manifest.review.json"); (out / "MANIFEST.review.md").write_text(m.to_markdown(), encoding="utf-8")
-        print(m.to_markdown()); return 0
+        print(m.to_markdown())
+        if args.email:
+            from .notify import msg_review
+            if not svc.notifier.send(*msg_review(m)):
+                print("email failed; see the log, or run `opatchbot test-email`", file=sys.stderr)
+                return 6
+        return 0
     if args.cmd in ("fetch", "run"):
         return run_cycle(args.cycle_id, svc, today, areas, items)
     if args.cmd == "test-email":

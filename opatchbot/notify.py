@@ -128,6 +128,23 @@ def msg_window_closed(manifest: Manifest, result: FetchResult) -> tuple[str, str
     return f"{PREFIX} {manifest.cycle_id}: {_outcome(manifest, result)} (window closed)", "Cycle window closed; final state.\n\n" + summary(manifest, result)
 
 
+def msg_review(manifest: Manifest) -> tuple[str, str]:
+    """`opatchbot resolve --email`: what Oracle has for this cycle right now; nothing downloaded."""
+    found = [e for e in manifest.entries if e.status == "resolved"]
+    missing = [e for e in manifest.entries if e.status == "missing"]
+    lines = [f"Patches available for {manifest.cycle_id} ({manifest.kind}, scheduled {manifest.scheduled.isoformat()}) "
+             f"as of {manifest.created.astimezone().strftime('%Y-%m-%d %H:%M %Z')}.",
+             "Review only: nothing was downloaded and the cycle's state is unchanged.", ""]
+    for e in found:
+        size = sum(f.size for f in e.files) / 1e9
+        when = e.released.date().isoformat() if e.released else "?"
+        lines.append(f"  {e.item:<14} patch {e.patch:<10} {e.abstract}  (released {when}, {len(e.files)} file(s), {size:.1f} GB)")
+    if missing:
+        lines += ["", "Not found:"] + [f"  {e.item:<14} {e.reason}" for e in missing]
+    lines += ["", "Full manifest:", "", manifest.to_markdown()]
+    return f"{PREFIX} {manifest.cycle_id}: available patches ({len(found)} found, {len(missing)} not found)", "\n".join(lines)
+
+
 def msg_needs_human(cycle_id: str, command: str) -> tuple[str, str]:
     body = (f"The Oracle sign-in session has expired, so {cycle_id} cannot be fetched unattended.\n\n"
             f"On the staging server run:\n\n    {command}\n\nThe next scheduled run will resume automatically.")

@@ -52,3 +52,21 @@ def test_send_failure_returns_false(monkeypatch):
 def test_stdout_mode_prints(capsys):
     assert Notifier(NotifyConfig("relay", 25, "a@b", ["c@d"], "stdout")).send("[opatchbot] x", "body") is True
     assert "[opatchbot] x" in capsys.readouterr().out
+
+
+def test_resolve_email_sends_review_without_downloading(tmp_path, fixtures_dir, capsys):
+    from datetime import date
+    from opatchbot import cli
+    from opatchbot.state import StateStore
+    from tests.test_cli import DB, PT, FakeClient
+    from opatchbot.config import Config, NotifyConfig
+    from opatchbot.notify import Notifier
+    from opatchbot.run import Services
+    cfg = Config(tmp_path / "stage", tmp_path / "state", 3, 7, 14, NotifyConfig("h", 25, "a@b", ["c@d"], "stdout"), [PT, DB])
+    client = FakeClient(fixtures_dir)
+    svc = Services(cfg=cfg, store=StateStore(cfg.state_dir), client=client, notifier=Notifier(cfg.notify))
+    assert cli.main(["resolve", "2026-10-CPU", "--email"], services=svc) == 0
+    out = capsys.readouterr().out
+    assert "=== [opatchbot] 2026-10-CPU: available patches (1 found, 1 not found) ===" in out
+    assert "pt-8.61        patch 40014041" in out and "Review only: nothing was downloaded" in out
+    assert client.downloads == [] and svc.store.load() == {}
