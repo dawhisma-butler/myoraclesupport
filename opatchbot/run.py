@@ -34,6 +34,7 @@ class Services:
     browser: Any = None
     token_store: Any = None
     secrets_path: Any = None
+    config_path: Any = None
 
 
 def peek_record(svc: Services, cycle_id: str) -> CycleRecord:
@@ -210,7 +211,7 @@ def monitor_once(svc: Services, today: date) -> int:
         for rec in records.values():
             if rec.status == "scheduled" and rec.scheduled <= today:
                 try:
-                    if aru_fallback_released(svc.client, rec.scheduled):
+                    if aru_fallback_released(svc.client, rec.scheduled, svc.cfg.inventory):
                         rec.status, rec.released_seen = "released", today
                         newly.append(rec.cycle_id)
                 except Exception as e2:

@@ -95,8 +95,15 @@ def late_cycles(store: StateStore, today: date, grace_days: int = 3) -> list[Cyc
     return [r for r in store.load().values() if r.status == "scheduled" and today > r.scheduled + timedelta(days=grace_days)]
 
 
-def aru_fallback_released(client: AruClient, scheduled: date) -> bool:
-    """Fallback detector: a PeopleTools 8.61 Windows product DPK released on/after the scheduled date."""
-    patches = client.search(product=21917, release=600000000204773, platform=233)
+def aru_fallback_released(client: AruClient, scheduled: date, inventory: list | None = None) -> bool:
+    """Fallback detector, used only when the security-alerts page is unusable: a PeopleTools product DPK
+    released on/after the scheduled date. Uses the first PeopleTools item in the inventory (so removing a
+    PeopleTools version moves the check to the next one); False when the inventory has none."""
+    item = next((i for i in (inventory or []) if i.selector == "pt_product_dpk"), None)
+    if item is None:
+        log.warning("ARU fallback detector needs a PeopleTools item in the inventory; none configured")
+        return False
+    patches = client.search(product=item.product_id, release=item.release_id, platform=item.platform_id)
+    prefix = item.params.get("file_prefix", "PEOPLETOOLS-")
     cutoff = datetime(scheduled.year, scheduled.month, scheduled.day, tzinfo=timezone.utc)
-    return any(p.released >= cutoff and any(f.name.startswith("PEOPLETOOLS-WIN-") for f in p.files) for p in patches)
+    return any(p.released >= cutoff and any(f.name.startswith(prefix) for f in p.files) for p in patches)

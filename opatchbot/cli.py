@@ -17,7 +17,8 @@ from .run import Services, heartbeat, monitor_once, prune, run_cycle
 from .state import StateStore
 from .token import BrowserSession, SessionExpired, TokenStore, fetch_token_with_relogin, make_relogin, make_token_provider
 
-COMMANDS = ("login", "token", "status", "monitor", "resolve", "fetch", "run", "heartbeat", "prune")
+COMMANDS = ("login", "token", "status", "monitor", "resolve", "fetch", "run", "heartbeat", "prune",
+            "add", "del", "list", "discover")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -44,7 +45,85 @@ def build_parser() -> argparse.ArgumentParser:
         p.add_argument("--type", dest="types", default=None, metavar="DB,MW,PT,AP", help=type_help)
     sub.add_parser("heartbeat", parents=[common], help="send the monthly alive email")
     p = sub.add_parser("prune", parents=[common], help="remove old cycle folders beyond keep_cycles"); p.add_argument("--yes", action="store_true")
+
+    p = sub.add_parser("add", parents=[common], help="add a software version to config.yaml (looks up Oracle ids once)",
+                       description="Examples: add DB 26ai | add PT 8.63 | add MW 8.63 | add AP HCM 9.2. Looks up the "
+                                   "Oracle release and platform ids, runs each new item's search once to show what it "
+                                   "would download, then writes config.yaml after confirmation (dated backup kept).")
+    p.add_argument("type", metavar="TYPE", help="DB, PT, MW or AP")
+    p.add_argument("args", nargs="+", metavar="VERSION", help="version (DB/PT/MW) or application and release (AP)")
+    p.add_argument("--platform", help="platform name or id (default: Linux x86-64 for DB, Microsoft Windows x64 otherwise)")
+    p.add_argument("--release-id", type=int, help="Oracle release id, when the version name matches several releases")
+    p.add_argument("--components", help="DB only: subset of ru,ojvm,jdk,opatch (default all)")
+    p.add_argument("--product-id", type=int, help="override the Oracle product family id")
+    p.add_argument("--file-prefix", help="PT only: DPK file name prefix (default PEOPLETOOLS-WIN-<version>)")
+    p.add_argument("--yes", action="store_true", help="do not ask for confirmation")
+    p.add_argument("--force", action="store_true", help="with --yes: write even if an item's search finds nothing now")
+    p = sub.add_parser("del", parents=[common], help="remove a software version (or one item) from config.yaml",
+                       description="Examples: del DB 19 | del PT 8.61 | del AP CS 9.2 | del db19-ojvm")
+    p.add_argument("targets", nargs="+", metavar="TARGET", help="TYPE VERSION..., or an item name from `opatchbot list`")
+    p.add_argument("--yes", action="store_true", help="do not ask for confirmation")
+    sub.add_parser("list", parents=[common], help="show the configured inventory")
+    p = sub.add_parser("discover", parents=[common], help="search Oracle's catalogue for release/product/platform ids")
+    p.add_argument("text", nargs="+", help="words that must all appear in the name, e.g. Database 23")
+    p.add_argument("--table", choices=["releases", "products", "platforms", "all"], default=None,
+                   help="what to search (default: releases and products)")
     return ap
+
+
+def _confirm(args, question: str) -> bool:
+    if getattr(args, "yes", False):
+        return True
+    if not sys.stdin.isatty():
+        print("not running in a terminal; re-run with --yes to apply", file=sys.stderr)
+        return False
+    return input(f"{question} [y/N] ").strip().lower() in ("y", "yes")
+
+
+def _apply_plan(svc, args, plan) -> int:
+    from . import inventory
+    backup = inventory.apply(Path(svc.config_path), plan)
+    try:
+        load_config(Path(svc.config_path))
+    except Exception as e:  # never leave a config the daily run cannot read
+        import shutil
+        shutil.copy2(backup, svc.config_path)
+        print(f"the edited config.yaml did not load ({e}); restored it from {backup}", file=sys.stderr)
+        return 1
+    print(f"config.yaml updated (previous version saved as {backup.name})")
+    return 0
+
+
+def inventory_command(svc, args, today) -> int:
+    from . import inventory
+    try:
+        if args.cmd == "list":
+            print(inventory.list_rows(svc.cfg.inventory)); return 0
+        if args.cmd == "discover":
+            tables = ("releases", "products", "platforms") if args.table == "all" else \
+                     ((args.table,) if args.table else ("releases", "products"))
+            rows = inventory.discover(svc.client, " ".join(args.text), tables)
+            for kind, i, name in rows:
+                print(f"{kind:<9}{i:>17}  {name}")
+            print(f"{len(rows)} match(es)"); return 0
+        if args.cmd == "del":
+            plan = inventory.plan_del(Path(svc.config_path), args.targets)
+        else:
+            comps = [c.strip().lower() for c in args.components.split(",")] if args.components else None
+            plan = inventory.plan_add(svc.client, Path(svc.config_path), args.type, args.args, today,
+                                      platform=args.platform, release_id=args.release_id, components=comps,
+                                      product_id=args.product_id, file_prefix=args.file_prefix)
+    except inventory.InventoryError as e:
+        print(e, file=sys.stderr); return 1
+    print(inventory.describe(plan))
+    if plan.missing:
+        print(f"\nWARNING: no current patch found for {', '.join(plan.missing)}. The version may be new, the name may "
+              "not match Oracle's, or the platform may be wrong. Check with `opatchbot discover` before relying on it.")
+        if args.yes and not args.force:
+            print("refusing with --yes; add --force to write anyway", file=sys.stderr); return 1
+    if not _confirm(args, "Write these changes to config.yaml?"):
+        print("no changes made"); return 1
+    return _apply_plan(svc, args, plan)
 
 
 def build_services(args) -> Services:
@@ -63,7 +142,7 @@ def build_services(args) -> Services:
     relogin = make_relogin(browser, Path(args.secrets), cfg.auto_login)
     client = AruClient(make_token_provider(token_store, browser, relogin=relogin))
     return Services(cfg=cfg, store=store, client=client, notifier=Notifier(cfg.notify), browser=browser,
-                    token_store=token_store, secrets_path=Path(args.secrets))
+                    token_store=token_store, secrets_path=Path(args.secrets), config_path=Path(args.config))
 
 
 def main(argv: list[str] | None = None, services: Services | None = None) -> int:
@@ -112,6 +191,8 @@ def main(argv: list[str] | None = None, services: Services | None = None) -> int
         print(m.to_markdown()); return 0
     if args.cmd in ("fetch", "run"):
         return run_cycle(args.cycle_id, svc, today, areas)
+    if args.cmd in ("add", "del", "list", "discover"):
+        return inventory_command(svc, args, today)
     if args.cmd == "heartbeat":
         return heartbeat(svc, today)
     if args.cmd == "prune":

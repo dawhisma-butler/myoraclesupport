@@ -101,7 +101,7 @@ def test_monitor_late_cycle_emails_once(svc, capsys, monkeypatch):
     svc.store.transition("2026-10-CPU", "fetched")
     svc.page_fetch = lambda: "<html>no schedule here</html>"
     svc.store.upsert(CycleRecord("2026-11-CSPU", "CSPU", date(2026, 11, 17), "scheduled", None, None, None, None, []))
-    monkeypatch.setattr("opatchbot.run.aru_fallback_released", lambda c, d: False)
+    monkeypatch.setattr("opatchbot.run.aru_fallback_released", lambda *a: False)
     monitor_once(svc, date(2026, 11, 21)); monitor_once(svc, date(2026, 11, 22))
     assert capsys.readouterr().out.count("no release detected") == 1
 
