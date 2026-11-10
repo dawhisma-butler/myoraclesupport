@@ -11,7 +11,7 @@ from pathlib import Path
 
 from . import __version__
 from .aru import AruClient
-from .config import TYPES, load_config, load_secrets, parse_types
+from .config import TYPES, ConfigError, load_config, load_secrets, parse_types
 from .notify import Notifier
 from .run import Services, heartbeat, monitor_once, prune, run_cycle
 from .state import StateStore
@@ -170,7 +170,11 @@ def main(argv: list[str] | None = None, services: Services | None = None) -> int
         print("opatchbot must not run as root (files it writes must stay owned by the service user). "
               "Run it as oracle, e.g. `sudo -u oracle opatchbot ...`.", file=sys.stderr)
         return 1
-    svc = services or build_services(args)
+    try:
+        svc = services or build_services(args)
+    except ConfigError as e:
+        print(f"config error: {e}", file=sys.stderr)
+        return 1
     if services is None and args.cmd in LOCKED:
         lock = _single_instance(svc.cfg.state_dir)
         if lock is None:
@@ -179,7 +183,11 @@ def main(argv: list[str] | None = None, services: Services | None = None) -> int
     today = date.fromisoformat(args.today) if args.today else date.today()
 
     if args.cmd == "login":
-        secrets = load_secrets(svc.secrets_path)
+        try:
+            secrets = load_secrets(svc.secrets_path)
+        except (OSError, ValueError) as e:  # missing file, wrong mode, MOS_USER/MOS_PASS empty
+            print(f"secrets error: {e}", file=sys.stderr)
+            return 1
         svc.browser.login(secrets, code_prompt=lambda: input("Code from authenticator app: "))
         svc.token_store.write(svc.browser.fetch_token())
         print("login ok; token expires", svc.token_store.expires_at().astimezone().strftime("%Y-%m-%d %H:%M %Z"))

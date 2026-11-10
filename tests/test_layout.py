@@ -66,3 +66,22 @@ def test_private_files_are_replaced_atomically(tmp_path):
     s.write("a"); s.write("b")
     assert s.read() == "b" and (tmp_path / "t.txt").stat().st_mode & 0o777 == 0o600
     assert [p.name for p in tmp_path.iterdir()] == ["t.txt"]  # no temp files left behind
+
+
+def test_tab_in_config_gives_a_short_fix(tmp_path, monkeypatch, capsys):
+    monkeypatch.setenv("OPATCHBOT_ALLOW_ROOT", "1")
+    p = _cfg(tmp_path)
+    p.write_text(p.read_text().replace("  mode: smtp                      #", "  mode: smtp\t#"))
+    assert cli.main(["--config", str(p), "list"]) == 1
+    err = capsys.readouterr().err
+    assert err.startswith("config error: ") and "TAB characters (line 14)" in err and "sed -i" in err
+    assert "Traceback" not in err
+
+
+def test_missing_config_and_secrets_are_one_line_errors(tmp_path, monkeypatch, capsys):
+    monkeypatch.setenv("OPATCHBOT_ALLOW_ROOT", "1")
+    assert cli.main(["--config", str(tmp_path / "nope.yaml"), "list"]) == 1
+    assert "cannot read config file" in capsys.readouterr().err
+    p = _cfg(tmp_path)
+    assert cli.main(["--config", str(p), "--secrets", str(tmp_path / "none.env"), "login"]) == 1
+    assert capsys.readouterr().err.startswith("secrets error: ")

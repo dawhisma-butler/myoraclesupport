@@ -86,10 +86,40 @@ class Secrets:
     totp_seed: str | None = None
 
 
+class ConfigError(ValueError):
+    """config.yaml is missing, unreadable or invalid; the message says where and how to fix it."""
+
+
 def load_config(path: Path) -> Config:
-    raw = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or {}
-    notify = NotifyConfig(**raw["notify"])
-    inventory = [InventoryItem(**item) for item in raw.get("inventory", [])]
+    path = Path(path)
+    try:
+        text = path.read_text(encoding="utf-8")
+    except OSError as e:
+        raise ConfigError(f"cannot read config file {path}: {e.strerror or e}") from e
+    try:
+        raw = yaml.safe_load(text) or {}
+    except yaml.YAMLError as e:
+        mark = getattr(e, "problem_mark", None)
+        where = f" line {mark.line + 1}, column {mark.column + 1}" if mark else ""
+        hint = ""
+        if "\t" in text:
+            tabs = [str(n) for n, l in enumerate(text.splitlines(), 1) if "\t" in l]
+            hint = (f"\nThe file contains TAB characters (line {', '.join(tabs[:10])}); YAML needs spaces. Fix with:\n"
+                    f"  sed -i 's/\\t/    /g' {path}")
+        raise ConfigError(f"{path}{where}: {getattr(e, 'problem', None) or e}{hint}") from e
+    try:
+        notify = NotifyConfig(**raw["notify"])
+        inventory = [InventoryItem(**item) for item in raw.get("inventory", [])]
+    except KeyError as e:
+        raise ConfigError(f"{path}: missing setting {e}") from e
+    except (TypeError, ValueError) as e:
+        raise ConfigError(f"{path}: {e}") from e
+    return _config(raw, notify, inventory)
+
+
+def _config(raw: dict, notify: NotifyConfig, inventory: list) -> Config:
+    if "stage_root" not in raw or "state_dir" not in raw:
+        raise ConfigError("config.yaml needs stage_root and state_dir")
     return Config(
         stage_root=Path(raw["stage_root"]),
         state_dir=Path(raw["state_dir"]),
