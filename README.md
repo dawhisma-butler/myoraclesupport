@@ -104,6 +104,18 @@ finds nothing now, it is flagged; with `--yes` (scripts) that refuses unless `--
 (`config.yaml.bak-YYYYmmdd-HHMMSS`), check the result loads, and replace the file atomically. Hand edits work too,
 as long as each inventory item stays on one line.
 
+## Testing email
+
+```bash
+opatchbot test-email                 # to notify.recipients
+opatchbot test-email --to someone@butler.edu
+```
+
+Sends one message and prints each step: DNS lookup of `smtp_host`, TCP connect to `smtp_port`, the relay's greeting,
+`MAIL FROM`, each `RCPT TO`, and `DATA`, with the relay's reply codes. Exit 0 when the relay accepted the message,
+6 otherwise. A failure at DNS means a wrong `smtp_host`; at connect, a firewall; at `RCPT TO` (e.g. 550 relaying
+denied), the relay does not accept mail from this host or sender.
+
 ## What each email means
 
 | subject | meaning | action |

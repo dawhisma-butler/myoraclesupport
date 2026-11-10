@@ -34,6 +34,68 @@ class Notifier:
             return False
 
 
+def send_test_email(cfg: NotifyConfig, to: list[str] | None = None, timeout: int = 15) -> tuple[bool, list[str]]:
+    """Send one test message step by step and report each SMTP stage, to diagnose a relay.
+    Returns (delivered_to_relay, report lines). No authentication is used (campus relay)."""
+    import socket
+    from datetime import datetime
+    rcpts = to or cfg.recipients
+    out = [f"relay {cfg.smtp_host}:{cfg.smtp_port}, from {cfg.sender}, to {', '.join(rcpts)}"]
+
+    def say(step: str, ok: bool, detail: str) -> None:
+        out.append(f"  [{'ok' if ok else 'FAIL'}] {step}: {detail}")
+
+    try:
+        addrs = sorted({a[4][0] for a in socket.getaddrinfo(cfg.smtp_host, cfg.smtp_port, proto=socket.IPPROTO_TCP)})
+        say("DNS", True, f"{cfg.smtp_host} -> {', '.join(addrs)}")
+    except OSError as e:
+        say("DNS", False, f"cannot resolve {cfg.smtp_host!r} ({e}); check smtp_host in config.yaml")
+        return False, out
+    try:
+        socket.create_connection((cfg.smtp_host, cfg.smtp_port), timeout=timeout).close()
+        say("connect", True, f"port {cfg.smtp_port} reachable")
+    except OSError as e:
+        say("connect", False, f"cannot reach port {cfg.smtp_port} ({e}); a firewall may block outbound SMTP from this host")
+        return False, out
+    try:
+        s = smtplib.SMTP(timeout=timeout)
+        code, msg = s.connect(cfg.smtp_host, cfg.smtp_port)
+        say("greeting", code == 220, f"{code} {msg.decode(errors='replace')}")
+        code, msg = s.ehlo()
+        if code != 250:
+            code, msg = s.helo()
+        say("EHLO/HELO", code == 250, f"{code} {msg.decode(errors='replace').splitlines()[0] if msg else ''}"
+            + ("; relay offers STARTTLS" if s.has_extn("starttls") else ""))
+        code, msg = s.mail(cfg.sender)
+        say("MAIL FROM", code == 250, f"{code} {msg.decode(errors='replace')}")
+        if code != 250:
+            s.quit(); return False, out
+        accepted = []
+        for r in rcpts:
+            code, msg = s.rcpt(r)
+            ok = code in (250, 251)
+            say(f"RCPT TO {r}", ok, f"{code} {msg.decode(errors='replace')}")
+            if ok:
+                accepted.append(r)
+        if not accepted:
+            s.quit(); return False, out
+        m = EmailMessage()
+        host = socket.getfqdn()
+        m["Subject"], m["From"], m["To"] = f"{PREFIX} test email from {host}", cfg.sender, ", ".join(accepted)
+        m.set_content(f"Test message from opatchbot on {host} at {datetime.now().astimezone():%Y-%m-%d %H:%M %Z}.\n"
+                      "If you can read this, notifications work.")
+        code, msg = s.data(m.as_bytes())
+        say("DATA", code == 250, f"{code} {msg.decode(errors='replace')}")
+        s.quit()
+        if code == 250:
+            out.append("The relay accepted the message. If it does not arrive within a few minutes, check spam/quarantine "
+                       "(Proofpoint) and ask the mail team to allow this host and sender.")
+        return code == 250, out
+    except (OSError, smtplib.SMTPException) as e:
+        say("SMTP", False, f"{type(e).__name__}: {e}")
+        return False, out
+
+
 def _outcome(manifest: Manifest, result: FetchResult) -> str:
     if result.auth_failed:
         return "needs human"

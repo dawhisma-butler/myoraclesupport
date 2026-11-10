@@ -23,7 +23,7 @@ LOCKED = ("monitor", "run", "fetch", "add", "del")  # one at a time: they downlo
 EXIT_BUSY = 5
 
 COMMANDS = ("login", "token", "status", "monitor", "resolve", "fetch", "run", "heartbeat", "prune",
-            "add", "del", "list", "discover")
+            "add", "del", "list", "discover", "test-email")
 
 
 def build_parser() -> argparse.ArgumentParser:
@@ -72,6 +72,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("targets", nargs="+", metavar="TARGET", help="TYPE VERSION..., or an item name from `opatchbot list`")
     p.add_argument("--yes", action="store_true", help="do not ask for confirmation")
     sub.add_parser("list", parents=[common], help="show the configured inventory")
+    p = sub.add_parser("test-email", parents=[common], help="send a test email and show each SMTP step (relay check)")
+    p.add_argument("--to", default=None, help="recipient(s), comma separated (default: notify.recipients)")
     p = sub.add_parser("discover", parents=[common], help="search Oracle's catalogue for release/product/platform ids")
     p.add_argument("text", nargs="+", help="words that must all appear in the name, e.g. Database 23")
     p.add_argument("--table", choices=["releases", "products", "platforms", "all"], default=None,
@@ -250,6 +252,12 @@ def _dispatch(args, svc, today) -> int:
         print(m.to_markdown()); return 0
     if args.cmd in ("fetch", "run"):
         return run_cycle(args.cycle_id, svc, today, areas, items)
+    if args.cmd == "test-email":
+        from .notify import send_test_email
+        to = [a.strip() for a in args.to.split(",") if a.strip()] if args.to else None
+        ok, lines = send_test_email(svc.cfg.notify, to)
+        print("\n".join(lines))
+        return 0 if ok else 6
     if args.cmd in ("add", "del", "list", "discover"):
         return inventory_command(svc, args, today)
     if args.cmd == "heartbeat":
