@@ -123,9 +123,11 @@ def resolve_item(item: InventoryItem, client: AruClient | None, window: Window, 
 
 
 def resolve_cycle(cycle_id: str, scheduled: date, cfg: Config, client: AruClient,
-                  areas: set[str] | None = None) -> Manifest:
-    """Manifest for the inventory, or only the items whose area is in `areas` (from --type)."""
+                  areas: set[str] | None = None, items: set[str] | None = None) -> Manifest:
+    """Manifest for the inventory, or only the items whose area is in `areas` (--type) and whose name is in
+    `items` (--item)."""
     kind = cycle_id.rsplit("-", 1)[1]
     window = window_for(scheduled, cfg)
-    entries = [resolve_item(item, client, window, kind) for item in cfg.inventory if areas is None or item.area in areas]
+    entries = [resolve_item(item, client, window, kind) for item in cfg.inventory
+               if (areas is None or item.area in areas) and (items is None or item.name in items)]
     return Manifest(cycle_id, kind, scheduled, datetime.now(timezone.utc), entries)

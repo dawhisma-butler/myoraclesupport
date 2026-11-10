@@ -91,18 +91,18 @@ def _refresh_token_or_raise(svc: Services) -> None:
     svc.token_store.write(fetch_token_with_relogin(svc.browser, relogin))
 
 
-def _resolve_and_fetch(svc: Services, cycle_id: str, scheduled: date, stage: Path,
-                       areas: set[str] | None = None) -> tuple[Manifest, FetchResult, set[str], dict]:
-    manifest = resolve_cycle(cycle_id, scheduled, svc.cfg, svc.client, areas)
+def _resolve_and_fetch(svc: Services, cycle_id: str, scheduled: date, stage: Path, areas: set[str] | None = None,
+                       items: set[str] | None = None) -> tuple[Manifest, FetchResult, set[str], dict]:
+    manifest = resolve_cycle(cycle_id, scheduled, svc.cfg, svc.client, areas, items)
     before, prev_picks = carry_verified(manifest, stage / "manifest.json")
-    result = fetch_manifest(manifest, svc.cfg, svc.client, write=areas is None)
+    result = fetch_manifest(manifest, svc.cfg, svc.client, write=areas is None and items is None)
     if result.auth_failed:
         raise AuthError("token rejected during download")
     return manifest, result, before, prev_picks
 
 
-def run_filtered(cycle_id: str, svc: Services, areas: set[str]) -> int:
-    """Manual `run --type ...`: resolve and fetch only items in `areas`, merge them into the cycle's
+def run_filtered(cycle_id: str, svc: Services, areas: set[str] | None, items: set[str] | None = None) -> int:
+    """Manual `run --type ... / --item ...`: resolve and fetch only the selected items, merge them into the cycle's
     manifest.json, print a summary. Cycle status, the monitor's once-per-day marker and email are left alone,
     so a partial run never looks like a completed cycle. 0 all selected items verified, 1 not all, 2 needs
     human, 4 error."""
@@ -110,11 +110,11 @@ def run_filtered(cycle_id: str, svc: Services, areas: set[str]) -> int:
     stage = svc.cfg.stage_root / cycle_id
     try:
         try:
-            manifest, result, _, _ = _resolve_and_fetch(svc, cycle_id, rec.scheduled, stage, areas)
+            manifest, result, _, _ = _resolve_and_fetch(svc, cycle_id, rec.scheduled, stage, areas, items)
         except AuthError as e:
             log.warning("%s: %s; refreshing token and retrying once", cycle_id, e)
             _refresh_token_or_raise(svc)
-            manifest, result, _, _ = _resolve_and_fetch(svc, cycle_id, rec.scheduled, stage, areas)
+            manifest, result, _, _ = _resolve_and_fetch(svc, cycle_id, rec.scheduled, stage, areas, items)
     except (AuthError, SessionExpired) as e:
         log.error("%s: %s", cycle_id, e)
         print(f"needs human: {e}\nRun: {LOGIN_HINT}")
@@ -130,17 +130,19 @@ def run_filtered(cycle_id: str, svc: Services, areas: set[str]) -> int:
         except Exception:
             prior = None
     write_manifest(svc.cfg, manifest.merged_into(prior))
-    print(f"Filtered run ({', '.join(sorted(areas))}); cycle status and email unchanged.\n")
+    label = ", ".join(sorted(areas or set()) + sorted(items or set()))
+    print(f"Filtered run ({label}); cycle status and email unchanged.\n")
     print(summary(manifest, result))
     complete = manifest.all_verified() and not any(e.status == "missing" for e in manifest.entries)
     return 0 if complete else 1
 
 
-def run_cycle(cycle_id: str, svc: Services, today: date, areas: set[str] | None = None) -> int:
+def run_cycle(cycle_id: str, svc: Services, today: date, areas: set[str] | None = None,
+              items: set[str] | None = None) -> int:
     """0 fetched, 1 partial, 2 needs human, 3 failed (window closed with gaps), 4 error, 6 email failed.
-    With `areas` (from --type) this is a manual partial run: see run_filtered."""
-    if areas:
-        return run_filtered(cycle_id, svc, areas)
+    With `areas` (--type) or `items` (--item) this is a manual partial run: see run_filtered."""
+    if areas or items:
+        return run_filtered(cycle_id, svc, areas, items)
     rec = _ensure_record(svc, cycle_id)
     stage = svc.cfg.stage_root / cycle_id
     try:

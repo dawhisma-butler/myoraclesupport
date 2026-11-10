@@ -70,7 +70,8 @@ matches the phone app.
 | `PT` | peopletools | PeopleTools product patch DPK, per PeopleTools version |
 | `AP` | apps | PeopleSoft HCM / FSCM release patchsets; CS update image (opt-in) |
 
-No `--type` means everything. `opatchbot resolve 2026-10-CPU --type DB` searches database patches only;
+No `--type` means everything. `--item pt-8.61` (names from `opatchbot list`, comma separated) narrows a
+`resolve`/`run` to single items, e.g. `opatchbot run 2026-10-CPU --item pt-8.61`. `opatchbot resolve 2026-10-CPU --type DB` searches database patches only;
 `opatchbot run 2026-10-CPU --type PT,MW` downloads only PeopleTools and middleware. A filtered run updates only
 those items in the cycle's `manifest.json`, prints its summary instead of emailing, and leaves the cycle status and
 the daily monitor alone, so it never makes a cycle look complete. The daily `monitor` always covers every type.

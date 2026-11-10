@@ -60,3 +60,20 @@ def test_filtered_run_merges_and_leaves_cycle_state_alone(svc, capsys):
     run_cycle("2026-10-CPU", svc, date(2026, 10, 21))
     assert svc.client.downloads == []
     assert "first_pass" in svc.store.load()["2026-10-CPU"].notified
+
+
+def test_item_filter_runs_only_that_item(svc, capsys):
+    pt862 = InventoryItem("pt-8.62", "peopletools", "pt_product_dpk", "monthly", 233, 21917, 600000000214961,
+                          {"file_prefix": "PEOPLETOOLS-WIN-8.61"})  # same fixture; only the name matters here
+    svc.cfg.inventory = [PT, pt862, DB]
+    assert cli.main(["run", "2026-10-CPU", "--item", "pt-8.61"], services=svc) == 0
+    out = capsys.readouterr().out
+    assert "Filtered run (pt-8.61)" in out and "pt-8.62" not in out and "db19-ru" not in out
+    m = json.loads((svc.cfg.stage_root / "2026-10-CPU" / "manifest.json").read_text())
+    assert [e["item"] for e in m["entries"]] == ["pt-8.61"]
+    assert svc.store.load()["2026-10-CPU"].notified == []  # no email, status untouched
+
+
+def test_unknown_item_is_rejected(svc, capsys):
+    assert cli.main(["resolve", "2026-10-CPU", "--item", "pt-9.99"], services=svc) == 1
+    assert "unknown item(s): pt-9.99" in capsys.readouterr().err
