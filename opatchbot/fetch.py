@@ -134,7 +134,7 @@ def fetch_manifest(manifest: Manifest, cfg: Config, client: AruClient, parallel:
     out = cfg.stage_root / manifest.cycle_id
     out.mkdir(parents=True, exist_ok=True)
     manifest.to_json(out / "manifest.json")
-    (out / "MANIFEST.md").write_text(manifest.to_markdown())
+    (out / "MANIFEST.md").write_text(manifest.to_markdown(), encoding="utf-8")
     return result
 
 

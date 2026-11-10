@@ -78,7 +78,7 @@ def extract_jwt(text: str) -> str | None:
 def _write_private(path: Path, data: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     fd = os.open(path, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
-    with os.fdopen(fd, "w") as fh:
+    with os.fdopen(fd, "w", encoding="utf-8") as fh:
         fh.write(data)
     os.chmod(path, 0o600)
 
@@ -90,7 +90,7 @@ class TokenStore:
     def read(self) -> str | None:
         if not self.path.exists():
             return None
-        for line in self.path.read_text().splitlines():
+        for line in self.path.read_text(encoding="utf-8").splitlines():
             line = line.strip()
             if line and not line.startswith("#"):
                 return line
@@ -199,7 +199,7 @@ class BrowserSession:
                     dl.click()
                 path = info.value.path()
                 if path:
-                    tok = extract_jwt(Path(path).read_text(errors="ignore"))
+                    tok = extract_jwt(Path(path).read_text(encoding="utf-8", errors="ignore"))
                     if tok:
                         return tok
             if any(m in page.url for m in SIGNIN_MARKERS):
@@ -310,21 +310,56 @@ class BrowserSession:
                 browser.close()
 
 
+def make_relogin(browser, secrets_path: Path | None, enabled: bool) -> Callable[[], None] | None:
+    """Unattended sign-in used when Oracle has ended the saved session: password + code generated from
+    MOS_TOTP_SEED. None when auto_login is off or no secrets file is configured."""
+    if not enabled or not secrets_path:
+        return None
+
+    def relogin() -> None:
+        from .config import load_secrets
+        secrets = load_secrets(Path(secrets_path))
+        if not secrets.totp_seed:
+            raise SessionExpired("session expired and no MOS_TOTP_SEED for unattended login")
+        browser.login(secrets)
+
+    return relogin
+
+
+def fetch_token_with_relogin(browser, relogin: Callable[[], None] | None, tried: dict | None = None) -> str:
+    """browser.fetch_token(); if the saved session has expired, sign in once unattended and retry.
+    `tried` is shared state so a process attempts at most one sign-in (a wrong password must not be
+    retried until Oracle locks the account)."""
+    tried = tried if tried is not None else {}
+    try:
+        return browser.fetch_token()
+    except SessionExpired as e:
+        if relogin is None or tried.get("relogin"):
+            raise
+        tried["relogin"] = True
+        log.warning("Oracle session expired (%s); signing in again unattended", e)
+        relogin()
+        return browser.fetch_token()
+
+
 def make_token_provider(store: TokenStore, browser, min_remaining: timedelta = timedelta(minutes=10),
-                        throttle: timedelta = timedelta(minutes=2)) -> Callable[[], str]:
+                        throttle: timedelta = timedelta(minutes=2),
+                        relogin: Callable[[], None] | None = None) -> Callable[[], str]:
     """Token callable for AruClient. Launches the browser only when the stored token is missing/expiring,
     at most once per `throttle` (GenToken hands back the same token until it expires), and is thread-safe.
+    If the saved session has expired and `relogin` is given, signs in again unattended (once per process).
     Call provider.force_refresh() after a 401 to bypass the throttle."""
     import threading
     lock = threading.Lock()
     last = {"at": None}
+    tried: dict = {}
 
     def refresh(force: bool = False) -> None:
         now = datetime.now(timezone.utc)
         if not force and last["at"] and now - last["at"] < throttle:
             return
         log.info("token missing/expiring; fetching one from the browser session")
-        store.write(browser.fetch_token())
+        store.write(fetch_token_with_relogin(browser, relogin, tried))
         last["at"] = now
         if store.needs_refresh(min_remaining):
             log.warning("fetched token expires at %s; will refresh again after expiry", store.expires_at())

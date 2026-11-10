@@ -63,7 +63,7 @@ class Secrets:
 
 
 def load_config(path: Path) -> Config:
-    raw = yaml.safe_load(Path(path).read_text()) or {}
+    raw = yaml.safe_load(Path(path).read_text(encoding="utf-8")) or {}
     notify = NotifyConfig(**raw["notify"])
     inventory = [InventoryItem(**item) for item in raw.get("inventory", [])]
     return Config(
@@ -85,7 +85,7 @@ def load_secrets(path: Path) -> Secrets:
     if mode & 0o077:
         raise PermissionError(f"{path} must be mode 0600 (is {oct(mode)})")
     values: dict[str, str] = {}
-    for line in path.read_text().splitlines():
+    for line in path.read_text(encoding="utf-8").splitlines():
         line = line.strip()
         if not line or line.startswith("#") or "=" not in line:
             continue

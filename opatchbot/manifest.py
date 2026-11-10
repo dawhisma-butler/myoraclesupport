@@ -45,12 +45,12 @@ class Manifest:
             raise TypeError(type(o))
         Path(path).parent.mkdir(parents=True, exist_ok=True)
         tmp = Path(path).with_suffix(".tmp")
-        tmp.write_text(json.dumps(asdict(self), default=enc, indent=2))
+        tmp.write_text(json.dumps(asdict(self), default=enc, indent=2), encoding="utf-8")
         tmp.replace(path)
 
     @classmethod
     def from_json(cls, path: Path) -> "Manifest":
-        d = json.loads(Path(path).read_text())
+        d = json.loads(Path(path).read_text(encoding="utf-8"))
         entries = []
         for e in d["entries"]:
             e["files"] = [PatchFile(**f) for f in e.get("files", [])]

@@ -15,7 +15,7 @@ from .config import load_config, load_secrets
 from .notify import Notifier
 from .run import Services, heartbeat, monitor_once, prune, run_cycle
 from .state import StateStore
-from .token import BrowserSession, SessionExpired, TokenStore, make_token_provider
+from .token import BrowserSession, SessionExpired, TokenStore, fetch_token_with_relogin, make_relogin, make_token_provider
 
 COMMANDS = ("login", "token", "status", "monitor", "resolve", "fetch", "run", "heartbeat", "prune")
 
@@ -57,7 +57,8 @@ def build_services(args) -> Services:
     store = StateStore(cfg.state_dir)
     token_store = TokenStore(cfg.state_dir / "token.txt")
     browser = BrowserSession(cfg.state_dir / "session.json")
-    client = AruClient(make_token_provider(token_store, browser))
+    relogin = make_relogin(browser, Path(args.secrets), cfg.auto_login)
+    client = AruClient(make_token_provider(token_store, browser, relogin=relogin))
     return Services(cfg=cfg, store=store, client=client, notifier=Notifier(cfg.notify), browser=browser,
                     token_store=token_store, secrets_path=Path(args.secrets))
 
@@ -75,7 +76,8 @@ def main(argv: list[str] | None = None, services: Services | None = None) -> int
         return 0
     if args.cmd == "token":
         try:
-            svc.token_store.write(svc.browser.fetch_token())
+            relogin = make_relogin(svc.browser, svc.secrets_path, getattr(svc.cfg, "auto_login", True))
+            svc.token_store.write(fetch_token_with_relogin(svc.browser, relogin))
         except SessionExpired as e:
             print(f"session expired: {e}", file=sys.stderr); return 2
         print("token expires", svc.token_store.expires_at().astimezone().strftime("%Y-%m-%d %H:%M %Z")); return 0
@@ -97,7 +99,7 @@ def main(argv: list[str] | None = None, services: Services | None = None) -> int
         m = resolve_cycle(args.cycle_id, rec.scheduled, svc.cfg, svc.client)
         out = svc.cfg.stage_root / args.cycle_id; out.mkdir(parents=True, exist_ok=True)
         carry_verified(m, out / "manifest.json")
-        m.to_json(out / "manifest.review.json"); (out / "MANIFEST.review.md").write_text(m.to_markdown())
+        m.to_json(out / "manifest.review.json"); (out / "MANIFEST.review.md").write_text(m.to_markdown(), encoding="utf-8")
         print(m.to_markdown()); return 0
     if args.cmd in ("fetch", "run"):
         return run_cycle(args.cycle_id, svc, today)

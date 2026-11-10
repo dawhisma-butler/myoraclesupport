@@ -75,32 +75,19 @@ def carry_verified(new: Manifest, prior_path: Path) -> tuple[set[str], dict[str,
     return before, picks
 
 
-def _force_refresh(svc: Services) -> None:
+def _refresh_token_or_raise(svc: Services) -> None:
+    """After a 401: force a new token. If the saved session has expired and auto_login is on, the token
+    provider signs in again unattended (password + TOTP seed) once and retries; otherwise SessionExpired
+    propagates and the operator gets a needs-human email."""
     provider = getattr(svc.client, "_token", None)
     if callable(getattr(provider, "force_refresh", None)):
         provider.force_refresh()  # type: ignore[union-attr]
-    else:
-        svc.token_store.write(svc.browser.fetch_token())
-
-
-def _refresh_token_or_raise(svc: Services) -> None:
-    """After a 401: force a new token from the browser session. If the session itself has expired and
-    auto_login is on, run the unattended login (password + TOTP seed from the secrets file) once and retry;
-    otherwise SessionExpired propagates and the operator gets a needs-human email."""
+        return
     if svc.browser is None or svc.token_store is None:
         raise SessionExpired("no browser session configured")
-    try:
-        _force_refresh(svc)
-    except SessionExpired as e:
-        if not getattr(svc.cfg, "auto_login", True) or not svc.secrets_path:
-            raise
-        from .config import load_secrets
-        log.warning("session expired (%s); auto_login is on, signing in again unattended", e)
-        secrets = load_secrets(Path(svc.secrets_path))
-        if not secrets.totp_seed:
-            raise SessionExpired("session expired and no MOS_TOTP_SEED for unattended login") from e
-        svc.browser.login(secrets)
-        _force_refresh(svc)
+    from .token import fetch_token_with_relogin, make_relogin
+    relogin = make_relogin(svc.browser, svc.secrets_path, getattr(svc.cfg, "auto_login", True))
+    svc.token_store.write(fetch_token_with_relogin(svc.browser, relogin))
 
 
 def _resolve_and_fetch(svc: Services, cycle_id: str, scheduled: date, stage: Path) -> tuple[Manifest, FetchResult, set[str], dict]:

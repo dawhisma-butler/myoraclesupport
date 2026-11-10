@@ -35,7 +35,7 @@ class StateStore:
         if not self.path.exists():
             return {}
         out: dict[str, CycleRecord] = {}
-        for cid, d in json.loads(self.path.read_text()).items():
+        for cid, d in json.loads(self.path.read_text(encoding="utf-8")).items():
             d["scheduled"] = date.fromisoformat(d["scheduled"])
             d["released_seen"] = date.fromisoformat(d["released_seen"]) if d.get("released_seen") else None
             d["last_run"] = datetime.fromisoformat(d["last_run"]) if d.get("last_run") else None
@@ -49,7 +49,7 @@ class StateStore:
                 return o.isoformat()
             raise TypeError(type(o))
         tmp = self.path.with_suffix(".json.tmp")
-        tmp.write_text(json.dumps({k: asdict(v) for k, v in sorted(records.items())}, default=enc, indent=2))
+        tmp.write_text(json.dumps({k: asdict(v) for k, v in sorted(records.items())}, default=enc, indent=2), encoding="utf-8")
         tmp.replace(self.path)
 
     def upsert(self, record: CycleRecord) -> None:
