@@ -154,6 +154,10 @@ Quarterly items are reported as "not expected" in CSPU months.
 * Always run `opatchbot` through `/usr/local/bin/opatchbot` (or with `env -u LD_LIBRARY_PATH`). oracle's profile
   usually puts `$ORACLE_HOME/lib` on `LD_LIBRARY_PATH`; its older libraries (e.g. libexpat) make Python fail with
   `undefined symbol: XML_SetBillionLaughsAttackProtectionMaximumAmplification`. The systemd units unset it too.
+* Release detection: `monitor` reads https://www.oracle.com/security-alerts/. If that page cannot be read (e.g. Oracle's
+  web filter answers 403 to this server), it tracks this month's and next month's cycles from Oracle's rule (third
+  Tuesday) and detects a release through the patch service instead: a new PeopleTools product DPK for the first
+  PeopleTools item in the inventory, released no earlier than `window_before_days` before the scheduled date.
 * Exit codes: 0 fetched, 1 partial, 2 needs human (run `opatchbot login`), 3 failed (window closed with gaps), 4 error (transient; retried next day), 5 another run in progress, 6 email relay failed.
 * `monitor`, `run`, `fetch`, `add` and `del` take a lock (`state_dir/opatchbot.lock`), so they never run at the same
   time; a second one exits 5. Session and token files are replaced atomically, so the weekly login cannot

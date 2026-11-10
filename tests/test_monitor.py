@@ -47,3 +47,22 @@ def test_late_cycles(tmp_path):
     store.upsert(CycleRecord("2026-11-CSPU", "CSPU", date(2026, 11, 17), "scheduled", None, None, None, None, []))
     assert late_cycles(store, date(2026, 11, 19)) == []
     assert [c.cycle_id for c in late_cycles(store, date(2026, 11, 21))] == ["2026-11-CSPU"]
+
+
+def test_expected_cycles_follow_third_tuesday():
+    from opatchbot.monitor import expected_cycles
+    got = [(c.cycle_id, c.scheduled) for c in expected_cycles(date(2026, 12, 2))]
+    assert got == [("2026-12-CSPU", date(2026, 12, 15)), ("2027-01-CPU", date(2027, 1, 19))]
+
+
+def test_aru_fallback_accepts_dpk_released_just_before_the_date(fixtures_dir):
+    from opatchbot.aru import parse_search_xml
+    from opatchbot.config import InventoryItem
+    from opatchbot.monitor import aru_fallback_released
+    pt = InventoryItem("pt-8.61", "peopletools", "pt_product_dpk", "monthly", 233, 21917, 600000000204773,
+                       {"file_prefix": "PEOPLETOOLS-WIN-8.61"})
+    client = type("C", (), {"search": lambda self, **p: parse_search_xml((fixtures_dir / "search_pt861_233.xml").read_text())})()
+    # PT 8.61.24 (patch 40014041) was released 2026-10-19, one day before the 2026-10-20 CPU
+    assert aru_fallback_released(client, date(2026, 10, 20), [pt]) is True
+    assert aru_fallback_released(client, date(2026, 10, 20), [pt], days_before=0) is False
+    assert aru_fallback_released(client, date(2026, 12, 15), [pt]) is False  # nothing that new yet

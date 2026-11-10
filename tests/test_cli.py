@@ -257,3 +257,17 @@ def test_expired_session_without_auto_login_is_needs_human(svc, capsys, tmp_path
     svc.token_store = type("T", (), {"write": lambda self, t: None, "expires_at": lambda self: None})()
     assert run_cycle("2026-10-CPU", svc, date(2026, 10, 21)) == 2
     assert "opatchbot login" in capsys.readouterr().out
+
+
+def test_monitor_with_unreadable_page_tracks_cycles_and_uses_aru(svc, capsys):
+    """www.oracle.com answered 403 on the server: the monitor must still track cycles and detect via ARU."""
+    import requests
+    svc.store = StateStore(svc.cfg.state_dir / "fresh")
+    def blocked():
+        raise requests.HTTPError("403 Client Error: Forbidden for url: https://www.oracle.com/security-alerts/")
+    svc.page_fetch = blocked
+    monitor_once(svc, date(2026, 10, 21))
+    recs = svc.store.load()
+    assert set(recs) == {"2026-10-CPU", "2026-11-CSPU"}
+    assert recs["2026-10-CPU"].status in ("fetched", "partial") and recs["2026-11-CSPU"].status == "scheduled"
+    assert "First pass" in capsys.readouterr().out

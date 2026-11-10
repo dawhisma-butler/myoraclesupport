@@ -11,7 +11,8 @@ from .aru import AruClient, AuthError
 from .config import Config
 from .fetch import FetchResult, fetch_manifest, write_manifest
 from .manifest import Manifest
-from .monitor import (aru_fallback_released, detect, fetch_alerts_page, late_cycles, parse_alerts_page,
+from .monitor import (aru_fallback_released, detect, expected_cycles, fetch_alerts_page, late_cycles,
+                      parse_alerts_page,
                       third_tuesday)
 from .notify import (Notifier, summary, msg_changed, msg_first_pass, msg_heartbeat, msg_late, msg_needs_human,
                      msg_window_closed)
@@ -210,10 +211,13 @@ def monitor_once(svc: Services, today: date) -> int:
         log.warning("security-alerts page unusable (%s); using ARU fallback", e)
         newly = []
         records = svc.store.load()
+        for c in expected_cycles(today):  # make sure this month's and next month's cycles are tracked
+            if c.cycle_id not in records:
+                records[c.cycle_id] = CycleRecord(c.cycle_id, c.kind, c.scheduled, "scheduled", None, None, None, None, [])
         for rec in records.values():
             if rec.status == "scheduled" and rec.scheduled <= today:
                 try:
-                    if aru_fallback_released(svc.client, rec.scheduled, svc.cfg.inventory):
+                    if aru_fallback_released(svc.client, rec.scheduled, svc.cfg.inventory, svc.cfg.window_before_days):
                         rec.status, rec.released_seen = "released", today
                         newly.append(rec.cycle_id)
                 except Exception as e2:

@@ -91,19 +91,33 @@ def detect(cycles: list[ScheduledCycle], store: StateStore, today: date) -> list
     return newly
 
 
+def expected_cycles(today: date, months_ahead: int = 1) -> list[ScheduledCycle]:
+    """This month's and the next cycles from Oracle's rule (third Tuesday), with no advisory known. Used when
+    the security-alerts page cannot be read, so the ARU fallback detector has cycles to check."""
+    out = []
+    y, m = today.year, today.month
+    for _ in range(months_ahead + 1):
+        cid = cycle_id_for(y, m)
+        out.append(ScheduledCycle(cid, cid.rsplit("-", 1)[1], third_tuesday(y, m), None))
+        y, m = (y + 1, 1) if m == 12 else (y, m + 1)
+    return out
+
+
 def late_cycles(store: StateStore, today: date, grace_days: int = 3) -> list[CycleRecord]:
     return [r for r in store.load().values() if r.status == "scheduled" and today > r.scheduled + timedelta(days=grace_days)]
 
 
-def aru_fallback_released(client: AruClient, scheduled: date, inventory: list | None = None) -> bool:
-    """Fallback detector, used only when the security-alerts page is unusable: a PeopleTools product DPK
-    released on/after the scheduled date. Uses the first PeopleTools item in the inventory (so removing a
-    PeopleTools version moves the check to the next one); False when the inventory has none."""
+def aru_fallback_released(client: AruClient, scheduled: date, inventory: list | None = None,
+                          days_before: int = 7) -> bool:
+    """Fallback detector, used when the security-alerts page cannot be read: a PeopleTools product DPK released
+    no more than `days_before` days before the scheduled date (Oracle ships the DPK a little early, e.g.
+    8.61.24 on 2026-10-19 for the 2026-10-20 CPU). Uses the first PeopleTools item in the inventory (so
+    removing a PeopleTools version moves the check to the next one); False when the inventory has none."""
     item = next((i for i in (inventory or []) if i.selector == "pt_product_dpk"), None)
     if item is None:
         log.warning("ARU fallback detector needs a PeopleTools item in the inventory; none configured")
         return False
     patches = client.search(product=item.product_id, release=item.release_id, platform=item.platform_id)
     prefix = item.params.get("file_prefix", "PEOPLETOOLS-")
-    cutoff = datetime(scheduled.year, scheduled.month, scheduled.day, tzinfo=timezone.utc)
+    cutoff = datetime(scheduled.year, scheduled.month, scheduled.day, tzinfo=timezone.utc) - timedelta(days=days_before)
     return any(p.released >= cutoff and any(f.name.startswith(prefix) for f in p.files) for p in patches)
