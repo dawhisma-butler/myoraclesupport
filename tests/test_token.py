@@ -68,3 +68,11 @@ def test_provider_does_not_relaunch_browser_repeatedly(tmp_path):
 def test_session_expired_message_strips_query():
     from opatchbot.token import safe_url
     assert safe_url("https://login.oracle.com/x?code=SECRET&state=1") == "https://login.oracle.com/x"
+
+
+def test_ensure_usable_tmpdir_replaces_unexpanded_values(tmp_path):
+    from opatchbot.token import ensure_usable_tmpdir
+    env = {"TMPDIR": "$TMP", "TMP": str(tmp_path), "TEMP": str(tmp_path / "missing")}
+    assert ensure_usable_tmpdir(env) == ["TMPDIR", "TEMP"]
+    assert env["TMPDIR"] == "/tmp" and env["TEMP"] == "/tmp" and env["TMP"] == str(tmp_path)
+    assert ensure_usable_tmpdir({"PATH": "/usr/bin"}) == []

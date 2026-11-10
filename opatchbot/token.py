@@ -38,6 +38,27 @@ def safe_url(url: str) -> str:
     return url.split("?", 1)[0].split("#", 1)[0]
 
 
+def ensure_usable_tmpdir(environ=None) -> list[str]:
+    """Make TMPDIR/TMP/TEMP point at a real, writable directory for this process.
+
+    oracle's login profile sometimes exports TMPDIR='$TMP' (single quotes, so never expanded). Playwright's
+    driver then fails with "ENOENT ... mkdtemp '$TMP/playwright-artifacts-...'". Bad values are replaced with
+    /tmp for this process only (the profile is not touched). Returns the variables that were fixed."""
+    import tempfile
+    environ = os.environ if environ is None else environ
+    fallback = "/tmp" if os.path.isdir("/tmp") and os.access("/tmp", os.W_OK) else tempfile.gettempdir()
+    fixed = []
+    for var in ("TMPDIR", "TMP", "TEMP"):
+        val = environ.get(var)
+        if val is not None and not (os.path.isdir(val) and os.access(val, os.W_OK | os.X_OK)):
+            log.warning("%s=%r is not a writable directory; using %s for this run", var, val, fallback)
+            environ[var] = fallback
+            fixed.append(var)
+    if fixed and environ is os.environ:
+        tempfile.tempdir = None  # recompute Python's cached temp dir too
+    return fixed
+
+
 class SessionExpired(Exception):
     """The browser session no longer signs in silently; a human must run `opatchbot login`."""
 
@@ -230,6 +251,7 @@ class BrowserSession:
     def fetch_token(self) -> str:
         from playwright.sync_api import sync_playwright
 
+        ensure_usable_tmpdir()
         with sync_playwright() as p:
             browser, ctx = self._launch(p, with_state=True)
             try:
@@ -249,6 +271,7 @@ class BrowserSession:
     def login(self, secrets: Secrets, code_prompt: Callable[[], str] | None = None, debug_dir: Path | None = None) -> None:
         from playwright.sync_api import sync_playwright
 
+        ensure_usable_tmpdir()
         def snap(page, name: str) -> None:
             if debug_dir:
                 debug_dir.mkdir(parents=True, exist_ok=True)
