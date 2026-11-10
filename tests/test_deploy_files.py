@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 def test_deploy_files_reference_real_commands():
     texts = {p: p.read_text() for p in [ROOT / "README.md", *sorted((ROOT / "deploy").iterdir())]}
     for path, text in texts.items():
-        for sub in re.findall(r"(?:^|[/`])opatchbot (\w+)", text, re.M):  # command position only (not the service user)
+        for sub in re.findall(r"(?:^|[/`])opatchbot ([a-z][\w-]*)", text, re.M):  # command position only (not the service user)
             assert sub in COMMANDS, f"{path.name} references unknown subcommand {sub!r}"
     timer = (ROOT / "deploy" / "opatchbot.timer").read_text()
     assert "OnCalendar=*-*-* 07:00:00" in timer
