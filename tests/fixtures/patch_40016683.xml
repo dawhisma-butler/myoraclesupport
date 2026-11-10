@@ -1,0 +1,79 @@
+<results md5_sum="e5e9deaaa046e42e7d2ee6cb8c35c0bb">
+  <generated_date in_epoch_ms="1794282987000">2026-11-10 03:56:27</generated_date>
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40016683</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 10282026]]></abstract>
+    </bug> 
+    <name>40016683</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29543610]]></patch_readme> 
+      <patch_details><![CDATA[/download/40016683.html]]></patch_details>
+    </url> 
+    <request_id>29543610</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="177761" version="Q11086"><![CDATA[PeopleSoft HCM]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="174829" version="9.2"><![CDATA[PeopleSoft]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39276260</number>
+        <abstract><![CDATA[BLANK TRAVERSER SUBPAGE SHOWS UP IN EXTENDED ABSENCE PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39298145</number>
+        <abstract><![CDATA[INITIATING BENEFITS ENROLLMENT WITH ACTIVE ONBOARDING INSTANCE LOGS USER OUT OF SYSTEM]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40016683</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 10282026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40089420</number>
+        <abstract><![CDATA[GPJPN 2026-27 - YEA - SPECIAL PROVISION FOR NEW LIFE INSURANCE PREMIUM DEDUCTIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40165249</number>
+        <abstract><![CDATA[GPJPN 2026-27 - FIELDS FOR SPECIAL PROVISION FOR NEW LIFE INSURANCE PREMIUM DEDUCTIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40165604</number>
+        <abstract><![CDATA[GPJPN 2026-27 -CHANGE IN MAINTAIN YEA ADJ PAGE RELATED TO NEW LIFE INSURANCE PREMIUM DEDUCTIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40184007</number>
+        <abstract><![CDATA[GPJPN 2026-27 - RESET NEW LIFE INSURANCE PREMIUM DEDUCTIONS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>771533</size>
+    <files> 
+      <file> 
+        <name>updPRJ40016683.zip</name>
+        <size>771533</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40016683.zip?aru=29543610&patch_file=updPRJ40016683.zip]]></download_url> 
+        <digest type="SHA-256">2585701B1F69E77379FF26DD3B7DA2C0ADADCF0E8E88A441AC4F81F43ABC0D2F</digest> 
+        <digest type="SHA-1">2754C1F510693E4CA965EBA7CD7DFF14F014C2BF</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1793176475000">2026-10-28 08:34:35</updated_date> 
+    <released_date in_epoch_ms="1793176475000">2026-10-28 08:34:35</released_date> 
+  </patch> 
+</results>

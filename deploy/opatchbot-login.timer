@@ -1,0 +1,9 @@
+[Unit]
+Description=Refresh the opatchbot Oracle session every Sunday 06:30
+
+[Timer]
+OnCalendar=Sun *-*-* 06:30:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

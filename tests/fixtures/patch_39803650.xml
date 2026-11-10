@@ -1,0 +1,633 @@
+<results md5_sum="6f8d0e0aedc18834f3702b29dffef320">
+  <generated_date in_epoch_ms="1794283105000">2026-11-10 03:58:25</generated_date>
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39803650</number>
+      <abstract><![CDATA[OJVM RELEASE UPDATE 19.33.0.0.0]]></abstract>
+    </bug> 
+    <name>39803650</name>
+    <type>Patch</type>
+    <psu_bundle>Oracle Database 19.33.0.0.0 OJVMRU</psu_bundle>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29534026]]></patch_readme> 
+      <patch_details><![CDATA[/download/39803650.html]]></patch_details>
+    </url> 
+    <request_id>29534026</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="32615" version="Q5"><![CDATA[Oracle Database - Enterprise Edition]]></qpart> 
+        <qpart cid="42353" version="Q790"><![CDATA[Oracle Server - Standard Edition]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="853393" version="19.0.0.0.0"><![CDATA[Oracle Database]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="9480" bugdb_id="5"><![CDATA[Oracle Database Family]]></product> 
+    <release id="600000000101150" name="19.0.0.0.0" platform_patch_not_required="Y" cc="Y"><![CDATA[Oracle Database 19.0.0.0.0]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>12565410</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V16 (TZDATA2011G) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>12949919</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V17 (TZDATA2011I) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>14112098</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV18 (TZDATA2012C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>15897884</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV19 (TZDATA2012J) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>16799766</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV20 (TZDATA2013C) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>17443054</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV21 (TZDATA2013E) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>18759260</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV22 (TZDATA2014C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>19397646</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV23 (TZDATA2014F) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>20875943</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV24 (TZDATA2015D) - NEED OJVM FIX  ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>22037067</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV25 (TZDATA2015G) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>396597894</size>
+    <files> 
+      <file> 
+        <name>p39803650_190000_MSWIN-x86-64.zip</name>
+        <size>396597894</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/p39803650_190000_MSWIN-x86-64.zip?aru=29534026&patch_file=p39803650_190000_MSWIN-x86-64.zip]]></download_url> 
+        <digest type="SHA-256">5B3971E7B7917A0323E406EB225B0D30DB08A9A9CEE2B62B56D87F8F7D6FAE99</digest> 
+        <digest type="SHA-1">35A3102603DD9684E40327D48923D03C796F718D</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792871181000">2026-10-24 19:46:21</updated_date> 
+    <released_date in_epoch_ms="1789605463000">2026-09-17 00:37:43</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39803650</number>
+      <abstract><![CDATA[OJVM RELEASE UPDATE 19.33.0.0.0]]></abstract>
+    </bug> 
+    <name>39803650</name>
+    <type>Patch</type>
+    <psu_bundle>Oracle Database 19.33.0.0.0 OJVMRU</psu_bundle>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29528737]]></patch_readme> 
+      <patch_details><![CDATA[/download/39803650.html]]></patch_details>
+    </url> 
+    <request_id>29528737</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="32615" version="Q5"><![CDATA[Oracle Database - Enterprise Edition]]></qpart> 
+        <qpart cid="42353" version="Q790"><![CDATA[Oracle Server - Standard Edition]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="853393" version="19.0.0.0.0"><![CDATA[Oracle Database]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="9480" bugdb_id="5"><![CDATA[Oracle Database Family]]></product> 
+    <release id="600000000101150" name="19.0.0.0.0" platform_patch_not_required="Y" cc="Y"><![CDATA[Oracle Database 19.0.0.0.0]]></release> 
+    <platform id="212" bugdb_id="212"><![CDATA[IBM AIX on POWER Systems (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>12565410</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V16 (TZDATA2011G) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>12949919</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V17 (TZDATA2011I) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>14112098</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV18 (TZDATA2012C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>15897884</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV19 (TZDATA2012J) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>16799766</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV20 (TZDATA2013C) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>17443054</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV21 (TZDATA2013E) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>18759260</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV22 (TZDATA2014C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>19397646</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV23 (TZDATA2014F) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>20875943</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV24 (TZDATA2015D) - NEED OJVM FIX  ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>22037067</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV25 (TZDATA2015G) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>133750951</size>
+    <files> 
+      <file> 
+        <name>p39803650_190000_AIX64-5L.zip</name>
+        <size>133750951</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/p39803650_190000_AIX64-5L.zip?aru=29528737&patch_file=p39803650_190000_AIX64-5L.zip]]></download_url> 
+        <digest type="SHA-256">118C9E74E7DC3B6EAB222F8E0E2E8D27D690E59F6BA6317C8EE72889D3F54493</digest> 
+        <digest type="SHA-1">0E61547D37F123E207FADAB3D02974EE106D22EF</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792651314000">2026-10-22 06:41:54</updated_date> 
+    <released_date in_epoch_ms="1789605463000">2026-09-17 00:37:43</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39803650</number>
+      <abstract><![CDATA[OJVM RELEASE UPDATE 19.33.0.0.0]]></abstract>
+    </bug> 
+    <name>39803650</name>
+    <type>Patch</type>
+    <psu_bundle>Oracle Database 19.33.0.0.0 OJVMRU</psu_bundle>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29504993]]></patch_readme> 
+      <patch_details><![CDATA[/download/39803650.html]]></patch_details>
+    </url> 
+    <request_id>29504993</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="32615" version="Q5"><![CDATA[Oracle Database - Enterprise Edition]]></qpart> 
+        <qpart cid="42353" version="Q790"><![CDATA[Oracle Server - Standard Edition]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="853393" version="19.0.0.0.0"><![CDATA[Oracle Database]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="9480" bugdb_id="5"><![CDATA[Oracle Database Family]]></product> 
+    <release id="600000000101150" name="19.0.0.0.0" platform_patch_not_required="Y" cc="Y"><![CDATA[Oracle Database 19.0.0.0.0]]></release> 
+    <platform id="267" bugdb_id="267"><![CDATA[Oracle Solaris on x86-64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>12565410</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V16 (TZDATA2011G) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>12949919</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V17 (TZDATA2011I) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>14112098</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV18 (TZDATA2012C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>15897884</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV19 (TZDATA2012J) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>16799766</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV20 (TZDATA2013C) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>17443054</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV21 (TZDATA2013E) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>18759260</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV22 (TZDATA2014C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>19397646</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV23 (TZDATA2014F) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>20875943</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV24 (TZDATA2015D) - NEED OJVM FIX  ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>22037067</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV25 (TZDATA2015G) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>136973838</size>
+    <files> 
+      <file> 
+        <name>p39803650_190000_Solaris86-64.zip</name>
+        <size>136973838</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/p39803650_190000_Solaris86-64.zip?aru=29504993&patch_file=p39803650_190000_Solaris86-64.zip]]></download_url> 
+        <digest type="SHA-1">018B071822F68460CF41BDC172AAE81C711DA036</digest> 
+        <digest type="SHA-256">06447824961C6E61BB968DEACFE07334FFC1EEBB6FDFF869E3C2D472B32B989C</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792470756000">2026-10-20 04:32:36</updated_date> 
+    <released_date in_epoch_ms="1789605463000">2026-09-17 00:37:43</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39803650</number>
+      <abstract><![CDATA[OJVM RELEASE UPDATE 19.33.0.0.0]]></abstract>
+    </bug> 
+    <name>39803650</name>
+    <type>Patch</type>
+    <psu_bundle>Oracle Database 19.33.0.0.0 OJVMRU</psu_bundle>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29501802]]></patch_readme> 
+      <patch_details><![CDATA[/download/39803650.html]]></patch_details>
+    </url> 
+    <request_id>29501802</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="32615" version="Q5"><![CDATA[Oracle Database - Enterprise Edition]]></qpart> 
+        <qpart cid="42353" version="Q790"><![CDATA[Oracle Server - Standard Edition]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="853393" version="19.0.0.0.0"><![CDATA[Oracle Database]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="9480" bugdb_id="5"><![CDATA[Oracle Database Family]]></product> 
+    <release id="600000000101150" name="19.0.0.0.0" platform_patch_not_required="Y" cc="Y"><![CDATA[Oracle Database 19.0.0.0.0]]></release> 
+    <platform id="23" bugdb_id="23"><![CDATA[Oracle Solaris on SPARC (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>12565410</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V16 (TZDATA2011G) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>12949919</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V17 (TZDATA2011I) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>14112098</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV18 (TZDATA2012C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>15897884</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV19 (TZDATA2012J) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>16799766</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV20 (TZDATA2013C) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>17443054</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV21 (TZDATA2013E) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>18759260</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV22 (TZDATA2014C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>19397646</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV23 (TZDATA2014F) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>20875943</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV24 (TZDATA2015D) - NEED OJVM FIX  ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>22037067</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV25 (TZDATA2015G) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>132552182</size>
+    <files> 
+      <file> 
+        <name>p39803650_190000_SOLARIS64.zip</name>
+        <size>132552182</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/p39803650_190000_SOLARIS64.zip?aru=29501802&patch_file=p39803650_190000_SOLARIS64.zip]]></download_url> 
+        <digest type="SHA-256">DCAC99FD66F10DEBD1147B7BB496C3F533A4B9A98A3EBE20F07ADE9FB1C0DFF3</digest> 
+        <digest type="SHA-1">53BC4507146E110D84EB956E0F758AD1A1691EC4</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792470756000">2026-10-20 04:32:36</updated_date> 
+    <released_date in_epoch_ms="1789605463000">2026-09-17 00:37:43</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39803650</number>
+      <abstract><![CDATA[OJVM RELEASE UPDATE 19.33.0.0.0]]></abstract>
+    </bug> 
+    <name>39803650</name>
+    <type>Patch</type>
+    <psu_bundle>Oracle Database 19.33.0.0.0 OJVMRU</psu_bundle>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29440738]]></patch_readme> 
+      <patch_details><![CDATA[/download/39803650.html]]></patch_details>
+    </url> 
+    <request_id>29440738</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="32615" version="Q5"><![CDATA[Oracle Database - Enterprise Edition]]></qpart> 
+        <qpart cid="42353" version="Q790"><![CDATA[Oracle Server - Standard Edition]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="853393" version="19.0.0.0.0"><![CDATA[Oracle Database]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="9480" bugdb_id="5"><![CDATA[Oracle Database Family]]></product> 
+    <release id="600000000101150" name="19.0.0.0.0" platform_patch_not_required="Y" cc="Y"><![CDATA[Oracle Database 19.0.0.0.0]]></release> 
+    <platform id="226" bugdb_id="226"><![CDATA[Linux x86-64]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>12565410</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V16 (TZDATA2011G) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>12949919</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V17 (TZDATA2011I) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>14112098</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV18 (TZDATA2012C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>15897884</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV19 (TZDATA2012J) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>16799766</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV20 (TZDATA2013C) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>17443054</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV21 (TZDATA2013E) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>18759260</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV22 (TZDATA2014C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>19397646</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV23 (TZDATA2014F) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>20875943</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV24 (TZDATA2015D) - NEED OJVM FIX  ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>22037067</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV25 (TZDATA2015G) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>129688947</size>
+    <files> 
+      <file> 
+        <name>p39803650_190000_Linux-x86-64.zip</name>
+        <size>129688947</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/p39803650_190000_Linux-x86-64.zip?aru=29440738&patch_file=p39803650_190000_Linux-x86-64.zip]]></download_url> 
+        <digest type="SHA-256">D7F01AC27D13CA9D6AB261A8699D276DADED1BFCE7EFD24068DD0509AB3F161B</digest> 
+        <digest type="SHA-1">DE56FB77DB3EA61801743CF4E4239BC77932DA62</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792470756000">2026-10-20 04:32:36</updated_date> 
+    <released_date in_epoch_ms="1789605463000">2026-09-17 00:37:43</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39803650</number>
+      <abstract><![CDATA[OJVM RELEASE UPDATE 19.33.0.0.0]]></abstract>
+    </bug> 
+    <name>39803650</name>
+    <type>Patch</type>
+    <psu_bundle>Oracle Database 19.33.0.0.0 OJVMRU</psu_bundle>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29501803]]></patch_readme> 
+      <patch_details><![CDATA[/download/39803650.html]]></patch_details>
+    </url> 
+    <request_id>29501803</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="32615" version="Q5"><![CDATA[Oracle Database - Enterprise Edition]]></qpart> 
+        <qpart cid="42353" version="Q790"><![CDATA[Oracle Server - Standard Edition]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="853393" version="19.0.0.0.0"><![CDATA[Oracle Database]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="9480" bugdb_id="5"><![CDATA[Oracle Database Family]]></product> 
+    <release id="600000000101150" name="19.0.0.0.0" platform_patch_not_required="Y" cc="Y"><![CDATA[Oracle Database 19.0.0.0.0]]></release> 
+    <platform id="209" bugdb_id="209"><![CDATA[IBM: Linux on System z]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>12565410</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V16 (TZDATA2011G) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>12949919</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V17 (TZDATA2011I) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>14112098</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV18 (TZDATA2012C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>15897884</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV19 (TZDATA2012J) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>16799766</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV20 (TZDATA2013C) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>17443054</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV21 (TZDATA2013E) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>18759260</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV22 (TZDATA2014C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>19397646</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV23 (TZDATA2014F) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>20875943</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV24 (TZDATA2015D) - NEED OJVM FIX  ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>22037067</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV25 (TZDATA2015G) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>131006686</size>
+    <files> 
+      <file> 
+        <name>p39803650_190000_Linux-zSer.zip</name>
+        <size>131006686</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/p39803650_190000_Linux-zSer.zip?aru=29501803&patch_file=p39803650_190000_Linux-zSer.zip]]></download_url> 
+        <digest type="SHA-256">94BDB714EA392A7D0EE480142BD6B8CDA8478784264563E14AAD3C5B08CE6D89</digest> 
+        <digest type="SHA-1">55362CFC2CD10D6999894355AE4CF601436566A6</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792470756000">2026-10-20 04:32:36</updated_date> 
+    <released_date in_epoch_ms="1789605463000">2026-09-17 00:37:43</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39803650</number>
+      <abstract><![CDATA[OJVM RELEASE UPDATE 19.33.0.0.0]]></abstract>
+    </bug> 
+    <name>39803650</name>
+    <type>Patch</type>
+    <psu_bundle>Oracle Database 19.33.0.0.0 OJVMRU</psu_bundle>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29502236]]></patch_readme> 
+      <patch_details><![CDATA[/download/39803650.html]]></patch_details>
+    </url> 
+    <request_id>29502236</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="32615" version="Q5"><![CDATA[Oracle Database - Enterprise Edition]]></qpart> 
+        <qpart cid="42353" version="Q790"><![CDATA[Oracle Server - Standard Edition]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="853393" version="19.0.0.0.0"><![CDATA[Oracle Database]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="9480" bugdb_id="5"><![CDATA[Oracle Database Family]]></product> 
+    <release id="600000000101150" name="19.0.0.0.0" platform_patch_not_required="Y" cc="Y"><![CDATA[Oracle Database 19.0.0.0.0]]></release> 
+    <platform id="541" bugdb_id="541"><![CDATA[Linux ARM 64-bit]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>12565410</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V16 (TZDATA2011G) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>12949919</number>
+        <abstract><![CDATA[DST CHANGES FOR DST V17 (TZDATA2011I) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>14112098</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV18 (TZDATA2012C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>15897884</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV19 (TZDATA2012J) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>16799766</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV20 (TZDATA2013C) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>17443054</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV21 (TZDATA2013E) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>18759260</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV22 (TZDATA2014C) - NEED OJVM FIX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>19397646</number>
+        <abstract><![CDATA[ DST CHANGES FOR DSTV23 (TZDATA2014F) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>20875943</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV24 (TZDATA2015D) - NEED OJVM FIX  ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>22037067</number>
+        <abstract><![CDATA[DST CHANGES FOR DSTV25 (TZDATA2015G) - NEED OJVM FIX ]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>129738032</size>
+    <files> 
+      <file> 
+        <name>p39803650_190000_Linux-ARM-64.zip</name>
+        <size>129738032</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/p39803650_190000_Linux-ARM-64.zip?aru=29502236&patch_file=p39803650_190000_Linux-ARM-64.zip]]></download_url> 
+        <digest type="SHA-256">699366A9FAD3AECC50ACD50279E577BCC9C8B3983B1E432B5618FF95B1F620A1</digest> 
+        <digest type="SHA-1">FBA48702CC19D65349552A010C35E15AAB5F5D4A</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792470756000">2026-10-20 04:32:36</updated_date> 
+    <released_date in_epoch_ms="1789605463000">2026-09-17 00:37:43</released_date> 
+  </patch> 
+</results>

@@ -1,13 +1,13 @@
 #!/usr/bin/env bash
 # mos_token_probe.sh — inspect a My Oracle Support download token WITHOUT printing it.
 #
-# Usage: bash mos_token_probe.sh [/home/oracle/.mos/token.txt]
+# Usage: bash mos_token_probe.sh [~/.mos/token.txt]
 #
 # Prints only: token shape, iat/exp timestamps (if JWT), hours remaining,
 # and HTTP status codes for the endpoints an unattended job would need.
 set -euo pipefail
 
-TOKEN_FILE="${1:-${MOS_DIR:-/home/oracle/.mos}/token.txt}"
+TOKEN_FILE="${1:-$HOME/.mos/token.txt}"
 [[ -r "$TOKEN_FILE" ]] || { echo "Token file not readable: $TOKEN_FILE" >&2; exit 1; }
 
 # first non-empty, non-comment line; strip whitespace
@@ -71,8 +71,8 @@ echo "== Endpoint probes (Bearer token) =="
 
 # 1) Can a token mint a new token?  (compare hashes only)
 t1="$(probe "GenToken/get_token" "https://updates.oracle.com/Orion/GenToken/get_token")"
-h_old="$(printf '%s' "$TOKEN" | sha256sum | cut -c1-16)"
-h_new="$(tr -d '[:space:]' <"$t1" | sha256sum | cut -c1-16)"
+h_old="$(printf '%s' "$TOKEN" | shasum -a 256 | cut -c1-16)"
+h_new="$(tr -d '[:space:]' <"$t1" | shasum -a 256 | cut -c1-16)"
 if [[ "$h_old" == "$h_new" ]]; then echo "   -> response equals current token (no rotation)";
 else
   b="$(tr -d '[:space:]' <"$t1")"; nd="$(tr -cd '.' <<<"$b" | wc -c | tr -d ' ')"

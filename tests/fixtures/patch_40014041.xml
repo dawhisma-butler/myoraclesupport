@@ -1,0 +1,527 @@
+<results md5_sum="8bac6f035cdb1e406be7fd781557f0ee">
+  <generated_date in_epoch_ms="1794275897000">2026-11-10 01:58:17</generated_date>
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40014041</number>
+      <abstract><![CDATA[PT 8.61.24 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>40014041</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29519649]]></patch_readme> 
+      <patch_details><![CDATA[/download/40014041.html]]></patch_details>
+    </url> 
+    <request_id>29519649</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="177767" version="Q11079"><![CDATA[PeopleSoft PeopleTools]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="1126654" version="8.61"><![CDATA[PeopleSoft PeopleTools]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="212" bugdb_id="212"><![CDATA[IBM AIX on POWER Systems (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39583633</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39765352</number>
+        <abstract><![CDATA[PT 8.61 -INCLUDE WL/JAVA JUL 2026 CPU IN PT TOOLS DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39774386</number>
+        <abstract><![CDATA[BACKPORT-REMOVE STALE SOURCES FROM SRC/PORTAL]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39800706</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39813765</number>
+        <abstract><![CDATA[[BACKPORT] PT8.61 - PEOPLETOOLS MIDDLEWARE DPK BUILDER (PTMWDB)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39839631</number>
+        <abstract><![CDATA[PT8.61 - PEOPLETOOLS MIDDLEWARE DPK ENABLEMENT PATCH FOR PT8.61.23 & LOWER.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39840905</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39842063</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39851714</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39868767</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6933810733</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-AIX-8.61.24_4of4.zip</name>
+        <size>1455637201</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-AIX-8.61.24_4of4.zip?aru=29519649&patch_file=PEOPLETOOLS-AIX-8.61.24_4of4.zip]]></download_url> 
+        <digest type="SHA-256">6D92EAC66127D8A163184EDCFE72A15EB4D6DA1FD0B6D7FB49DDE9A741F0D8A7</digest> 
+        <digest type="SHA-1">0DC2A5A009F04F5DF0E02288DA838516C9026A8A</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-AIX-8.61.24_1of4.zip</name>
+        <size>126904575</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-AIX-8.61.24_1of4.zip?aru=29519649&patch_file=PEOPLETOOLS-AIX-8.61.24_1of4.zip]]></download_url> 
+        <digest type="SHA-1">560F141E669D00062C47F5461D0A59AAC64824F6</digest> 
+        <digest type="SHA-256">1BD1356E1E90D1770FB86F90A4FEF331611D6C6B9E3BAD5B355F351C216056BE</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-AIX-8.61.24_2of4.zip</name>
+        <size>1748693657</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-AIX-8.61.24_2of4.zip?aru=29519649&patch_file=PEOPLETOOLS-AIX-8.61.24_2of4.zip]]></download_url> 
+        <digest type="SHA-1">4B4A6A63112C995357BEC79B81A608EAE98E7885</digest> 
+        <digest type="SHA-256">B64CFB6C1C0C31FFE58AA814FAEA9153BEFBC9930AE6F746CCFC8E07C1A56F30</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-AIX-8.61.24_3of4.zip</name>
+        <size>3602575300</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-AIX-8.61.24_3of4.zip?aru=29519649&patch_file=PEOPLETOOLS-AIX-8.61.24_3of4.zip]]></download_url> 
+        <digest type="SHA-1">E037DD4169890B9D84A51C4489154B6C0DAD98A1</digest> 
+        <digest type="SHA-256">7D5C8B1B7D0A9C9F1DED4A2693070D6F53D295D6E3D03E040627ADDEF87B9A9A</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792381253000">2026-10-19 03:40:53</updated_date> 
+    <released_date in_epoch_ms="1792375509000">2026-10-19 02:05:09</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40014041</number>
+      <abstract><![CDATA[PT 8.61.24 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>40014041</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29519651]]></patch_readme> 
+      <patch_details><![CDATA[/download/40014041.html]]></patch_details>
+    </url> 
+    <request_id>29519651</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="177767" version="Q11079"><![CDATA[PeopleSoft PeopleTools]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="1126654" version="8.61"><![CDATA[PeopleSoft PeopleTools]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39583633</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39765352</number>
+        <abstract><![CDATA[PT 8.61 -INCLUDE WL/JAVA JUL 2026 CPU IN PT TOOLS DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39774386</number>
+        <abstract><![CDATA[BACKPORT-REMOVE STALE SOURCES FROM SRC/PORTAL]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39800706</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39813765</number>
+        <abstract><![CDATA[[BACKPORT] PT8.61 - PEOPLETOOLS MIDDLEWARE DPK BUILDER (PTMWDB)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39839631</number>
+        <abstract><![CDATA[PT8.61 - PEOPLETOOLS MIDDLEWARE DPK ENABLEMENT PATCH FOR PT8.61.23 & LOWER.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39840905</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39842063</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39851714</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39868767</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6503118652</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.24_1of4.zip</name>
+        <size>125432125</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.24_1of4.zip?aru=29519651&patch_file=PEOPLETOOLS-WIN-8.61.24_1of4.zip]]></download_url> 
+        <digest type="SHA-256">700F9E028C75A86E9195BF05C3FC21FE2B3A67979966685ED7DDF429921EA32E</digest> 
+        <digest type="SHA-1">C917A5511396AA36D85CEE41FD44F11606296228</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.24_3of4.zip</name>
+        <size>2683136119</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.24_3of4.zip?aru=29519651&patch_file=PEOPLETOOLS-WIN-8.61.24_3of4.zip]]></download_url> 
+        <digest type="SHA-256">EEC2B9014B83AD2491C0C8AB32D40F9B7EFFB076718E218558715A409EA6BEC3</digest> 
+        <digest type="SHA-1">81D2C6702FDCE3E27C3FCA4C32893CB1F00C6D6C</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.24_2of4.zip</name>
+        <size>2238913259</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.24_2of4.zip?aru=29519651&patch_file=PEOPLETOOLS-WIN-8.61.24_2of4.zip]]></download_url> 
+        <digest type="SHA-256">C21F2D6BA83155E622EF62595706F4223C619E4E0E22D15F6574EF970FA6456D</digest> 
+        <digest type="SHA-1">41B645221028DC32770BED1E972725ECDF21D000</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.24_4of4.zip</name>
+        <size>1455637149</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.24_4of4.zip?aru=29519651&patch_file=PEOPLETOOLS-WIN-8.61.24_4of4.zip]]></download_url> 
+        <digest type="SHA-1">FA6E1FF152A0FE5FA1D2E00987BB8862163B225E</digest> 
+        <digest type="SHA-256">1296AFBCF13B4BD94798A23EE087CFF68A577E1DAB23572A719FD2342A44AF9C</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792381253000">2026-10-19 03:40:53</updated_date> 
+    <released_date in_epoch_ms="1792375509000">2026-10-19 02:05:09</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40014041</number>
+      <abstract><![CDATA[PT 8.61.24 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>40014041</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29519742]]></patch_readme> 
+      <patch_details><![CDATA[/download/40014041.html]]></patch_details>
+    </url> 
+    <request_id>29519742</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="177767" version="Q11079"><![CDATA[PeopleSoft PeopleTools]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="1126654" version="8.61"><![CDATA[PeopleSoft PeopleTools]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="30" bugdb_id="30"><![CDATA[IBM z/OS on System z]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39583633</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39765352</number>
+        <abstract><![CDATA[PT 8.61 -INCLUDE WL/JAVA JUL 2026 CPU IN PT TOOLS DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39774386</number>
+        <abstract><![CDATA[BACKPORT-REMOVE STALE SOURCES FROM SRC/PORTAL]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39800706</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39813765</number>
+        <abstract><![CDATA[[BACKPORT] PT8.61 - PEOPLETOOLS MIDDLEWARE DPK BUILDER (PTMWDB)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39839631</number>
+        <abstract><![CDATA[PT8.61 - PEOPLETOOLS MIDDLEWARE DPK ENABLEMENT PATCH FOR PT8.61.23 & LOWER.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39840905</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39842063</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39851714</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39868767</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>855844028</size>
+    <files> 
+      <file> 
+        <name>PT-DB2ZOS-DPK-WIN-8.61.24.zip</name>
+        <size>855844028</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PT-DB2ZOS-DPK-WIN-8.61.24.zip?aru=29519742&patch_file=PT-DB2ZOS-DPK-WIN-8.61.24.zip]]></download_url> 
+        <digest type="SHA-1">AB55C8A8C943D419DD2022F5EC5B9273F3D4FF40</digest> 
+        <digest type="SHA-256">2E6AB8FBB377061FF1BFAF8A0F9A1ECE5C516E304EBC78F1DE00A757BC3DBDF7</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792381253000">2026-10-19 03:40:53</updated_date> 
+    <released_date in_epoch_ms="1792375509000">2026-10-19 02:05:09</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40014041</number>
+      <abstract><![CDATA[PT 8.61.24 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>40014041</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29519738]]></patch_readme> 
+      <patch_details><![CDATA[/download/40014041.html]]></patch_details>
+    </url> 
+    <request_id>29519738</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="177767" version="Q11079"><![CDATA[PeopleSoft PeopleTools]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="1126654" version="8.61"><![CDATA[PeopleSoft PeopleTools]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="23" bugdb_id="23"><![CDATA[Oracle Solaris on SPARC (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39583633</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39765352</number>
+        <abstract><![CDATA[PT 8.61 -INCLUDE WL/JAVA JUL 2026 CPU IN PT TOOLS DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39774386</number>
+        <abstract><![CDATA[BACKPORT-REMOVE STALE SOURCES FROM SRC/PORTAL]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39800706</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39813765</number>
+        <abstract><![CDATA[[BACKPORT] PT8.61 - PEOPLETOOLS MIDDLEWARE DPK BUILDER (PTMWDB)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39839631</number>
+        <abstract><![CDATA[PT8.61 - PEOPLETOOLS MIDDLEWARE DPK ENABLEMENT PATCH FOR PT8.61.23 & LOWER.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39840905</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39842063</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39851714</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39868767</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>5960659322</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-SOL-8.61.24_1of4.zip</name>
+        <size>98953978</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-SOL-8.61.24_1of4.zip?aru=29519738&patch_file=PEOPLETOOLS-SOL-8.61.24_1of4.zip]]></download_url> 
+        <digest type="SHA-256">E06BB1EEFC7EED4212AB66D5D6B94D74B2CF6666BD30F1CEBFD47153DB1C2C44</digest> 
+        <digest type="SHA-1">BE573CE2DEFDF3171F59FA701DC14377372395B2</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-SOL-8.61.24_3of4.zip</name>
+        <size>2858434272</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-SOL-8.61.24_3of4.zip?aru=29519738&patch_file=PEOPLETOOLS-SOL-8.61.24_3of4.zip]]></download_url> 
+        <digest type="SHA-1">112D0A6BCF9C7D15AA6A76AA94E28840733EDC61</digest> 
+        <digest type="SHA-256">3D04BE259C55E5D67F323FC6677322AB5C1D45A3E8718CE922B82AAB8AFC50C8</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-SOL-8.61.24_2of4.zip</name>
+        <size>1547633871</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-SOL-8.61.24_2of4.zip?aru=29519738&patch_file=PEOPLETOOLS-SOL-8.61.24_2of4.zip]]></download_url> 
+        <digest type="SHA-1">E5295B06B12AA70AC31AA5B3E13DD11C5BCB5DCD</digest> 
+        <digest type="SHA-256">D1B743F001B9D5DF121DBDB07987B894BBB56EFFC87BF175941F7360B197A05E</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-SOL-8.61.24_4of4.zip</name>
+        <size>1455637201</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-SOL-8.61.24_4of4.zip?aru=29519738&patch_file=PEOPLETOOLS-SOL-8.61.24_4of4.zip]]></download_url> 
+        <digest type="SHA-1">3B5E182BCB14AD139D4A4FA34FD9186ACA6969F6</digest> 
+        <digest type="SHA-256">1F6141C3F000019DD1FEC95114E91B1D69C5EFD947FE2AE16409703FCEE33227</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792381253000">2026-10-19 03:40:53</updated_date> 
+    <released_date in_epoch_ms="1792375509000">2026-10-19 02:05:09</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40014041</number>
+      <abstract><![CDATA[PT 8.61.24 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>40014041</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29519737]]></patch_readme> 
+      <patch_details><![CDATA[/download/40014041.html]]></patch_details>
+    </url> 
+    <request_id>29519737</request_id>
+    <urm_components> 
+      <qparts ctype_id="201"> 
+        <qpart cid="177767" version="Q11079"><![CDATA[PeopleSoft PeopleTools]]></qpart> 
+      </qparts> 
+      <urm_releases ctype_id="5"> 
+        <urm_release cid="1126654" version="8.61"><![CDATA[PeopleSoft PeopleTools]]></urm_release> 
+      </urm_releases> 
+    </urm_components> 
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="226" bugdb_id="226"><![CDATA[Linux x86-64]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39583633</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39765352</number>
+        <abstract><![CDATA[PT 8.61 -INCLUDE WL/JAVA JUL 2026 CPU IN PT TOOLS DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39774386</number>
+        <abstract><![CDATA[BACKPORT-REMOVE STALE SOURCES FROM SRC/PORTAL]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39800706</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39813765</number>
+        <abstract><![CDATA[[BACKPORT] PT8.61 - PEOPLETOOLS MIDDLEWARE DPK BUILDER (PTMWDB)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39839631</number>
+        <abstract><![CDATA[PT8.61 - PEOPLETOOLS MIDDLEWARE DPK ENABLEMENT PATCH FOR PT8.61.23 & LOWER.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39840905</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39842063</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39851714</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39868767</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6569206743</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-LNX-8.61.24_3of4.zip</name>
+        <size>2952604923</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-LNX-8.61.24_3of4.zip?aru=29519737&patch_file=PEOPLETOOLS-LNX-8.61.24_3of4.zip]]></download_url> 
+        <digest type="SHA-256">5FEFC2D5705A87DAD038C2694EFFE80CD167E83372D32187948AD4FD1B3AD76E</digest> 
+        <digest type="SHA-1">577A93C82BBA9A0E4A553B6359B9F8ADED448634</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-LNX-8.61.24_2of4.zip</name>
+        <size>1903026060</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-LNX-8.61.24_2of4.zip?aru=29519737&patch_file=PEOPLETOOLS-LNX-8.61.24_2of4.zip]]></download_url> 
+        <digest type="SHA-256">0CD08AA8826DF2E4D07369A2A842B3C22EE1CB58D1A5A552DF2A82DFA4295193</digest> 
+        <digest type="SHA-1">A5C6BD9079AA54B0C85B4B462882EBBB0173023A</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-LNX-8.61.24_4of4.zip</name>
+        <size>1455637201</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-LNX-8.61.24_4of4.zip?aru=29519737&patch_file=PEOPLETOOLS-LNX-8.61.24_4of4.zip]]></download_url> 
+        <digest type="SHA-256">7DF90B34F9FDA4DA7FCE386A63BF2663406860A22E36865B21EA309B15C4E610</digest> 
+        <digest type="SHA-1">B09F5C5F5643F7CEF745C46B7567439A02E97546</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-LNX-8.61.24_1of4.zip</name>
+        <size>257938559</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-LNX-8.61.24_1of4.zip?aru=29519737&patch_file=PEOPLETOOLS-LNX-8.61.24_1of4.zip]]></download_url> 
+        <digest type="SHA-1">BCC049C3F4A127D2284C90288E875CC0C209DADB</digest> 
+        <digest type="SHA-256">E25D9DF19011F4B5F36BC16E3ABE7B7F25625B833FD48521CC9347C0DA6ADD6B</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792381253000">2026-10-19 03:40:53</updated_date> 
+    <released_date in_epoch_ms="1792375509000">2026-10-19 02:05:09</released_date> 
+  </patch> 
+</results>

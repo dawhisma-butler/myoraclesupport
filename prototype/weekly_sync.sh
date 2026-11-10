@@ -2,73 +2,41 @@
 # weekly_sync.sh - unattended wrapper: mint a fresh MOS token, then fetch the newest
 # PeopleTools product patch for each configured release/platform.
 #
-# Linux deployment (runs as user oracle):
-#   app       /opt/app/patch                (APP_HOME)
-#   downloads /opt/data2/download/patch     (MOS_OUTDIR)
-#   secrets   /home/oracle/.mos             (MOS_DIR, mode 0700)
-#     user        MOS username (email)
-#     password    MOS password, mode 0600 (only used if Oracle ever allows the password grant)
-#     token.txt   current 60-minute download token (installed with mos_set_token.sh)
-#   logs      /opt/app/patch/logs/mos-patch-sync.log
+# Credentials: MOS username in MOS_USER (or ~/.mos/user), password from the macOS Keychain
+# item created once with:
+#   security add-generic-password -a 'you@example.edu' -s 'mos' -w   # prompts for the password
 #
-# Normally started by mos_set_token.sh right after a token is installed (see README).
+# Logs to ~/Library/Logs/mos-patch-sync.log. Intended to be run by launchd (see com.mocs.mos-patch-sync.plist).
 set -uo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
-APP_HOME="${APP_HOME:-/opt/app/patch}"
-export MOS_DIR="${MOS_DIR:-/home/oracle/.mos}"
-LOG_DIR="${MOS_LOG_DIR:-$APP_HOME/logs}"
-LOG="$LOG_DIR/mos-patch-sync.log"
-OUT="${MOS_OUTDIR:-/opt/data2/download/patch}"
-TOKEN_FILE="$MOS_DIR/token.txt"
-PASS_FILE="$MOS_DIR/password"
-MOS_USER="${MOS_USER:-$(cat "$MOS_DIR/user" 2>/dev/null || true)}"
+LOG="$HOME/Library/Logs/mos-patch-sync.log"
+OUT="${MOS_OUTDIR:-$HOME/Downloads/peopletools}"
+TOKEN_FILE="$HOME/.mos/token.txt"
+MOS_USER="${MOS_USER:-$(cat "$HOME/.mos/user" 2>/dev/null || true)}"
 
 # release:platform:prefix  (233 = Windows x64, 226 = Linux x86-64)
 TARGETS=( "8.61:233:PEOPLETOOLS-WIN-" )
 
-umask 027
-mkdir -p "$LOG_DIR" "$OUT"
+mkdir -p "$(dirname "$LOG")" "$OUT"
 exec >>"$LOG" 2>&1
+echo "===== $(date '+%F %T') weekly_sync start ====="
 
-# Prevent overlapping runs (e.g. manual run while the timer fires).
-exec 9>"$LOG_DIR/.weekly_sync.lock"
-if ! flock -n 9; then echo "$(date '+%F %T') another weekly_sync is running; exiting"; exit 0; fi
-
-echo "===== $(date '+%F %T') weekly_sync start (user=$(id -un) host=$(hostname -s)) ====="
-[[ "$(id -un)" == "oracle" ]] || echo "WARNING: running as $(id -un), expected oracle"
-
-# 1. need a usable token. Servers are headless (no browser), so a token comes from:
-#    a) a token a human installed with mos_set_token.sh within the last hour, or
-#    b) the OAuth2 password grant, if a password file exists AND Oracle ever allows it.
-token_minutes_left() {
-  python3 -I - "$TOKEN_FILE" <<'PY' 2>/dev/null || echo -1
-import sys, json, base64, time
-t = open(sys.argv[1]).read().split()[0]
-p = t.split(".")[1]; p += "=" * (-len(p) % 4)
-print(int((json.loads(base64.urlsafe_b64decode(p))["exp"] - time.time()) // 60))
-PY
-}
-left="$(token_minutes_left)"
-if (( left >= 10 )); then
-  echo "using installed token ($left minutes left)"
-else
-  minted=0
-  if [[ -n "$MOS_USER" && -r "$PASS_FILE" ]]; then
-    if [[ -n "$(find "$PASS_FILE" -perm /077 2>/dev/null)" ]]; then
-      echo "REFUSING $PASS_FILE: permissions too open (chmod 600 $PASS_FILE)"
-    else
-      MOS_PASS="$(head -n1 "$PASS_FILE" | tr -d '\r\n')"
-      export MOS_USER MOS_PASS
-      if bash "$HERE/mos_mint_token.sh" "$MOS_USER" "$TOKEN_FILE"; then minted=1; fi
-      unset MOS_PASS
-    fi
-  fi
-  if (( ! minted )); then
-    echo "NEED TOKEN: no valid token (minutes left: $left). Get one from"
-    echo "  https://updates.oracle.com/Orion/GenToken/get_token on a machine with a browser, then run"
-    echo "  $APP_HOME/mos_set_token.sh   (as oracle on this server)"
-    exit 2
-  fi
+# 1. get a fresh token.
+#    Primary: headless Edge using the dedicated signed-in profile (~/.mos/edge-profile).
+#    Optional: OAuth2 password grant, only if Keychain creds exist AND Oracle ever allows it.
+minted=0
+if [[ -d "$HOME/.mos/edge-profile" ]]; then
+  if bash "$HERE/mos_browser_token.sh" "$TOKEN_FILE"; then minted=1
+  else echo "browser token failed (rc=$?). If 'SESSION EXPIRED', re-run the one-time sign-in in README."; fi
+fi
+if (( ! minted )) && [[ -n "$MOS_USER" ]] && MOS_PASS="$(security find-generic-password -a "$MOS_USER" -s mos -w 2>/dev/null)"; then
+  export MOS_USER MOS_PASS
+  if bash "$HERE/mos_mint_token.sh" "$MOS_USER" "$TOKEN_FILE"; then minted=1; fi
+  unset MOS_PASS
+fi
+if (( ! minted )); then
+  echo "TOKEN MINT FAILED - a human must re-authenticate (see README 'Fallback')."
+  exit 2
 fi
 
 # 2. sync each target

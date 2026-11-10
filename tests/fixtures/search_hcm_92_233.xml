@@ -1,0 +1,2891 @@
+<results md5_sum="37ebb27c40c1c261649485f5eaa8cb4c">
+  <generated_date in_epoch_ms="1794282979000">2026-11-10 03:56:19</generated_date>
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40222368</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 11042026]]></abstract>
+    </bug> 
+    <name>40222368</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29561365]]></patch_readme> 
+      <patch_details><![CDATA[/download/40222368.html]]></patch_details>
+    </url> 
+    <request_id>29561365</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39299268</number>
+        <abstract><![CDATA[LEAVE/COMP TIME TILE EXCLUDING PLANS WHEN COMP TIME EARNED AND SPENT ON SAME DAY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40222368</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 11042026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>500057</size>
+    <files> 
+      <file> 
+        <name>updPRJ40222368.zip</name>
+        <size>500057</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40222368.zip?aru=29561365&patch_file=updPRJ40222368.zip]]></download_url> 
+        <digest type="SHA-1">3A112F0C86B3B0FD58C77BEE849666517FA66BF7</digest> 
+        <digest type="SHA-256">1B3BE6074A11DA75B85C9CBFC072F6BB876628E459F87CEEEB2A29CDA32DB799</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1793782663000">2026-11-04 08:57:43</updated_date> 
+    <released_date in_epoch_ms="1793782663000">2026-11-04 08:57:43</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40016683</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 10282026]]></abstract>
+    </bug> 
+    <name>40016683</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29543610]]></patch_readme> 
+      <patch_details><![CDATA[/download/40016683.html]]></patch_details>
+    </url> 
+    <request_id>29543610</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39276260</number>
+        <abstract><![CDATA[BLANK TRAVERSER SUBPAGE SHOWS UP IN EXTENDED ABSENCE PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39298145</number>
+        <abstract><![CDATA[INITIATING BENEFITS ENROLLMENT WITH ACTIVE ONBOARDING INSTANCE LOGS USER OUT OF SYSTEM]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40016683</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 10282026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40089420</number>
+        <abstract><![CDATA[GPJPN 2026-27 - YEA - SPECIAL PROVISION FOR NEW LIFE INSURANCE PREMIUM DEDUCTIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40165249</number>
+        <abstract><![CDATA[GPJPN 2026-27 - FIELDS FOR SPECIAL PROVISION FOR NEW LIFE INSURANCE PREMIUM DEDUCTIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40165604</number>
+        <abstract><![CDATA[GPJPN 2026-27 -CHANGE IN MAINTAIN YEA ADJ PAGE RELATED TO NEW LIFE INSURANCE PREMIUM DEDUCTIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40184007</number>
+        <abstract><![CDATA[GPJPN 2026-27 - RESET NEW LIFE INSURANCE PREMIUM DEDUCTIONS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>771533</size>
+    <files> 
+      <file> 
+        <name>updPRJ40016683.zip</name>
+        <size>771533</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40016683.zip?aru=29543610&patch_file=updPRJ40016683.zip]]></download_url> 
+        <digest type="SHA-1">2754C1F510693E4CA965EBA7CD7DFF14F014C2BF</digest> 
+        <digest type="SHA-256">2585701B1F69E77379FF26DD3B7DA2C0ADADCF0E8E88A441AC4F81F43ABC0D2F</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1793176475000">2026-10-28 08:34:35</updated_date> 
+    <released_date in_epoch_ms="1793176475000">2026-10-28 08:34:35</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40016823</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 10212026]]></abstract>
+    </bug> 
+    <name>40016823</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29526787]]></patch_readme> 
+      <patch_details><![CDATA[/download/40016823.html]]></patch_details>
+    </url> 
+    <request_id>29526787</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39052320</number>
+        <abstract><![CDATA[GPARG -  2026 INDEMNITY PAYMENT  WHEN TERMINATION PRIOR TO EXPIRATION OF TERM. ACCURS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39765354</number>
+        <abstract><![CDATA[GPARG - 2026 TAX DEDUCTIONS AND NON-TAXABLE AMOUNTS FROM JUL TO DEC 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39771005</number>
+        <abstract><![CDATA[GPARG -  2026 TAX RATES JUL - DEC 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39855387</number>
+        <abstract><![CDATA[GPJPN 2026-27 - YEA CHANGES - TAX REFORMS 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39968335</number>
+        <abstract><![CDATA[GP BRAZIL: ESOCIAL ABSENCE PROCESSING CREATED AN INCORRECT EVENT LIFECYCLE FOR OVERLAPPING ABSENCES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39995088</number>
+        <abstract><![CDATA[GP BRAZIL: ESOCIAL TECHNICAL NOTE S-1.3 07/2026 - CHANGES TO EVENT S-2500]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39995653</number>
+        <abstract><![CDATA[GPARG - 2026 MINIMUM SALARY UPDATES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40009924</number>
+        <abstract><![CDATA[GP BRAZIL: ESOCIAL TECHNICAL NOTE S-1.3 07/2026 - REVENUE CODE UPDATE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40010853</number>
+        <abstract><![CDATA[GP BRAZIL: ESOCIAL TECHNICAL NOTE S-1.3 07/2026 - INFOCOTA FIELD NO LONGER REPORTED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40016823</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 10212026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>3792080</size>
+    <files> 
+      <file> 
+        <name>updPRJ40016823.zip</name>
+        <size>3792080</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40016823.zip?aru=29526787&patch_file=updPRJ40016823.zip]]></download_url> 
+        <digest type="SHA-256">A2607ABDD16A590776363320BE8CA3F98123EB0E623A763AE8BB4B45EFE1D733</digest> 
+        <digest type="SHA-1">FACF2392611EF9C6AD09598D2F04C6CD33A82E58</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792576779000">2026-10-21 09:59:39</updated_date> 
+    <released_date in_epoch_ms="1792576779000">2026-10-21 09:59:39</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40016673</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 10072026]]></abstract>
+    </bug> 
+    <name>40016673</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29489961]]></patch_readme> 
+      <patch_details><![CDATA[/download/40016673.html]]></patch_details>
+    </url> 
+    <request_id>29489961</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="183">Legislative</classification> 
+    <patch_classification id="183">Legislative</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>37831075</number>
+        <abstract><![CDATA[ACCESSIBILITY: SINGLE POINTER ALTERNATIVE NOT PROVIDED IN STARDARD USER MODE FOR DRAG AND DROP ON BENEFIT PLAN COMPARISON]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39072043</number>
+        <abstract><![CDATA[GPSGP - IR8A PDF FORM CHANGES FOR AY 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39238990</number>
+        <abstract><![CDATA[GP IND -CHANGES TO FORM 138 (FORM 24Q) - INCOME TAX RULES 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39870048</number>
+        <abstract><![CDATA[FUTURE DATED COMPARISON PLAN DATA SETUP IS NOT FETCHED IN OPEN ENROLMENT COMPARISON PLAN]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40016673</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 10072026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40032977</number>
+        <abstract><![CDATA[GPCHE - VALIDATION AND VIEWGEN PRINTING PROCESS FAILS ON MSS/WINDOWS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40046277</number>
+        <abstract><![CDATA[FLUID I9 - UNABLE TO UPDATE ORIGINAL DOC IN PLACE OF RECEIPT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40095507</number>
+        <abstract><![CDATA[BEN:CHANGES MADE TO COMPARE PLAN APP PACKAGE CODE RELATED TO PRINT VIEW ATTRIBUTES FEATURE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40103768</number>
+        <abstract><![CDATA[ACCESSIBILITY: PEOPLECODE CHANGE TO FIX ACCESSIBILITY ISSUE RELATED TO PRINT VIEW ATTRIBUTE FEATURE.]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1042233</size>
+    <files> 
+      <file> 
+        <name>updPRJ40016673.zip</name>
+        <size>1042233</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40016673.zip?aru=29489961&patch_file=updPRJ40016673.zip]]></download_url> 
+        <digest type="SHA-256">1F2A6BD8A98DD0DBFD9F52269436BC29CD0EC60E7233D58F1A19BF610CB28F5A</digest> 
+        <digest type="SHA-1">32C3C38A680BDD498EA2733D1C2C6AAA3D9F9AB3</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1791359736000">2026-10-07 07:55:36</updated_date> 
+    <released_date in_epoch_ms="1791359736000">2026-10-07 07:55:36</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40016669</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 09302026]]></abstract>
+    </bug> 
+    <name>40016669</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29473839]]></patch_readme> 
+      <patch_details><![CDATA[/download/40016669.html]]></patch_details>
+    </url> 
+    <request_id>29473839</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>35387552</number>
+        <abstract><![CDATA[MARYLAND PAID FAMILY & MEDICAL LEAVE PAYROLL DEDUCTIONS EFFECTIVE 1 JAN 2027]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38366122</number>
+        <abstract><![CDATA[FLSA RATE BEING INCORRECTLY USED ON REG AND NON OT EARN CODE (ADDITIONAL MODIFICATIONS NEEDED)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38400394</number>
+        <abstract><![CDATA[APPROVAL UPGRADE APP ENGINE FAILS VIA CHANGE ASSISTANT DUE TO MISSING REQUIRED FIELD]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38420483</number>
+        <abstract><![CDATA[ADDITIONAL PAY WITH NEGATIVE HOURS IN A MID PERIOD CALCULATES INACCURATELY IN SOME SITUATIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39038431</number>
+        <abstract><![CDATA[CAN: 2026 T4 BOX 56 - EMPLOYEES PPIP INSURABLE EARN INCORRECTLY REPORTS 99,999.99 2026 RATE CHANGE FOR QPIP]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39041775</number>
+        <abstract><![CDATA[MN UI TAXES ARE CALCULATED ON THE PAYCHECK WHEN EE IS EXEMPT FROM SUT AND WORKS IN MULTIPLE STATES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39099579</number>
+        <abstract><![CDATA[CAN: RL-1 BOX G IS BLANK WHEN BOTH CPP AND QPP CONTRIBUTIONS EXIST UNDER QC]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39108388</number>
+        <abstract><![CDATA[PAYCHECK MODELER DEDUCTION DOES NOT APPEAR IN SHOW CHANGES WHEN CLEARED AND RE-ADDED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39115038</number>
+        <abstract><![CDATA[CAN: RL-1 - BOX G-2 IS NOT PRORATED WHEN MONTHS SUBJECT TO CPP/QPP IS LESS THAN 12]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39137246</number>
+        <abstract><![CDATA[CAN: INCORRECT PRORATION FOR MULTIPLE SLIPS MONTHS SUBJECT TO CPP/QPP LESS 12 MONTHS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>2676188</size>
+    <files> 
+      <file> 
+        <name>updPRJ40016669.zip</name>
+        <size>2676188</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40016669.zip?aru=29473839&patch_file=updPRJ40016669.zip]]></download_url> 
+        <digest type="SHA-256">A8C1FDECD50915D221BC1BE5A0D6F1F098192477ACDED53F4444EE46CB20DED0</digest> 
+        <digest type="SHA-1">E6F389B3489CCA2820FC1BD3601507B07D12E648</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1790737423000">2026-09-30 03:03:43</updated_date> 
+    <released_date in_epoch_ms="1790737423000">2026-09-30 03:03:43</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40016662</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 09232026]]></abstract>
+    </bug> 
+    <name>40016662</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29456067]]></patch_readme> 
+      <patch_details><![CDATA[/download/40016662.html]]></patch_details>
+    </url> 
+    <request_id>29456067</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39460073</number>
+        <abstract><![CDATA[CANNOT COMPLETE ONBOARDING ACTIVITY GUIDE DUE TO GROUP STEP DISPLAYING AS REQUIRED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40016662</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 09232026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>516938</size>
+    <files> 
+      <file> 
+        <name>updPRJ40016662.zip</name>
+        <size>516938</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40016662.zip?aru=29456067&patch_file=updPRJ40016662.zip]]></download_url> 
+        <digest type="SHA-256">8414E03B2ED22A07A66C52B603B6106B3CF78DB39A6BAD1C28266579724BF827</digest> 
+        <digest type="SHA-1">A7BD3E7D887EEA1988F8204E3C6393348CE2DCF2</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1790158084000">2026-09-23 10:08:04</updated_date> 
+    <released_date in_epoch_ms="1790158084000">2026-09-23 10:08:04</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39806204</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 09162026]]></abstract>
+    </bug> 
+    <name>39806204</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29439122]]></patch_readme> 
+      <patch_details><![CDATA[/download/39806204.html]]></patch_details>
+    </url> 
+    <request_id>29439122</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="183">Legislative</classification> 
+    <patch_classification id="183">Legislative</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39054747</number>
+        <abstract><![CDATA[GPFR TAX UPD 2026 - DELIVERY OF THE NEW CRM 2027 STANDARD (NEORES_2027.1.0)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39217678</number>
+        <abstract><![CDATA[GPUK: ELEMENTS SNCP, SPBP AND SPBPNI ARE NOT SHOWING UNDER STAT RECOVERY ON THE GROSS TO NET REP]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39806204</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 09162026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39935533</number>
+        <abstract><![CDATA[CWR PERSON IS APPEARING IN EMPLOYEE TASKS FOR I-9]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39996612</number>
+        <abstract><![CDATA[HRES: TAX UPD 2026 -AFI - UPDATE OF INACTIVITY TYPES AS PER RED BULLETIN 2026/11 (RDL 22/2026)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40012870</number>
+        <abstract><![CDATA[CWR PERSON IS APPEARING IN EMPLOYEE TASKS FOR I-9 (RECORDS SQLS)]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>811354</size>
+    <files> 
+      <file> 
+        <name>updPRJ39806204.zip</name>
+        <size>811354</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39806204.zip?aru=29439122&patch_file=updPRJ39806204.zip]]></download_url> 
+        <digest type="SHA-256">0F21DF81D33CDD43899E717AB63422A80E95758F2FADCAA14BD3015BC1A7253F</digest> 
+        <digest type="SHA-1">D20142B25E20AE71ACDC264626C89A687350410D</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1789551695000">2026-09-16 09:41:35</updated_date> 
+    <released_date in_epoch_ms="1789551695000">2026-09-16 09:41:35</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39806237</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 09092026]]></abstract>
+    </bug> 
+    <name>39806237</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29183747]]></patch_readme> 
+      <patch_details><![CDATA[/download/39806237.html]]></patch_details>
+    </url> 
+    <request_id>29183747</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="183">Legislative</classification> 
+    <patch_classification id="183">Legislative</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39658068</number>
+        <abstract><![CDATA[GPFR: CHANGES ON DSN2027 RELATED NODES S21.G00.75 AND S21.G00.41]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39772363</number>
+        <abstract><![CDATA[W4 PDF: UPDATE VIRGINIA FORM VA-4 TO REV 04-26]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39806237</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 09092026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39966105</number>
+        <abstract><![CDATA[I-9 SUBMISSION FOR REHIRED EMPLOYEE SHOWS AS OVERDUE ON EMPLOYEE TASK LIST]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1213704</size>
+    <files> 
+      <file> 
+        <name>updPRJ39806237.zip</name>
+        <size>1213704</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39806237.zip?aru=29183747&patch_file=updPRJ39806237.zip]]></download_url> 
+        <digest type="SHA-256">7FFC0803CFC5112247D895DC967CD6A81E38B6898084CC951A4F4CBD7A314816</digest> 
+        <digest type="SHA-1">AC9B464E81214FE700483B4DC060CE7D11366E4D</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1788949092000">2026-09-09 10:18:12</updated_date> 
+    <released_date in_epoch_ms="1788949092000">2026-09-09 10:18:12</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39806228</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 09022026]]></abstract>
+    </bug> 
+    <name>39806228</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29083190]]></patch_readme> 
+      <patch_details><![CDATA[/download/39806228.html]]></patch_details>
+    </url> 
+    <request_id>29083190</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="183">Legislative</classification> 
+    <patch_classification id="183">Legislative</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>38258116</number>
+        <abstract><![CDATA[TERMINATION JOB ROW STILL CREATED WHEN MANUALLY UPDATE THE DATABASE OPTION IS CHOSEN]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39078067</number>
+        <abstract><![CDATA[GPSGP - 2027 - CPF RATE CHANGES EFFECTIVE 1ST JAN 2027]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39279610</number>
+        <abstract><![CDATA[GPES TAX UPD 2026: EXTEND PARTIAL RETIREMENT CALCULATION TO MANUFACTURING SECTOR]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39363619</number>
+        <abstract><![CDATA[REDELIVER PEOPLETOOLS NOTIFICATIONS CONFIGURATION: ONBOARDING]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39363709</number>
+        <abstract><![CDATA[REDELIVER PEOPLETOOLS NOTIFICATIONS CONFIGURATION: LANDING PAGE SUGGESTIONS FOR PERFORMANCE REVIEWS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39623282</number>
+        <abstract><![CDATA[RECORDS:REQUIRED FIELD FROM PFC SETUP NOT GETTING REMOVED IN FLUID POSITION DATA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39748435</number>
+        <abstract><![CDATA[REDELIVER PEOPLETOOLS NOTIFICATIONS CONFIGURATION: ADS OBJECT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39761375</number>
+        <abstract><![CDATA[SQL ERROR DEFINING NOTIFICATION CATEGORY USING SQL SERVER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39791634</number>
+        <abstract><![CDATA[POSITION MGT DOES NOT INSERT A NEW SEQUENCE ROW WHEN APPROVALS ARE ACTIVE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39798644</number>
+        <abstract><![CDATA[EPERFORMANCE DOCUMENT ERROR WHEN ADDING A PARTICIPANT]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1051091</size>
+    <files> 
+      <file> 
+        <name>updPRJ39806228.zip</name>
+        <size>1051091</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39806228.zip?aru=29083190&patch_file=updPRJ39806228.zip]]></download_url> 
+        <digest type="SHA-256">C157557152A9EBAD046111E690AAE6939F0C24D8212A6B5D7B37562B77A2D052</digest> 
+        <digest type="SHA-1">8E74EBDAB69D6A831DD0435FDC36117399962556</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1788342444000">2026-09-02 09:47:24</updated_date> 
+    <released_date in_epoch_ms="1788342444000">2026-09-02 09:47:24</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39806217</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 08262026]]></abstract>
+    </bug> 
+    <name>39806217</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29063009]]></patch_readme> 
+      <patch_details><![CDATA[/download/39806217.html]]></patch_details>
+    </url> 
+    <request_id>29063009</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>38205450</number>
+        <abstract><![CDATA[ACCESSIBILITY: HCM: 508 REMOTE WORKER MGR APPROVAL PAGE ISSUES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39013446</number>
+        <abstract><![CDATA[GPCHE - FAK-EAHV - ERRORS ON VALIDATE ON SWITCHING FROM SWISSDEC 4.0 TO 5.0]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39212383</number>
+        <abstract><![CDATA[GPCHE: LOAD FILES CHE LINK 'DOWNLOAD BANKS' IS NOT CORRECT AND THE LOAD PROCESS REQUIRES UPDATE BECAUSE OF THE NEW FILE STRUCTURE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39238098</number>
+        <abstract><![CDATA[STRUCTURED ADDRESSES FOR SEPA/CROSSâBORDER PAYMENTS AND DOMESTIC SWISS PAYMENTS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39304050</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39412477</number>
+        <abstract><![CDATA[NOTIFICATION PUBLISHER - DATA ARCHIVE TEMPLATE AND OBJECT DEFINITION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39418384</number>
+        <abstract><![CDATA[NOTIFICATION PUBLISHER - UTILITIES APP CLASS ENHANCEMENTS FOR COMPATIBILITY WITH PUBLISH NOTIFICATION API CHANGES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39766133</number>
+        <abstract><![CDATA[REMOTE WORKER APPROVAL ERROR OUT WHEN CLICK ON 'VIEW REMOTE WORKER REQUEST']]></abstract>
+      </bug> 
+      <bug> 
+        <number>39806217</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 08262026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39817452</number>
+        <abstract><![CDATA[TAX UPD 2026- NEW ABSENCE DUE EXTREME EMERGENCY (RDL 20/2026)]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1306378</size>
+    <files> 
+      <file> 
+        <name>updPRJ39806217.zip</name>
+        <size>1306378</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39806217.zip?aru=29063009&patch_file=updPRJ39806217.zip]]></download_url> 
+        <digest type="SHA-256">22F22AF1F2CACB9FF785BF775AB81E279583A81BC69BF245855315DAC1CB6164</digest> 
+        <digest type="SHA-1">D10CD50CCBD5D86564EE9C10DCAE9E8AA404BC1C</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1787735830000">2026-08-26 09:17:10</updated_date> 
+    <released_date in_epoch_ms="1787735830000">2026-08-26 09:17:10</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39806199</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 08192026]]></abstract>
+    </bug> 
+    <name>39806199</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29045842]]></patch_readme> 
+      <patch_details><![CDATA[/download/39806199.html]]></patch_details>
+    </url> 
+    <request_id>29045842</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39741078</number>
+        <abstract><![CDATA[GPES: TAX UPD 2026- CHANGE ON THE CALCULATION OF PREADVICE EARNING (RED BULLETIN 2026 08)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39741180</number>
+        <abstract><![CDATA[HRES: TAX UPD 2026 -AFI - UPDATE OF INACTIVITY TYPES AS PER RED BULLETIN 2026 08 AND 10]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39806199</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 08192026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39861215</number>
+        <abstract><![CDATA[HRES: TAX UPD 2026- CHANGES ON CRA FILE TO REACT TO RED BULLETIN 2026/08]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>694569</size>
+    <files> 
+      <file> 
+        <name>updPRJ39806199.zip</name>
+        <size>694569</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39806199.zip?aru=29045842&patch_file=updPRJ39806199.zip]]></download_url> 
+        <digest type="SHA-256">484EEB67411975255FF3E528574ACD1B48A31AB4523FD89B504AC1DB0F86DAEB</digest> 
+        <digest type="SHA-1">6F38EA1049DC87F7A468FC2F07432B04E65F344E</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1787134592000">2026-08-19 10:16:32</updated_date> 
+    <released_date in_epoch_ms="1787134592000">2026-08-19 10:16:32</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39806173</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 08052026]]></abstract>
+    </bug> 
+    <name>39806173</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29009657]]></patch_readme> 
+      <patch_details><![CDATA[/download/39806173.html]]></patch_details>
+    </url> 
+    <request_id>29009657</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="183">Legislative</classification> 
+    <patch_classification id="183">Legislative</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39284144</number>
+        <abstract><![CDATA[GPUS: UTAH STATE TAX UPDATES EFFECTIVE JUNE 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39376423</number>
+        <abstract><![CDATA[E&G:  INCORRECT TAXABLE GROSS & TAX CALCULATIONS FOR 1042-S AND SUPPLEMENTAL EARNINGS PAID ON SAME CHECK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39386207</number>
+        <abstract><![CDATA[GPUS: WEST VIRGINIA STATE WITHHOLDING TAX UPDATE FOR 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39386210</number>
+        <abstract><![CDATA[GPUS: OREGON GARNISHMENT UPDATE FOR JULY 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39524542</number>
+        <abstract><![CDATA[GPUS: ARKANSAS STATE WITHHOLDING TAX UPDATE EFFECTIVE JUNE 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39596554</number>
+        <abstract><![CDATA[GPUS: GEORGIA STATE WITHHOLDING TAX UPDATE FOR 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39680110</number>
+        <abstract><![CDATA[MINNESOTA ADDITIONAL UNEMPLOYMENT TAX ASSESSMENT (UI-SPECIAL) DOES NOT SELF-ADJUST ON QUARTERLY BASIS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39715190</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39722519</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39765540</number>
+        <abstract><![CDATA[GPUS: OHIO STATE WITHHOLDING TAX UPDATE FOR AUGUST 2026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1727102</size>
+    <files> 
+      <file> 
+        <name>updPRJ39806173.zip</name>
+        <size>1727102</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39806173.zip?aru=29009657&patch_file=updPRJ39806173.zip]]></download_url> 
+        <digest type="SHA-256">77951155968B1BBA99B5B8C164D2982EC7D218FD6C55916B84ACEB4100183358</digest> 
+        <digest type="SHA-1">4934215E150D47A4B55636915BBB6EC0C10B8846</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1785924530000">2026-08-05 10:08:50</updated_date> 
+    <released_date in_epoch_ms="1785924530000">2026-08-05 10:08:50</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39620174</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 07292026]]></abstract>
+    </bug> 
+    <name>39620174</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28970714]]></patch_readme> 
+      <patch_details><![CDATA[/download/39620174.html]]></patch_details>
+    </url> 
+    <request_id>28970714</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39035130</number>
+        <abstract><![CDATA[GPMX-2026 GRADUAL WORKING TIME REDUCCION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39620174</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 07292026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39750555</number>
+        <abstract><![CDATA[GP BRAZIL: IMPORT PAYROLL LOANS ECONSIGNADO COLLATERAL DATA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39751632</number>
+        <abstract><![CDATA[OHIO WITHHOLDING TAX CHANGES EFFECTIVE 01 AUGUST 2026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>3204494</size>
+    <files> 
+      <file> 
+        <name>updPRJ39620174.zip</name>
+        <size>3204494</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39620174.zip?aru=28970714&patch_file=updPRJ39620174.zip]]></download_url> 
+        <digest type="SHA-256">AC78FB42E518CE0E39DE9D4BE29E875833BDAEEC47A56512DF39F66A0BA0F528</digest> 
+        <digest type="SHA-1">F9AF47196D4D93DCB12C1018AAF190BFEB14158D</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1785318620000">2026-07-29 09:50:20</updated_date> 
+    <released_date in_epoch_ms="1785318620000">2026-07-29 09:50:20</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39620050</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 07222026]]></abstract>
+    </bug> 
+    <name>39620050</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28951523]]></patch_readme> 
+      <patch_details><![CDATA[/download/39620050.html]]></patch_details>
+    </url> 
+    <request_id>28951523</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="185">Security</classification> 
+    <patch_classification id="185">Security</patch_classification> 
+    <life_cycle id="175">Recommended</life_cycle> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39245977</number>
+        <abstract><![CDATA[FL POS DATA EXCELTOCI FAILS WHEN ADDING NEW EFFDT ROW ON EXISTING POSITION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39326955</number>
+        <abstract><![CDATA[UNABLE TO UPDATE DESCRIPTION OF PAY RUN ID WHEN NOTIFICATION COMPOSER OFF]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39620050</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 07222026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39684655</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39713298</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39734243</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39748613</number>
+        <abstract><![CDATA[PUM METADATA UPDATE TO CORRECT DEPENDENCY FOR PATCH 38073988]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>3841163</size>
+    <files> 
+      <file> 
+        <name>updPRJ39620050.zip</name>
+        <size>3841163</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39620050.zip?aru=28951523&patch_file=updPRJ39620050.zip]]></download_url> 
+        <digest type="SHA-256">9A39469A6FED94F5AD92CCA0D190556F99C9838B1ADB3921CDAF9C2EAB2A53FF</digest> 
+        <digest type="SHA-1">9C304791364BE42D82E07B5EF5DB20E971343631</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1784682737000">2026-07-22 01:12:17</updated_date> 
+    <released_date in_epoch_ms="1784682737000">2026-07-22 01:12:17</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39620036</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 07152026]]></abstract>
+    </bug> 
+    <name>39620036</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28928958]]></patch_readme> 
+      <patch_details><![CDATA[/download/39620036.html]]></patch_details>
+    </url> 
+    <request_id>28928958</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39620036</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 07152026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39634784</number>
+        <abstract><![CDATA[W4 PDF: UPDATE GEORGIA FORM G-4 (REV. 06/03/2026)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39663191</number>
+        <abstract><![CDATA[REDELIVER PSCPSLCT_CBL AND PSCPYMSG_CBL COBOL FILES TO RESOLVE PREREQUISITE DEPENDENCIES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39663198</number>
+        <abstract><![CDATA[DECOUPLE MULTIPLE PRODUCT PATCHES TO RESOLVE PREREQUISITE DEPENDENCIES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39670038</number>
+        <abstract><![CDATA[SEVERAL PNA PATCHES BEING PULLED INTO BENEFITS CHANGE PACKAGE IN SOME CASES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39710378</number>
+        <abstract><![CDATA[REVERT CHANGES DELIVERED IN PATCH 38965197 FOR SELF-SERVICE DIRECT DEPOSIT PAGE]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1845313</size>
+    <files> 
+      <file> 
+        <name>updPRJ39620036.zip</name>
+        <size>1845313</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39620036.zip?aru=28928958&patch_file=updPRJ39620036.zip]]></download_url> 
+        <digest type="SHA-256">29C7E3F1D69D764884E0BCEB2AAC6E68A05F655CD34DC930FEDEA1C245BC248A</digest> 
+        <digest type="SHA-1">1ED0C70045A60A5D466401E5B79D9031CDAFCAB7</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1784108001000">2026-07-15 09:33:21</updated_date> 
+    <released_date in_epoch_ms="1784108001000">2026-07-15 09:33:21</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39620017</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 07082026]]></abstract>
+    </bug> 
+    <name>39620017</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28906556]]></patch_readme> 
+      <patch_details><![CDATA[/download/39620017.html]]></patch_details>
+    </url> 
+    <request_id>28906556</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="183">Legislative</classification> 
+    <patch_classification id="183">Legislative</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39475366</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39541517</number>
+        <abstract><![CDATA[APPROVAL TILE PERFORMANCE ISSUE DUE REMOTE WORKER PENDING APPROVAL]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39588594</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39593071</number>
+        <abstract><![CDATA[CAN: UPDATE NEWFOUNDLAND AND LABRADOR FORM TD1NL TO JUL 2026 VERSION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39620017</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 07082026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39682350</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39683072</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>2073805</size>
+    <files> 
+      <file> 
+        <name>updPRJ39620017.zip</name>
+        <size>2073805</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39620017.zip?aru=28906556&patch_file=updPRJ39620017.zip]]></download_url> 
+        <digest type="SHA-256">7E507FBCCAAD84A410BFB2BF0B5597BCEC95D07F64F9A04B1242E54837E8CF71</digest> 
+        <digest type="SHA-1">EAB7020CACBEFE60E0CDD45F0F2EC6D6AE5727D3</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1783506345000">2026-07-08 10:25:45</updated_date> 
+    <released_date in_epoch_ms="1783506345000">2026-07-08 10:25:45</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39620007</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 07012026]]></abstract>
+    </bug> 
+    <name>39620007</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28884649]]></patch_readme> 
+      <patch_details><![CDATA[/download/39620007.html]]></patch_details>
+    </url> 
+    <request_id>28884649</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="185">Security</classification> 
+    <patch_classification id="185">Security</patch_classification> 
+    <life_cycle id="175">Recommended</life_cycle> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>38849179</number>
+        <abstract><![CDATA[GPFR TAX UPD 2026- NEW ADDITIONAL BIRTH LEAVE ENTITLEMENT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39235593</number>
+        <abstract><![CDATA[LTC STATUS FIELD DEFAULTS TO "SUBJECT" PER 38352736 TAX UPDATE 26-A]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39501506</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39504690</number>
+        <abstract><![CDATA[CG INCONSISTENT WARNING MESSAGE BEHAVIOR ON MY ACCOUNT INFORMATION PAGE EDITS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39548747</number>
+        <abstract><![CDATA[IOWA EMPLOYEE TAX DATA CANNOT BE UPDATED FOR 2020 OR LATER FORM VERSIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39570577</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39593297</number>
+        <abstract><![CDATA[I-9 NOTIFICATIONS MISSING BIND VARIABLES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39620007</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 07012026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39639134</number>
+        <abstract><![CDATA[GP BRAZIL: PAYROLL LOANS COLLATERAL FUNCTIONALITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>7928806</size>
+    <files> 
+      <file> 
+        <name>updPRJ39620007.zip</name>
+        <size>7928806</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39620007.zip?aru=28884649&patch_file=updPRJ39620007.zip]]></download_url> 
+        <digest type="SHA-256">B7D7DB037FC24497580C4CF9CFAADC64194CA3EFD3C9EB212E22D2E83588BB6F</digest> 
+        <digest type="SHA-1">71B7952E7BC73E884FCA4E3E509B61BB13D1AF40</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1782903624000">2026-07-01 11:00:24</updated_date> 
+    <released_date in_epoch_ms="1782903624000">2026-07-01 11:00:24</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39559412</number>
+      <abstract><![CDATA[SECURE 2.0 SECTION 603 ROTH ADDITIONAL CALCULATIONS]]></abstract>
+    </bug> 
+    <name>39559412</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28876721]]></patch_readme> 
+      <patch_details><![CDATA[/download/39559412.html]]></patch_details>
+    </url> 
+    <request_id>28876721</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>37703086</number>
+        <abstract><![CDATA[SAVINGS AGE CATCH-UP PROCESSING ISSUE WITH FUTURE-DATED TERMINATIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39173288</number>
+        <abstract><![CDATA[SECURE 2.0 SECTION 603 ROTH ADDITIONAL CALCULATIONS - ONLINE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39559412</number>
+        <abstract><![CDATA[SECURE 2.0 SECTION 603 ROTH ADDITIONAL CALCULATIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39577463</number>
+        <abstract><![CDATA[SECURE 2.0 SECTION 603 ROTH ADDITIONAL CALCULATIONS - MESSAGE CATALOG]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39577528</number>
+        <abstract><![CDATA[SECURE 2.0 SECTION 603 ROTH ADDITIONAL CALCULATIONS - TRANSLATE VALUES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39586042</number>
+        <abstract><![CDATA[SECURE 2.0 SECTION 603 ROTH ADDITIONAL CALCULATIONS - RECORD]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>724547</size>
+    <files> 
+      <file> 
+        <name>updPRJ39559412.zip</name>
+        <size>724547</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39559412.zip?aru=28876721&patch_file=updPRJ39559412.zip]]></download_url> 
+        <digest type="SHA-256">A9F5CBA903D2EE707212ED8802E7585212BA590E0B3E2180784DE0737067C4EB</digest> 
+        <digest type="SHA-1">9B62B2252BA7925A96957F5A12C06117D49F5946</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1782716936000">2026-06-29 07:08:56</updated_date> 
+    <released_date in_epoch_ms="1782716936000">2026-06-29 07:08:56</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39594219</number>
+      <abstract><![CDATA[STP PHASE 2: XML FILE OMITS SUPERANNUATION CONTRIBUTION NODE FOR QUALIFYING EARNINGS (QE)]]></abstract>
+    </bug> 
+    <name>39594219</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28869013]]></patch_readme> 
+      <patch_details><![CDATA[/download/39594219.html]]></patch_details>
+    </url> 
+    <request_id>28869013</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39594219</number>
+        <abstract><![CDATA[STP PHASE 2: XML FILE OMITS SUPERANNUATION CONTRIBUTION NODE FOR QUALIFYING EARNINGS (QE)]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>519733</size>
+    <files> 
+      <file> 
+        <name>updPRJ39594219.zip</name>
+        <size>519733</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39594219.zip?aru=28869013&patch_file=updPRJ39594219.zip]]></download_url> 
+        <digest type="SHA-1">C3CDA6FD157B6C2FB3AA8CCF334001C13B600313</digest> 
+        <digest type="SHA-256">CB718AEF551D44F71E26EF9A4D16978C09B1534A83AE33557E89AA937DA11417</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1782475779000">2026-06-26 12:09:39</updated_date> 
+    <released_date in_epoch_ms="1782475779000">2026-06-26 12:09:39</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39553823</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 06242026]]></abstract>
+    </bug> 
+    <name>39553823</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28862886]]></patch_readme> 
+      <patch_details><![CDATA[/download/39553823.html]]></patch_details>
+    </url> 
+    <request_id>28862886</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="185">Security</classification> 
+    <patch_classification id="185">Security</patch_classification> 
+    <life_cycle id="175">Recommended</life_cycle> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39325277</number>
+        <abstract><![CDATA[SLOW PERFORMANCE ON MODIFY PERSON SEARCH PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39409388</number>
+        <abstract><![CDATA[GPJPN - 2026- ADDL BONUS CONDITIONS IN CHILDCARE SUPPORT FUND]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39439641</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39491430</number>
+        <abstract><![CDATA[SEVERAL NON-TAX UPDATE  PATCHES BEING PULLED INTO TAX UPDATE 26-B CHANGE PACKAGE IN SOME CASES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39553823</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 06242026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39562203</number>
+        <abstract><![CDATA[JUNE 2026 U.S. PAYROLL TAX & LEGISLATIVE ITEMS AFTER TAX UPDATE 26-B]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39576625</number>
+        <abstract><![CDATA[ABSENCE MANAGEMENT FLUID WORKCENTER   SYSTEM DATA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39582340</number>
+        <abstract><![CDATA[DELIVER CORRECTED THRESHOLD AMOUNT (S1B) FOR BC PROVINCIAL TAX CALCULATION EFFECTIVE 01 JULY 2026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>716897</size>
+    <files> 
+      <file> 
+        <name>updPRJ39553823.zip</name>
+        <size>716897</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39553823.zip?aru=28862886&patch_file=updPRJ39553823.zip]]></download_url> 
+        <digest type="SHA-256">88719EE14104161A76988EC786396FBE387BD35F87FB215D3AB2CA5FF64A6C1B</digest> 
+        <digest type="SHA-1">743ECE88AED2F2D2284D6495E3CE48A8440CE3BB</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1782292333000">2026-06-24 09:12:13</updated_date> 
+    <released_date in_epoch_ms="1782292333000">2026-06-24 09:12:13</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39275673</number>
+      <abstract><![CDATA[GPES TAX UPD 2026: NEW VERSION 5.0 OF FIE FILE]]></abstract>
+    </bug> 
+    <name>39275673</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28850176]]></patch_readme> 
+      <patch_details><![CDATA[/download/39275673.html]]></patch_details>
+    </url> 
+    <request_id>28850176</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39275662</number>
+        <abstract><![CDATA[HRES TAX UPD 2026: NEW XLAT VALUES FOR AFI FILE (RED BULLETIN 2026 06 AND 07)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39275673</number>
+        <abstract><![CDATA[GPES TAX UPD 2026: NEW VERSION 5.0 OF FIE FILE]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>616297</size>
+    <files> 
+      <file> 
+        <name>updPRJ39275673.zip</name>
+        <size>616297</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39275673.zip?aru=28850176&patch_file=updPRJ39275673.zip]]></download_url> 
+        <digest type="SHA-1">32B335FC12E3915340A9A8167EF158B5E4396EA0</digest> 
+        <digest type="SHA-256">1033A4351FC80047B09573E3771F1543947EC9E9C37A7439984CE385FDB40C88</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1781841539000">2026-06-19 03:58:59</updated_date> 
+    <released_date in_epoch_ms="1781841539000">2026-06-19 03:58:59</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39553766</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 06172026]]></abstract>
+    </bug> 
+    <name>39553766</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28842751]]></patch_readme> 
+      <patch_details><![CDATA[/download/39553766.html]]></patch_details>
+    </url> 
+    <request_id>28842751</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39180133</number>
+        <abstract><![CDATA[EXCESS ROTH ROLLOVER INCORRECTLY PREVENTS REMAINING ALLOWABLE PRETAX CONTRIBUTIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39393951</number>
+        <abstract><![CDATA[SYSAUDITS RELATED TO TIME AND LABOR PERMISSION LIST]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39455422</number>
+        <abstract><![CDATA[CHARTFIELD LINK NOT WORKING FROM REPORT TIME PAGE - VIEWING SUBMITTED TIME]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39527183</number>
+        <abstract><![CDATA[GPFR TAX UPD 2026 - CALCULATION OF RGDU AFTER INCREASE OF SMIC AS OF JUNE 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39532478</number>
+        <abstract><![CDATA[AGC - HOMEPAGE VIEW FAILS TO BUILD - RECORD CHANGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39538586</number>
+        <abstract><![CDATA[AGC - HOMEPAGE VIEW FAILS TO BUILD - ONLINE CHANGES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39553766</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 06172026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>811735</size>
+    <files> 
+      <file> 
+        <name>updPRJ39553766.zip</name>
+        <size>811735</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39553766.zip?aru=28842751&patch_file=updPRJ39553766.zip]]></download_url> 
+        <digest type="SHA-256">B1D768EF6C1725AA01933E303831D84FF95315164C7826EA533E6C7953EBC6DB</digest> 
+        <digest type="SHA-1">1EBF022802FB026B630669D810723C3DBE1F58AA</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1781668197000">2026-06-17 03:49:57</updated_date> 
+    <released_date in_epoch_ms="1781668197000">2026-06-17 03:49:57</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39524358</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 06102026]]></abstract>
+    </bug> 
+    <name>39524358</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28818337]]></patch_readme> 
+      <patch_details><![CDATA[/download/39524358.html]]></patch_details>
+    </url> 
+    <request_id>28818337</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="183">Legislative</classification> 
+    <patch_classification id="183">Legislative</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39238248</number>
+        <abstract><![CDATA[GPUK: UNWANTED RETRO TRIGGERS CREATED FROM ABSENCE EVENT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39248014</number>
+        <abstract><![CDATA[CANADIAN TAX TABLE CHANGES EFFECTIVE JULY 1, 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39319690</number>
+        <abstract><![CDATA[APPLY RULES BUTTON NOT PROCESSING DELETED LEAVE TIME CORRECTLY.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39441963</number>
+        <abstract><![CDATA[GPFR TAX UPD 2026 - INCREASE OF SMIC AND MG FROM JUNE 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39524358</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 06102026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>628228</size>
+    <files> 
+      <file> 
+        <name>updPRJ39524358.zip</name>
+        <size>628228</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39524358.zip?aru=28818337&patch_file=updPRJ39524358.zip]]></download_url> 
+        <digest type="SHA-256">11BDAA8CF7975A3B0ACF23681ED7F79A1C82F8DABB474EE56E051A5DC4680BA1</digest> 
+        <digest type="SHA-1">8F4442337F1B9206425F571079FE34DFC83043E1</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1781085791000">2026-06-10 10:03:11</updated_date> 
+    <released_date in_epoch_ms="1781085791000">2026-06-10 10:03:11</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39431881</number>
+      <abstract><![CDATA[STP PREP PROCESS FAILS WHEN WE HAVE A REDUCTION ON THE QUALIFYING STP SUBCATEGORY]]></abstract>
+    </bug> 
+    <name>39431881</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28803848]]></patch_readme> 
+      <patch_details><![CDATA[/download/39431881.html]]></patch_details>
+    </url> 
+    <request_id>28803848</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39431881</number>
+        <abstract><![CDATA[STP PREP PROCESS FAILS WHEN WE HAVE A REDUCTION ON THE QUALIFYING STP SUBCATEGORY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39490559</number>
+        <abstract><![CDATA[STP REPORTING OF QE AND SUPER LIABILITY FOR DEFINED BENEFITS/SCHOLARSHIP/PARENTAL LEAVE]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>551128</size>
+    <files> 
+      <file> 
+        <name>updPRJ39431881.zip</name>
+        <size>551128</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39431881.zip?aru=28803848&patch_file=updPRJ39431881.zip]]></download_url> 
+        <digest type="SHA-256">37258DC21B46145F4D30ECD30F5CDE258A135555735D26A4F2AE9CDE4F80362B</digest> 
+        <digest type="SHA-1">A6F527DBB76324960217C9ED0C614BAB394D751F</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1780572802000">2026-06-04 11:33:22</updated_date> 
+    <released_date in_epoch_ms="1780572802000">2026-06-04 11:33:22</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39464681</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 06032026]]></abstract>
+    </bug> 
+    <name>39464681</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28799196]]></patch_readme> 
+      <patch_details><![CDATA[/download/39464681.html]]></patch_details>
+    </url> 
+    <request_id>28799196</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="183">Legislative</classification> 
+    <patch_classification id="183">Legislative</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39400306</number>
+        <abstract><![CDATA[PAYG RATES AND THRESHOLD, STSL CHANGES EFFECTIVE 1ST JULY 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39464681</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 06032026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>546592</size>
+    <files> 
+      <file> 
+        <name>updPRJ39464681.zip</name>
+        <size>546592</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39464681.zip?aru=28799196&patch_file=updPRJ39464681.zip]]></download_url> 
+        <digest type="SHA-1">1B3F5EA7A4FD1B01769548D7657465262887AA55</digest> 
+        <digest type="SHA-256">FA1D834F46580671CCB5F151671D4CF5962013A6FFF223305C80CDF0021441D2</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1780491207000">2026-06-03 12:53:27</updated_date> 
+    <released_date in_epoch_ms="1780491207000">2026-06-03 12:53:27</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39370454</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 05272026]]></abstract>
+    </bug> 
+    <name>39370454</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28782436]]></patch_readme> 
+      <patch_details><![CDATA[/download/39370454.html]]></patch_details>
+    </url> 
+    <request_id>28782436</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="183">Legislative</classification> 
+    <patch_classification id="183">Legislative</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>38963021</number>
+        <abstract><![CDATA[GPFR TAX UPD 2026- DELIVERY OF THE NEW 2027 STANDARD (DSN 2027.1.0)-PART II]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38977477</number>
+        <abstract><![CDATA[REPORT TIME DETAILS POP-UP WINDOW DOES NOT FOLLOW TL INSTALLATION SETTINGS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39139031</number>
+        <abstract><![CDATA[ETL 9.2  ROTATION CHANGE DOESNâT REFRESH CALENDAR IN MANAGE SCHEDULE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39361954</number>
+        <abstract><![CDATA[US&CAN: PAYROLL REGISTER (PAY002) FEW DEDUCTION VALUES INCORRECT AND SOME CENTS OVERLAP ON THE REPORT.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39370454</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 05272026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39426111</number>
+        <abstract><![CDATA[HRFR: TAX UPD 2026- DELIVERY OF THE NEW 2027 STANDARD (DSN 2027.1.0)-PART II (HRFRA)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39426964</number>
+        <abstract><![CDATA[HRFR: TAX UPD 2026- DELIVERY OF THE NEW 2027 STANDARD (DSN 2027.1.0)-PART II (HR)]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1771896</size>
+    <files> 
+      <file> 
+        <name>updPRJ39370454.zip</name>
+        <size>1771896</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39370454.zip?aru=28782436&patch_file=updPRJ39370454.zip]]></download_url> 
+        <digest type="SHA-256">E7646BF36EC59DF372C1A5288DBB9DE81AC3009815C184A8BF917EB5012E12C7</digest> 
+        <digest type="SHA-1">B0BF00EA4C9084CBCE60F59F26B328737EAA8734</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1779873848000">2026-05-27 09:24:08</updated_date> 
+    <released_date in_epoch_ms="1779873848000">2026-05-27 09:24:08</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39247948</number>
+      <abstract><![CDATA[ENTER TIME PERIOD VIEW CAUSES FIELD MISALIGNMENT]]></abstract>
+    </bug> 
+    <name>39247948</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28769276]]></patch_readme> 
+      <patch_details><![CDATA[/download/39247948.html]]></patch_details>
+    </url> 
+    <request_id>28769276</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39247948</number>
+        <abstract><![CDATA[ENTER TIME PERIOD VIEW CAUSES FIELD MISALIGNMENT]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>570062</size>
+    <files> 
+      <file> 
+        <name>updPRJ39247948.zip</name>
+        <size>570062</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39247948.zip?aru=28769276&patch_file=updPRJ39247948.zip]]></download_url> 
+        <digest type="SHA-1">A9753B2735AA1F0B3867998B8E608BE516A60859</digest> 
+        <digest type="SHA-256">615EF3E9C8B4F28BFBFFCE38706BF9F737400BA254D2D3A4E728BF8098CFA0C1</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1779514971000">2026-05-23 05:42:51</updated_date> 
+    <released_date in_epoch_ms="1779514971000">2026-05-23 05:42:51</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39343048</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: HCM - 05202026]]></abstract>
+    </bug> 
+    <name>39343048</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28767585]]></patch_readme> 
+      <patch_details><![CDATA[/download/39343048.html]]></patch_details>
+    </url> 
+    <request_id>28767585</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="183">Legislative</classification> 
+    <patch_classification id="183">Legislative</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39052987</number>
+        <abstract><![CDATA[FLUID MANAGE TIME REPORTER DATA NOT SHOWING RULE ELEMENT DESCRIPTIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39188345</number>
+        <abstract><![CDATA[GPCHE: SWISSDEC-5 SOURCE TAX BI-PUBLISHER Â« TOTAL Â» REPORT - TIMEOUT FOR LARGE XML FILES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39200997</number>
+        <abstract><![CDATA[SWISSDEC-5 SOURCE TAX : THE BI-PUBLISHER TOTALS REPORT MISSES THE RETRO-DELTA AMOUNTS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39219798</number>
+        <abstract><![CDATA[E&G: REVERSE MODIFICATION DELIVERED IN 26-A PATCH 36041840]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39230275</number>
+        <abstract><![CDATA[SUPERANNUATION AND ETP CHANGES EFFECTIVE 1ST JULY 2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39256192</number>
+        <abstract><![CDATA[GPJPN - 2026- WITHHOLDING QUALIFIED SPOUSE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39284546</number>
+        <abstract><![CDATA[DELIVER UPDATED TIPPED OCCUPATION CODES TO DESIGNATE QUALIFIED TIPS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39300142</number>
+        <abstract><![CDATA[UPDATE JURISDICTION MINIMUM HOURLY WAGE FOR OREGON EFF 07/01/2026]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39335881</number>
+        <abstract><![CDATA[CONSOLIDATED U.S. TAX TABLE CHANGES - TAX UPDATE 26-B]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39335902</number>
+        <abstract><![CDATA[CONSOLIDATED U.S. GARNISHMENT TABLE CHANGES - TAX UPDATE 26-B]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1599439</size>
+    <files> 
+      <file> 
+        <name>updPRJ39343048_I55.zip</name>
+        <size>1599439</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39343048_I55.zip?aru=28767585&patch_file=updPRJ39343048_I55.zip]]></download_url> 
+        <digest type="SHA-1">851909B921CF37425AF2E68DE52F5F142C2804ED</digest> 
+        <digest type="SHA-256">91E7DB3AD1B1676237ADCF6BB4C8F4C484B919CECAAE591390DAC13D26E889CA</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1779444447000">2026-05-22 10:07:27</updated_date> 
+    <released_date in_epoch_ms="1779444447000">2026-05-22 10:07:27</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39108715</number>
+      <abstract><![CDATA[PEOPLESOFT HCM UPDATE IMAGE 9.2.055 - VIRTUAL BOX]]></abstract>
+    </bug> 
+    <name>39108715</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28761523]]></patch_readme> 
+      <patch_details><![CDATA[/download/39108715.html]]></patch_details>
+    </url> 
+    <request_id>28761523</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>31505733</number>
+        <abstract><![CDATA[OVERAGE DEPENDENTS INCLUDED IN THE PREVIEW STATEMENT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>31752914</number>
+        <abstract><![CDATA[FLUID JOB DATA :COMP RATIO IS SHOWNG THE VALUE CALC DURING INITIAL PAY ROW CRTN]]></abstract>
+      </bug> 
+      <bug> 
+        <number>33503232</number>
+        <abstract><![CDATA[SMART HIRE TEMPLATE NOT WORKING WHEN DISPLAY TYPE IS CHANGED TO DROPDOWN]]></abstract>
+      </bug> 
+      <bug> 
+        <number>34233874</number>
+        <abstract><![CDATA[REMOVE HCM COPY OF AXIS 1.4 AND MOVE TO PT COPY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>34634175</number>
+        <abstract><![CDATA[MYJOBAPPLICATIONS SHOW DRAFT APPL BUT CAN OPEN THOSE POSTED TO AN SPECIFIC SITE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>34741674</number>
+        <abstract><![CDATA[EMPLOYEE CAN VIEW PARTICIPANTS ADDED BY MANAGER WHEN TRACKED BY IS MANAGER ONLY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35136072</number>
+        <abstract><![CDATA[ACCESSIBILITY: JAWS-DUPLICATE H2 OF PARTICIPANT ROLES AVAILABLE IN HEADING LIST]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36552038</number>
+        <abstract><![CDATA[FLUID JOB : UNWANTED ERROR REQUIRED BENEFIT PROGRAM IS DISPLAYED ON VALIDATE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36685854</number>
+        <abstract><![CDATA[EXPAND GARNISHMENT FIELDS TO ACCOMMODATE 99,999,999.99]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36695833</number>
+        <abstract><![CDATA[PERSONAL DATA MARITAL STATUS DROPDOWN DOES NOT UPDATE WHEN EFFDT IS CHANGED]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>34658402823</size>
+    <files> 
+      <file> 
+        <name>HCM-920-UPD-055-OVA_1of12.zip</name>
+        <size>196535842</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-OVA_1of12.zip?aru=28761523&patch_file=HCM-920-UPD-055-OVA_1of12.zip]]></download_url> 
+        <digest type="SHA-1">EEB87CE5510A68AA513C9269BE85719C803EF53D</digest> 
+        <digest type="SHA-256">C201F9D02B6B937EB6E30187B0A06C56585E7D261F7EF2A74C5C7F9D13D93F58</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-OVA_8of12.zip</name>
+        <size>6899918760</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-OVA_8of12.zip?aru=28761523&patch_file=HCM-920-UPD-055-OVA_8of12.zip]]></download_url> 
+        <digest type="SHA-256">EA664B55B45C41A4ACE04C3CD3D5771829FCF3ED12A0F2FFD926E3A91DFFBC5D</digest> 
+        <digest type="SHA-1">3E50A86356BCE843B5D709D3B7C6992EF3F9450E</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-OVA_12of12.zip</name>
+        <size>4103903089</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-OVA_12of12.zip?aru=28761523&patch_file=HCM-920-UPD-055-OVA_12of12.zip]]></download_url> 
+        <digest type="SHA-256">013BE3AEF5D6DA38B7CCEA8BBCA5AD0BC85EEA19EE92153DC44076A8CA6B4E9F</digest> 
+        <digest type="SHA-1">5E2D878420DB1336B3533808C300431916E001B3</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-OVA_11of12.zip</name>
+        <size>3892412257</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-OVA_11of12.zip?aru=28761523&patch_file=HCM-920-UPD-055-OVA_11of12.zip]]></download_url> 
+        <digest type="SHA-256">5740F479BC4D7760D3013F51FF741D07E61BCACB5563CB2DE0307BCAF5E0DB08</digest> 
+        <digest type="SHA-1">7B359BF1443D0280B151DC536E1B8D30951250C7</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-OVA_7of12.zip</name>
+        <size>933167991</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-OVA_7of12.zip?aru=28761523&patch_file=HCM-920-UPD-055-OVA_7of12.zip]]></download_url> 
+        <digest type="SHA-1">576E50C0C40341EFB1E16335FF0646EF10EB6FC9</digest> 
+        <digest type="SHA-256">90D892CA3279A17787AE0561CCC5AB47B15929D1370D40759766575030A526B6</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-OVA_4of12.zip</name>
+        <size>1320269761</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-OVA_4of12.zip?aru=28761523&patch_file=HCM-920-UPD-055-OVA_4of12.zip]]></download_url> 
+        <digest type="SHA-1">34C52389AF813F2E3C0F3A0414CCC74054823A61</digest> 
+        <digest type="SHA-256">A87A84E5D3E2F0B69C2407DC97D2A47A60991CE70B0D8B869488886CDF153623</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-OVA_6of12.zip</name>
+        <size>1307393397</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-OVA_6of12.zip?aru=28761523&patch_file=HCM-920-UPD-055-OVA_6of12.zip]]></download_url> 
+        <digest type="SHA-256">7C2A70E480525048788BECEE16CB72964F0367A152DCBBD37D936918BCDB70C1</digest> 
+        <digest type="SHA-1">43B2DA4B4B44A8247E7AB7851F0A0F275CDD4A95</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-OVA_5of12.zip</name>
+        <size>1332572016</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-OVA_5of12.zip?aru=28761523&patch_file=HCM-920-UPD-055-OVA_5of12.zip]]></download_url> 
+        <digest type="SHA-1">D3C5C16B135A93057DE0A1B6F7283ACEBCFB8757</digest> 
+        <digest type="SHA-256">93623C62C894D01A57C30216EF3B7F450BD43CFB04A386B31CB4174478239442</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-OVA_2of12.zip</name>
+        <size>1894259412</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-OVA_2of12.zip?aru=28761523&patch_file=HCM-920-UPD-055-OVA_2of12.zip]]></download_url> 
+        <digest type="SHA-1">9F8F6E8AC953D76869514CACF83C782573250BFD</digest> 
+        <digest type="SHA-256">5AC3572E0EEB8929161F46DE0A61497050BE45BAA7037A6F959ED67287F00368</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-OVA_9of12.zip</name>
+        <size>4495510784</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-OVA_9of12.zip?aru=28761523&patch_file=HCM-920-UPD-055-OVA_9of12.zip]]></download_url> 
+        <digest type="SHA-256">470B31EAA664962402374BF7ADCA5E70CADF8B1A53D5C488D1415FFE30B478F5</digest> 
+        <digest type="SHA-1">711C07716872B3EA05ABCA6CC9182552B3F143CB</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-OVA_10of12.zip</name>
+        <size>5754134129</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-OVA_10of12.zip?aru=28761523&patch_file=HCM-920-UPD-055-OVA_10of12.zip]]></download_url> 
+        <digest type="SHA-256">B6A1A81412781D7AC0A85D8FDCBA87F7C696FC9279DACFD3454A8C91C535C960</digest> 
+        <digest type="SHA-1">30A55A308BC7E41E8C9F0804B9A7E89A36CC4B75</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-OVA_3of12.zip</name>
+        <size>2528325385</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-OVA_3of12.zip?aru=28761523&patch_file=HCM-920-UPD-055-OVA_3of12.zip]]></download_url> 
+        <digest type="SHA-1">0A8C042911AF7D5F1A683E5B68BD44189E9116DA</digest> 
+        <digest type="SHA-256">051C71635CB722C94A00E7799D126D540AB11514559446F4E781E00317D85DF4</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1779442507000">2026-05-22 09:35:07</updated_date> 
+    <released_date in_epoch_ms="1779327281000">2026-05-21 01:34:41</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39108722</number>
+      <abstract><![CDATA[PEOPLESOFT HCM UPDATE IMAGE 9.2.055 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>39108722</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28761526]]></patch_readme> 
+      <patch_details><![CDATA[/download/39108722.html]]></patch_details>
+    </url> 
+    <request_id>28761526</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>31505733</number>
+        <abstract><![CDATA[OVERAGE DEPENDENTS INCLUDED IN THE PREVIEW STATEMENT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>31752914</number>
+        <abstract><![CDATA[FLUID JOB DATA :COMP RATIO IS SHOWNG THE VALUE CALC DURING INITIAL PAY ROW CRTN]]></abstract>
+      </bug> 
+      <bug> 
+        <number>33503232</number>
+        <abstract><![CDATA[SMART HIRE TEMPLATE NOT WORKING WHEN DISPLAY TYPE IS CHANGED TO DROPDOWN]]></abstract>
+      </bug> 
+      <bug> 
+        <number>34233874</number>
+        <abstract><![CDATA[REMOVE HCM COPY OF AXIS 1.4 AND MOVE TO PT COPY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>34634175</number>
+        <abstract><![CDATA[MYJOBAPPLICATIONS SHOW DRAFT APPL BUT CAN OPEN THOSE POSTED TO AN SPECIFIC SITE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>34741674</number>
+        <abstract><![CDATA[EMPLOYEE CAN VIEW PARTICIPANTS ADDED BY MANAGER WHEN TRACKED BY IS MANAGER ONLY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35136072</number>
+        <abstract><![CDATA[ACCESSIBILITY: JAWS-DUPLICATE H2 OF PARTICIPANT ROLES AVAILABLE IN HEADING LIST]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36552038</number>
+        <abstract><![CDATA[FLUID JOB : UNWANTED ERROR REQUIRED BENEFIT PROGRAM IS DISPLAYED ON VALIDATE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36685854</number>
+        <abstract><![CDATA[EXPAND GARNISHMENT FIELDS TO ACCOMMODATE 99,999,999.99]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36695833</number>
+        <abstract><![CDATA[PERSONAL DATA MARITAL STATUS DROPDOWN DOES NOT UPDATE WHEN EFFDT IS CHANGED]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>32235327147</size>
+    <files> 
+      <file> 
+        <name>HCM-920-UPD-055-WIN_7of11.zip</name>
+        <size>933167939</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-WIN_7of11.zip?aru=28761526&patch_file=HCM-920-UPD-055-WIN_7of11.zip]]></download_url> 
+        <digest type="SHA-256">3FC0F033BD1F2EBA477952D82807B68E89BCD5325A2360FA01D80052EB4B72CE</digest> 
+        <digest type="SHA-1">8E61575D1DA34F36A504CC005769FC51C945A01C</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-WIN_4of11.zip</name>
+        <size>1320269709</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-WIN_4of11.zip?aru=28761526&patch_file=HCM-920-UPD-055-WIN_4of11.zip]]></download_url> 
+        <digest type="SHA-1">930FEEB239B6F54F657F22CE13906C5AFEC64E3E</digest> 
+        <digest type="SHA-256">F67F1FCD6FA7CBABD6A6D0ED9E65FE3E0FA107037B8C0122F361EF363688A960</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-WIN_8of11.zip</name>
+        <size>6435424170</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-WIN_8of11.zip?aru=28761526&patch_file=HCM-920-UPD-055-WIN_8of11.zip]]></download_url> 
+        <digest type="SHA-256">1F0A1F58D62E754FB86FD1ECFD08025113A96BEFB1FF8320ACB57D4D6B083A70</digest> 
+        <digest type="SHA-1">3819003AD2CE7BABB9891085FA0680435719108C</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-WIN_10of11.zip</name>
+        <size>5935295223</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-WIN_10of11.zip?aru=28761526&patch_file=HCM-920-UPD-055-WIN_10of11.zip]]></download_url> 
+        <digest type="SHA-1">0739E2ED00435068D41FB09AFD039A5B4EFEFF78</digest> 
+        <digest type="SHA-256">0005E685A176BED2CB208866CB4332A4532BB11A86E33ADB23DA9405B3A9A6D0</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-WIN_2of11.zip</name>
+        <size>2139855093</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-WIN_2of11.zip?aru=28761526&patch_file=HCM-920-UPD-055-WIN_2of11.zip]]></download_url> 
+        <digest type="SHA-256">2385630F639EF16DF5D54472DFB476BCBD92AA0B756F6ECECC5CD43759952002</digest> 
+        <digest type="SHA-1">02956F5B1F742C62841ED9179B329233276B7851</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-WIN_5of11.zip</name>
+        <size>1332571964</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-WIN_5of11.zip?aru=28761526&patch_file=HCM-920-UPD-055-WIN_5of11.zip]]></download_url> 
+        <digest type="SHA-1">596265B46B56895E4027E18C603F7D8F3513FE4E</digest> 
+        <digest type="SHA-256">B61B7C97077CB14E4E0C8EBC2C262DF336079441C83DDEDDF9BE90F602E8EACB</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-WIN_9of11.zip</name>
+        <size>6294969884</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-WIN_9of11.zip?aru=28761526&patch_file=HCM-920-UPD-055-WIN_9of11.zip]]></download_url> 
+        <digest type="SHA-1">F31474A1B081DC60CCD09F77493A9ECDB999F071</digest> 
+        <digest type="SHA-256">EA84AE938EBD8A4F307FA29CC5624BC4A2A160652A1043E5C0C63BAFB0C4465E</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-WIN_3of11.zip</name>
+        <size>2450163622</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-WIN_3of11.zip?aru=28761526&patch_file=HCM-920-UPD-055-WIN_3of11.zip]]></download_url> 
+        <digest type="SHA-256">8257704681127E790D146E3B205987FB03A4873C3E7BF03079D01C439DFCD4EE</digest> 
+        <digest type="SHA-1">813E49FCBC3CCA747AC863B4040855A74187E08E</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-WIN_1of11.zip</name>
+        <size>96427636</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-WIN_1of11.zip?aru=28761526&patch_file=HCM-920-UPD-055-WIN_1of11.zip]]></download_url> 
+        <digest type="SHA-1">0C1645710808CC18EA0BFF2D1B5EF5715233AA53</digest> 
+        <digest type="SHA-256">8C1103EADF471A808FF2C516A87F073CF938D8DFBBD55A32C4D25E82D01CB17A</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-WIN_11of11.zip</name>
+        <size>3989788562</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-WIN_11of11.zip?aru=28761526&patch_file=HCM-920-UPD-055-WIN_11of11.zip]]></download_url> 
+        <digest type="SHA-1">5681B629E6149C01DBF7F377DB4634E777643E42</digest> 
+        <digest type="SHA-256">D26B70BCCABCAF5931DE7AB5D469AD42CB4831661C9F13AE1EFD95288350457D</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPD-055-WIN_6of11.zip</name>
+        <size>1307393345</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPD-055-WIN_6of11.zip?aru=28761526&patch_file=HCM-920-UPD-055-WIN_6of11.zip]]></download_url> 
+        <digest type="SHA-1">73077578411B3A872E7C902488B856E1E125A354</digest> 
+        <digest type="SHA-256">67247872F98D37CDB16BDBF1B00E5140644EAD5BA94ECF4D5FDC1CD1E45050CC</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1779442444000">2026-05-22 09:34:04</updated_date> 
+    <released_date in_epoch_ms="1779327282000">2026-05-21 01:34:42</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>31678580</number>
+      <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.004 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>31678580</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=23749428]]></patch_readme> 
+      <patch_details><![CDATA[/download/31678580.html]]></patch_details>
+    </url> 
+    <request_id>23749428</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>31678580</number>
+        <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.004 -NATIVE OS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>21008452397</size>
+    <files> 
+      <file> 
+        <name>HCM-920-UPG-004-WIN_5of9.zip</name>
+        <size>1242713078</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-WIN_5of9.zip?aru=23749428&patch_file=HCM-920-UPG-004-WIN_5of9.zip]]></download_url> 
+        <digest type="SHA-256">A7F4CBA348563222D12EF5AF6026C066568789F38441002008C5934A37C34FE0</digest> 
+        <digest type="SHA-1">98BC769E7CC63A884E6B34D3D8303EDFA73A9FC4</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-WIN_1of9.zip</name>
+        <size>76983967</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-WIN_1of9.zip?aru=23749428&patch_file=HCM-920-UPG-004-WIN_1of9.zip]]></download_url> 
+        <digest type="SHA-256">07B62C406AD4D23628F77942316D03E3204391D95AB7EBAE0AD5DB9BC4756F88</digest> 
+        <digest type="SHA-1">66C8C05605B16239E3A6981FAA6C729FC6768A96</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-WIN_7of9.zip</name>
+        <size>4963084168</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-WIN_7of9.zip?aru=23749428&patch_file=HCM-920-UPG-004-WIN_7of9.zip]]></download_url> 
+        <digest type="SHA-256">91B0A40139C74F71C129C462010FE5D620B326BAD3C784409BD978DC81D65889</digest> 
+        <digest type="SHA-1">F0CB852420A6EA84877394C7BC59373BE25B2578</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-WIN_6of9.zip</name>
+        <size>3316977833</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-WIN_6of9.zip?aru=23749428&patch_file=HCM-920-UPG-004-WIN_6of9.zip]]></download_url> 
+        <digest type="SHA-1">D30F26ECEDFD75CAD1641E895E488A14DC6C13B4</digest> 
+        <digest type="SHA-256">DB05B20C2AC301EC08F3EA28DD79F816EB752D9FAA178F80CF9C26571DF7BE69</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-WIN_4of9.zip</name>
+        <size>1401695924</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-WIN_4of9.zip?aru=23749428&patch_file=HCM-920-UPG-004-WIN_4of9.zip]]></download_url> 
+        <digest type="SHA-1">F29091ADCF707B15AF2FE4080558FEFBE0C160BA</digest> 
+        <digest type="SHA-256">F326407F6EB20702E40AD7DADDA2FBDC845F0F0C1B7ED64C627A40376B7761D7</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-WIN_2of9.zip</name>
+        <size>2943305991</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-WIN_2of9.zip?aru=23749428&patch_file=HCM-920-UPG-004-WIN_2of9.zip]]></download_url> 
+        <digest type="SHA-256">9F913C07CCB808310A7679B89E8C5A89E3546255575D395F123BE3D0F3C0F696</digest> 
+        <digest type="SHA-1">A6AD3E240CA0AB60899807EDD63634D1D7F28980</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-WIN_8of9.zip</name>
+        <size>2963444567</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-WIN_8of9.zip?aru=23749428&patch_file=HCM-920-UPG-004-WIN_8of9.zip]]></download_url> 
+        <digest type="SHA-256">EC74620C474DDC13C4C08F4024B75BE59268E18055BFD09D87FE9D5329D64179</digest> 
+        <digest type="SHA-1">02885DD31A22E85BAA460F3D7563556BABB274FF</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-WIN_9of9.zip</name>
+        <size>1741138889</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-WIN_9of9.zip?aru=23749428&patch_file=HCM-920-UPG-004-WIN_9of9.zip]]></download_url> 
+        <digest type="SHA-256">EB9FB7089DB5F3EFCD124BA00C816F5D5EF859D6DDE183FA6EBC7F16D44BACC8</digest> 
+        <digest type="SHA-1">C3CA56B8CA2C2961C5FB543CAE8E3A90BCB18AE5</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-WIN_3of9.zip</name>
+        <size>2359107980</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-WIN_3of9.zip?aru=23749428&patch_file=HCM-920-UPG-004-WIN_3of9.zip]]></download_url> 
+        <digest type="SHA-1">3344C2C1430688EA9DF3A25B9FA6FA7394967A13</digest> 
+        <digest type="SHA-256">57944AA0591E2A6630719A021C506F696B7DD1B74C3C688060DB19232592BD76</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1596768255000">2020-08-07 02:44:15</updated_date> 
+    <released_date in_epoch_ms="1596758149000">2020-08-06 23:55:49</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>31678573</number>
+      <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.004 - VIRTUAL BOX]]></abstract>
+    </bug> 
+    <name>31678573</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=23749267]]></patch_readme> 
+      <patch_details><![CDATA[/download/31678573.html]]></patch_details>
+    </url> 
+    <request_id>23749267</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>31678573</number>
+        <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.004 -VIRTUAL BOX]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>20804680655</size>
+    <files> 
+      <file> 
+        <name>HCM-920-UPG-004-OVA_8of11.zip</name>
+        <size>2871450954</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-OVA_8of11.zip?aru=23749267&patch_file=HCM-920-UPG-004-OVA_8of11.zip]]></download_url> 
+        <digest type="SHA-1">DA903E4B987D84573174C9B4089B11ED8E7CBDB9</digest> 
+        <digest type="SHA-256">4A6DD6448ACEB97A6EE6CF81B28827E782720774121D2FD797FCBF17B399080D</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-OVA_2of11.zip</name>
+        <size>1967111119</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-OVA_2of11.zip?aru=23749267&patch_file=HCM-920-UPG-004-OVA_2of11.zip]]></download_url> 
+        <digest type="SHA-256">6DAA5892B5B05156023DCF0BBE57E6B4F9F3A019FDC9A3B77FF9AB5ADAA56E99</digest> 
+        <digest type="SHA-1">88D51B71E08744F069DBD56703639B8C37BD0E66</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-OVA_9of11.zip</name>
+        <size>1685892040</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-OVA_9of11.zip?aru=23749267&patch_file=HCM-920-UPG-004-OVA_9of11.zip]]></download_url> 
+        <digest type="SHA-1">F31A62E4587AFE48BBCFB9478DAD9894ECA00434</digest> 
+        <digest type="SHA-256">2C585B463FCE66BC0027694B9C401FB6B997E03C15F9551B9E6FCB933A75261C</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-OVA_6of11.zip</name>
+        <size>3657280018</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-OVA_6of11.zip?aru=23749267&patch_file=HCM-920-UPG-004-OVA_6of11.zip]]></download_url> 
+        <digest type="SHA-1">360C67C6DA29CB2F408E30DD8871788F2656BCEE</digest> 
+        <digest type="SHA-256">8282B7EB4CB7142C9614E50EB4C9D8AD0122F8D03D35F0428BAE7D3875069662</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-OVA_10of11.zip</name>
+        <size>1325514400</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-OVA_10of11.zip?aru=23749267&patch_file=HCM-920-UPG-004-OVA_10of11.zip]]></download_url> 
+        <digest type="SHA-1">2EEEB56B6DE3130A5CF7AC7455B56B605A84FE6C</digest> 
+        <digest type="SHA-256">297E9DD95EED0E535A0244AC7CC817FD9B1AA18036370DEBD6D4108E99F554EA</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-OVA_4of11.zip</name>
+        <size>1401695976</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-OVA_4of11.zip?aru=23749267&patch_file=HCM-920-UPG-004-OVA_4of11.zip]]></download_url> 
+        <digest type="SHA-256">15871C2FF81B1173908774FB75FF68E60CE969462AD8B8CD60C0746202FE04D2</digest> 
+        <digest type="SHA-1">7C7E2AAD3F7EC73E1CB76F92E4A5C8D3D4B706CE</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-OVA_1of11.zip</name>
+        <size>127766329</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-OVA_1of11.zip?aru=23749267&patch_file=HCM-920-UPG-004-OVA_1of11.zip]]></download_url> 
+        <digest type="SHA-256">A21A9FC7D9DBF09CBD4DBD1805517E69E346CC37A726DD161E1E0E5F36D72A2E</digest> 
+        <digest type="SHA-1">16CFA3A2A28D6714DF9B0C2C00F436C30DF0F673</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-OVA_5of11.zip</name>
+        <size>1242713130</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-OVA_5of11.zip?aru=23749267&patch_file=HCM-920-UPG-004-OVA_5of11.zip]]></download_url> 
+        <digest type="SHA-1">6FC007A2031CDDA420FECF6D796AA340D6F10308</digest> 
+        <digest type="SHA-256">3B0ABBB4296B0BEBD89FD2269A9D6F5D77447363886C74C85A7459D08A04274A</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-OVA_3of11.zip</name>
+        <size>2621168608</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-OVA_3of11.zip?aru=23749267&patch_file=HCM-920-UPG-004-OVA_3of11.zip]]></download_url> 
+        <digest type="SHA-1">A4321035282AAA44086DBF94C76CF74AA9D6CE9F</digest> 
+        <digest type="SHA-256">949E90EB46C3DE51AC7E60A776FC8DD5D90464BA47FE63D88EED27C95B245D88</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-OVA_7of11.zip</name>
+        <size>3504696403</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-OVA_7of11.zip?aru=23749267&patch_file=HCM-920-UPG-004-OVA_7of11.zip]]></download_url> 
+        <digest type="SHA-256">A0BBE3DF77A13E85CC739EFDD0B5E59CB2A339DCC8FB339F62CFAD80D46EB63B</digest> 
+        <digest type="SHA-1">87C81434F80B1C29C43CC6EB50B05D53795CA3F5</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-004-OVA_11of11.zip</name>
+        <size>399391678</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-004-OVA_11of11.zip?aru=23749267&patch_file=HCM-920-UPG-004-OVA_11of11.zip]]></download_url> 
+        <digest type="SHA-1">B0CA4E8B81BEB1AE3CD7B6BFD2319BABD90580C9</digest> 
+        <digest type="SHA-256">4395F5B5A61717D89AD6614F9691A1E3CC081F6252820D528F6B227F784DEB60</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1596756948000">2020-08-06 23:35:48</updated_date> 
+    <released_date in_epoch_ms="1596741928000">2020-08-06 19:25:28</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>31406437</number>
+      <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.005 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>31406437</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=23617902]]></patch_readme> 
+      <patch_details><![CDATA[/download/31406437.html]]></patch_details>
+    </url> 
+    <request_id>23617902</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>31406437</number>
+        <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.005 - NATIVE OS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>22762277175</size>
+    <files> 
+      <file> 
+        <name>HCM-920-UPG-005-WIN_3of9.zip</name>
+        <size>2535807894</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-WIN_3of9.zip?aru=23617902&patch_file=HCM-920-UPG-005-WIN_3of9.zip]]></download_url> 
+        <digest type="SHA-256">1013E636D9EF65FAF010116E1666DD854900006CAC86B17CA1BE877CE47F64FF</digest> 
+        <digest type="SHA-1">344F2DD5ADAB16EC56BCF3810C4C2463275A2C09</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-WIN_6of9.zip</name>
+        <size>5579543934</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-WIN_6of9.zip?aru=23617902&patch_file=HCM-920-UPG-005-WIN_6of9.zip]]></download_url> 
+        <digest type="SHA-256">6EED99FFE927E425C14EC167C2CDEB4E8158BF32000E1DF1003843045C17BD9D</digest> 
+        <digest type="SHA-1">550C19871EE8355E6D0D67B3BE8AAB60107B140E</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-WIN_8of9.zip</name>
+        <size>2332915007</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-WIN_8of9.zip?aru=23617902&patch_file=HCM-920-UPG-005-WIN_8of9.zip]]></download_url> 
+        <digest type="SHA-256">C0E325627EBCC42CFA45265B3B50A827D044413717A9C3C9589F219FE8AC309D</digest> 
+        <digest type="SHA-1">ED1C5735724C9835831EAB7BFA88610F17BA9524</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-WIN_7of9.zip</name>
+        <size>4979794281</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-WIN_7of9.zip?aru=23617902&patch_file=HCM-920-UPG-005-WIN_7of9.zip]]></download_url> 
+        <digest type="SHA-1">DE57B74FF32C300ED4B773AEFEDA07B07E13EA64</digest> 
+        <digest type="SHA-256">F414AE75E1020A716E8D08860142F1A4E152C2CD4D31E557C710F947791EC154</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-WIN_9of9.zip</name>
+        <size>1510124901</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-WIN_9of9.zip?aru=23617902&patch_file=HCM-920-UPG-005-WIN_9of9.zip]]></download_url> 
+        <digest type="SHA-1">1251CD119F78F56AAFDE4D2491F8CDA61A314DF8</digest> 
+        <digest type="SHA-256">A6462737C8B675BB8DDE7DB059199BD736917157D1B293761C58DCAD6D363FA7</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-WIN_2of9.zip</name>
+        <size>2871764037</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-WIN_2of9.zip?aru=23617902&patch_file=HCM-920-UPG-005-WIN_2of9.zip]]></download_url> 
+        <digest type="SHA-1">AC9226AE1E2C9B9F4C80D1DDBC57010D4A818666</digest> 
+        <digest type="SHA-256">191A5165919150D15D2C37ABF9206B3EB28A97B4C3BC63363F43FF4270F4491D</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-WIN_1of9.zip</name>
+        <size>118423602</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-WIN_1of9.zip?aru=23617902&patch_file=HCM-920-UPG-005-WIN_1of9.zip]]></download_url> 
+        <digest type="SHA-1">4DAF1EE845E8B89783946213F6629BC152F5200E</digest> 
+        <digest type="SHA-256">8CE35FA30DD96B81966DAB2C4BADA4530620F4204A7C73DC9EA85A22B13769BE</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-WIN_4of9.zip</name>
+        <size>1421864155</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-WIN_4of9.zip?aru=23617902&patch_file=HCM-920-UPG-005-WIN_4of9.zip]]></download_url> 
+        <digest type="SHA-256">E3F3C3A571597237BE030490E32B6D093C6287BA71408F2EA0634A21F9093CAB</digest> 
+        <digest type="SHA-1">E82A18F5D85FEC0EE39FDDE0806279E66D6B4E8A</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-WIN_5of9.zip</name>
+        <size>1412039364</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-WIN_5of9.zip?aru=23617902&patch_file=HCM-920-UPG-005-WIN_5of9.zip]]></download_url> 
+        <digest type="SHA-256">5ED4478F01D4DA472BE63747FF7B7C05DEEDA1272788D971133B7C9A85DCA84B</digest> 
+        <digest type="SHA-1">173D523E38F251F09849F3807BABDFFA17F31169</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1591749330000">2020-06-10 00:35:30</updated_date> 
+    <released_date in_epoch_ms="1591744648000">2020-06-09 23:17:28</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>31406414</number>
+      <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.005 - VIRTUAL BOX]]></abstract>
+    </bug> 
+    <name>31406414</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=23617540]]></patch_readme> 
+      <patch_details><![CDATA[/download/31406414.html]]></patch_details>
+    </url> 
+    <request_id>23617540</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>31406414</number>
+        <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.005 - VIRTUAL BOX]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>22486021683</size>
+    <files> 
+      <file> 
+        <name>HCM-920-UPG-005-OVA_9of11.zip</name>
+        <size>1446809745</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-OVA_9of11.zip?aru=23617540&patch_file=HCM-920-UPG-005-OVA_9of11.zip]]></download_url> 
+        <digest type="SHA-1">38DFA44FB338A6D35C32FFFB41089810E4C93E75</digest> 
+        <digest type="SHA-256">D6DD73A29BED1EFB051F0E982DC1A594F1EDEB60C559A69E7C30624314B86C9B</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-OVA_5of11.zip</name>
+        <size>1412039416</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-OVA_5of11.zip?aru=23617540&patch_file=HCM-920-UPG-005-OVA_5of11.zip]]></download_url> 
+        <digest type="SHA-256">382C8DD194F7C161B0FE5349284FB03C0AC7A2AC9C9A55DC3A02E84E13651D61</digest> 
+        <digest type="SHA-1">88507810CFC6FDF61CD12360A4B21CB5E3618FFC</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-OVA_8of11.zip</name>
+        <size>2245511844</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-OVA_8of11.zip?aru=23617540&patch_file=HCM-920-UPG-005-OVA_8of11.zip]]></download_url> 
+        <digest type="SHA-256">37D459718F3CEDA3A3FEA11ED6DA3EAC36A9EC919B6033AEA39CC7D89CA12E87</digest> 
+        <digest type="SHA-1">E846E6FC4CF07FC3030861DA9CF7C1B7A9683566</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-OVA_7of11.zip</name>
+        <size>3516701027</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-OVA_7of11.zip?aru=23617540&patch_file=HCM-920-UPG-005-OVA_7of11.zip]]></download_url> 
+        <digest type="SHA-256">5E36C4FDBE6FCFEB28093C124705508618D2FC03B38B51668690D3AE6CA2B76C</digest> 
+        <digest type="SHA-1">EE883B4EA7B6AA958E71304293313A3027DB1F4F</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-OVA_3of11.zip</name>
+        <size>2878863717</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-OVA_3of11.zip?aru=23617540&patch_file=HCM-920-UPG-005-OVA_3of11.zip]]></download_url> 
+        <digest type="SHA-1">FAD81E7EB0BF8F6EB7318799E6EB8237EEDB2A05</digest> 
+        <digest type="SHA-256">0CDBADCEAB0B9E5411CE355F2BBFA8652A71BCAB06A416071463CF5FDE742E30</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-OVA_11of11.zip</name>
+        <size>601337879</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-OVA_11of11.zip?aru=23617540&patch_file=HCM-920-UPG-005-OVA_11of11.zip]]></download_url> 
+        <digest type="SHA-256">B682428708EBA016990FBA9370535C7E7949950EED1E1C40EE5647D8BD6E5003</digest> 
+        <digest type="SHA-1">A2DEC61D073603A9C10186CD57BD2D1630FF80EF</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-OVA_6of11.zip</name>
+        <size>4913029249</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-OVA_6of11.zip?aru=23617540&patch_file=HCM-920-UPG-005-OVA_6of11.zip]]></download_url> 
+        <digest type="SHA-1">DCDAE7FD0B5CC2352E8847422E565BB5127F426B</digest> 
+        <digest type="SHA-256">FE3324E6A20212A397CFCB0042E6FA47BB2A40E2B3EDDAEDF7C1C4F4B9605970</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-OVA_4of11.zip</name>
+        <size>1421864207</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-OVA_4of11.zip?aru=23617540&patch_file=HCM-920-UPG-005-OVA_4of11.zip]]></download_url> 
+        <digest type="SHA-256">6F96B3235BB16E85CBE4919666079EEE3E2B402AAC033A8CA601A9EED1D52292</digest> 
+        <digest type="SHA-1">10D4492591B7A42BDD3C877D48E45DA67B289398</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-OVA_10of11.zip</name>
+        <size>1875442750</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-OVA_10of11.zip?aru=23617540&patch_file=HCM-920-UPG-005-OVA_10of11.zip]]></download_url> 
+        <digest type="SHA-1">169011E3D66B7279F5A823A11643F1D275490B08</digest> 
+        <digest type="SHA-256">5F06DD8B77D5DDF3768A7F24BDE9F350AE3E8E9F019362387D09EA6207046401</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-OVA_1of11.zip</name>
+        <size>183612882</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-OVA_1of11.zip?aru=23617540&patch_file=HCM-920-UPG-005-OVA_1of11.zip]]></download_url> 
+        <digest type="SHA-256">EE8C5825DF32DE1A75F72C9CBA31F597B7264CC56F4C254B2C81197DC1F7C01A</digest> 
+        <digest type="SHA-1">BF1E7F160CEAB9A490BF9473D5CB28940DA35A6E</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-005-OVA_2of11.zip</name>
+        <size>1990808967</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-005-OVA_2of11.zip?aru=23617540&patch_file=HCM-920-UPG-005-OVA_2of11.zip]]></download_url> 
+        <digest type="SHA-1">66BE5902E8D3BC0AFCB2792C2DF27E758269E8D0</digest> 
+        <digest type="SHA-256">7A2BDDE026498A5C2B9776FD1631E827DE9DD7C6BC2090935C089FEEF9F7947D</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1591746392000">2020-06-09 23:46:32</updated_date> 
+    <released_date in_epoch_ms="1591742635000">2020-06-09 22:43:55</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>26799168</number>
+      <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.003 - VIRTUAL BOX]]></abstract>
+    </bug> 
+    <name>26799168</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=21673643]]></patch_readme> 
+      <patch_details><![CDATA[/download/26799168.html]]></patch_details>
+    </url> 
+    <request_id>21673643</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>26799168</number>
+        <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.003 - VIRTUAL BOX]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>21942973837</size>
+    <files> 
+      <file> 
+        <name>HCM-920-UPG-003-OVA_10of12.zip</name>
+        <size>2551003811</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-OVA_10of12.zip?aru=21673643&patch_file=HCM-920-UPG-003-OVA_10of12.zip]]></download_url> 
+        <digest type="SHA-1">5ABF726B0E1E4F748858EFE17F8C4C34308B8DD9</digest> 
+        <digest type="SHA-256">D801BB1703BEA803A7DA6421B396799C828A39D246CBD4E5D5543407E206C980</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-OVA_11of12.zip</name>
+        <size>1685773812</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-OVA_11of12.zip?aru=21673643&patch_file=HCM-920-UPG-003-OVA_11of12.zip]]></download_url> 
+        <digest type="SHA-1">9F9A42E4062C7DD3F177A382F997351CC4173123</digest> 
+        <digest type="SHA-256">D25EA4EEDFA19C6A9BDF53873D69DCC96626FC5CB585DC9D1341A6CC90794E07</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-OVA_12of12.zip</name>
+        <size>1189907719</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-OVA_12of12.zip?aru=21673643&patch_file=HCM-920-UPG-003-OVA_12of12.zip]]></download_url> 
+        <digest type="SHA-1">B3D12F3D7A98E07F44E9F9FFA6C8E37FAAD32D5D</digest> 
+        <digest type="SHA-256">852735A4CA3114DC63B11FF135F267FDF9839823911804777D0C5A891FA094C3</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-OVA_1of12.zip</name>
+        <size>189101033</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-OVA_1of12.zip?aru=21673643&patch_file=HCM-920-UPG-003-OVA_1of12.zip]]></download_url> 
+        <digest type="SHA-256">BB3E86633E8D2E9517525B493EE02A134427341A8A045181BA720CD5045D388A</digest> 
+        <digest type="SHA-1">DE5C7EB8B0F5E5AB38D3E722B99FA7C02106DABB</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-OVA_2of12.zip</name>
+        <size>1817364714</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-OVA_2of12.zip?aru=21673643&patch_file=HCM-920-UPG-003-OVA_2of12.zip]]></download_url> 
+        <digest type="SHA-256">D1303FA30FAC0A72BDE93770A83D7A2581A6845837741EAE2FE65F7EF2BB1493</digest> 
+        <digest type="SHA-1">59C55CB05D9E4E9950C2BDA3238385054968915F</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-OVA_3of12.zip</name>
+        <size>2545608563</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-OVA_3of12.zip?aru=21673643&patch_file=HCM-920-UPG-003-OVA_3of12.zip]]></download_url> 
+        <digest type="SHA-256">0B2218C852482FCD0567FD3A414E56BC9728EC5D67F5E960CC6C73655BD8ECEE</digest> 
+        <digest type="SHA-1">9E7A871CC284353B329C8952E6CAD98A0E281BB8</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-OVA_4of12.zip</name>
+        <size>1007487554</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-OVA_4of12.zip?aru=21673643&patch_file=HCM-920-UPG-003-OVA_4of12.zip]]></download_url> 
+        <digest type="SHA-256">4D48E9E49BDE6FCF3CAF77249057194399AEB33DBF91C383764449D9588AAC85</digest> 
+        <digest type="SHA-1">CA93F7B91E2030E252EC65A320352C5F92758F2B</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-OVA_5of12.zip</name>
+        <size>1574739678</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-OVA_5of12.zip?aru=21673643&patch_file=HCM-920-UPG-003-OVA_5of12.zip]]></download_url> 
+        <digest type="SHA-1">E6F6CDF44D5F4E5436464A4B950A0D42CC9EBEAD</digest> 
+        <digest type="SHA-256">33306A302B523A3BF6CC9CEAC9090F3D07A445E50A5F2E638387F77B6968676B</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-OVA_6of12.zip</name>
+        <size>1369680341</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-OVA_6of12.zip?aru=21673643&patch_file=HCM-920-UPG-003-OVA_6of12.zip]]></download_url> 
+        <digest type="SHA-1">C3E2BAC5C6C14E8DCA06B3CCDCD987EFB73D93FF</digest> 
+        <digest type="SHA-256">78F5428A5343261A6368E09615E6F10A232B29802700E3177A104F970FEF86A5</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-OVA_7of12.zip</name>
+        <size>1242669941</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-OVA_7of12.zip?aru=21673643&patch_file=HCM-920-UPG-003-OVA_7of12.zip]]></download_url> 
+        <digest type="SHA-256">23042F2CD82CAC1AF650C4851F7536A3926D998148D480D9FFA174D389E1F51C</digest> 
+        <digest type="SHA-1">3E4C6EE01F85CD426EA535B75C9C5634163FAA22</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-OVA_8of12.zip</name>
+        <size>3285611435</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-OVA_8of12.zip?aru=21673643&patch_file=HCM-920-UPG-003-OVA_8of12.zip]]></download_url> 
+        <digest type="SHA-256">C54C12C4A41CB27D0327160895715E0E5172CADC66039838861CDC96B127C32F</digest> 
+        <digest type="SHA-1">EFA72B2034E7EBB8F3F232D64EF9A59CAB7E74B1</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-OVA_9of12.zip</name>
+        <size>3484025236</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-OVA_9of12.zip?aru=21673643&patch_file=HCM-920-UPG-003-OVA_9of12.zip]]></download_url> 
+        <digest type="SHA-1">67B6B056606C87C092840C5EBE41657BF6F91995</digest> 
+        <digest type="SHA-256">4DE88893CE994AE29A7AF9780A5D7D40C2D534DBDDCA00CB4582D564791DC5EC</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1509334941000">2017-10-30 03:42:21</updated_date> 
+    <released_date in_epoch_ms="1509324215000">2017-10-30 00:43:35</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>26799186</number>
+      <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.003 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>26799186</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=21673730]]></patch_readme> 
+      <patch_details><![CDATA[/download/26799186.html]]></patch_details>
+    </url> 
+    <request_id>21673730</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>26799186</number>
+        <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.003 - NATIVE OS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>23193417104</size>
+    <files> 
+      <file> 
+        <name>HCM-920-UPG-003-WIN_10of11.zip</name>
+        <size>2637118791</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-WIN_10of11.zip?aru=21673730&patch_file=HCM-920-UPG-003-WIN_10of11.zip]]></download_url> 
+        <digest type="SHA-1">881BDEAE8214440CBC8EC008D693F4E99026AB00</digest> 
+        <digest type="SHA-256">A6B538A8FB74BEC37F3CAABA9E132F963B8877771F190AA562981A412CF3F42D</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-WIN_11of11.zip</name>
+        <size>1741080507</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-WIN_11of11.zip?aru=21673730&patch_file=HCM-920-UPG-003-WIN_11of11.zip]]></download_url> 
+        <digest type="SHA-1">DAADEBC5464407A14C6AA52ACB8FD1DD9144B037</digest> 
+        <digest type="SHA-256">AAA48D36801270F80180749AA8C9EB292BD5F853E8417E6D43EB10539F864BCA</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-WIN_1of11.zip</name>
+        <size>55380810</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-WIN_1of11.zip?aru=21673730&patch_file=HCM-920-UPG-003-WIN_1of11.zip]]></download_url> 
+        <digest type="SHA-256">1A90A3DC6C86329479DD3F535263C6E5C547BF6D9B9B20A245F1325C69477F5F</digest> 
+        <digest type="SHA-1">C3C2733BA29CEE039A0C3D2D960E521E10340687</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-WIN_2of11.zip</name>
+        <size>2890312779</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-WIN_2of11.zip?aru=21673730&patch_file=HCM-920-UPG-003-WIN_2of11.zip]]></download_url> 
+        <digest type="SHA-256">B47EDA165D0360737E65F488780CC933D06A6E2C8DBFB487CFB25F3821913D80</digest> 
+        <digest type="SHA-1">9AEEF9DEB954D43078E4C3F601098F771AEAD64F</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-WIN_3of11.zip</name>
+        <size>2431440054</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-WIN_3of11.zip?aru=21673730&patch_file=HCM-920-UPG-003-WIN_3of11.zip]]></download_url> 
+        <digest type="SHA-1">4EC381CCFC48777332BD1F6720C888140234385A</digest> 
+        <digest type="SHA-256">187FE6561D6B19F0BB8197DF7DF064E1D52471BF159857245790EF8133B3BE1A</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-WIN_4of11.zip</name>
+        <size>1007487502</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-WIN_4of11.zip?aru=21673730&patch_file=HCM-920-UPG-003-WIN_4of11.zip]]></download_url> 
+        <digest type="SHA-256">6885194660DF7385D41E20F7214EC9EB57DA704E9572208F8BED9B5CE33C8062</digest> 
+        <digest type="SHA-1">0A5D95C151B674C8FFA229135BBD9B978576A918</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-WIN_5of11.zip</name>
+        <size>1574739626</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-WIN_5of11.zip?aru=21673730&patch_file=HCM-920-UPG-003-WIN_5of11.zip]]></download_url> 
+        <digest type="SHA-1">5748AF98FCCFE3C31D42C6E2F01E7BF5B18A603C</digest> 
+        <digest type="SHA-256">AB9CE759D989C95253BE62472F1F2BB953716DE64160FCA087DC9F20FEC87B2A</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-WIN_6of11.zip</name>
+        <size>1369680289</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-WIN_6of11.zip?aru=21673730&patch_file=HCM-920-UPG-003-WIN_6of11.zip]]></download_url> 
+        <digest type="SHA-1">CD79B97B9F406CC70542A749F36AC1F05BD30740</digest> 
+        <digest type="SHA-256">A90F93E9142E3BDED1EEEC2D060F97BB2094C1B997E056E978A80A4CD069C85F</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-WIN_7of11.zip</name>
+        <size>1242669889</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-WIN_7of11.zip?aru=21673730&patch_file=HCM-920-UPG-003-WIN_7of11.zip]]></download_url> 
+        <digest type="SHA-1">66B18DD0897D9C3EEC0AC8752E6483A98E4C332E</digest> 
+        <digest type="SHA-256">8E6EAFDC066C377D8BE175F877C818509731649EF894361357ACDABDC7199C6F</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-WIN_8of11.zip</name>
+        <size>3300516042</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-WIN_8of11.zip?aru=21673730&patch_file=HCM-920-UPG-003-WIN_8of11.zip]]></download_url> 
+        <digest type="SHA-256">9EBFD6AB1C95A6BE6AA66B148ED434DBB0D6584C6F76CFF78A2B51C4E84D27B5</digest> 
+        <digest type="SHA-1">6058A028CE92CB97269C7B0E219189747C5FC154</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-003-WIN_9of11.zip</name>
+        <size>4942990815</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-003-WIN_9of11.zip?aru=21673730&patch_file=HCM-920-UPG-003-WIN_9of11.zip]]></download_url> 
+        <digest type="SHA-256">6D4C65E4A346A03B57FA265E77EC4AF32823A97A6AEB81D60AE350D83CB5EEB3</digest> 
+        <digest type="SHA-1">EB3F0BE9BF5A9063C86562BE945028FB7D4DE552</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1509333581000">2017-10-30 03:19:41</updated_date> 
+    <released_date in_epoch_ms="1509324909000">2017-10-30 00:55:09</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>19843391</number>
+      <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.001]]></abstract>
+    </bug> 
+    <name>19843391</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=18215329]]></patch_readme> 
+      <patch_details><![CDATA[/download/19843391.html]]></patch_details>
+    </url> 
+    <request_id>18215329</request_id>
+    <product id="21858" bugdb_id="11086"><![CDATA[PeopleSoft HCM Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>19843391</number>
+        <abstract><![CDATA[PEOPLESOFT HCM UPGRADE SOURCE IMAGE 9.2.001  ]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>37405358922</size>
+    <files> 
+      <file> 
+        <name>HCM-920-UPG-001_OVA_10of11.zip</name>
+        <size>3870976215</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-001_OVA_10of11.zip?aru=18215329&patch_file=HCM-920-UPG-001_OVA_10of11.zip]]></download_url> 
+        <digest type="SHA-256">E11402E31B0629751DF595AB659307AC9AEF11F2F851EB6494B359B0A607C548</digest> 
+        <digest type="SHA-1">464E653A753C0F8D2852FB682F5A3AAD7E337B82</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-001_OVA_11of11.zip</name>
+        <size>2596901326</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-001_OVA_11of11.zip?aru=18215329&patch_file=HCM-920-UPG-001_OVA_11of11.zip]]></download_url> 
+        <digest type="SHA-1">537BEF4D692972054B2B63F5ECBD3F863CD16C8D</digest> 
+        <digest type="SHA-256">CE521F79C595BFB8C51AD790896F0071BEEB7FB817BDF43D28CD8A55F1FC661F</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-001_OVA_1of11.zip</name>
+        <size>2803</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-001_OVA_1of11.zip?aru=18215329&patch_file=HCM-920-UPG-001_OVA_1of11.zip]]></download_url> 
+        <digest type="SHA-1">2EDE367ED199829994E831E6BC83307BAAF06AA9</digest> 
+        <digest type="SHA-256">AC58E03B914C0FF7918F1708F98994B6121BE7E2B09F9B0EC710F6597CB90A99</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-001_OVA_2of11.zip</name>
+        <size>3873094181</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-001_OVA_2of11.zip?aru=18215329&patch_file=HCM-920-UPG-001_OVA_2of11.zip]]></download_url> 
+        <digest type="SHA-256">B5B6CBB4ACEF82764BA31B7411D7798B79FE113DC25FAAC85E48D828177D5DE6</digest> 
+        <digest type="SHA-1">E2640DCA91BE63D8E08447B096FB906D4530A439</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-001_OVA_3of11.zip</name>
+        <size>3812028235</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-001_OVA_3of11.zip?aru=18215329&patch_file=HCM-920-UPG-001_OVA_3of11.zip]]></download_url> 
+        <digest type="SHA-256">A315F700CB2C45A477369278326C9BD0BB2A089FBC382FEEE226E1755F31B9AE</digest> 
+        <digest type="SHA-1">F119B5F76AC612F2238F810B4A47AF0AF6A80834</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-001_OVA_4of11.zip</name>
+        <size>3806913526</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-001_OVA_4of11.zip?aru=18215329&patch_file=HCM-920-UPG-001_OVA_4of11.zip]]></download_url> 
+        <digest type="SHA-1">563175A35B9B3C31424D03322125AD110C35FA91</digest> 
+        <digest type="SHA-256">3C8595C864D4736DAFEE31DF64DA5AD73ECE77A1699883584603C1350751DDF8</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-001_OVA_5of11.zip</name>
+        <size>3833264933</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-001_OVA_5of11.zip?aru=18215329&patch_file=HCM-920-UPG-001_OVA_5of11.zip]]></download_url> 
+        <digest type="SHA-1">C20D66A6D15B735624C4323DCD73AB2CAD8C4D0C</digest> 
+        <digest type="SHA-256">C726455AF1191A3F0750ACFB138B5B98967BC74F6AA4EAA84D29B7967524C5D5</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-001_OVA_6of11.zip</name>
+        <size>3900071471</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-001_OVA_6of11.zip?aru=18215329&patch_file=HCM-920-UPG-001_OVA_6of11.zip]]></download_url> 
+        <digest type="SHA-1">D1155C40A992F9ABEB6748FAB74C28724AD0202A</digest> 
+        <digest type="SHA-256">C04800F7718320A11E9FBBD109D1A7729D34B6D0D41DE2E40748537389FE94D8</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-001_OVA_7of11.zip</name>
+        <size>3904622481</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-001_OVA_7of11.zip?aru=18215329&patch_file=HCM-920-UPG-001_OVA_7of11.zip]]></download_url> 
+        <digest type="SHA-256">EB043C84C8923DAA913945BE2E2D25F110A5AFF3C11DE9437E9CFDF09481B992</digest> 
+        <digest type="SHA-1">A3413C9176849FFF3B0300C249CCE389A3F6D672</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-001_OVA_8of11.zip</name>
+        <size>3907530843</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-001_OVA_8of11.zip?aru=18215329&patch_file=HCM-920-UPG-001_OVA_8of11.zip]]></download_url> 
+        <digest type="SHA-256">F74D31E16EB86D7CE8BCD9D9DACF9452C5598A34B8B40A127CD187874421A05C</digest> 
+        <digest type="SHA-1">A1EB748873CF8A5E4869B6AD4C11B3ADB7DBC312</digest> 
+      </file> 
+      <file> 
+        <name>HCM-920-UPG-001_OVA_9of11.zip</name>
+        <size>3899952908</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/HCM-920-UPG-001_OVA_9of11.zip?aru=18215329&patch_file=HCM-920-UPG-001_OVA_9of11.zip]]></download_url> 
+        <digest type="SHA-1">A4C7618B620E72C6E4483B4F01BEEABC2C8B2B36</digest> 
+        <digest type="SHA-256">6F5D2143D25403EFDAA8F102A3DF0AEFA52057A509583FA6656248769A070E09</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1428191195000">2015-04-04 23:46:35</updated_date> 
+    <released_date in_epoch_ms="1414727761000">2014-10-31 03:56:01</released_date> 
+  </patch> 
+</results>

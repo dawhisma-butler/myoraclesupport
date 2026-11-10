@@ -1,0 +1,1371 @@
+<results md5_sum="a3adf7c28236beb332213d0533fd130f">
+  <generated_date in_epoch_ms="1794282981000">2026-11-10 03:56:21</generated_date>
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39596948</number>
+      <abstract><![CDATA[2027-2028 AID YEAR SETUP FOR FEDERAL METHODOLOGY (FM) AND INSTITUTIONAL METHODOLOGY (IM)]]></abstract>
+    </bug> 
+    <name>39596948</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29529367]]></patch_readme> 
+      <patch_details><![CDATA[/download/39596948.html]]></patch_details>
+    </url> 
+    <request_id>29529367</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="183">Legislative</classification> 
+    <patch_classification id="183">Legislative</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>38490165</number>
+        <abstract><![CDATA[2027-2028 VERIFICATION UPDATES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38490178</number>
+        <abstract><![CDATA[2027-2028 PROFILE LOAD UPDATES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38555598</number>
+        <abstract><![CDATA[IM AND EFM FIELD SIZE INCREASE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39029181</number>
+        <abstract><![CDATA[DECOMMISSION CERTIFICATE BASED AUTHENTICATION FOR IM INAS: SETUP]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39029194</number>
+        <abstract><![CDATA[DECOMMISSION CERTIFICATE BASED AUTHENTICATION FOR IM INAS: IM Connectivity Tester]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39596948</number>
+        <abstract><![CDATA[2027-2028 AID YEAR SETUP FOR FEDERAL METHODOLOGY (FM) AND INSTITUTIONAL METHODOLOGY (IM)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39596966</number>
+        <abstract><![CDATA[2027-2028 AID YEAR UPDATES FOR INAS INSTITUTIONAL METHODOLOGY (IM)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39597011</number>
+        <abstract><![CDATA[ENABLING CLASSIC PLUS FOR IM AND FM]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39597048</number>
+        <abstract><![CDATA[2027-2028 AID YEAR UPDATE FOR FEDERAL METHODOLOGY (FM)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39597094</number>
+        <abstract><![CDATA[2027-2028 SFP JAR FILE UPDATE]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>14153822</size>
+    <files> 
+      <file> 
+        <name>updPRJ39596948.zip</name>
+        <size>14153822</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39596948.zip?aru=29529367&patch_file=updPRJ39596948.zip]]></download_url> 
+        <digest type="SHA-1">CD75DDED245FEAF00B34D822DA2DF53C61AB11E9</digest> 
+        <digest type="SHA-256">A50A3F2EBF3DF37E5E31A8B401AA8A3534966EA5E4C33B6944589D9ABAEC410C</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792667778000">2026-10-22 11:16:18</updated_date> 
+    <released_date in_epoch_ms="1792667778000">2026-10-22 11:16:18</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40068664</number>
+      <abstract><![CDATA[CS 9.2.039 C690-GLD: VBOX/OVA DEPLOYMENT VALIDATION - PEOPLECODE COMPILATION ERROR]]></abstract>
+    </bug> 
+    <name>40068664</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29512045]]></patch_readme> 
+      <patch_details><![CDATA[/download/40068664.html]]></patch_details>
+    </url> 
+    <request_id>29512045</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>40068664</number>
+        <abstract><![CDATA[CS 9.2.039 C690-GLD: VBOX/OVA DEPLOYMENT VALIDATION - PEOPLECODE COMPILATION ERROR]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40157846</number>
+        <abstract><![CDATA[CS 9.2.039 C690-GLD: APPROVAL SETUP PAGE ERROR]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>457361</size>
+    <files> 
+      <file> 
+        <name>updPRJ40068664.zip</name>
+        <size>457361</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40068664.zip?aru=29512045&patch_file=updPRJ40068664.zip]]></download_url> 
+        <digest type="SHA-256">A82055E9D562151871896E5E63811F08394544F8F37E0914721264776EDA09F8</digest> 
+        <digest type="SHA-1">6773CF4FE26094F6D9798E51BFF4081B6E029F0B</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792026796000">2026-10-15 01:13:16</updated_date> 
+    <released_date in_epoch_ms="1792026796000">2026-10-15 01:13:16</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39837944</number>
+      <abstract><![CDATA[CONSOLIDATE STATS:  PERFORMANCE ISSUES WHEN RE-EVAL NSC HISTORY IS ENABLED FOR LARGE VOLUME RUN]]></abstract>
+    </bug> 
+    <name>39837944</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29501595]]></patch_readme> 
+      <patch_details><![CDATA[/download/39837944.html]]></patch_details>
+    </url> 
+    <request_id>29501595</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39837944</number>
+        <abstract><![CDATA[CONSOLIDATE STATS:  PERFORMANCE ISSUES WHEN RE-EVAL NSC HISTORY IS ENABLED FOR LARGE VOLUME RUN]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>637480</size>
+    <files> 
+      <file> 
+        <name>updPRJ39837944.zip</name>
+        <size>637480</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39837944.zip?aru=29501595&patch_file=updPRJ39837944.zip]]></download_url> 
+        <digest type="SHA-256">6D226930B8CA255E58DB22CB50876629B86819965479BBE9FE5228D1EA43BAD9</digest> 
+        <digest type="SHA-1">ADF255956E4200D54C168127DAF50C94BAF69D8A</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1791780994000">2026-10-12 04:56:34</updated_date> 
+    <released_date in_epoch_ms="1791780994000">2026-10-12 04:56:34</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39910474</number>
+      <abstract><![CDATA[SEVIS 6.90 BATCH UPDATES]]></abstract>
+    </bug> 
+    <name>39910474</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29474769]]></patch_readme> 
+      <patch_details><![CDATA[/download/39910474.html]]></patch_details>
+    </url> 
+    <request_id>29474769</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39910474</number>
+        <abstract><![CDATA[SEVIS 6.90 BATCH UPDATES]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1463476</size>
+    <files> 
+      <file> 
+        <name>updPRJ39910474.zip</name>
+        <size>1463476</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39910474.zip?aru=29474769&patch_file=updPRJ39910474.zip]]></download_url> 
+        <digest type="SHA-256">53D32FE8E3B21981CAA43F830C64B80BDB8B7FD37A131ED1974F5728F5452D3A</digest> 
+        <digest type="SHA-1">E518C3705EF232777C8FE1F21F0D5B78636BFFC3</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1790767621000">2026-09-30 11:27:01</updated_date> 
+    <released_date in_epoch_ms="1790767621000">2026-09-30 11:27:01</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39715828</number>
+      <abstract><![CDATA[PEOPLESOFT CS UPDATE IMAGE 9.2.039 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>39715828</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29465126]]></patch_readme> 
+      <patch_details><![CDATA[/download/39715828.html]]></patch_details>
+    </url> 
+    <request_id>29465126</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>25316319</number>
+        <abstract><![CDATA[POPULATION UPDATE:EDIT PROMPTS LINK IN EQUATION ENGINE TRANSFER TO QUERY SEARCH]]></abstract>
+      </bug> 
+      <bug> 
+        <number>31922595</number>
+        <abstract><![CDATA[URL ADDRESS IN ORGANIZATION PROFILE RETURNS ERROR (40,20)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>32765891</number>
+        <abstract><![CDATA[DUPLICATE ACADEMIC PROGRAM IN PROMPT LOOKUP IN STUDENT ADVISOR ASSIGNMENT PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>34922746</number>
+        <abstract><![CDATA[MY ADVISEES LIST (CLASSIC AND FLUID) IS NOT RESPECTING INSTITUTION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35223574</number>
+        <abstract><![CDATA[LOV PROMPT FOR GRADING SCHEME PROPERTY IN APT RESULT ENTITY SHOWS GRADING BASIS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35994355</number>
+        <abstract><![CDATA[WAITLIST PROCESS (SRPCWAIT) DOES NOT LOOK TO AT APPOINTMENT LIMITS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36074819</number>
+        <abstract><![CDATA[CS 92 - ALT TEXT MISSING IN ACADEMIC PROGRAM TABLE TABS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36442957</number>
+        <abstract><![CDATA[ERROR MESSAGE NOT TRANSLATED TO CFR WHEN FIRST NAME OR LAST NAME IS NOT ENTERED ON NAMES COMPONENT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36734187</number>
+        <abstract><![CDATA[PERSON COMMENTS APPEAR ON ORGANIZATION COMMENTS WHEN EXT_ORG_ID HAS THE SAME ID AS EMPLID]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36980242</number>
+        <abstract><![CDATA[ATP LOAD EXTERNAL DATA TEMPLATE UPDATE IN COLLEGE NAME SIZE NOR REFLECTED IN ATP_SUSPN AND ATP_MSGS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>22360562592</size>
+    <files> 
+      <file> 
+        <name>CS-920-UPD-039-WIN_4of11.zip</name>
+        <size>1320269709</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-WIN_4of11.zip?aru=29465126&patch_file=CS-920-UPD-039-WIN_4of11.zip]]></download_url> 
+        <digest type="SHA-1">930FEEB239B6F54F657F22CE13906C5AFEC64E3E</digest> 
+        <digest type="SHA-256">F67F1FCD6FA7CBABD6A6D0ED9E65FE3E0FA107037B8C0122F361EF363688A960</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-WIN_1of11.zip</name>
+        <size>92636751</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-WIN_1of11.zip?aru=29465126&patch_file=CS-920-UPD-039-WIN_1of11.zip]]></download_url> 
+        <digest type="SHA-1">3D4EA28C307EF13CCFE05BE4731A00579C75AA29</digest> 
+        <digest type="SHA-256">89FA849DACB6D5D02E7FFCD814805E45FD700F6EF5C177BBC3C8F38C6063A837</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-WIN_10of11.zip</name>
+        <size>2196139312</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-WIN_10of11.zip?aru=29465126&patch_file=CS-920-UPD-039-WIN_10of11.zip]]></download_url> 
+        <digest type="SHA-1">6DD587E0BF60EB4AAE9AA88E30EE35D936B6907A</digest> 
+        <digest type="SHA-256">986627E4E4773E397C2F9BC80EF6E8FFC415D78ABC49388E5A5497620A6D82BE</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-WIN_9of11.zip</name>
+        <size>2474506636</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-WIN_9of11.zip?aru=29465126&patch_file=CS-920-UPD-039-WIN_9of11.zip]]></download_url> 
+        <digest type="SHA-1">B23CF3ACE278C5308CDD29C2F143B8C923249DED</digest> 
+        <digest type="SHA-256">922F329BDBCFA3269798E76FF0E090ACA1D001F2D496FE8D2CC721162127C38E</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-WIN_2of11.zip</name>
+        <size>2142160902</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-WIN_2of11.zip?aru=29465126&patch_file=CS-920-UPD-039-WIN_2of11.zip]]></download_url> 
+        <digest type="SHA-1">B0474E4BD192AB06B5A4297CE00FC9F6CB569784</digest> 
+        <digest type="SHA-256">9551718CD2BAA811D5EB04E5F19EBC02BDC02C4986EFCE854BDB152C432E62E4</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-WIN_7of11.zip</name>
+        <size>962469373</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-WIN_7of11.zip?aru=29465126&patch_file=CS-920-UPD-039-WIN_7of11.zip]]></download_url> 
+        <digest type="SHA-256">E7085042C51C4D19BF8FDB04860AC075ECBE2F825A5771E0C9AD71FF46C92E27</digest> 
+        <digest type="SHA-1">E0C244A36E8DBE27BF048DAD9E1658B5AE80966A</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-WIN_3of11.zip</name>
+        <size>2605389435</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-WIN_3of11.zip?aru=29465126&patch_file=CS-920-UPD-039-WIN_3of11.zip]]></download_url> 
+        <digest type="SHA-256">C324C28A6C7F497E48378AF2C82EBEB7323BB8E1AB1F5EEBD4B1D3CF540A9C66</digest> 
+        <digest type="SHA-1">AAC11D381E1EEAAF5297AA2DF71FF4373436E082</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-WIN_5of11.zip</name>
+        <size>1342055742</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-WIN_5of11.zip?aru=29465126&patch_file=CS-920-UPD-039-WIN_5of11.zip]]></download_url> 
+        <digest type="SHA-256">C38906151833AD38BAEF9553B4E2DC940072EA9666688670ADB8CC5559AAA4CD</digest> 
+        <digest type="SHA-1">8697DC037017FA1427E5F495257836251E48BCF4</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-WIN_11of11.zip</name>
+        <size>1567973710</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-WIN_11of11.zip?aru=29465126&patch_file=CS-920-UPD-039-WIN_11of11.zip]]></download_url> 
+        <digest type="SHA-1">3E5EAC1C7D28569B9793945F08A2EF3AD5D4B925</digest> 
+        <digest type="SHA-256">A8EA492C6E37FD23EC5E6B617FDC2A235162BA5F857C9BD3F471B3A617FF1F43</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-WIN_8of11.zip</name>
+        <size>6346668363</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-WIN_8of11.zip?aru=29465126&patch_file=CS-920-UPD-039-WIN_8of11.zip]]></download_url> 
+        <digest type="SHA-256">17A45FFB806937199F52B1B72B89A198B40DF099D75425FCC4BA42AD897FE973</digest> 
+        <digest type="SHA-1">0570EB4516FB2B8F8683CE4BD22952DADC7C9515</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-WIN_6of11.zip</name>
+        <size>1310292659</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-WIN_6of11.zip?aru=29465126&patch_file=CS-920-UPD-039-WIN_6of11.zip]]></download_url> 
+        <digest type="SHA-1">B57E4D73CF0830A50A51E6E0F90CEF1E48517740</digest> 
+        <digest type="SHA-256">7FBAD753411C4D13604AABE0C4C2ED0FA94FAB18942F14C4A3898CDC08B720F9</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1790715547000">2026-09-29 20:59:07</updated_date> 
+    <released_date in_epoch_ms="1790597196000">2026-09-28 12:06:36</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39715756</number>
+      <abstract><![CDATA[PEOPLESOFT CS UPDATE IMAGE 9.2.039 - PUM CONTAINER]]></abstract>
+    </bug> 
+    <name>39715756</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29464869]]></patch_readme> 
+      <patch_details><![CDATA[/download/39715756.html]]></patch_details>
+    </url> 
+    <request_id>29464869</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>25316319</number>
+        <abstract><![CDATA[POPULATION UPDATE:EDIT PROMPTS LINK IN EQUATION ENGINE TRANSFER TO QUERY SEARCH]]></abstract>
+      </bug> 
+      <bug> 
+        <number>31922595</number>
+        <abstract><![CDATA[URL ADDRESS IN ORGANIZATION PROFILE RETURNS ERROR (40,20)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>32765891</number>
+        <abstract><![CDATA[DUPLICATE ACADEMIC PROGRAM IN PROMPT LOOKUP IN STUDENT ADVISOR ASSIGNMENT PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>34922746</number>
+        <abstract><![CDATA[MY ADVISEES LIST (CLASSIC AND FLUID) IS NOT RESPECTING INSTITUTION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35223574</number>
+        <abstract><![CDATA[LOV PROMPT FOR GRADING SCHEME PROPERTY IN APT RESULT ENTITY SHOWS GRADING BASIS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35994355</number>
+        <abstract><![CDATA[WAITLIST PROCESS (SRPCWAIT) DOES NOT LOOK TO AT APPOINTMENT LIMITS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36074819</number>
+        <abstract><![CDATA[CS 92 - ALT TEXT MISSING IN ACADEMIC PROGRAM TABLE TABS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36442957</number>
+        <abstract><![CDATA[ERROR MESSAGE NOT TRANSLATED TO CFR WHEN FIRST NAME OR LAST NAME IS NOT ENTERED ON NAMES COMPONENT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36734187</number>
+        <abstract><![CDATA[PERSON COMMENTS APPEAR ON ORGANIZATION COMMENTS WHEN EXT_ORG_ID HAS THE SAME ID AS EMPLID]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36980242</number>
+        <abstract><![CDATA[ATP LOAD EXTERNAL DATA TEMPLATE UPDATE IN COLLEGE NAME SIZE NOR REFLECTED IN ATP_SUSPN AND ATP_MSGS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>20466116171</size>
+    <files> 
+      <file> 
+        <name>CS-920-UPD-039-CNT_3of5.zip</name>
+        <size>5241831706</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-CNT_3of5.zip?aru=29464869&patch_file=CS-920-UPD-039-CNT_3of5.zip]]></download_url> 
+        <digest type="SHA-256">239AC3F3D7CC11B2F7E67E45898C52BD8A1CF8DB5666C1D7A5083C78F6B1D7F3</digest> 
+        <digest type="SHA-1">74856101CFA48A1A4239673DEBF89D91F526D168</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-CNT_2of5.zip</name>
+        <size>5241831706</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-CNT_2of5.zip?aru=29464869&patch_file=CS-920-UPD-039-CNT_2of5.zip]]></download_url> 
+        <digest type="SHA-1">AD5ECC0ACB3F5FD97A9D8A16A6008C6256EA90CC</digest> 
+        <digest type="SHA-256">7B50CABA3FB007FE561F7C90B98DD49CD8A91CC3C8E58E95DEFF169493F90C07</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-CNT_4of5.zip</name>
+        <size>5241831706</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-CNT_4of5.zip?aru=29464869&patch_file=CS-920-UPD-039-CNT_4of5.zip]]></download_url> 
+        <digest type="SHA-256">5F62D2A6B7396C20C3625AA78502A5D7F9FC04EDDE968FD0348EF5A683CA5500</digest> 
+        <digest type="SHA-1">F8D9F47671F21E24F199CB77E01AF88EB492C819</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-CNT_1of5.zip</name>
+        <size>1100271</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-CNT_1of5.zip?aru=29464869&patch_file=CS-920-UPD-039-CNT_1of5.zip]]></download_url> 
+        <digest type="SHA-256">B4F37D28030255F8BB4A7161C19543EC1713726D416E55B99ACD6DB9974B6098</digest> 
+        <digest type="SHA-1">5C5C6CA80F288E16100EF2150E254904D8749AC8</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPD-039-CNT_5of5.zip</name>
+        <size>4739520782</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPD-039-CNT_5of5.zip?aru=29464869&patch_file=CS-920-UPD-039-CNT_5of5.zip]]></download_url> 
+        <digest type="SHA-256">4DF653782D9376D796BD12EB0D4BEA2FF4D4116AD16C49896D0E70B946BEAB0B</digest> 
+        <digest type="SHA-1">8BDA37323C465F1C403ED6BB35CD4650047C998F</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1790715511000">2026-09-29 20:58:31</updated_date> 
+    <released_date in_epoch_ms="1790597196000">2026-09-28 12:06:36</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>31348406</number>
+      <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.004 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>31348406</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=23578720]]></patch_readme> 
+      <patch_details><![CDATA[/download/31348406.html]]></patch_details>
+    </url> 
+    <request_id>23578720</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>31348406</number>
+        <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.004 - NATIVE OS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>19040797984</size>
+    <files> 
+      <file> 
+        <name>CS-920-UPG-004-WIN_5of9.zip</name>
+        <size>1412039364</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-WIN_5of9.zip?aru=23578720&patch_file=CS-920-UPG-004-WIN_5of9.zip]]></download_url> 
+        <digest type="SHA-1">173D523E38F251F09849F3807BABDFFA17F31169</digest> 
+        <digest type="SHA-256">5ED4478F01D4DA472BE63747FF7B7C05DEEDA1272788D971133B7C9A85DCA84B</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-WIN_4of9.zip</name>
+        <size>1421864155</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-WIN_4of9.zip?aru=23578720&patch_file=CS-920-UPG-004-WIN_4of9.zip]]></download_url> 
+        <digest type="SHA-1">E82A18F5D85FEC0EE39FDDE0806279E66D6B4E8A</digest> 
+        <digest type="SHA-256">E3F3C3A571597237BE030490E32B6D093C6287BA71408F2EA0634A21F9093CAB</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-WIN_7of9.zip</name>
+        <size>2061571018</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-WIN_7of9.zip?aru=23578720&patch_file=CS-920-UPG-004-WIN_7of9.zip]]></download_url> 
+        <digest type="SHA-256">A94C20CF32040D4B1FB4A5C09A5CF295B32653EC5714815A4C0471C8410B6AE3</digest> 
+        <digest type="SHA-1">63B1ACE0135E217E1268E2D1AF976A5C869BA585</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-WIN_9of9.zip</name>
+        <size>1316354340</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-WIN_9of9.zip?aru=23578720&patch_file=CS-920-UPG-004-WIN_9of9.zip]]></download_url> 
+        <digest type="SHA-256">5DE37B1FFC8DF09445293FC2F9F334716ECB25FAE09E59E260BA7A6CC21C56DE</digest> 
+        <digest type="SHA-1">13D0173EAC711EE6AE92A253244618E4B405E9D5</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-WIN_2of9.zip</name>
+        <size>2871764037</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-WIN_2of9.zip?aru=23578720&patch_file=CS-920-UPG-004-WIN_2of9.zip]]></download_url> 
+        <digest type="SHA-256">191A5165919150D15D2C37ABF9206B3EB28A97B4C3BC63363F43FF4270F4491D</digest> 
+        <digest type="SHA-1">AC9226AE1E2C9B9F4C80D1DDBC57010D4A818666</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-WIN_6of9.zip</name>
+        <size>5579543934</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-WIN_6of9.zip?aru=23578720&patch_file=CS-920-UPG-004-WIN_6of9.zip]]></download_url> 
+        <digest type="SHA-256">6EED99FFE927E425C14EC167C2CDEB4E8158BF32000E1DF1003843045C17BD9D</digest> 
+        <digest type="SHA-1">550C19871EE8355E6D0D67B3BE8AAB60107B140E</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-WIN_3of9.zip</name>
+        <size>2535807894</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-WIN_3of9.zip?aru=23578720&patch_file=CS-920-UPG-004-WIN_3of9.zip]]></download_url> 
+        <digest type="SHA-256">1013E636D9EF65FAF010116E1666DD854900006CAC86B17CA1BE877CE47F64FF</digest> 
+        <digest type="SHA-1">344F2DD5ADAB16EC56BCF3810C4C2463275A2C09</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-WIN_8of9.zip</name>
+        <size>1723429683</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-WIN_8of9.zip?aru=23578720&patch_file=CS-920-UPG-004-WIN_8of9.zip]]></download_url> 
+        <digest type="SHA-256">86C3C22A99B3E66B50C9F0CE919B334AC964832739D0D92E66E949DC0FB48931</digest> 
+        <digest type="SHA-1">CB524543E6435B35A929152FF7FA6E3205A84A60</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-WIN_1of9.zip</name>
+        <size>118423559</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-WIN_1of9.zip?aru=23578720&patch_file=CS-920-UPG-004-WIN_1of9.zip]]></download_url> 
+        <digest type="SHA-1">4CDD973E3B13F69A6A1C5AD1B02E46DC3AC9D6FA</digest> 
+        <digest type="SHA-256">AB4FF9515220D7F5AC6B99B995BE11F0CDEC2B684B1A19DEA7581FD865671495</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1589928358000">2020-05-19 22:45:58</updated_date> 
+    <released_date in_epoch_ms="1589923182000">2020-05-19 21:19:42</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>31348374</number>
+      <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.004 - VIRTUAL BOX]]></abstract>
+    </bug> 
+    <name>31348374</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=23578624]]></patch_readme> 
+      <patch_details><![CDATA[/download/31348374.html]]></patch_details>
+    </url> 
+    <request_id>23578624</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>31348374</number>
+        <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.004 - VIRTUAL BOX]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>19343193553</size>
+    <files> 
+      <file> 
+        <name>CS-920-UPG-004-OVA_11of11.zip</name>
+        <size>601337879</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-OVA_11of11.zip?aru=23578624&patch_file=CS-920-UPG-004-OVA_11of11.zip]]></download_url> 
+        <digest type="SHA-256">5ABDA6B9BC5F8FAEF18D9F4A545D6C2EF765508D5BF13100906077EF78775833</digest> 
+        <digest type="SHA-1">EC76C4713AFB42B992CEA56AAAC6F8F2ACF3BED7</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-OVA_10of11.zip</name>
+        <size>1875442750</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-OVA_10of11.zip?aru=23578624&patch_file=CS-920-UPG-004-OVA_10of11.zip]]></download_url> 
+        <digest type="SHA-256">4E70CBE12CFC0DC81C0C49E7683967C7E3614451A3AEB73E3D10F1E32908AA54</digest> 
+        <digest type="SHA-1">3F43277944C2CFEE59095EAA93A191022696C0A8</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-OVA_1of11.zip</name>
+        <size>183612846</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-OVA_1of11.zip?aru=23578624&patch_file=CS-920-UPG-004-OVA_1of11.zip]]></download_url> 
+        <digest type="SHA-256">D4A643DF4E68E2461B692AE07E030B3BC13D35F33B750D760BDC0039A4EF0895</digest> 
+        <digest type="SHA-1">A9DBFB207DE72C4DF4340D089B38FCE81135631F</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-OVA_6of11.zip</name>
+        <size>4913029249</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-OVA_6of11.zip?aru=23578624&patch_file=CS-920-UPG-004-OVA_6of11.zip]]></download_url> 
+        <digest type="SHA-256">94B2124D5C20BC9800E4E6C9C841DA02D672CFBA3641BF4DAE66B00B66BA94FD</digest> 
+        <digest type="SHA-1">7229FD17F4D96AFDC38A97893DB737D41203156C</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-OVA_9of11.zip</name>
+        <size>1271532635</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-OVA_9of11.zip?aru=23578624&patch_file=CS-920-UPG-004-OVA_9of11.zip]]></download_url> 
+        <digest type="SHA-256">EF70CCE06AA5A8C0EA6D307DFA013C220D7395163107D1EBFBFE265D5259FF27</digest> 
+        <digest type="SHA-1">C15E35361349DB19E7DEC5EB265FD9C08410248B</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-OVA_7of11.zip</name>
+        <size>1130935952</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-OVA_7of11.zip?aru=23578624&patch_file=CS-920-UPG-004-OVA_7of11.zip]]></download_url> 
+        <digest type="SHA-1">54E04B3A5DCC61686007FE8FC83A62D42D4C50F1</digest> 
+        <digest type="SHA-256">EF11C114FB8C27B296D7ACEEC8BF818CEFF236304DD0E4D680B65B75B1C1E3EF</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-OVA_3of11.zip</name>
+        <size>2878863717</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-OVA_3of11.zip?aru=23578624&patch_file=CS-920-UPG-004-OVA_3of11.zip]]></download_url> 
+        <digest type="SHA-1">FABC52E558D2059633D03D2C005677C825E67E49</digest> 
+        <digest type="SHA-256">7F38DA532914012BC913E79F9425FF20B45660D88FF4EA409A9C34A8E92D143C</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-OVA_5of11.zip</name>
+        <size>1412039416</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-OVA_5of11.zip?aru=23578624&patch_file=CS-920-UPG-004-OVA_5of11.zip]]></download_url> 
+        <digest type="SHA-1">3E2DF497A7DA678DF65C6AD14F9981B158EFA1CC</digest> 
+        <digest type="SHA-256">74033387A5B8699F08D6BCB03931E4549D1963E3D9541C6D1AA261D3CC3E6E05</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-OVA_4of11.zip</name>
+        <size>1421864207</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-OVA_4of11.zip?aru=23578624&patch_file=CS-920-UPG-004-OVA_4of11.zip]]></download_url> 
+        <digest type="SHA-256">98BD3C95187635CD9263DFE0F3D65F37CB5F0A2293747C154DF7AF3E49FEB7E3</digest> 
+        <digest type="SHA-1">48BD9AFC0C86C069AA1C13D126DA8CE731713962</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-OVA_2of11.zip</name>
+        <size>1990808967</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-OVA_2of11.zip?aru=23578624&patch_file=CS-920-UPG-004-OVA_2of11.zip]]></download_url> 
+        <digest type="SHA-1">3B51A8AA1DE80AB2B00E3D7D2D280C2CB09E4F65</digest> 
+        <digest type="SHA-256">6A8CA4CC904531E5148A2EC44058128A489485D0D90B29843F3B257A4D82022B</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-004-OVA_8of11.zip</name>
+        <size>1663725935</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-004-OVA_8of11.zip?aru=23578624&patch_file=CS-920-UPG-004-OVA_8of11.zip]]></download_url> 
+        <digest type="SHA-256">869D3BAFECEC5A606C9BE3E214D9FEA6C321C375A12962B8BE156151E4E078A3</digest> 
+        <digest type="SHA-1">2182FB40066815298FCD1630E8735FE88A22F075</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1589925302000">2020-05-19 21:55:02</updated_date> 
+    <released_date in_epoch_ms="1589922040000">2020-05-19 21:00:40</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>29793253</number>
+      <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.003 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>29793253</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=22949136]]></patch_readme> 
+      <patch_details><![CDATA[/download/29793253.html]]></patch_details>
+    </url> 
+    <request_id>22949136</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>29793253</number>
+        <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.003 - NATIVE OS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>16434016885</size>
+    <files> 
+      <file> 
+        <name>CS-920-UPG-003-WIN_1of9.zip</name>
+        <size>77125183</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-WIN_1of9.zip?aru=22949136&patch_file=CS-920-UPG-003-WIN_1of9.zip]]></download_url> 
+        <digest type="SHA-256">951954557AD65E036A5984CC8FEB81B470BEF6EEDC8D120029D90E383AF74CF8</digest> 
+        <digest type="SHA-1">CABD5531DE6352A88CEC239D8A5997A1F79CDB1E</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-WIN_2of9.zip</name>
+        <size>2943305991</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-WIN_2of9.zip?aru=22949136&patch_file=CS-920-UPG-003-WIN_2of9.zip]]></download_url> 
+        <digest type="SHA-256">9F913C07CCB808310A7679B89E8C5A89E3546255575D395F123BE3D0F3C0F696</digest> 
+        <digest type="SHA-1">A6AD3E240CA0AB60899807EDD63634D1D7F28980</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-WIN_3of9.zip</name>
+        <size>2359107980</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-WIN_3of9.zip?aru=22949136&patch_file=CS-920-UPG-003-WIN_3of9.zip]]></download_url> 
+        <digest type="SHA-1">3344C2C1430688EA9DF3A25B9FA6FA7394967A13</digest> 
+        <digest type="SHA-256">57944AA0591E2A6630719A021C506F696B7DD1B74C3C688060DB19232592BD76</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-WIN_4of9.zip</name>
+        <size>1401695924</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-WIN_4of9.zip?aru=22949136&patch_file=CS-920-UPG-003-WIN_4of9.zip]]></download_url> 
+        <digest type="SHA-1">F29091ADCF707B15AF2FE4080558FEFBE0C160BA</digest> 
+        <digest type="SHA-256">F326407F6EB20702E40AD7DADDA2FBDC845F0F0C1B7ED64C627A40376B7761D7</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-WIN_5of9.zip</name>
+        <size>1242713078</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-WIN_5of9.zip?aru=22949136&patch_file=CS-920-UPG-003-WIN_5of9.zip]]></download_url> 
+        <digest type="SHA-1">98BC769E7CC63A884E6B34D3D8303EDFA73A9FC4</digest> 
+        <digest type="SHA-256">A7F4CBA348563222D12EF5AF6026C066568789F38441002008C5934A37C34FE0</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-WIN_6of9.zip</name>
+        <size>3316977833</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-WIN_6of9.zip?aru=22949136&patch_file=CS-920-UPG-003-WIN_6of9.zip]]></download_url> 
+        <digest type="SHA-256">DB05B20C2AC301EC08F3EA28DD79F816EB752D9FAA178F80CF9C26571DF7BE69</digest> 
+        <digest type="SHA-1">D30F26ECEDFD75CAD1641E895E488A14DC6C13B4</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-WIN_7of9.zip</name>
+        <size>2050366917</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-WIN_7of9.zip?aru=22949136&patch_file=CS-920-UPG-003-WIN_7of9.zip]]></download_url> 
+        <digest type="SHA-1">ACB23FAB6DF880AD9CE1BDBF7266055D07EA79BF</digest> 
+        <digest type="SHA-256">7F065CB66C75DE07F22B86BE89E2A519FE4EACE6892072338545AA77EF41FAD5</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-WIN_8of9.zip</name>
+        <size>1877804716</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-WIN_8of9.zip?aru=22949136&patch_file=CS-920-UPG-003-WIN_8of9.zip]]></download_url> 
+        <digest type="SHA-1">A66A1D32C9D0ECB33F4A2BEA69D18A980E47AFE5</digest> 
+        <digest type="SHA-256">95288F76074AB7ACB440D8FA4BD55105D6DB683D43EBE620B6718613306BB419</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-WIN_9of9.zip</name>
+        <size>1164919263</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-WIN_9of9.zip?aru=22949136&patch_file=CS-920-UPG-003-WIN_9of9.zip]]></download_url> 
+        <digest type="SHA-256">3ED97A7ED290239C12BCFEB608251848AAAA84CBD6816AEC985C8BAEA5AE971A</digest> 
+        <digest type="SHA-1">6393B9F11DC01B0A4009EA9F23C3593957F9C75B</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1559186018000">2019-05-30 03:13:38</updated_date> 
+    <released_date in_epoch_ms="1559171043000">2019-05-29 23:04:03</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>29793223</number>
+      <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.003 - VIRTUAL BOX]]></abstract>
+    </bug> 
+    <name>29793223</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=22948015]]></patch_readme> 
+      <patch_details><![CDATA[/download/29793223.html]]></patch_details>
+    </url> 
+    <request_id>22948015</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>29793223</number>
+        <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.003 - VIRTUAL BOX]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>16825044717</size>
+    <files> 
+      <file> 
+        <name>CS-920-UPG-003-OVA_10of11.zip</name>
+        <size>1323979213</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-OVA_10of11.zip?aru=22948015&patch_file=CS-920-UPG-003-OVA_10of11.zip]]></download_url> 
+        <digest type="SHA-1">66EBF9A203EDBA917AF28782D7926405CF5AF5EA</digest> 
+        <digest type="SHA-256">CDD87CED28656E6A484AFED8E953932FA8EFC85CBB30C722859582AC4300E662</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-OVA_11of11.zip</name>
+        <size>399391678</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-OVA_11of11.zip?aru=22948015&patch_file=CS-920-UPG-003-OVA_11of11.zip]]></download_url> 
+        <digest type="SHA-1">D9946423591CB856776F435DF805A7640A06B541</digest> 
+        <digest type="SHA-256">6DA1EB204C84FEABABB7C9B010BE35804F578E4DD01338A162950C36E05A49D9</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-OVA_1of11.zip</name>
+        <size>127766294</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-OVA_1of11.zip?aru=22948015&patch_file=CS-920-UPG-003-OVA_1of11.zip]]></download_url> 
+        <digest type="SHA-256">C6ACE4BEDBC7692901AA3309C56E40D11E1526E86BDBC35C6ABF2AA17E2AAB63</digest> 
+        <digest type="SHA-1">7005A1B08E90440B607516974F72E8EDC88A62C7</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-OVA_2of11.zip</name>
+        <size>1967111119</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-OVA_2of11.zip?aru=22948015&patch_file=CS-920-UPG-003-OVA_2of11.zip]]></download_url> 
+        <digest type="SHA-1">D4DC647849CCB982597903A4087F806209A228AF</digest> 
+        <digest type="SHA-256">C5DF172882A2D98BA16EF145DBA162AC3F9602E0971891C313A3284AADB0DC77</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-OVA_3of11.zip</name>
+        <size>2621168608</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-OVA_3of11.zip?aru=22948015&patch_file=CS-920-UPG-003-OVA_3of11.zip]]></download_url> 
+        <digest type="SHA-1">6FFE7D7A8BE729D3DC2916DD9C4FE14A591F7D27</digest> 
+        <digest type="SHA-256">96242D4DCDF5B348DB59245151776E02987085D979D0411470375BFA526F798A</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-OVA_4of11.zip</name>
+        <size>1401695976</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-OVA_4of11.zip?aru=22948015&patch_file=CS-920-UPG-003-OVA_4of11.zip]]></download_url> 
+        <digest type="SHA-1">DC502BE7B7B22080C93F4E7AE98980D026550389</digest> 
+        <digest type="SHA-256">CDFCC0D7F993AFAA9569D83AFB31A526C5FAC6FA6C71BB654C5E560620719A3D</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-OVA_5of11.zip</name>
+        <size>1242713130</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-OVA_5of11.zip?aru=22948015&patch_file=CS-920-UPG-003-OVA_5of11.zip]]></download_url> 
+        <digest type="SHA-256">0AAF449B08B68829E458EADC070041D8E23E5AA73E89ADE16568BC8F46BCECC9</digest> 
+        <digest type="SHA-1">BC4BF6B98FD467F062EB93B02FF90CC85FACE386</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-OVA_6of11.zip</name>
+        <size>3657280018</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-OVA_6of11.zip?aru=22948015&patch_file=CS-920-UPG-003-OVA_6of11.zip]]></download_url> 
+        <digest type="SHA-256">29A8ADB82F8383BD3C795017F96CDDE874C59BCEE32DEF9B877EEC694FAA0F8E</digest> 
+        <digest type="SHA-1">BEA0B634F6A2A31445B2B27B68ECA8CD4AFE0FDB</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-OVA_7of11.zip</name>
+        <size>1124110156</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-OVA_7of11.zip?aru=22948015&patch_file=CS-920-UPG-003-OVA_7of11.zip]]></download_url> 
+        <digest type="SHA-256">4EF11E729ED2BB07B70B7D9894FD78580FC10D6BC6B9A15D9363B621F69AD519</digest> 
+        <digest type="SHA-1">1C5F148C8DFCD4E816A4BC25A03DF8A3479F2C2C</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-OVA_8of11.zip</name>
+        <size>1829735039</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-OVA_8of11.zip?aru=22948015&patch_file=CS-920-UPG-003-OVA_8of11.zip]]></download_url> 
+        <digest type="SHA-1">F5B308BC730F794A7C653AF204093793833BE49D</digest> 
+        <digest type="SHA-256">0295B320778D1D75FC52898EAE60B9E864E24D71A50392431CFFF923590ADCF9</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-003-OVA_9of11.zip</name>
+        <size>1130093486</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-003-OVA_9of11.zip?aru=22948015&patch_file=CS-920-UPG-003-OVA_9of11.zip]]></download_url> 
+        <digest type="SHA-256">D1464D128966F651BE2ED0D2C03434F9FEC7E755E3B92E0A1960FCC14982CA6B</digest> 
+        <digest type="SHA-1">0C6A9C69A3595BF85D7FCF35E662AA6BAD2A765C</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1559168272000">2019-05-29 22:17:52</updated_date> 
+    <released_date in_epoch_ms="1559164175000">2019-05-29 21:09:35</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>27530395</number>
+      <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.002 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>27530395</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=21960665]]></patch_readme> 
+      <patch_details><![CDATA[/download/27530395.html]]></patch_details>
+    </url> 
+    <request_id>21960665</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>27530395</number>
+        <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.002 - NATIVE OS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>18571593065</size>
+    <files> 
+      <file> 
+        <name>CS-920-UPG-002-WIN_10of11.zip</name>
+        <size>1482345550</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-WIN_10of11.zip?aru=21960665&patch_file=CS-920-UPG-002-WIN_10of11.zip]]></download_url> 
+        <digest type="SHA-256">C4A5E71579322ACD21857EF92FC0259BB0307BBD551A27133BBC5080F0E783AC</digest> 
+        <digest type="SHA-1">604525EB8709B813E86A4E685EF064590C5861B7</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-WIN_11of11.zip</name>
+        <size>1164857176</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-WIN_11of11.zip?aru=21960665&patch_file=CS-920-UPG-002-WIN_11of11.zip]]></download_url> 
+        <digest type="SHA-256">B56F5D43CB02414196AA0C89E3A359BD85624A8D856224C395E1E073925C0C28</digest> 
+        <digest type="SHA-1">0A42A45BA1193E89B7545908FC4A5DD779DE6F76</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-WIN_1of11.zip</name>
+        <size>55311982</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-WIN_1of11.zip?aru=21960665&patch_file=CS-920-UPG-002-WIN_1of11.zip]]></download_url> 
+        <digest type="SHA-1">E5F280E9E438920DBF8814C6174EFC1470C7C71B</digest> 
+        <digest type="SHA-256">7D56A5F164E261AB45C05A9A5058A7CAF7EDF635E71651A9D1A6ECE4FC053B0A</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-WIN_2of11.zip</name>
+        <size>2864392465</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-WIN_2of11.zip?aru=21960665&patch_file=CS-920-UPG-002-WIN_2of11.zip]]></download_url> 
+        <digest type="SHA-256">14B1E367F59341B9CF8A77B19893018FCA0360B762EE9B81F4E26580B95DEDC4</digest> 
+        <digest type="SHA-1">EB9578C2985D98F88F70CC6F94D02D4AAF8274CE</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-WIN_3of11.zip</name>
+        <size>2497176535</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-WIN_3of11.zip?aru=21960665&patch_file=CS-920-UPG-002-WIN_3of11.zip]]></download_url> 
+        <digest type="SHA-256">2F78167B43700D512BABACE5E203485EFF914064A79D999F95D3EBFECAE68EDA</digest> 
+        <digest type="SHA-1">77A76F80AB80051E14B32C3F69B62057424ECAA9</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-WIN_4of11.zip</name>
+        <size>1039431544</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-WIN_4of11.zip?aru=21960665&patch_file=CS-920-UPG-002-WIN_4of11.zip]]></download_url> 
+        <digest type="SHA-1">3DD860E96E6D6C4AA9F06F9CDD8CDDBCDA3D043C</digest> 
+        <digest type="SHA-256">C73670EADE953C380422FE7D71F244F30AFE8556C83D5347923382ADA0909354</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-WIN_5of11.zip</name>
+        <size>1551936608</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-WIN_5of11.zip?aru=21960665&patch_file=CS-920-UPG-002-WIN_5of11.zip]]></download_url> 
+        <digest type="SHA-256">2AF2DA651DAAC83E0D9005ED70B45D27883A6630A48EE2EF7E7A4F1E25F1AF51</digest> 
+        <digest type="SHA-1">AE5C7E9BAB337080D1B121F6FC4944AE64001741</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-WIN_6of11.zip</name>
+        <size>1343343813</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-WIN_6of11.zip?aru=21960665&patch_file=CS-920-UPG-002-WIN_6of11.zip]]></download_url> 
+        <digest type="SHA-1">CED72517101616E6B3F4437CAC84F1ACF51F2361</digest> 
+        <digest type="SHA-256">25EF9DAFA7B74A3B0CF7FD0590429F2666CBB8EC0C5A08B148E5A4F1490836B9</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-WIN_7of11.zip</name>
+        <size>1242669889</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-WIN_7of11.zip?aru=21960665&patch_file=CS-920-UPG-002-WIN_7of11.zip]]></download_url> 
+        <digest type="SHA-256">8E6EAFDC066C377D8BE175F877C818509731649EF894361357ACDABDC7199C6F</digest> 
+        <digest type="SHA-1">66B18DD0897D9C3EEC0AC8752E6483A98E4C332E</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-WIN_8of11.zip</name>
+        <size>3300516042</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-WIN_8of11.zip?aru=21960665&patch_file=CS-920-UPG-002-WIN_8of11.zip]]></download_url> 
+        <digest type="SHA-256">9EBFD6AB1C95A6BE6AA66B148ED434DBB0D6584C6F76CFF78A2B51C4E84D27B5</digest> 
+        <digest type="SHA-1">6058A028CE92CB97269C7B0E219189747C5FC154</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-WIN_9of11.zip</name>
+        <size>2029611461</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-WIN_9of11.zip?aru=21960665&patch_file=CS-920-UPG-002-WIN_9of11.zip]]></download_url> 
+        <digest type="SHA-1">C1E2F40C9257CAD7EC2B4EA77EC814C120FA8627</digest> 
+        <digest type="SHA-256">28D4ED4E1BE9A6C6298ABFDF949D2F67D10EB7B622DA7A8FF9B20A6CEE7656AD</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1519126302000">2018-02-20 11:31:42</updated_date> 
+    <released_date in_epoch_ms="1519093864000">2018-02-20 02:31:04</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>27529558</number>
+      <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.002 - VIRTUAL BOX]]></abstract>
+    </bug> 
+    <name>27529558</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=21959548]]></patch_readme> 
+      <patch_details><![CDATA[/download/27529558.html]]></patch_details>
+    </url> 
+    <request_id>21959548</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>27529558</number>
+        <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.002 - VIRTUAL BOX]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>18066570198</size>
+    <files> 
+      <file> 
+        <name>CS-920-UPG-002-OVA_10of12.zip</name>
+        <size>1438655016</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-OVA_10of12.zip?aru=21959548&patch_file=CS-920-UPG-002-OVA_10of12.zip]]></download_url> 
+        <digest type="SHA-1">181D2B709053580F0D4FB1D33DEB814FA7B3BDC6</digest> 
+        <digest type="SHA-256">124DE992F6F0CACE2D67FBC7A7D4D40DBA5F9A5B261895704FCEEF43B37DF68D</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-OVA_11of12.zip</name>
+        <size>1130072056</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-OVA_11of12.zip?aru=21959548&patch_file=CS-920-UPG-002-OVA_11of12.zip]]></download_url> 
+        <digest type="SHA-1">E5F76344755FFAE35A6DE263241F6FB4CF9F1898</digest> 
+        <digest type="SHA-256">F72436EF43947C1F4BE467734A7D883955A66DC8304EE300E3D0570A61AD2B91</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-OVA_12of12.zip</name>
+        <size>1175337837</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-OVA_12of12.zip?aru=21959548&patch_file=CS-920-UPG-002-OVA_12of12.zip]]></download_url> 
+        <digest type="SHA-1">BB19D9CDF21EFE71CBD47F5F6B4DE13597FAA412</digest> 
+        <digest type="SHA-256">B77906DAEFFB3C60F21D08B15ECC113AFFEC3FA8C4ECFC0CF0F16D25AC352102</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-OVA_1of12.zip</name>
+        <size>189103680</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-OVA_1of12.zip?aru=21959548&patch_file=CS-920-UPG-002-OVA_1of12.zip]]></download_url> 
+        <digest type="SHA-1">FC4D5C19FE85D2A9E18B3F196BD608C5F1493DEB</digest> 
+        <digest type="SHA-256">3C1FFEAA8896901EB2CC5EB91B2705B077A9CD2D418C764829E1A384DA512A6F</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-OVA_2of12.zip</name>
+        <size>1883113251</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-OVA_2of12.zip?aru=21959548&patch_file=CS-920-UPG-002-OVA_2of12.zip]]></download_url> 
+        <digest type="SHA-1">5BB3DD6A9F17B3B6BE219BC5C362699DC16B4150</digest> 
+        <digest type="SHA-256">6C7306225E9A120F4904720DF9556368BD71D2BE601F4A1CACE1E2A89D4809E5</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-OVA_3of12.zip</name>
+        <size>2687372383</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-OVA_3of12.zip?aru=21959548&patch_file=CS-920-UPG-002-OVA_3of12.zip]]></download_url> 
+        <digest type="SHA-256">594666E89873F2E9942DB177B6B91DF4B85471FD39363B127CBC599DD8F1C290</digest> 
+        <digest type="SHA-1">833CAAF3BD3F9882E9ED23F603169C3AEC67F08B</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-OVA_4of12.zip</name>
+        <size>1039431596</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-OVA_4of12.zip?aru=21959548&patch_file=CS-920-UPG-002-OVA_4of12.zip]]></download_url> 
+        <digest type="SHA-256">C25C8566C45008C6D6519BAE05E948DBC4E629BA6183CCA35330CFB8C466039D</digest> 
+        <digest type="SHA-1">1A20C61E305A59A0100065A0520F119D67002162</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-OVA_5of12.zip</name>
+        <size>1551936660</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-OVA_5of12.zip?aru=21959548&patch_file=CS-920-UPG-002-OVA_5of12.zip]]></download_url> 
+        <digest type="SHA-1">369D36884B7C7A4C5CC3A198416B70769A088536</digest> 
+        <digest type="SHA-256">8E28B49FA006210F07D07334F80F46672D2658A3ABE913A73A3A9CB67A5C2279</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-OVA_6of12.zip</name>
+        <size>1343343865</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-OVA_6of12.zip?aru=21959548&patch_file=CS-920-UPG-002-OVA_6of12.zip]]></download_url> 
+        <digest type="SHA-1">759EF6E1A6BD9C35B8D6D7274722464E6C27F820</digest> 
+        <digest type="SHA-256">F93EFB0573D7AEFA9F487A3D1FEC3F3F44BA8628A5F0DEC0DBF660CDCDB7A9D0</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-OVA_7of12.zip</name>
+        <size>1242669941</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-OVA_7of12.zip?aru=21959548&patch_file=CS-920-UPG-002-OVA_7of12.zip]]></download_url> 
+        <digest type="SHA-256">A91268B4A8D57112F4DDD43C60A92854AFC82BD8A14098BBC8822D2157052393</digest> 
+        <digest type="SHA-1">0A8A9F17CD9A581B51599044B930461D72D9D17E</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-OVA_8of12.zip</name>
+        <size>3285611435</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-OVA_8of12.zip?aru=21959548&patch_file=CS-920-UPG-002-OVA_8of12.zip]]></download_url> 
+        <digest type="SHA-1">1EB8CC4A2E551F652E8AF8083980D3CEF937CFF0</digest> 
+        <digest type="SHA-256">6416D614C7A38927A30D6A60B2850EB51473625391298E40F13B2A5E4F3F75FA</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-002-OVA_9of12.zip</name>
+        <size>1099922478</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-002-OVA_9of12.zip?aru=21959548&patch_file=CS-920-UPG-002-OVA_9of12.zip]]></download_url> 
+        <digest type="SHA-256">2B3F4DBB3DFB6334B6832CF802005554721BB2779D08C77C04A4575A634EC507</digest> 
+        <digest type="SHA-1">33F325687B195305E3FF1CD1FC96411B9C75110C</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1519086823000">2018-02-20 00:33:43</updated_date> 
+    <released_date in_epoch_ms="1519081995000">2018-02-19 23:13:15</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>22037183</number>
+      <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.000 - VIRTUAL BOX]]></abstract>
+    </bug> 
+    <name>22037183</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=20054354]]></patch_readme> 
+      <patch_details><![CDATA[/download/22037183.html]]></patch_details>
+    </url> 
+    <request_id>20054354</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>22037183</number>
+        <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.000 - VIRTUAL BOX]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>16242652757</size>
+    <files> 
+      <file> 
+        <name>CS-920-UPG-000-OVA_10of11.zip</name>
+        <size>1628014882</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-OVA_10of11.zip?aru=20054354&patch_file=CS-920-UPG-000-OVA_10of11.zip]]></download_url> 
+        <digest type="SHA-256">FFC4AF93FC001314FF0D1AC114178444E7187C876A5CF31CCF0ED767A5F73E7E</digest> 
+        <digest type="SHA-1">FD327CEBEFCB726092FEB3AAC9F7C13C5ACA5927</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-OVA_11of11.zip</name>
+        <size>743152827</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-OVA_11of11.zip?aru=20054354&patch_file=CS-920-UPG-000-OVA_11of11.zip]]></download_url> 
+        <digest type="SHA-1">6F64914CC7D416778883FCD354FDCD4E344B2CEA</digest> 
+        <digest type="SHA-256">CACBB37705B0F0E2AF90F1B0C1031275FB953574BA1778437B5067EB7BBA3FD3</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-OVA_1of11.zip</name>
+        <size>83809981</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-OVA_1of11.zip?aru=20054354&patch_file=CS-920-UPG-000-OVA_1of11.zip]]></download_url> 
+        <digest type="SHA-1">3E478436354C19C8C75E115B9A6BF8ECBF4D35FB</digest> 
+        <digest type="SHA-256">9FD854A1AF0DF8AE2FD6B6EB0A0EE4C794D66DC1BD39EEDF215A96C93AFEEEB2</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-OVA_2of11.zip</name>
+        <size>2747801869</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-OVA_2of11.zip?aru=20054354&patch_file=CS-920-UPG-000-OVA_2of11.zip]]></download_url> 
+        <digest type="SHA-1">C90A6153282D647C8B44C838A1C9AA3C8F503069</digest> 
+        <digest type="SHA-256">5B5CF12E4B9507951A9D47DD9DF4DEE966DD84E8D3449501B05FAA0B5E3815D3</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-OVA_3of11.zip</name>
+        <size>2488823881</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-OVA_3of11.zip?aru=20054354&patch_file=CS-920-UPG-000-OVA_3of11.zip]]></download_url> 
+        <digest type="SHA-256">37879D0362139B0477AFA6B1F0FBDB159376EB032D5DE6A35029A8AA06EE5537</digest> 
+        <digest type="SHA-1">D7D08E37CA8609B7D42607CB5CDCA3058EB70E0C</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-OVA_4of11.zip</name>
+        <size>981754594</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-OVA_4of11.zip?aru=20054354&patch_file=CS-920-UPG-000-OVA_4of11.zip]]></download_url> 
+        <digest type="SHA-1">749B7CFC249B03ABCE3DC8ACBA4D4BCA70FDE61D</digest> 
+        <digest type="SHA-256">9658CDB46D619DACC75C4EFDDAFC06439C04CD48F689DF67BD6D2DCEAA7DFF54</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-OVA_5of11.zip</name>
+        <size>1057972366</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-OVA_5of11.zip?aru=20054354&patch_file=CS-920-UPG-000-OVA_5of11.zip]]></download_url> 
+        <digest type="SHA-256">AC49CB729FA9BD1CBDED86B06CFFF95A8198496C1ADB48FEA63171181C845DDE</digest> 
+        <digest type="SHA-1">8585E2FFE4A5DBBDEE72BCA795A04121F0F835BD</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-OVA_6of11.zip</name>
+        <size>1575219197</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-OVA_6of11.zip?aru=20054354&patch_file=CS-920-UPG-000-OVA_6of11.zip]]></download_url> 
+        <digest type="SHA-1">54FB30802E7EB02F8F87BF49E1D77B8FFA8C413C</digest> 
+        <digest type="SHA-256">CEA8AD9B1323DA66FBD645123F40B2461F0EEEC4CF459DF8F3EE8C9A041D847B</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-OVA_7of11.zip</name>
+        <size>1242669941</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-OVA_7of11.zip?aru=20054354&patch_file=CS-920-UPG-000-OVA_7of11.zip]]></download_url> 
+        <digest type="SHA-1">448D0C37E70B9F6FA224720FAD4ABB8D761887E8</digest> 
+        <digest type="SHA-256">2DFF1C964C5B95CB4B8F6D0C71CC4CA001A0BA220354AFD47ED29AB0B3839F61</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-OVA_8of11.zip</name>
+        <size>3094535366</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-OVA_8of11.zip?aru=20054354&patch_file=CS-920-UPG-000-OVA_8of11.zip]]></download_url> 
+        <digest type="SHA-256">850B128127B8BBA7B902C78E5E7394C8A074CBD164EEBD251720F92CEC3C5387</digest> 
+        <digest type="SHA-1">757A17A9F2C47D85EDA28B0DE6A7ACF23334E082</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-OVA_9of11.zip</name>
+        <size>598897853</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-OVA_9of11.zip?aru=20054354&patch_file=CS-920-UPG-000-OVA_9of11.zip]]></download_url> 
+        <digest type="SHA-256">5C7B6AE5E9BBBF90F9638865CB872080336CF72805CA880982AD7506BFFF2F89</digest> 
+        <digest type="SHA-1">3F4BEA0D90CA1BA26BB802C2EC0BED42296B75FA</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1459803653000">2016-04-04 21:00:53</updated_date> 
+    <released_date in_epoch_ms="1449168022000">2015-12-03 18:40:22</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>23038861</number>
+      <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.000 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>23038861</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=20054457]]></patch_readme> 
+      <patch_details><![CDATA[/download/23038861.html]]></patch_details>
+    </url> 
+    <request_id>20054457</request_id>
+    <product id="21591" bugdb_id="11089"><![CDATA[PeopleSoft CS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>23038861</number>
+        <abstract><![CDATA[PEOPLESOFT CS UPGRADE SOURCE IMAGE 9.2.000 - NATIVE OS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>16695059245</size>
+    <files> 
+      <file> 
+        <name>CS-920-UPG-000-WIN_10of10.zip</name>
+        <size>1672114497</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-WIN_10of10.zip?aru=20054457&patch_file=CS-920-UPG-000-WIN_10of10.zip]]></download_url> 
+        <digest type="SHA-256">FA3E850BFD26884D467B6B97398504A5BFAB0D19E5AEF696234B58EC43DB963D</digest> 
+        <digest type="SHA-1">51D47089DE236AD714832C2A9532D908FBAA8B03</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-WIN_1of10.zip</name>
+        <size>83809648</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-WIN_1of10.zip?aru=20054457&patch_file=CS-920-UPG-000-WIN_1of10.zip]]></download_url> 
+        <digest type="SHA-1">9E28271948F02BCED6CE31F17F1EBB529BEE9428</digest> 
+        <digest type="SHA-256">A471ED7445679F5F2AF5C94021DC17E937D5DF1B06BAA47CB59C7A2E3D841107</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-WIN_2of10.zip</name>
+        <size>3917154641</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-WIN_2of10.zip?aru=20054457&patch_file=CS-920-UPG-000-WIN_2of10.zip]]></download_url> 
+        <digest type="SHA-256">BF4A1BC481C5F792467C1C260C1B9EA37475DE23523EC7BB182196D85CD0F3AE</digest> 
+        <digest type="SHA-1">378DA7654BB9C9DE70D78EBC67210D9D614ACFBF</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-WIN_3of10.zip</name>
+        <size>2401014994</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-WIN_3of10.zip?aru=20054457&patch_file=CS-920-UPG-000-WIN_3of10.zip]]></download_url> 
+        <digest type="SHA-1">0ADF29F953A3014D3745AD9C3687AE7EC018C0F0</digest> 
+        <digest type="SHA-256">F7E0475D86AABEBA19CFBD9EBA0925B3597EF70A86F782AF3081FBC48385DE63</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-WIN_4of10.zip</name>
+        <size>981754542</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-WIN_4of10.zip?aru=20054457&patch_file=CS-920-UPG-000-WIN_4of10.zip]]></download_url> 
+        <digest type="SHA-1">B08CE44276642BB12FC92AB186C2504D6459C096</digest> 
+        <digest type="SHA-256">6CB7FAEB533DFC7B696700F0414C06F16464A5121997D313C138F730B0130506</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-WIN_5of10.zip</name>
+        <size>1057972314</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-WIN_5of10.zip?aru=20054457&patch_file=CS-920-UPG-000-WIN_5of10.zip]]></download_url> 
+        <digest type="SHA-256">81BB2D0916C826804DFEF70D0C54B863AF3928C0EEBFE8B2E85564B72FACE76E</digest> 
+        <digest type="SHA-1">63077FCC34B07EA7481EDB987E7B4383431C405C</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-WIN_6of10.zip</name>
+        <size>1575219145</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-WIN_6of10.zip?aru=20054457&patch_file=CS-920-UPG-000-WIN_6of10.zip]]></download_url> 
+        <digest type="SHA-256">753AEF2521507860BD825B2076F287856CF1F83E63F92BC82D9B514DDFA56D3F</digest> 
+        <digest type="SHA-1">C5C26DB7A38D23B1E27D7EDD3ACBCB02B218C7B0</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-WIN_7of10.zip</name>
+        <size>1242669889</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-WIN_7of10.zip?aru=20054457&patch_file=CS-920-UPG-000-WIN_7of10.zip]]></download_url> 
+        <digest type="SHA-1">66B18DD0897D9C3EEC0AC8752E6483A98E4C332E</digest> 
+        <digest type="SHA-256">8E6EAFDC066C377D8BE175F877C818509731649EF894361357ACDABDC7199C6F</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-WIN_8of10.zip</name>
+        <size>3149450753</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-WIN_8of10.zip?aru=20054457&patch_file=CS-920-UPG-000-WIN_8of10.zip]]></download_url> 
+        <digest type="SHA-1">53C5F731FCCA84E60E700EC48B8C45D0FA787FEF</digest> 
+        <digest type="SHA-256">866D1D82822BCB5E6670333E28FAFB372C9AE4822745B4C6076FFCC1C40DC234</digest> 
+      </file> 
+      <file> 
+        <name>CS-920-UPG-000-WIN_9of10.zip</name>
+        <size>613898822</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/CS-920-UPG-000-WIN_9of10.zip?aru=20054457&patch_file=CS-920-UPG-000-WIN_9of10.zip]]></download_url> 
+        <digest type="SHA-1">81D4B9964CEB103C76988276D1F70D78DD1FFAA3</digest> 
+        <digest type="SHA-256">1810A3AAFF96FC0704A4C0AE3BB1E0E1F20EC0D7E7712C3E055F43396331029B</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1459798243000">2016-04-04 19:30:43</updated_date> 
+    <released_date in_epoch_ms="1459753987000">2016-04-04 07:13:07</released_date> 
+  </patch> 
+</results>

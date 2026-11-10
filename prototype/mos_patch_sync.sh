@@ -7,7 +7,7 @@
 # https://updates.oracle.com/Orion/GenToken/get_token in a signed-in browser.
 #
 # Usage:
-#   bash mos_patch_sync.sh [-t /home/oracle/.mos/token.txt] [-o /opt/data2/download/patch] [-r 8.61] [-p 233]
+#   bash mos_patch_sync.sh [-t ~/.mos/token.txt] [-o ~/Downloads/peopletools] [-r 8.61] [-p 233]
 #                          [-m 'PEOPLETOOLS-WIN-' ] [--list] [--dry-run]
 #
 #   -p platform id   233 = Microsoft Windows x64 (64-bit), 226 = Linux x86-64, 212 = AIX 64-bit
@@ -18,9 +18,8 @@
 # Exit codes: 0 ok, 1 usage/config, 2 token rejected (401/403), 3 download/verify failure
 set -euo pipefail
 
-MOS_DIR="${MOS_DIR:-/home/oracle/.mos}"
-TOKEN_FILE="$MOS_DIR/token.txt"
-OUTDIR="${MOS_OUTDIR:-/opt/data2/download/patch}"
+TOKEN_FILE="$HOME/.mos/token.txt"
+OUTDIR="$HOME/Downloads/peopletools"
 RELEASE="8.61"
 PLATFORM="233"
 FILE_PREFIX="PEOPLETOOLS-WIN-"
@@ -50,15 +49,15 @@ TOKEN="$(grep -v '^\s*#' "$TOKEN_FILE" | grep -v '^\s*$' | head -n1 | tr -d '[:s
 aru_curl() {  # aru_curl <outfile> <url> [extra args]
   local out="$1" url="$2"; shift 2
   printf 'header = "Authorization: Bearer %s"\n' "$TOKEN" | \
-    curl -s -K - -L --max-time 600 -o "$out" -w '%{http_code}' "$@" "$url" || true
-}  # prints 000 on network/TLS failure
+    curl -s -K - -L --max-time 600 -o "$out" -w '%{http_code}' "$@" "$url"
+}
 
 work="$(mktemp -d)"; trap 'rm -rf "$work"' EXIT
 mkdir -p "$OUTDIR"
 
 # ---- 1. resolve release id ----
 code="$(aru_curl "$work/releases.xml" "$ARU/Orion/Services/metadata?table=aru_releases")"
-[[ "$code" == "200" ]] || { echo "aru_releases HTTP $code (000 = network/proxy failure; 401/403 = token expired)" >&2; exit 2; }
+[[ "$code" == "200" ]] || { echo "aru_releases HTTP $code (token expired?)" >&2; exit 2; }
 REL_ID="$(python3 -I - "$work/releases.xml" "$RELEASE" <<'PY'
 import sys, xml.etree.ElementTree as ET
 root=ET.parse(sys.argv[1]).getroot(); want=sys.argv[2]
@@ -110,7 +109,7 @@ fail=0
 while IFS=$'\t' read -r name size url sha; do
   [[ -n "$name" ]] || continue
   dest="$OUTDIR/$name"
-  if [[ -f "$dest" && "$(stat -c%s "$dest" 2>/dev/null || stat -f%z "$dest")" == "$size" ]]; then
+  if [[ -f "$dest" && "$(stat -f%z "$dest" 2>/dev/null || stat -c%s "$dest")" == "$size" ]]; then
     echo "exists: $name ($size bytes) — verifying"
   else
     (( DRY_RUN )) && { echo "would download: $name ($size bytes)"; continue; }
@@ -120,7 +119,7 @@ while IFS=$'\t' read -r name size url sha; do
     if [[ "$code" != "200" && "$code" != "206" ]]; then echo "HTTP $code on $name" >&2; fail=1; continue; fi
   fi
   (( DRY_RUN )) && continue
-  got="$(sha256sum "$dest" | cut -d' ' -f1)"
+  got="$(shasum -a 256 "$dest" | cut -d' ' -f1)"
   if [[ -n "$sha" && "$got" != "$sha" ]]; then echo "SHA-256 MISMATCH: $name" >&2; fail=1; else echo "verified: $name"; fi
 done < "$work/plan.tsv"
 

@@ -1,0 +1,10 @@
+[Unit]
+Description=opatchbot weekly unattended re-login (keeps the Oracle session fresh)
+After=network-online.target
+
+[Service]
+Type=oneshot
+User=opatchbot
+Environment=OPATCHBOT_CONFIG=/etc/opatchbot/config.yaml
+Environment=OPATCHBOT_SECRETS=/etc/opatchbot/secrets.env
+ExecStart=/opt/opatchbot/venv/bin/opatchbot login

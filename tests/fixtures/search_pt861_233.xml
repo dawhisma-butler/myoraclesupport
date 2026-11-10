@@ -1,0 +1,2579 @@
+<results md5_sum="359d8e7e94db358593994a071f4e1798">
+  <generated_date in_epoch_ms="1794275915000">2026-11-10 01:58:35</generated_date>
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40136983</number>
+      <abstract><![CDATA[PT-MW-DPK]]></abstract>
+    </bug> 
+    <name>40136983</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29537477]]></patch_readme> 
+      <patch_details><![CDATA[/download/40136983.html]]></patch_details>
+    </url> 
+    <request_id>29537477</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <size>3403183198</size>
+    <files> 
+      <file> 
+        <name>PT-MW-DPK-WIN-8.61-261026.zip</name>
+        <size>3403183198</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PT-MW-DPK-WIN-8.61-261026.zip?aru=29537477&patch_file=PT-MW-DPK-WIN-8.61-261026.zip]]></download_url> 
+        <digest type="SHA-1">86EF9640A0E1554738F5C766AAF7C1D6C0D1A366</digest> 
+        <digest type="SHA-256">E5CE670F2EA45B3C240B843DC212F858A7F8091285A1371E4C11416439E2322F</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792972800000">2026-10-26 00:00:00</updated_date> 
+    <released_date in_epoch_ms="1792972800000">2026-10-26 00:00:00</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40014041</number>
+      <abstract><![CDATA[PT 8.61.24 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>40014041</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29519651]]></patch_readme> 
+      <patch_details><![CDATA[/download/40014041.html]]></patch_details>
+    </url> 
+    <request_id>29519651</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39583633</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39765352</number>
+        <abstract><![CDATA[PT 8.61 -INCLUDE WL/JAVA JUL 2026 CPU IN PT TOOLS DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39774386</number>
+        <abstract><![CDATA[BACKPORT-REMOVE STALE SOURCES FROM SRC/PORTAL]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39800706</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39813765</number>
+        <abstract><![CDATA[[BACKPORT] PT8.61 - PEOPLETOOLS MIDDLEWARE DPK BUILDER (PTMWDB)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39839631</number>
+        <abstract><![CDATA[PT8.61 - PEOPLETOOLS MIDDLEWARE DPK ENABLEMENT PATCH FOR PT8.61.23 & LOWER.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39840905</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39842063</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39851714</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39868767</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6503118652</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.24_1of4.zip</name>
+        <size>125432125</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.24_1of4.zip?aru=29519651&patch_file=PEOPLETOOLS-WIN-8.61.24_1of4.zip]]></download_url> 
+        <digest type="SHA-1">C917A5511396AA36D85CEE41FD44F11606296228</digest> 
+        <digest type="SHA-256">700F9E028C75A86E9195BF05C3FC21FE2B3A67979966685ED7DDF429921EA32E</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.24_3of4.zip</name>
+        <size>2683136119</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.24_3of4.zip?aru=29519651&patch_file=PEOPLETOOLS-WIN-8.61.24_3of4.zip]]></download_url> 
+        <digest type="SHA-256">EEC2B9014B83AD2491C0C8AB32D40F9B7EFFB076718E218558715A409EA6BEC3</digest> 
+        <digest type="SHA-1">81D2C6702FDCE3E27C3FCA4C32893CB1F00C6D6C</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.24_2of4.zip</name>
+        <size>2238913259</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.24_2of4.zip?aru=29519651&patch_file=PEOPLETOOLS-WIN-8.61.24_2of4.zip]]></download_url> 
+        <digest type="SHA-256">C21F2D6BA83155E622EF62595706F4223C619E4E0E22D15F6574EF970FA6456D</digest> 
+        <digest type="SHA-1">41B645221028DC32770BED1E972725ECDF21D000</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.24_4of4.zip</name>
+        <size>1455637149</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.24_4of4.zip?aru=29519651&patch_file=PEOPLETOOLS-WIN-8.61.24_4of4.zip]]></download_url> 
+        <digest type="SHA-1">FA6E1FF152A0FE5FA1D2E00987BB8862163B225E</digest> 
+        <digest type="SHA-256">1296AFBCF13B4BD94798A23EE087CFF68A577E1DAB23572A719FD2342A44AF9C</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792381253000">2026-10-19 03:40:53</updated_date> 
+    <released_date in_epoch_ms="1792375509000">2026-10-19 02:05:09</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40176643</number>
+      <abstract><![CDATA[OPENSEARCH DPK 2.3.0.861_24 DPK - WINDOWS]]></abstract>
+    </bug> 
+    <name>40176643</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29520259]]></patch_readme> 
+      <patch_details><![CDATA[/download/40176643.html]]></patch_details>
+    </url> 
+    <request_id>29520259</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <size>771955148</size>
+    <files> 
+      <file> 
+        <name>OSK-DPK-WIN-2.3.0.8.61_24.zip</name>
+        <size>771955148</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/OSK-DPK-WIN-2.3.0.8.61_24.zip?aru=29520259&patch_file=OSK-DPK-WIN-2.3.0.8.61_24.zip]]></download_url> 
+        <digest type="SHA-1">9A22D54DA93CB1DC7648AF728892891CF1A9975E</digest> 
+        <digest type="SHA-256">3F37E3E9ED7F1BCE1EFBE7E4953D6807191B293D9E0D5807F90C583D5FCED07C</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792368000000">2026-10-19 00:00:00</updated_date> 
+    <released_date in_epoch_ms="1792368000000">2026-10-19 00:00:00</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40124711</number>
+      <abstract><![CDATA[MIDDLEWARE DPK ENABLEMENT PATCH FOR PEOPLETOOLS 8.61]]></abstract>
+    </bug> 
+    <name>40124711</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29503350]]></patch_readme> 
+      <patch_details><![CDATA[/download/40124711.html]]></patch_details>
+    </url> 
+    <request_id>29503350</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <size>1356559</size>
+    <files> 
+      <file> 
+        <name>PTMWDPK-ENABLEMENT-861-260930.zip</name>
+        <size>1356559</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PTMWDPK-ENABLEMENT-861-260930.zip?aru=29503350&patch_file=PTMWDPK-ENABLEMENT-861-260930.zip]]></download_url> 
+        <digest type="SHA-1">032421ABF6E5E2FB3E1F343ADF5EACA87260133E</digest> 
+        <digest type="SHA-256">236D7638193F0E606E3146EEDCF3B7A263E6377A5DA7BC22848774A90CA256D9</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1791763200000">2026-10-12 00:00:00</updated_date> 
+    <released_date in_epoch_ms="1791763200000">2026-10-12 00:00:00</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40014760</number>
+      <abstract><![CDATA[OPENSEARCH DPK 2.3.0.861_23 DPK - WINDOWS]]></abstract>
+    </bug> 
+    <name>40014760</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29308583]]></patch_readme> 
+      <patch_details><![CDATA[/download/40014760.html]]></patch_details>
+    </url> 
+    <request_id>29308583</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <size>685925467</size>
+    <files> 
+      <file> 
+        <name>OSK-DPK-WIN-2.3.0.8.61_23.zip</name>
+        <size>685925467</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/OSK-DPK-WIN-2.3.0.8.61_23.zip?aru=29308583&patch_file=OSK-DPK-WIN-2.3.0.8.61_23.zip]]></download_url> 
+        <digest type="SHA-1">26F9774F57C554EE02CA807C4F4CF3E155F83895</digest> 
+        <digest type="SHA-256">32521E21DFDB987B30F7073B28E6364E7843C92C9B60046A2C4A905F1E821359</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1789425925000">2026-09-14 22:45:25</updated_date> 
+    <released_date in_epoch_ms="1789084800000">2026-09-11 00:00:00</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39891047</number>
+      <abstract><![CDATA[PT 8.61.23 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>39891047</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29433391]]></patch_readme> 
+      <patch_details><![CDATA[/download/39891047.html]]></patch_details>
+    </url> 
+    <request_id>29433391</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39643052</number>
+        <abstract><![CDATA[8.61: TIME PICKER ABSOLUTE DATE RANGE NOT SAVED WHEN VIEWING DASHBOARD IN PIA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39669793</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39673873</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39701952</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39722381</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39725083</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39725479</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39744920</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39766278</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39797923</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6306114940</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.23_4of4.zip</name>
+        <size>1343411570</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.23_4of4.zip?aru=29433391&patch_file=PEOPLETOOLS-WIN-8.61.23_4of4.zip]]></download_url> 
+        <digest type="SHA-1">26F46D866FC82C76E6A07781A32B3D4F7A1BFF48</digest> 
+        <digest type="SHA-256">4DE0BD18936AF88A6C7BDA85256305E6B1327C77126793E8AC118CF7EAB48599</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.23_3of4.zip</name>
+        <size>2581834065</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.23_3of4.zip?aru=29433391&patch_file=PEOPLETOOLS-WIN-8.61.23_3of4.zip]]></download_url> 
+        <digest type="SHA-1">38EC1A0350AD4636F3205ADF9354AB67116B3F3C</digest> 
+        <digest type="SHA-256">3C90EAD78DEF06FD6A0765B22E62FFF3B6833037FCDB56C0F0D5A07C30E5D204</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.23_2of4.zip</name>
+        <size>2290421744</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.23_2of4.zip?aru=29433391&patch_file=PEOPLETOOLS-WIN-8.61.23_2of4.zip]]></download_url> 
+        <digest type="SHA-256">E62260145C92DE67533A5A26A56500D1AC97C2E56E5D1C2627912D02BFF13EB5</digest> 
+        <digest type="SHA-1">2278E0F0524864A3A17DC1E2C4CB7AD0D9B8A77B</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.23_1of4.zip</name>
+        <size>90447561</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.23_1of4.zip?aru=29433391&patch_file=PEOPLETOOLS-WIN-8.61.23_1of4.zip]]></download_url> 
+        <digest type="SHA-256">96A5914330874E1CAC203C30E125036371CAC3E1D3D52821AD20CD665C23ABDD</digest> 
+        <digest type="SHA-1">EECA1A786D617840EF39BDE4F80CBBEDF5E47EAD</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1789422498000">2026-09-14 21:48:18</updated_date> 
+    <released_date in_epoch_ms="1789291156000">2026-09-13 09:19:16</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39758467</number>
+      <abstract><![CDATA[PT 8.61.22 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>39758467</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29037494]]></patch_readme> 
+      <patch_details><![CDATA[/download/39758467.html]]></patch_details>
+    </url> 
+    <request_id>29037494</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>38147830</number>
+        <abstract><![CDATA[8.61: GNU MAKE 4.4.1 UPGRADE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38837252</number>
+        <abstract><![CDATA[BACKPORT 8.61 - USAGE MONITOR - AGGREGATION OF MULTI SERVER DATA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39342920</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39342929</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39342942</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39458197</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39458261</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39458307</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39460608</number>
+        <abstract><![CDATA[<<PT861>> : UPDATE SERVER PARAMETERS ACROSS ALL RUNNING APP SERVER AND PROCESS SCHEDULER DOMAINS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39511652</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6292539892</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.22_4of4.zip</name>
+        <size>1342055742</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.22_4of4.zip?aru=29037494&patch_file=PEOPLETOOLS-WIN-8.61.22_4of4.zip]]></download_url> 
+        <digest type="SHA-1">8F1AAA054D8464C66DAE24CB25D6CD945A262FE1</digest> 
+        <digest type="SHA-256">B6BCEA91B38FD4649F1CF399AAC4B3AE6F0B5BFBC8ED1C5C0B4B069259BB97C4</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.22_3of4.zip</name>
+        <size>2581863161</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.22_3of4.zip?aru=29037494&patch_file=PEOPLETOOLS-WIN-8.61.22_3of4.zip]]></download_url> 
+        <digest type="SHA-1">7FAADBBF504C0FE4C8789C238147DB7057B0A019</digest> 
+        <digest type="SHA-256">67BE35C635A63DE7CDBA8D5B409B4C9D051C5C8C14ED59A0E98A021F410B38C1</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.22_1of4.zip</name>
+        <size>90444778</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.22_1of4.zip?aru=29037494&patch_file=PEOPLETOOLS-WIN-8.61.22_1of4.zip]]></download_url> 
+        <digest type="SHA-1">59D8F0B18BE9C2315A0AA84B25BE3CDA3062F8E2</digest> 
+        <digest type="SHA-256">694083E4B61CEA48FFFB67CAB02F0D39C4DCF1CC6223E01B0C21EB978452F3F3</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.22_2of4.zip</name>
+        <size>2278176211</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.22_2of4.zip?aru=29037494&patch_file=PEOPLETOOLS-WIN-8.61.22_2of4.zip]]></download_url> 
+        <digest type="SHA-256">B84B63A842C537E1EC08E30C6B7AAE3951600E61934C3C752A4A66EFE00F4B4B</digest> 
+        <digest type="SHA-1">96C05FBBE9EE25522B985D80182335F733955353</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1786952025000">2026-08-17 07:33:45</updated_date> 
+    <released_date in_epoch_ms="1786949066000">2026-08-17 06:44:26</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39575443</number>
+      <abstract><![CDATA[PT 8.61.21 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>39575443</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28942893]]></patch_readme> 
+      <patch_details><![CDATA[/download/39575443.html]]></patch_details>
+    </url> 
+    <request_id>28942893</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39042728</number>
+        <abstract><![CDATA[[8.61.21] ISSUE WITH REAL TIME INDEXING. TRANSCATION DETAILS ARE NOT DISPLAYED ON HOMEPAGE FOR BILLING WORKSHEETS PENDING APPROVALS UNDER SUGGESTIONS SECTION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39129239</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39132201</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39162111</number>
+        <abstract><![CDATA[UNABLE TO EXECUTE QUERY OF SOME SEARCH DEFINITIONS WHEN TEMP TABLES IS USED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39213260</number>
+        <abstract><![CDATA[[8.61.21] PEOPLECODE API FOR BATCH SWITCH THRESHOLD NEEDS TO IGNORE NULL VALUE AND NOT TRIGGER SQL]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39267491</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39340946</number>
+        <abstract><![CDATA[508: USING WINDOWS HIGH CONTRAST MODE WITH PT 8.62 CAUSES A SIGNIFICANT ACCESSIBILLTY BLOCKER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39347987</number>
+        <abstract><![CDATA[DOMPURIFY 3.4.1 UPTAKE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39389837</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39497913</number>
+        <abstract><![CDATA[PT861 - UPGRADE OF OSK-2.3.0.861_11 DPK, JDK(11.0.31) - JULY CPU]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6258627700</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.21_4of4.zip</name>
+        <size>1335963077</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.21_4of4.zip?aru=28942893&patch_file=PEOPLETOOLS-WIN-8.61.21_4of4.zip]]></download_url> 
+        <digest type="SHA-1">4E9998A08FD28A5A7B5BE1BD2A4E462A71958F82</digest> 
+        <digest type="SHA-256">4544597D8EE5EE911597C223CE0E7A71B373BB9126F54192BF524F53841B903D</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.21_1of4.zip</name>
+        <size>90441510</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.21_1of4.zip?aru=28942893&patch_file=PEOPLETOOLS-WIN-8.61.21_1of4.zip]]></download_url> 
+        <digest type="SHA-1">487FC69ED65EE9E813072E66FA27DBA97CB44700</digest> 
+        <digest type="SHA-256">B3CBDBE3080EAD80BDEE9F19F7CA9684D1D75E4CC26548344CE78FDE1F8D6495</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.21_3of4.zip</name>
+        <size>2560017501</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.21_3of4.zip?aru=28942893&patch_file=PEOPLETOOLS-WIN-8.61.21_3of4.zip]]></download_url> 
+        <digest type="SHA-1">6544A5620DA34700995F3D03D378FB71AD6FC209</digest> 
+        <digest type="SHA-256">FAE136B4BA91B9424C16B9C3737F637620CC07B93F15F096BEEDA4F6FE553F5C</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.21_2of4.zip</name>
+        <size>2272205612</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.21_2of4.zip?aru=28942893&patch_file=PEOPLETOOLS-WIN-8.61.21_2of4.zip]]></download_url> 
+        <digest type="SHA-256">2DC2E55D4AEB8553FBB486499B68A235B98556F72613CEA6A09B2998F903B6B6</digest> 
+        <digest type="SHA-1">A6ECBF8F6CCCDC6AEF2E4053647951A566DEE0B9</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1784595803000">2026-07-21 01:03:23</updated_date> 
+    <released_date in_epoch_ms="1784548461000">2026-07-20 11:54:21</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39221941</number>
+      <abstract><![CDATA[PT 8.61.20 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>39221941</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28842345]]></patch_readme> 
+      <patch_details><![CDATA[/download/39221941.html]]></patch_details>
+    </url> 
+    <request_id>28842345</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>38107714</number>
+        <abstract><![CDATA[BP 8.61: ACCESSIBILITY - CHANGE BEHAVIOR IN SEARCH RESULT GRID FOCUS IN PT 8.61]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39073742</number>
+        <abstract><![CDATA[8.61: INSIGHT DASHBOARDS ARE NOT GETTING DEPLOYED - ACM]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39077890</number>
+        <abstract><![CDATA[BP861 - GP NZL PAYMENT DATE ISSUE ON DOWNLOAD EXCEL FOR REVIEW EMPLOYEE PDR DATA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39077919</number>
+        <abstract><![CDATA[BP861 - SESSION CRASH TAKES PLACE AT THE TECHNICIAN WORKBENCH COMPONENT LEVEL, (PAGE WM_WOE_WB), WHEN USER DOWNLOADS TO EXCEL THE CONTENTS ON THE WORK ORDER TASKS GRID]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39135490</number>
+        <abstract><![CDATA[[PT861] FILE LOCKED WHEN USING PUTATTACHMENT API]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39219269</number>
+        <abstract><![CDATA[BP8.61 - DIGIT GROUP, DECIMALS AND ACCOUNTING DATE FORMAT DISPLAYING IN GRID DATA DOWNLOADED XLSX FILE IS NOT SAME AS IN PIA PAGE GRIDS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39221941</number>
+        <abstract><![CDATA[PT 8.61.20 PRODUCT PATCH DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39238106</number>
+        <abstract><![CDATA[PT 8.61 -INCLUDE WL/JAVA APR 2026 CPU IN PT TOOLS DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39243693</number>
+        <abstract><![CDATA[DEFAULT VALUE IS NOT POPLUATED IN THE SEARCH CRITERIA FIELD]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39363222</number>
+        <abstract><![CDATA[BACKPORT-RICH TEXT EDITOR LINK DOES NOT RETAIN NEW WINDOW ATTRIBUTE]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6229443786</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.20_3of4.zip</name>
+        <size>2530726480</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.20_3of4.zip?aru=28842345&patch_file=PEOPLETOOLS-WIN-8.61.20_3of4.zip]]></download_url> 
+        <digest type="SHA-256">C6AA39F32095C1F0C21DC9F18B424CC9FFB74F9A32D4D65E823FD6DCF2DE2034</digest> 
+        <digest type="SHA-1">1B92B2794D3011DB9C6CA7D32FB06E3C3BA58730</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.20_1of4.zip</name>
+        <size>90439551</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.20_1of4.zip?aru=28842345&patch_file=PEOPLETOOLS-WIN-8.61.20_1of4.zip]]></download_url> 
+        <digest type="SHA-1">26EBFA48F061D37D919A87105A2AD1B21A06FA5E</digest> 
+        <digest type="SHA-256">F06FE2CF2E02B969BE16F8374B794AC9E2A430D568311C871C9BB48D95005DD7</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.20_2of4.zip</name>
+        <size>2272462358</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.20_2of4.zip?aru=28842345&patch_file=PEOPLETOOLS-WIN-8.61.20_2of4.zip]]></download_url> 
+        <digest type="SHA-256">0558654D12221081DCAA1989EB0D58006551BAEB6AB59A3643AAD92C675D4020</digest> 
+        <digest type="SHA-1">D03ADFC441D1F47F69284A44E4F0776FA9E63AC7</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.20_4of4.zip</name>
+        <size>1335815397</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.20_4of4.zip?aru=28842345&patch_file=PEOPLETOOLS-WIN-8.61.20_4of4.zip]]></download_url> 
+        <digest type="SHA-1">A56C7AB9BEF19575F93B6799D3908F7D74BF1E50</digest> 
+        <digest type="SHA-256">053952FCCD88CBFAC45B63809ADA1E272DB3BCB8BDB91825C896F8294EBBEEF0</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1781716272000">2026-06-17 17:11:12</updated_date> 
+    <released_date in_epoch_ms="1781663932000">2026-06-17 02:38:52</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39025007</number>
+      <abstract><![CDATA[PT 8.61.19 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>39025007</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28677130]]></patch_readme> 
+      <patch_details><![CDATA[/download/39025007.html]]></patch_details>
+    </url> 
+    <request_id>28677130</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>38421286</number>
+        <abstract><![CDATA[BP PT 8.61 - ACCESSIBILITY: SECTIONS TILE WITH HOTSPOT DISABLED HAS INCORRECT HIERARCHICAL HEADER STRUCTURE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38771659</number>
+        <abstract><![CDATA[861 DOWNLOAD XLSX: EXTEND DECIMAL PRECESION FOR CURRECY VALUES IN GRID DOWNLOAD TO XLSX]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38813039</number>
+        <abstract><![CDATA[MATCH 8.61 RESULT GRID BEHAVIOR WITH 8.59]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38826851</number>
+        <abstract><![CDATA[PT861- 19A- PEOPLETOOLS UPGRADE FAILING ON AN ADBS DATABASE WHILE RUNNING SETSPACE.SQR]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38840112</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38850028</number>
+        <abstract><![CDATA[BYPASS THE VIEW ALL THRESHOLD FOR CONFIGURABLE SEARCH PAGES, SIMILAR TO CLASSIC SEARCH PAGES IN 8.59.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38868398</number>
+        <abstract><![CDATA[PT 8.61 -INCLUDE WL/JAVA JAN 2026 CPU IN PT TOOLS DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38872069</number>
+        <abstract><![CDATA[PT861- 19A- ORACLE DATABASE JAN 2026 CPU UPTAKE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38930975</number>
+        <abstract><![CDATA[PROMPT MASKING DO NOT WORK FOR INTERDEPENDENT PROMPT FIELDS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38959002</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6113682574</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.19_3of4.zip</name>
+        <size>2423221041</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.19_3of4.zip?aru=28677130&patch_file=PEOPLETOOLS-WIN-8.61.19_3of4.zip]]></download_url> 
+        <digest type="SHA-1">695ECE2E47DC50CC4FBD3AF52784520D43F76415</digest> 
+        <digest type="SHA-256">59398905CECD08C5C6F3EA215558B66033FEBB1DF59E82DBA8C54A2785DDBB90</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.19_1of4.zip</name>
+        <size>90436764</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.19_1of4.zip?aru=28677130&patch_file=PEOPLETOOLS-WIN-8.61.19_1of4.zip]]></download_url> 
+        <digest type="SHA-1">59B5F1E5A785D7AE18E47D3642F8C10130D84A1D</digest> 
+        <digest type="SHA-256">6E7ED5221B0B6368B7DDCD1EFEF9F3CF1B2B2CAA1DDD36FBB1A49A04AE667DF4</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.19_2of4.zip</name>
+        <size>2267452805</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.19_2of4.zip?aru=28677130&patch_file=PEOPLETOOLS-WIN-8.61.19_2of4.zip]]></download_url> 
+        <digest type="SHA-1">97F77023DBF76B4547666F0631B6FDB74E5BD3DC</digest> 
+        <digest type="SHA-256">37FF106886266C6147EBE864F574CB3BCF72AC2F42BC6546F08D8B88B5CE4C90</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.19_4of4.zip</name>
+        <size>1332571964</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.19_4of4.zip?aru=28677130&patch_file=PEOPLETOOLS-WIN-8.61.19_4of4.zip]]></download_url> 
+        <digest type="SHA-256">2AC4E6AB01D254B4AE60561EA00414E7E36AC2F3234862DF17B2B40295B25C9F</digest> 
+        <digest type="SHA-1">7BC6EFEA900237F1DAD90E426E56912D91895964</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1776397884000">2026-04-17 03:51:24</updated_date> 
+    <released_date in_epoch_ms="1776390025000">2026-04-17 01:40:25</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>38853444</number>
+      <abstract><![CDATA[PT 8.61.18 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>38853444</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28556406]]></patch_readme> 
+      <patch_details><![CDATA[/download/38853444.html]]></patch_details>
+    </url> 
+    <request_id>28556406</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>37396633</number>
+        <abstract><![CDATA[IN OPERATOR IS TRUNCATING ALL THE VALUES EXCEPT THE LAST ONE IN SEARCH CRITERIA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38535215</number>
+        <abstract><![CDATA[PT861:REQUIRED JWK (JSON WEB KEY) FOR PEOPLESOFT TO THIRD PARTY SYSTEM (A2A CONNECTION)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38696328</number>
+        <abstract><![CDATA[861 - DELAY LOADING OF ACTIONWIDGET RELATED ACTIONS IN FLUID GRIDS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38709055</number>
+        <abstract><![CDATA[BP 8.61.18 DOWNLOAD XLSX: EXCHANGE RATE WITH OUT A DECIMAL IS DOWNLOADED WITH DECIMAL VALUE IN VOUCHER REGULAR ENTRY PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38709667</number>
+        <abstract><![CDATA[DOWNLOAD XLSX: DATA AFTER DECIMAL IS GETTING TRUNCATED WHEN THE ASSOCIATED CURRENCY FIELD IS NOT PRESENT ON THE GRID]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38754756</number>
+        <abstract><![CDATA[HCM: 508 MSS HOME PAGE DROPDOWN NOT DISTINGUISHABLE TO A LOW VISION USER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38791484</number>
+        <abstract><![CDATA[[8.61.18]SET DEFAULT DIRECTTRANSFER TIMEOUT TO 30 SECONDS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38843259</number>
+        <abstract><![CDATA[PT8.61: PTF 'SAVE TARGET AS' - PROLONGED FILE SAVE WITH EXTENSION .CRDOWNLOAD THEN PTF EXECUTION STOPS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38853444</number>
+        <abstract><![CDATA[PT 8.61.18 PRODUCT PATCH DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38856290</number>
+        <abstract><![CDATA[DOWNLOAD XLSX: SAME DATA IS SEEN IN ADDITIONAL COLUMN, VIEW MY TEAM COLUMN NAME IS SEEN IN EMPTY DATA ROWS FOR MY TEAM SUMMARY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6157935686</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.18_2of4.zip</name>
+        <size>2275632053</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.18_2of4.zip?aru=28556406&patch_file=PEOPLETOOLS-WIN-8.61.18_2of4.zip]]></download_url> 
+        <digest type="SHA-256">E9243C97109E5BBDAED1756C23C4F5605703945353EDD5C5665C6D5BD03F26D3</digest> 
+        <digest type="SHA-1">06DB3733314B4AF28F1F85173346FD1003D057EE</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.18_1of4.zip</name>
+        <size>94690277</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.18_1of4.zip?aru=28556406&patch_file=PEOPLETOOLS-WIN-8.61.18_1of4.zip]]></download_url> 
+        <digest type="SHA-1">FF9FDB20675849FBB94F163AE19E71F4C532D7C7</digest> 
+        <digest type="SHA-256">65160E819A9FB7ACE0BE9FAFCDB35CCA7B00B022F55263D5B48990346B04627C</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.18_3of4.zip</name>
+        <size>2422347736</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.18_3of4.zip?aru=28556406&patch_file=PEOPLETOOLS-WIN-8.61.18_3of4.zip]]></download_url> 
+        <digest type="SHA-256">E05F20E870B46D939C9996311EB93F04C1AB648F90EB7EDA9935AE07E15EA4C4</digest> 
+        <digest type="SHA-1">BDC9B9A526796E2E689F9FA8EE194784B5F1BAAC</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.18_4of4.zip</name>
+        <size>1365265620</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.18_4of4.zip?aru=28556406&patch_file=PEOPLETOOLS-WIN-8.61.18_4of4.zip]]></download_url> 
+        <digest type="SHA-1">5C8A5FD15C810D029BDCCF27A612739840834C90</digest> 
+        <digest type="SHA-256">10C1E81814934ED4698D5E811030189C909AE654F79FDCE931475F697D4DBAA9</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1772416732000">2026-03-02 01:58:52</updated_date> 
+    <released_date in_epoch_ms="1772454586000">2026-03-02 12:29:46</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>38710642</number>
+      <abstract><![CDATA[PT 8.61.17 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>38710642</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28442287]]></patch_readme> 
+      <patch_details><![CDATA[/download/38710642.html]]></patch_details>
+    </url> 
+    <request_id>28442287</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>38185729</number>
+        <abstract><![CDATA[BACKPORT PT861 NOTIFY BUTTON EMAILID FIELD IS LIMITED TO ONLY 30 CHARACTERS FOR EMAIL ADDRESS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38185919</number>
+        <abstract><![CDATA[FIELD EDIT AND CHANGE EVENT NOT TRIGGERED FIRST TIME ON SECONDARY PAGE WHEN CONFIGURABLE SEARCH IS ENABLED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38276316</number>
+        <abstract><![CDATA[BP 8.61 - CHROME AND EDGE ENTER KEY NOT WORKING WHILE USING SCREEN READER MODE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38415157</number>
+        <abstract><![CDATA[DB2 V13 NON-UTS - ALTER BY TABLE RENAME BUILD OPTION NOT ADDING COMPATIBILITY 'V12R1M503' VALUE - BACKPORT TO 8.61.X]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38466833</number>
+        <abstract><![CDATA[[PT861] : IT CRASHES, WHEN OPTPAMSREGISTRYTEST, OPTBUFFTEST AND OPTMPTEST TESTS ARE RUN]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38486984</number>
+        <abstract><![CDATA[SELECT 'PS_DOES_TABLE_EXIST' FROM PSSTATUS CAUSING PERFORMANCE ISSUE DURING LOAD TEST]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38505917</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38560152</number>
+        <abstract><![CDATA[PT 8.61 -INCLUDE WL/JAVA OCT 2025 CPU IN PT TOOLS DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38565601</number>
+        <abstract><![CDATA[PT861- 17A- ORACLE DATABASE OCT 2025 CPU UPTAKE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38570233</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6157886953</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.17_4of4.zip</name>
+        <size>1365246951</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.17_4of4.zip?aru=28442287&patch_file=PEOPLETOOLS-WIN-8.61.17_4of4.zip]]></download_url> 
+        <digest type="SHA-1">EFC90A9D553AC9932BC53360AD526CCA49926743</digest> 
+        <digest type="SHA-256">30F02920E600F937302ABBD9B0EC977ABEA26EBBCC58BD3FAF70451D3A58EC26</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.17_3of4.zip</name>
+        <size>2422350247</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.17_3of4.zip?aru=28442287&patch_file=PEOPLETOOLS-WIN-8.61.17_3of4.zip]]></download_url> 
+        <digest type="SHA-1">C5EB097D49B328919F8F38536CC6631EBEF0A4A3</digest> 
+        <digest type="SHA-256">9F72F8835A9EDFF229B62C7077F1426CBB4F345E7511426362053C0E3F21D175</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.17_1of4.zip</name>
+        <size>94688664</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.17_1of4.zip?aru=28442287&patch_file=PEOPLETOOLS-WIN-8.61.17_1of4.zip]]></download_url> 
+        <digest type="SHA-1">156029C084FA00588CA310F516A055ED0863B6E2</digest> 
+        <digest type="SHA-256">28FADBBCB3B91130D3915DECA41B353F99A5268C8F33B3451B2FBDD9FF80BDE1</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.17_2of4.zip</name>
+        <size>2275601091</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.17_2of4.zip?aru=28442287&patch_file=PEOPLETOOLS-WIN-8.61.17_2of4.zip]]></download_url> 
+        <digest type="SHA-256">1BA985074F3A2FF510ECFC8DC4C806AC584C41D2379DFB5C2FDFDD241DFEA857</digest> 
+        <digest type="SHA-1">D7445C5BCDD844EB9A50DCE033283AE426E851EE</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1768528354000">2026-01-16 01:52:34</updated_date> 
+    <released_date in_epoch_ms="1768565423000">2026-01-16 12:10:23</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>38550293</number>
+      <abstract><![CDATA[PT 8.61.16 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>38550293</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28310028]]></patch_readme> 
+      <patch_details><![CDATA[/download/38550293.html]]></patch_details>
+    </url> 
+    <request_id>28310028</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>37995531</number>
+        <abstract><![CDATA[HH:MM PROPERTY OF TIME FIELD OF IS NOT HONORED IN THE COMPONENT'S SEARCH RESULT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38001301</number>
+        <abstract><![CDATA[OIM REQUIRES TRANSACTIONID HEADER WHEN PINGING NODE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38105286</number>
+        <abstract><![CDATA[[PT861] - CC2GIT - BACKPORT 8.61 CLEANUP EMPTY FOLDERS IN /PT_BAM]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38197379</number>
+        <abstract><![CDATA[[PT861] E-SQR: PROCESS ERRORING OUT WITH NO LOG GENERATED POST APPLYING CRITICAL PATCH]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38229284</number>
+        <abstract><![CDATA[THE PARAMETER ACTION=U IN QUERY DRILLING URL IS IGNORED WHEN CONFIG SRCH ACTIVE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38260718</number>
+        <abstract><![CDATA[BACKPORT 8.61: PIA GRIDS - DOWNLOAD TO XLSX FEATURE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38312004</number>
+        <abstract><![CDATA[[8.61.16] NV - EA - REPORT NAMES WITH BLANK SPACES ARE FAILING TO FILE TRANSFER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38368616</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38371502</number>
+        <abstract><![CDATA[ACCESS ERROR WHEN BOTH CHARTFIELD SECURITY FLITER BY CONSTANT VALUE AND QUERY MASKING ENABLED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38431431</number>
+        <abstract><![CDATA[BACKPORT TO 8.61 - PT 8.61+ PSQURY FAILS WITH ORA-16000 ON STEP INFO UPDATE SQL]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6121252691</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.16_1of4.zip</name>
+        <size>97346670</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.16_1of4.zip?aru=28310028&patch_file=PEOPLETOOLS-WIN-8.61.16_1of4.zip]]></download_url> 
+        <digest type="SHA-1">C90C673FCD675B013621271F511592FAFE6F2F7E</digest> 
+        <digest type="SHA-256">193F235684C19BF5FB78A583EADF246E021A20815B26FA058ADAE646285F78DF</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.16_2of4.zip</name>
+        <size>2237585357</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.16_2of4.zip?aru=28310028&patch_file=PEOPLETOOLS-WIN-8.61.16_2of4.zip]]></download_url> 
+        <digest type="SHA-256">A371BAB63F296BEDFCE9CC62C8B1E2AA32014903F30A8D6D734222846A413051</digest> 
+        <digest type="SHA-1">4F93A69962C1BADB8E4B60BA020978A08FEA1718</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.16_3of4.zip</name>
+        <size>2420667501</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.16_3of4.zip?aru=28310028&patch_file=PEOPLETOOLS-WIN-8.61.16_3of4.zip]]></download_url> 
+        <digest type="SHA-1">F59DB3C39BA3A134A1506D0A0EF8DECCC34B0FF2</digest> 
+        <digest type="SHA-256">0E22CD35ECCFB37BF125898E6682CE32987826E3E4153007E28B5D377D0C17A4</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.16_4of4.zip</name>
+        <size>1365653163</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.16_4of4.zip?aru=28310028&patch_file=PEOPLETOOLS-WIN-8.61.16_4of4.zip]]></download_url> 
+        <digest type="SHA-256">0492347E514BA63A20D786A77E207333B73C360ED81BE920DEC3AE569098B9DF</digest> 
+        <digest type="SHA-1">2D816C729F5ED2F73583A917A750D2F3D9E8A01E</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1764569673000">2025-12-01 06:14:33</updated_date> 
+    <released_date in_epoch_ms="1764559924000">2025-12-01 03:32:04</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>38347101</number>
+      <abstract><![CDATA[PT 8.61.15 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>38347101</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28167393]]></patch_readme> 
+      <patch_details><![CDATA[/download/38347101.html]]></patch_details>
+    </url> 
+    <request_id>28167393</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>36056368</number>
+        <abstract><![CDATA[ACCESSIBILITY TABBING ORDER ISSUE WHEN GRID HAS VIEW 100 LINK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37965981</number>
+        <abstract><![CDATA[INTERNAL -  BACKPORT PT VOBS CLEAN-UP FIXES - DROP OBSOLETE PACKAGES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38036924</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38141384</number>
+        <abstract><![CDATA[[8.61.15]RTI: DUPLICATE RECENT MENU ENTRIES FOR SEARCH DEFINTIONS WITH _ID HAVING MULTIPLE 'HTTP(S)']]></abstract>
+      </bug> 
+      <bug> 
+        <number>38149431</number>
+        <abstract><![CDATA[GETTING AUTHORIZATION ERROR ON CHANGE MY PASSWORD=Y FOR USER PASSWORD EXPIRE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38150299</number>
+        <abstract><![CDATA[BP 8.61 - REQUISITION PAGE GRID ROWS BECOMES UNRESPONSIVE WHEN THERE IS WARNING IN ZOOMED LINE DESCRIPTION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38185827</number>
+        <abstract><![CDATA[ADD FIELD NOT VALIDATED AGAINST PROMPT WHEN CONFIG SEARCH IS USED FOR NEW FLUID COMPONENT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38185869</number>
+        <abstract><![CDATA[RETURN TO SEARCH NOT WORKING WHEN CONFIG SEARCH IS USED FOR NEW FLUID COMPONENT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38186120</number>
+        <abstract><![CDATA[CPU LOAD AND CPU USAGE IS SHOWING 0 IN APPLICATION SERVER METRICS GRAPH]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38191472</number>
+        <abstract><![CDATA[PT 8.61 -INCLUDE WL/JAVA JUL 2025 CPU IN PT TOOLS DPK]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6120981353</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.15_2of4.zip</name>
+        <size>2237443407</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.15_2of4.zip?aru=28167393&patch_file=PEOPLETOOLS-WIN-8.61.15_2of4.zip]]></download_url> 
+        <digest type="SHA-1">EB03BA6DC916643FB767FDD84A8DF03AD068082E</digest> 
+        <digest type="SHA-256">A665928C8C9A4CDCC3146F290C57DDC711737C04AAD5A304B99535BE692EDAE4</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.15_3of4.zip</name>
+        <size>2420662451</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.15_3of4.zip?aru=28167393&patch_file=PEOPLETOOLS-WIN-8.61.15_3of4.zip]]></download_url> 
+        <digest type="SHA-256">B220CDAF39D2C5515AAAEC9DB14B2311E20D5E4B35ADB117AFB50CCE8A05BB79</digest> 
+        <digest type="SHA-1">4C7328EECF838C24E60391759190ED0830092C1F</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.15_4of4.zip</name>
+        <size>1365531919</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.15_4of4.zip?aru=28167393&patch_file=PEOPLETOOLS-WIN-8.61.15_4of4.zip]]></download_url> 
+        <digest type="SHA-1">FC66309AD65F2534B69A81D5E4F75E24B69D5706</digest> 
+        <digest type="SHA-256">674F09965D2DC7A6328A9D105126D1EAFF76EAF42CA3A8C7B636DAAFCADD8F4A</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.15_1of4.zip</name>
+        <size>97343576</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.15_1of4.zip?aru=28167393&patch_file=PEOPLETOOLS-WIN-8.61.15_1of4.zip]]></download_url> 
+        <digest type="SHA-256">86056EBBA995469D71C988BEEF53B4AC90DFEA37529628B4F5B01C453C2E85DC</digest> 
+        <digest type="SHA-1">11FB81E1A67E4B7857B68AABA21EB35E27E89CED</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1760665175000">2025-10-17 01:39:35</updated_date> 
+    <released_date in_epoch_ms="1760609760000">2025-10-16 10:16:00</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>38164560</number>
+      <abstract><![CDATA[PT 8.61.14 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>38164560</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=27878446]]></patch_readme> 
+      <patch_details><![CDATA[/download/38164560.html]]></patch_details>
+    </url> 
+    <request_id>27878446</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>37369679</number>
+        <abstract><![CDATA[RETURN TO SEARCH CHANGES LABEL FROM FIND EXISTING VALUE TO KW SRCH]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37373830</number>
+        <abstract><![CDATA[WEB SERVER DOMAIN FAILS TO BOOT POST 8.61.07 DOMAIN REFRESH USING PSADMIN]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37514648</number>
+        <abstract><![CDATA[FIXES FOR INBOUND EMAILS WITH MICROSOFT SECURITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37873653</number>
+        <abstract><![CDATA[REDESIGN DATABASE UPDATE FOR QUERY STATISTICS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37887242</number>
+        <abstract><![CDATA[CLASS ROW METHOD GETFIELD INVALID ERROR AFTER REORDERING DISPLAY ORDER IN SEARCH DIALOG.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37903953</number>
+        <abstract><![CDATA[UNABLE TO MERGE CERTAIN WORD DOCX FILES CONTAINING TABLES TO A BI PUBLISHER REPORT WITH EXTERNAL ATTACHMENTS FEATURE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37921293</number>
+        <abstract><![CDATA[8.61 BACKPORT - DATA MOVER IMPORT ON DB2 ZOS UTS FAILS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37927796</number>
+        <abstract><![CDATA[PSIBLOGIBINFO TABLE IS GROWING IF LOGFENCE SET TO 4 OR 5]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37975157</number>
+        <abstract><![CDATA[PT 861 12B - AN ERROR OCCURED MESSAGE POP UP APPEARS WHEN NAVIGATED TO APPROVE CHANGE REQUEST PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37977538</number>
+        <abstract><![CDATA[BACKPORT PT861 ADD VALID DIGITAL CERTIFICATE FOR EXCEL ADD-IN FILES]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6498899833</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.14_2of4.zip</name>
+        <size>2536798103</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.14_2of4.zip?aru=27878446&patch_file=PEOPLETOOLS-WIN-8.61.14_2of4.zip]]></download_url> 
+        <digest type="SHA-1">E16FE6D9204C33CCB306E4F9B9EC3F05B0936557</digest> 
+        <digest type="SHA-256">E960F3F795027257B2121F91519812C482CB25E93D8ADC14A53F64F912816061</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.14_1of4.zip</name>
+        <size>95200378</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.14_1of4.zip?aru=27878446&patch_file=PEOPLETOOLS-WIN-8.61.14_1of4.zip]]></download_url> 
+        <digest type="SHA-1">587DD6627B394FB85ACC70ED891511A1FE331B62</digest> 
+        <digest type="SHA-256">986FFABA0718EBFF2E94E60A78A0E79F39B838C115C4C24A704105DC5E87A009</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.14_4of4.zip</name>
+        <size>1368316507</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.14_4of4.zip?aru=27878446&patch_file=PEOPLETOOLS-WIN-8.61.14_4of4.zip]]></download_url> 
+        <digest type="SHA-1">CFF306AD22601845046AFBAD432493FB2D8A739C</digest> 
+        <digest type="SHA-256">EE683B64EB3185101B94F41AE8209393254E574C32DDF057911AC9D74FF3CCCE</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.14_3of4.zip</name>
+        <size>2498584845</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.14_3of4.zip?aru=27878446&patch_file=PEOPLETOOLS-WIN-8.61.14_3of4.zip]]></download_url> 
+        <digest type="SHA-1">122146074EDE770444EB4882B1F8C415D3D90BA5</digest> 
+        <digest type="SHA-256">76E97B0C3D7FB01757CFDA8E666A0C6FDA77D0EF1E2B6CC790FAA6E1AD8F1926</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1756100274000">2025-08-25 05:37:54</updated_date> 
+    <released_date in_epoch_ms="1756087105000">2025-08-25 01:58:25</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>37988860</number>
+      <abstract><![CDATA[PT 8.61.13 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>37988860</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=27624741]]></patch_readme> 
+      <patch_details><![CDATA[/download/37988860.html]]></patch_details>
+    </url> 
+    <request_id>27624741</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>37589285</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37589293</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37719681</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37720838</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37723044</number>
+        <abstract><![CDATA[A DASHBOARD IN SMALL FORM FACTOR HAS THE LAST TILE CUT OFF]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37735343</number>
+        <abstract><![CDATA[508: ORACLE LOGO IS READ OUT OF ORDER OF ITS APPEARANCE ON SCREEN]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37744278</number>
+        <abstract><![CDATA[AN ERROR OCCURRED USING THE LOOKUP ON THE VIEW EVENT ATTENDANCE PAGE ON MSS DB]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37749126</number>
+        <abstract><![CDATA[BP 8.61 - UPTAKE ORTL 2.0.2]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37750153</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37803500</number>
+        <abstract><![CDATA[TYPEAHEAD BROKEN FOR EMPLID IN COMPONENT SEARCH]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6494211190</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.13_2of4.zip</name>
+        <size>2532162990</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.13_2of4.zip?aru=27624741&patch_file=PEOPLETOOLS-WIN-8.61.13_2of4.zip]]></download_url> 
+        <digest type="SHA-256">A9F2F5A7CFE6BBEE29B0CB5631DA4E74BD3758FBE850833CCCA3228577D1416B</digest> 
+        <digest type="SHA-1">594D8469413ACBA1D2F17B6B1C223BD24B7CB31C</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.13_1of4.zip</name>
+        <size>95182852</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.13_1of4.zip?aru=27624741&patch_file=PEOPLETOOLS-WIN-8.61.13_1of4.zip]]></download_url> 
+        <digest type="SHA-1">A40D595F9373E050C4199B832A02A47FD6E905A5</digest> 
+        <digest type="SHA-256">353DE216941A60ADC16A69DE8EE055740811BD09FFF9A8265E83A99555756C4F</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.13_3of4.zip</name>
+        <size>2498581309</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.13_3of4.zip?aru=27624741&patch_file=PEOPLETOOLS-WIN-8.61.13_3of4.zip]]></download_url> 
+        <digest type="SHA-1">3958350DBABA04BB7E86882E8F77B9C64D8378E6</digest> 
+        <digest type="SHA-256">4D9A9544F688815AA889836EA593D927918F347CBC23B2E8C20314AB27F946C8</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.13_4of4.zip</name>
+        <size>1368284039</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.13_4of4.zip?aru=27624741&patch_file=PEOPLETOOLS-WIN-8.61.13_4of4.zip]]></download_url> 
+        <digest type="SHA-1">A956D6EA3C8900AB56B8050269C8C1141A126371</digest> 
+        <digest type="SHA-256">3F022946570CC14D4CB090A9F8141B636056520AF8A183595AC2D263426D7569</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1752227609000">2025-07-11 09:53:29</updated_date> 
+    <released_date in_epoch_ms="1752221723000">2025-07-11 08:15:23</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>37820329</number>
+      <abstract><![CDATA[PT 8.61.12 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>37820329</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=27418629]]></patch_readme> 
+      <patch_details><![CDATA[/download/37820329.html]]></patch_details>
+    </url> 
+    <request_id>27418629</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>35767375</number>
+        <abstract><![CDATA[ACCESSABILITY:8.61 FUNC ISSUE: KEYWORD SEARCH CRITERIA SHOWS ADDITIONAL EMPTY ROW - SCREEN READER MODE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37442370</number>
+        <abstract><![CDATA[ABEND:LINUX:CICBUFLIST::GENERATETYPEAHEADJLIST]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37604038</number>
+        <abstract><![CDATA[BACKPORT FOR BUG 36883596 FOR PT 8.61 ENABLING CONFIG SEARCH SEVERE PERFORMANCE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37609848</number>
+        <abstract><![CDATA[861 INC INDEX-NO RESULTS FOR KEYWORK SEARCH IN COMPONENT WHILE INDEXING SCHEDULE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37664217</number>
+        <abstract><![CDATA[BP 8.61: JAWS DOES NOT READ OUT THE PROMPT IN FIREFOX BUT WORKS IN CHROME]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37690246</number>
+        <abstract><![CDATA["SSH PUBLIC KEY AUTHENTICATION FAILED: CALLBACK RETURNED ERROR" WHEN USING SFTP]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37695865</number>
+        <abstract><![CDATA[[PT861] - (SQR 4705) PROGRAM LINE TOO LONG; MAXIMUM IS 511 AFTER APPLYING CRITICAL PATCH]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37749045</number>
+        <abstract><![CDATA[BACKPORT PT861 CI CREATE/GET METHOD SHOW SLOW PERF BY QUERY ON PSPRSMDEFN FIELD PORTAL_URLTEXT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37749090</number>
+        <abstract><![CDATA[BACKPORT PT861 ACCESSIBILITY: NOTIFICATIONS MESSAGE WHEN NO NOTIFICATIONS NOT ACCURATE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37752663</number>
+        <abstract><![CDATA[BP 861:YES OR NO LABEL IS MISSING ON SWITCH FIELD]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6548345920</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.12_3of4.zip</name>
+        <size>2549994215</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.12_3of4.zip?aru=27418629&patch_file=PEOPLETOOLS-WIN-8.61.12_3of4.zip]]></download_url> 
+        <digest type="SHA-256">5392D9A6A9F7CDCF0A858569B014E788DD88D3884C65853007DA8BA4642C86B0</digest> 
+        <digest type="SHA-1">CF50A6676FEE258B353D1716259E619CBFD06E18</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.12_1of4.zip</name>
+        <size>95082975</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.12_1of4.zip?aru=27418629&patch_file=PEOPLETOOLS-WIN-8.61.12_1of4.zip]]></download_url> 
+        <digest type="SHA-1">CD6D0C104159E78BF9125D2E4C234713F498B079</digest> 
+        <digest type="SHA-256">F5184323E016B7B15B8CC44EFF85014C2FA49BAEE52E951F714022F4CD24F557</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.12_2of4.zip</name>
+        <size>2532738097</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.12_2of4.zip?aru=27418629&patch_file=PEOPLETOOLS-WIN-8.61.12_2of4.zip]]></download_url> 
+        <digest type="SHA-1">E6A109B4721F6E00A5B47FE066BC69F7652F78F8</digest> 
+        <digest type="SHA-256">EEFCCB28F12A680C77DBE2E44B58D79DFF3642C704B61D99F537EEDC3655260B</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.12_4of4.zip</name>
+        <size>1370530633</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.12_4of4.zip?aru=27418629&patch_file=PEOPLETOOLS-WIN-8.61.12_4of4.zip]]></download_url> 
+        <digest type="SHA-256">047F9C9A169EDB6C0E025D36C03A8E1FA6C6A06253007B4DBF6F8A713F730D5C</digest> 
+        <digest type="SHA-1">159D8BD0ABB677A1C8B489533AC87215DAB9DE4F</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1748219921000">2025-05-26 00:38:41</updated_date> 
+    <released_date in_epoch_ms="1748163718000">2025-05-25 09:01:58</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>37658214</number>
+      <abstract><![CDATA[PT 8.61.11 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>37658214</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=27119990]]></patch_readme> 
+      <patch_details><![CDATA[/download/37658214.html]]></patch_details>
+    </url> 
+    <request_id>27119990</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>34766442</number>
+        <abstract><![CDATA[WCAG 2.1 - 4.1.3: SEARCH 'NO RESULTS FOUND' IS NOT READ BY JAWS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36273506</number>
+        <abstract><![CDATA[CONFIGURE DROP ZONES - TWO DIFFERENT COMPONENT/PAGE SHARED SUBPAGE WHICH HAS  DROPZONE DEFINED CAUSING ISSUE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36334548</number>
+        <abstract><![CDATA[PRESCROLLROWSELECT AND SCROLLROWSELECT HAVING ISSUES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37205026</number>
+        <abstract><![CDATA[861 CONFIGURABLE SEARCH (NCC):GETTING ERROR ON SEARCH PAGE FIELD'S PROMPT WHEN SELECTING THE VALUE FROM PROMPT LIST]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37232442</number>
+        <abstract><![CDATA[PT 8.61: PAGE DATA IS INCONSISTENT WITH DATABASE ISSUE IN 8.61.05]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37353400</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37373380</number>
+        <abstract><![CDATA[APP SERVER CRASH WHEN ACCESSING PERFORMANCE NOTES PAGES IN ESS AND MSS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37442493</number>
+        <abstract><![CDATA[BACKPORT-SYNCHRONIZE CLASSIC_FLUID NOTIFY BTN FUNC FAILS ON CLICKING NEW PIA WINDOW]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37474798</number>
+        <abstract><![CDATA[GETTING ERROR ‘DATA BEING ADDED CONFLICTS WITH EXISTING DATA’ WHEN KEYWORD]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37483040</number>
+        <abstract><![CDATA[BP:861: PSAPPSRV MEMORY USAGE GROWING FAST WITH FLUID, SPECIFIC TO CLASS SEARCH 8.59.07]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6548044528</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.11_4of4.zip</name>
+        <size>1370384157</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.11_4of4.zip?aru=27119990&patch_file=PEOPLETOOLS-WIN-8.61.11_4of4.zip]]></download_url> 
+        <digest type="SHA-256">422FBE6DA613F60E3FE8594D0AD6F6D16BF643DBE03C8ED30970172BA2686E48</digest> 
+        <digest type="SHA-1">C636126CBC8AE95B45D7F02244E8FDFF84D4B7D4</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.11_3of4.zip</name>
+        <size>2550012481</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.11_3of4.zip?aru=27119990&patch_file=PEOPLETOOLS-WIN-8.61.11_3of4.zip]]></download_url> 
+        <digest type="SHA-256">69D29BBC7BB0C794EDDEB9D17AFA4C4EE74C1C799325B8B1B0D5B0DB7626D8F5</digest> 
+        <digest type="SHA-1">FD41FAE22FE9D6344E17FA180114459C5728A70C</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.11_1of4.zip</name>
+        <size>95080554</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.11_1of4.zip?aru=27119990&patch_file=PEOPLETOOLS-WIN-8.61.11_1of4.zip]]></download_url> 
+        <digest type="SHA-1">CA8B013A32256AA3FFA7D4709CE60B26384FF6D6</digest> 
+        <digest type="SHA-256">37DC33E1B7A5D60BFD1AE080DBE46C97464D66FA50B817B69E2F34DC9B1D0DCF</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.11_2of4.zip</name>
+        <size>2532567336</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.11_2of4.zip?aru=27119990&patch_file=PEOPLETOOLS-WIN-8.61.11_2of4.zip]]></download_url> 
+        <digest type="SHA-256">FE84736CA665E3303B9C68360FB9E8441F91D64AD5A66DAA845B98EFEB42443A</digest> 
+        <digest type="SHA-1">4CFCEB537CEB4A257CA6CFBEB7CD148EBDE171D7</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1744588031000">2025-04-13 23:47:11</updated_date> 
+    <released_date in_epoch_ms="1744537250000">2025-04-13 09:40:50</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>37483270</number>
+      <abstract><![CDATA[PT 8.61.10 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>37483270</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=26123348]]></patch_readme> 
+      <patch_details><![CDATA[/download/37483270.html]]></patch_details>
+    </url> 
+    <request_id>26123348</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>36056757</number>
+        <abstract><![CDATA[BP 8.61: 508 - CLASSIC PLUS GRID BUTTONS ARE NOT PROPERLY LABELED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36060425</number>
+        <abstract><![CDATA[WCAG2.1-SCREENREADER - ISSUES ON MANAGE CONFIG PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36565872</number>
+        <abstract><![CDATA[[8.61.10]SET DEFAULT TIMEOUT IN DIRECT TRANSFER APIS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36813581</number>
+        <abstract><![CDATA[BACKPORT PT861 AUTOFOCUS PROCESSING WAS BLOCKED ERROR ON CHROME AND EDGE BROWSERS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37104281</number>
+        <abstract><![CDATA[CLEAR AND REST BUTTON FROM PROCESS MONITOR DO NOT CLEAR THE FILTERS.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37161183</number>
+        <abstract><![CDATA[[8.61] OSD- DYNAMICTIMERANGE FILTERS ARE NOT WORKING]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37226254</number>
+        <abstract><![CDATA[GRID SORT DELETE SETTINGS LINK ON PERSONALIZE IS SEEN WITH OUT ANY CHANGES DONE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37254242</number>
+        <abstract><![CDATA[WHEN LOOKUP VALUE CONTAINS COMMA REPLACES WITH COLONS '::::']]></abstract>
+      </bug> 
+      <bug> 
+        <number>37281029</number>
+        <abstract><![CDATA[BP 8.61: WCAG 2.2 - ARIA ERRORS IN PAGES WITH TABS IN CLASSIC PLUS.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37310823</number>
+        <abstract><![CDATA["THE SERVER HAS NOT FOUND ANYTHING MATCHING THE REQUEST-URI. HTTPSTATUSCODE RETURNED : 404" WHEN CONSUMING WSDL]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6404807238</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.10_4of4.zip</name>
+        <size>1367741841</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.10_4of4.zip?aru=26123348&patch_file=PEOPLETOOLS-WIN-8.61.10_4of4.zip]]></download_url> 
+        <digest type="SHA-256">C57896DECB689B42E6CCE2302CC49FEB7357E3CABC296802148F4D74F59EE31D</digest> 
+        <digest type="SHA-1">557EB47F3E57D9E1BDFAC6B3FA5AEC0D02F526D1</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.10_1of4.zip</name>
+        <size>94937233</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.10_1of4.zip?aru=26123348&patch_file=PEOPLETOOLS-WIN-8.61.10_1of4.zip]]></download_url> 
+        <digest type="SHA-1">CD2893FF8B7587F64EB09BB32E95A1FAA7D6C650</digest> 
+        <digest type="SHA-256">62CEE93741B6007CDC14257CC281BA33680E4FBF9F176362E4829574FD68A339</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.10_2of4.zip</name>
+        <size>2527266105</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.10_2of4.zip?aru=26123348&patch_file=PEOPLETOOLS-WIN-8.61.10_2of4.zip]]></download_url> 
+        <digest type="SHA-1">ED8BA4E8C5728B37456E2A858DA9E59D6D5529DA</digest> 
+        <digest type="SHA-256">57FE31B7FDF86E77B5C99ABAE76D7A841AF4FC52352DE74207588E169C51E41A</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.10_3of4.zip</name>
+        <size>2414862059</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.10_3of4.zip?aru=26123348&patch_file=PEOPLETOOLS-WIN-8.61.10_3of4.zip]]></download_url> 
+        <digest type="SHA-1">7940BA4D46FBDBC844745A20235CFE42DF638342</digest> 
+        <digest type="SHA-256">79C73B277F08C43F6F94153698BEC641298F210F8DC96FD849402AE9C95E4BCA</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1741124958000">2025-03-04 21:49:18</updated_date> 
+    <released_date in_epoch_ms="1741082144000">2025-03-04 09:55:44</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>37328910</number>
+      <abstract><![CDATA[PT 8.61.09 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>37328910</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=26036521]]></patch_readme> 
+      <patch_details><![CDATA[/download/37328910.html]]></patch_details>
+    </url> 
+    <request_id>26036521</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>33882664</number>
+        <abstract><![CDATA[BP 8.61 - DISTRIBUTION SECTION CLOSES AFTER SELECTING AN ACCOUNT FROM LOOKUP]]></abstract>
+      </bug> 
+      <bug> 
+        <number>34281614</number>
+        <abstract><![CDATA[ACCESSIBILITY: ISSUES WITH RECENT AND SAVED SEARCHES DROP DOWN AND PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36536266</number>
+        <abstract><![CDATA[BACKPORT PT861 NEED VALID DIGITALLY SIGNED RELLANGMCRO.XLA  AND NVSGO.XLA MACRO FILE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36925164</number>
+        <abstract><![CDATA[[PT861]: REMOVE AESAMP AND PSCOBNET JCL AND PSCOBNET.PRC  FROM THE ZOS DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36975324</number>
+        <abstract><![CDATA[PI52_FMS:"AN ERROR OCCURRED. PLEASE CONSULT YOUR SYSTEM LOG FOR DETAILS" ERROR IS BEING DISPLAYED IN PIA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37006431</number>
+        <abstract><![CDATA[BACKPORT PT861 PUSH NOTIFICATIONS NOT STAYING CLEARED WHEN MARKED DISMISSED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37021296</number>
+        <abstract><![CDATA[PT861-09A-23AI SUPPORT IN CLOUD MANAGER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37071490</number>
+        <abstract><![CDATA[PT 8.61.07A SYSAUDIT - VERSION CHECK AUDITS FAILING FOR FEW OBJECTS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37133358</number>
+        <abstract><![CDATA[BP 8.61: PROCESS DETAIL MODAL PAGE EXPANDS WHEN CLICKING THE REFRESH BUTTON]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37174635</number>
+        <abstract><![CDATA[PT 8.61 -INCLUDE WL OCT 2024 CPU IN PT TOOLS DPK]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6404399073</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.09_3of4.zip</name>
+        <size>2414859960</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.09_3of4.zip?aru=26036521&patch_file=PEOPLETOOLS-WIN-8.61.09_3of4.zip]]></download_url> 
+        <digest type="SHA-256">67CC5EFDBB5B39893B916AD06CE67B737C05F9E85DE362D1ABA5777B8DDD2CAA</digest> 
+        <digest type="SHA-1">B10B0A208A4A3234A7450092FFB556A281ADD21B</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.09_1of4.zip</name>
+        <size>94935024</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.09_1of4.zip?aru=26036521&patch_file=PEOPLETOOLS-WIN-8.61.09_1of4.zip]]></download_url> 
+        <digest type="SHA-1">B3F63FCD633D1053D5BA90ACC05E2CB1866D4A4C</digest> 
+        <digest type="SHA-256">A1E707F12FD57A654F28281C4E8A2406C5E2842FDE0B2E6F45A150167C523C52</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.09_4of4.zip</name>
+        <size>1367544004</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.09_4of4.zip?aru=26036521&patch_file=PEOPLETOOLS-WIN-8.61.09_4of4.zip]]></download_url> 
+        <digest type="SHA-256">25F62D4F7E9F2B9110CB81BCAD928EED21454F533CDDBAD5EC42E9ABB98D5059</digest> 
+        <digest type="SHA-1">AECE8C6FE97FFD3715E373BC7719E34F138FB2FC</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.09_2of4.zip</name>
+        <size>2527060085</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.09_2of4.zip?aru=26036521&patch_file=PEOPLETOOLS-WIN-8.61.09_2of4.zip]]></download_url> 
+        <digest type="SHA-256">89700B661486A7FD9470157A260849B19ECFC2EE57CD594F8ED134CA1A0789DC</digest> 
+        <digest type="SHA-1">AE58655850A7992072DBC6EB00D867AC747402E7</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1737368639000">2025-01-20 10:23:59</updated_date> 
+    <released_date in_epoch_ms="1737028186000">2025-01-16 11:49:46</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>37165653</number>
+      <abstract><![CDATA[PT 8.61.08 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>37165653</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=25953322]]></patch_readme> 
+      <patch_details><![CDATA[/download/37165653.html]]></patch_details>
+    </url> 
+    <request_id>25953322</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>36215237</number>
+        <abstract><![CDATA[ERROR: CANNOT CREATE MATERIALIZED VIEW IN DB2OS390 8.61]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36617425</number>
+        <abstract><![CDATA[[8.61.08] SOURCE LEVEL SECURITY WITH DUAL ROWS OF AUTHENTICATION IS NOT WORKING WITH CPP CODE.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36821887</number>
+        <abstract><![CDATA[BACKPORT BUG 36498900 - W4 DROP DOWN ITEM EXEMPT DOES NOT DISPLAY ON CONFIRMATION COPY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36826562</number>
+        <abstract><![CDATA[BP 8.61: JAWS DOES NOT READ DIV GRID ROW WITH ROW CLICK AS A BUTTON]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36878955</number>
+        <abstract><![CDATA[BP 8.61: DISABLED QAB STILL SHOW ACCESSIBILITY BUTTON]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36915398</number>
+        <abstract><![CDATA[8.61: MONITORING DASHBOARDS ACM DOES NOT TAKE VALUE  FOR ENV.MONITOR_KIBANA_HOST]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36917242</number>
+        <abstract><![CDATA[[8.61.08] RTI ISSUE WITH TO_TIMESTAMP IN MSS DATABASE.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36929277</number>
+        <abstract><![CDATA[BACKPORT-TOOLS ACCESSIBILITY: 508: SEARCH RESULTS PAGE ISSUES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36944580</number>
+        <abstract><![CDATA[CODING - JSON 20240303 - UPGRADE-PT861 BACKPORT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36952803</number>
+        <abstract><![CDATA[<BACKPORT> PT8.61 - DPK DEPLOY HOSTNAMECTL FAILURE WITH PODMAN BUILD DUE TO SYSTEMD DEPENDENCY ON OCI OL]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6322891134</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.08_2of4.zip</name>
+        <size>2514459927</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.08_2of4.zip?aru=25953322&patch_file=PEOPLETOOLS-WIN-8.61.08_2of4.zip]]></download_url> 
+        <digest type="SHA-1">C74462539ABEA0170532BC55217354159AAC8747</digest> 
+        <digest type="SHA-256">767DC8C5D38C96A1D1AE8607C629318B65A99B6A3B67D951613957443B9AD853</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.08_3of4.zip</name>
+        <size>2393837934</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.08_3of4.zip?aru=25953322&patch_file=PEOPLETOOLS-WIN-8.61.08_3of4.zip]]></download_url> 
+        <digest type="SHA-1">15FE5C8A4B0BCAB7E949E700841BE97BCFED178E</digest> 
+        <digest type="SHA-256">D07F5712A259EAA4F971A9C89A49670C67BE9B4843F320008A76DF981621F0EE</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.08_4of4.zip</name>
+        <size>1326672404</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.08_4of4.zip?aru=25953322&patch_file=PEOPLETOOLS-WIN-8.61.08_4of4.zip]]></download_url> 
+        <digest type="SHA-1">9B91F45A1F9D2FD3C1238CCFA3B8B1ADAD3DC006</digest> 
+        <digest type="SHA-256">FE0E87D0FCA8ED291814CB51ED9D358F5AB8D847C274B3BFD5FBE1B0C86B2D49</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.08_1of4.zip</name>
+        <size>87920869</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.08_1of4.zip?aru=25953322&patch_file=PEOPLETOOLS-WIN-8.61.08_1of4.zip]]></download_url> 
+        <digest type="SHA-256">A5743CA89AFD485A092FB95A067926F9825B49F71CAA5DB89F054A48F3E95534</digest> 
+        <digest type="SHA-1">5318155789ED327F518AB0D354191B7343F3ACD2</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1732657160000">2024-11-26 21:39:20</updated_date> 
+    <released_date in_epoch_ms="1732611170000">2024-11-26 08:52:50</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>36995043</number>
+      <abstract><![CDATA[PT 8.61.07 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>36995043</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=25873319]]></patch_readme> 
+      <patch_details><![CDATA[/download/36995043.html]]></patch_details>
+    </url> 
+    <request_id>25873319</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>35687965</number>
+        <abstract><![CDATA[DATA INTEGRITY ERROR WHEN WORKING IN A PAGE AFTER HITTING SAVE IN ADD MODE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36078136</number>
+        <abstract><![CDATA[WCAG 2.1 - 1.3.1: CONFIG SEARCH FIND AN EXISTING VALUE NOT A HEADING]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36296781</number>
+        <abstract><![CDATA[DROP DOWN OPTION NOT SHOWING FOR SOME FIELDS WHEN KW SRCH IS CONFIGURED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36701764</number>
+        <abstract><![CDATA[WEBSERVER DOMAIN DIRECTORY IS CREATED WITH FULL PERMISSIONS ON LINUX - PT 8.61]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36761738</number>
+        <abstract><![CDATA[RECENTLY VISITED ITEMS BEING REMOVED BACKPORT BUG FOR 861]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36819069</number>
+        <abstract><![CDATA[[PT861] - E-SQR: UNABLE TO EMAIL THE SQR REPORT ONCE TLS1.2 IS ENABLED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36822734</number>
+        <abstract><![CDATA[TYPE AHEAD NOT WORKING IN CONFIGURABLE SEARCH WHEN KEYWORD SEARCH IS ENABLED PT861]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36824132</number>
+        <abstract><![CDATA[[8.61.07] RTI CONFIGURATION COMPONENT SHOULD WARN WHEN QUERY SECURITY RECORD HAS OPRID, OPRCLASS OR ROWSECCLASS AND FIELD IS A LIST BOX ITEM]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36842450</number>
+        <abstract><![CDATA[<INTERNAL> PT8.61 - UPDATE DEP DB2 DPK TO USE DB2 CONNECT CLIENT 11.5.9.0]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36849005</number>
+        <abstract><![CDATA[BP: TAB HEADER GETTING “AMP;” AFTER “&” SYMBOL]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6321649063</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.07_3of4.zip</name>
+        <size>2393838690</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.07_3of4.zip?aru=25873319&patch_file=PEOPLETOOLS-WIN-8.61.07_3of4.zip]]></download_url> 
+        <digest type="SHA-1">3BA26DFAAEF8C6DF1BA441522302D5630250223B</digest> 
+        <digest type="SHA-256">ECE7E24B046ABD9B8249CDCC410D82A14D56038B2AEED46FA24B598C0240DE56</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.07_1of4.zip</name>
+        <size>87819531</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.07_1of4.zip?aru=25873319&patch_file=PEOPLETOOLS-WIN-8.61.07_1of4.zip]]></download_url> 
+        <digest type="SHA-1">5FAD934D74E22072D4D0261F83F0E0EB5EF412FB</digest> 
+        <digest type="SHA-256">7EE6B319920F25ECC61EBA8B12FAB86207A72E5FB3227DA1BCD55502AD24B129</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.07_2of4.zip</name>
+        <size>2513856343</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.07_2of4.zip?aru=25873319&patch_file=PEOPLETOOLS-WIN-8.61.07_2of4.zip]]></download_url> 
+        <digest type="SHA-1">0004AEAAE579967FBC31E7DAEE2A243247D96BA4</digest> 
+        <digest type="SHA-256">8D5C3A92B66510337110DDB3156FCFB23020A315D12840E0825AE59ECF47F3F4</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.07_4of4.zip</name>
+        <size>1326134499</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.07_4of4.zip?aru=25873319&patch_file=PEOPLETOOLS-WIN-8.61.07_4of4.zip]]></download_url> 
+        <digest type="SHA-256">1B491DDE92754C648075D89E627808995127D1AEC1470CC1026863D05523F36D</digest> 
+        <digest type="SHA-1">68388072EE377EAD1BD5E790F21FB346FDBB079C</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1728864093000">2024-10-14 00:01:33</updated_date> 
+    <released_date in_epoch_ms="1728812254000">2024-10-13 09:37:34</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>36836575</number>
+      <abstract><![CDATA[PT 8.61.06 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>36836575</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=25803412]]></patch_readme> 
+      <patch_details><![CDATA[/download/36836575.html]]></patch_details>
+    </url> 
+    <request_id>25803412</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>35408345</number>
+        <abstract><![CDATA[BP 8.61 - COLLAPSIBLE DATA AREA NOT RETAINING ITS STATE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35923292</number>
+        <abstract><![CDATA[[MEMLEAK] CEVALTEMPLOCAL::LSETPUSH(CEVALTEMPLOCAL CONST&)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36058301</number>
+        <abstract><![CDATA[WCAG2.1: JAWS DOES NOT READS OUT EXACT SEARCH BY OPTION PROPERLY PT861]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36216623</number>
+        <abstract><![CDATA[BP 8.61 - ACCESSIBILITY:  PROVIDE SUPPORT FOR CAPTION SINCE TABLE SUMMARY DEPRECATED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36224628</number>
+        <abstract><![CDATA[BP 8.61 - MODELESS COMPONENT CLOSES ON LAUNCHING MODAL AFTER CLICKING SPELL CHECK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36341018</number>
+        <abstract><![CDATA[861BP -- GRID MULTI  ROW SELECT CHECKBOX ID - LABEL FOR MISMATCH]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36446744</number>
+        <abstract><![CDATA[861 -CONTAINER API - SUPPORT APP, PRCS AND PIA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36605476</number>
+        <abstract><![CDATA[[8.61.06] RTI - CORRECT RLR LOGIC AND PREVENT CRASH DUMPS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36657227</number>
+        <abstract><![CDATA[RTE FIELD BECOME UNRESPONSIVE WHEN CHANGING THE NEXT FIELD]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36657896</number>
+        <abstract><![CDATA[8.61: SUPPRESS TRAILING ZERO PROPERTY IS SUPRESSING ZEROS BEFORE DECIMAL POINT (INTEGER PART) AS WELL WHEN DECIMALPOSITION PROPERTY IS SET TO '0']]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6341481236</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.06_1of4.zip</name>
+        <size>89563173</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.06_1of4.zip?aru=25803412&patch_file=PEOPLETOOLS-WIN-8.61.06_1of4.zip]]></download_url> 
+        <digest type="SHA-1">A555C1F4C657690CCF7B89A8792975D0951E5B45</digest> 
+        <digest type="SHA-256">C5623234788B63F6101735CBD4E15A06ED402E8D3E8F706CC05A9D672325E293</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.06_2of4.zip</name>
+        <size>2517799135</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.06_2of4.zip?aru=25803412&patch_file=PEOPLETOOLS-WIN-8.61.06_2of4.zip]]></download_url> 
+        <digest type="SHA-1">765BEC5E03ED7C9EFBA81CBA18EC28056765FEE4</digest> 
+        <digest type="SHA-256">A35CEE8E4A49B8C63C77C6D13951F1782918155FB2D3C3C1FB4C01FCC5AEA991</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.06_3of4.zip</name>
+        <size>2390468000</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.06_3of4.zip?aru=25803412&patch_file=PEOPLETOOLS-WIN-8.61.06_3of4.zip]]></download_url> 
+        <digest type="SHA-256">130A238811B0243CA615DCEF3342B3AC1DAAE913BB096EF742F01090441D7A2E</digest> 
+        <digest type="SHA-1">B19202EC6F44C2AD99CEA66F5D984B978CF3AADB</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.06_4of4.zip</name>
+        <size>1343650928</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.06_4of4.zip?aru=25803412&patch_file=PEOPLETOOLS-WIN-8.61.06_4of4.zip]]></download_url> 
+        <digest type="SHA-1">96C297A862FB0AD3FFED8D719DF95C5E16C95E6D</digest> 
+        <digest type="SHA-256">C5EB2828CE29193A85DC59C71C306FC368B88A12E7F5D55989C213045FDDF8A1</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1724823431000">2024-08-28 05:37:11</updated_date> 
+    <released_date in_epoch_ms="1724812686000">2024-08-28 02:38:06</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>36669225</number>
+      <abstract><![CDATA[PT 8.61.05 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>36669225</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=25752002]]></patch_readme> 
+      <patch_details><![CDATA[/download/36669225.html]]></patch_details>
+    </url> 
+    <request_id>25752002</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>36060470</number>
+        <abstract><![CDATA[WCAG:HCC:AE ACTION PLUGIN:HIGHLIGHTED TEXTBOX IN RED CANNOT BE DISTINGUISHED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36129550</number>
+        <abstract><![CDATA[BACKPORT PT 8.61 ACCESSIBILITY: MULTIPLE ISSUES HOW NOTIFICATIONS READ ON HOMEPG IN SCREEN READER MODE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36275418</number>
+        <abstract><![CDATA[[MEMLEAK] CPPR::UPDATESEARCHSCROLL(BOOL)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36399849</number>
+        <abstract><![CDATA[FLUID GRID PERSONALIZATION: &NBSP TAB IS APPEARING WHILE HIDING THE TAB SEPARATOR]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36409537</number>
+        <abstract><![CDATA[TRANSACTION IDS ARE BEING WRAPPED/DISPLAYED IN 2 LINES AS OF PT 8.60.09.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36410492</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36504615</number>
+        <abstract><![CDATA[INVALID VALUE -- PRESS THE PROMPT BUTTON OR HYPERLINK FOR A LIST OF VALID VALUES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36517444</number>
+        <abstract><![CDATA[PSPNLFIELDEXT.PTFRMTOVERRIDE FIELD GETTING INVALID VALUES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36520392</number>
+        <abstract><![CDATA[[8.61.05] RTI CONFIGURATION NEEDS PROPER JOIN TO QUERY SECURITY RECORD DEFINED ON QUERY SOURCE RECORD DEFINITION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36520432</number>
+        <abstract><![CDATA[NODE PASSWORD CHANGE NO LONGER ISSUES PROMPT MESSAGE]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6342557733</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.05_3of4.zip</name>
+        <size>2390477463</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.05_3of4.zip?aru=25752002&patch_file=PEOPLETOOLS-WIN-8.61.05_3of4.zip]]></download_url> 
+        <digest type="SHA-256">D5375937E056EA82B9636B4743E21422EAB97F8FB87CD1E08300F81BB98FE917</digest> 
+        <digest type="SHA-1">1AE62C308BA7BB46D31AD70C0C6F69381546357B</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.05_1of4.zip</name>
+        <size>89559645</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.05_1of4.zip?aru=25752002&patch_file=PEOPLETOOLS-WIN-8.61.05_1of4.zip]]></download_url> 
+        <digest type="SHA-256">52E3622A00580CFD349607EA731A3425B36B1D1D474DC7932FF95383CC7E36A8</digest> 
+        <digest type="SHA-1">E9D2F8EA5FFCB0C56009B69C9D2C21999BF556B2</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.05_2of4.zip</name>
+        <size>2518330125</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.05_2of4.zip?aru=25752002&patch_file=PEOPLETOOLS-WIN-8.61.05_2of4.zip]]></download_url> 
+        <digest type="SHA-1">15DF8F5A8CDEDF5FB70E51C29C85C98428736FE3</digest> 
+        <digest type="SHA-256">D96540FD48EFFC0A6AF9C9419C8E3F08CFCF6B4B651F9A6805AEC1473DC7C92C</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.05_4of4.zip</name>
+        <size>1344190500</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.05_4of4.zip?aru=25752002&patch_file=PEOPLETOOLS-WIN-8.61.05_4of4.zip]]></download_url> 
+        <digest type="SHA-256">E523A6E8F28EC290EE80D0247ACD20C9E54821E330D0B9DFB55BB9D04E183F53</digest> 
+        <digest type="SHA-1">302E611721BFD2927B68E7B3D9566ECA3A527FDB</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1721014825000">2024-07-15 03:40:25</updated_date> 
+    <released_date in_epoch_ms="1721008388000">2024-07-15 01:53:08</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>36508080</number>
+      <abstract><![CDATA[PT 8.61.04 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>36508080</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=25697983]]></patch_readme> 
+      <patch_details><![CDATA[/download/36508080.html]]></patch_details>
+    </url> 
+    <request_id>25697983</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>35598107</number>
+        <abstract><![CDATA[8.61 : TUXEDO 22C UPTAKE ON HPI]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35986672</number>
+        <abstract><![CDATA[DISPLAYS BOTH STANDARD AND KEYWORD SEARCH IF SETUP HAS 2 EFFECTIVE DATED ROWS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36041934</number>
+        <abstract><![CDATA[UPTAKE TUXEDO 22C & AIX COMPILER OPEN XLC 17.1.2 UPGRADE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36124930</number>
+        <abstract><![CDATA[ACCESSIBILITY - TREE FACETS ARE NOT ACCESSIBLE USING ANY KEYBOARD KEYS AND ALSO NOT READ CORRECTLY USING JAWS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36129561</number>
+        <abstract><![CDATA[BACKPORT PT8.61 WCAG 2.1 - 1.3.1: ADD QUALIFIER TO NOTIFICATION REFRESH BUTTON]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36181647</number>
+        <abstract><![CDATA[[MEMLEAK] CPSQUERY::OPEN(WCHAR_T CONST*, BOOL, BOOL)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36188940</number>
+        <abstract><![CDATA[CFS - COMPS WHICH ARE NOT SEARCH ENABLED SHOULD NOT ALLOWED TO CONFIGURE SEARCH]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36244301</number>
+        <abstract><![CDATA[BP TO 8.61: SEARCH TEST PAGE, FACET LOOKUP DOES NOT RETURN VALUES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36270314</number>
+        <abstract><![CDATA[8.61 BACKPORT- OPENEX() IS CALLED 24 TIMES FOR A SINGLE DRILLDOWN ACTION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36286301</number>
+        <abstract><![CDATA[NO MATCHING VALUES FOUND, UPON SEARCH AFTER DOING A RETURN TO SEARCH]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6308540305</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.04_3of4.zip</name>
+        <size>2357979034</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.04_3of4.zip?aru=25697983&patch_file=PEOPLETOOLS-WIN-8.61.04_3of4.zip]]></download_url> 
+        <digest type="SHA-1">9CC3A0216E0E0C46413E3F349B2524ED5FC9FF41</digest> 
+        <digest type="SHA-256">C2EFEE6DB2200CAAE3A7504AE6B759048191D0ACBF1A96C0E856C8A0FA8DEA00</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.04_4of4.zip</name>
+        <size>1343179410</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.04_4of4.zip?aru=25697983&patch_file=PEOPLETOOLS-WIN-8.61.04_4of4.zip]]></download_url> 
+        <digest type="SHA-256">570436BD578A3BE1D3A50C1DF47741352110972CB87D2164BFFD9FF79E75936C</digest> 
+        <digest type="SHA-1">01F3CE6E2AB376BA4CE8671EC99E6105C63FF3CE</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.04_1of4.zip</name>
+        <size>90204125</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.04_1of4.zip?aru=25697983&patch_file=PEOPLETOOLS-WIN-8.61.04_1of4.zip]]></download_url> 
+        <digest type="SHA-256">02F01F1D200BCC79AE3ADD58D7EC9B4C323A1CEC1468A2302580D1CFC31B4133</digest> 
+        <digest type="SHA-1">AE921E608FC68180047233CD1B1BF8ACEC887262</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.04_2of4.zip</name>
+        <size>2517177736</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.04_2of4.zip?aru=25697983&patch_file=PEOPLETOOLS-WIN-8.61.04_2of4.zip]]></download_url> 
+        <digest type="SHA-256">C4F7B43E5CF646818491B060A09B27D16F00639AAFAAF75B893A5185B460CD45</digest> 
+        <digest type="SHA-1">EF4A04FE608C5A7EB2445D552CFF5288892CD56D</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1716958326000">2024-05-29 04:52:06</updated_date> 
+    <released_date in_epoch_ms="1716944647000">2024-05-29 01:04:07</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>36347265</number>
+      <abstract><![CDATA[PT 8.61.03 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>36347265</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=25642951]]></patch_readme> 
+      <patch_details><![CDATA[/download/36347265.html]]></patch_details>
+    </url> 
+    <request_id>25642951</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>34460847</number>
+        <abstract><![CDATA[CONFIGURABLE SEARCH (WCF): SFF - PEOPLECODE ERROR WHILE ACCESSING MANAGE POSTION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>34808586</number>
+        <abstract><![CDATA[[TRENDING]SQLID: 5AQ6PKUXWYX7V INCREASED EXECUTION COUNT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35691569</number>
+        <abstract><![CDATA[INVALID USER/PWD EXCEPTION WHEN SEARCH SERVER IS DOWN PT861]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35790477</number>
+        <abstract><![CDATA[OSD-ERC-PAGE NOT SHOWING IN CONFIG FOR ERC GROUP BOX EXIST IN SUB PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35841669</number>
+        <abstract><![CDATA[[PT861] - VALUES OF FACET WITH TREE HIERARCHY ARE UN-SELECTED WHEN "MORE" LINK IS CLICKED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35921291</number>
+        <abstract><![CDATA[[PT861] - "AN ERROR HAS OCCURRED" PAGE IS DISPLAYED WHEN FILTERED DATA IS EXPORTED TO PDF]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35924168</number>
+        <abstract><![CDATA[[MEMLEAK] LLMCREATE IN CICSEARCH::FINISH LEAKS MEMORY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35948402</number>
+        <abstract><![CDATA[OSD-IMPORT INSIGHTS DASHBOARDS SHOWS PAGE INCONSISTENT ERROR]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35964922</number>
+        <abstract><![CDATA[PT 8.61 - PAU API'S FOR CLOUD MANAGER INTEGRATION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>36012239</number>
+        <abstract><![CDATA[ACM: MAKE INSIGHTS PROPERTIES AS PRIORITY AND KEEP KIBANA PROPERTIES IF EXISTS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6307937341</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.03_1of4.zip</name>
+        <size>90138699</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.03_1of4.zip?aru=25642951&patch_file=PEOPLETOOLS-WIN-8.61.03_1of4.zip]]></download_url> 
+        <digest type="SHA-1">E405A7B59B4BB570E6B8E72B6C90841A12637E05</digest> 
+        <digest type="SHA-256">47FE150E43F0CA6E7984B11C3F503465F37C7A581470BD2C95F43A50F48C52B8</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.03_2of4.zip</name>
+        <size>2516921783</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.03_2of4.zip?aru=25642951&patch_file=PEOPLETOOLS-WIN-8.61.03_2of4.zip]]></download_url> 
+        <digest type="SHA-256">16695CF690C948ED230CDC8720D511E6898B145DDBE8866ADB1F02F7FD8FCE06</digest> 
+        <digest type="SHA-1">EC8786659800B8ACC27D8C707587E3DEDBFE61DC</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.03_3of4.zip</name>
+        <size>2357993346</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.03_3of4.zip?aru=25642951&patch_file=PEOPLETOOLS-WIN-8.61.03_3of4.zip]]></download_url> 
+        <digest type="SHA-1">6EBCBBF85DA32A2019ECAD022C53EA43D919753E</digest> 
+        <digest type="SHA-256">74FCD748693E162B31080FAA9437865A732DE223CA1BA5E5935647CE0381D2F7</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.03_4of4.zip</name>
+        <size>1342883513</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.03_4of4.zip?aru=25642951&patch_file=PEOPLETOOLS-WIN-8.61.03_4of4.zip]]></download_url> 
+        <digest type="SHA-1">D4D367A25CACAC055DDF962FFE9432561422A51C</digest> 
+        <digest type="SHA-256">44B75E4F48917F77EDD0ADB11FC5766903B99D2CEDAEF21959327D3C91362581</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1713170162000">2024-04-15 08:36:02</updated_date> 
+    <released_date in_epoch_ms="1713150854000">2024-04-15 03:14:14</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>36192215</number>
+      <abstract><![CDATA[PT 8.61.02 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>36192215</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=25584127]]></patch_readme> 
+      <patch_details><![CDATA[/download/36192215.html]]></patch_details>
+    </url> 
+    <request_id>25584127</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>34748532</number>
+        <abstract><![CDATA[CUSTOMIZATION REPOSITORY FAILS TO OPEN LARGE CUSTOMIZED PROJECT LOADED TO PUM#42]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35394958</number>
+        <abstract><![CDATA[BP 8.61: ACCESSIBILITY HELP PAGE PROBLEMS WHEN CODE HAS % CHARS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35408932</number>
+        <abstract><![CDATA[CODING: CONTAINER API FOR PEOPLETOOLS MT AND SEARCH DPK]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35507547</number>
+        <abstract><![CDATA[SUGGESTION SEARCH NOT WORKING FROM NON DEFAULT HOMEPAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35773053</number>
+        <abstract><![CDATA[BP 8.61: WCAG:HCC:AE ACTION PLUGIN:HIGHLIGHTED TEXTBOX IN RED CANNOT BE DISTINGUISHED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35824907</number>
+        <abstract><![CDATA[CREATE CC FOLDER STRUCTURE FOR PEOPLETOOLS CONTAINER API]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35872236</number>
+        <abstract><![CDATA[PT861 - VALUES GET CLEARED WHEN IN OPERATOR IS USED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35915481</number>
+        <abstract><![CDATA[NEW SYSTEM DATA FOR ACCESSIBILITY HELP]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35925940</number>
+        <abstract><![CDATA[PT8.61 - PAU DOWNLOAD PRP JOB STATUS EMAIL FAILED WITH GOT BAD GREETING FROM SMTP HOST]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35953072</number>
+        <abstract><![CDATA[PET-PAIRED PROFILE IS NOT WORKING FOR NEWLY CREATED PKCS7 PROFILES]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6270503068</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.02_4of4.zip</name>
+        <size>1340097137</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.02_4of4.zip?aru=25584127&patch_file=PEOPLETOOLS-WIN-8.61.02_4of4.zip]]></download_url> 
+        <digest type="SHA-1">0549AE1B152BC640B36BA21D915D06E42DAA07C0</digest> 
+        <digest type="SHA-256">B033E752E7F1F745C80F58A5E36CC98400F6C09C9EA160C9DF66F530A5B7FAE2</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.02_1of4.zip</name>
+        <size>87184921</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.02_1of4.zip?aru=25584127&patch_file=PEOPLETOOLS-WIN-8.61.02_1of4.zip]]></download_url> 
+        <digest type="SHA-256">158467C4D0156DE3F4F591FBE0C24E06CCD3220A1AD4FE4FD9B00A53475B97F7</digest> 
+        <digest type="SHA-1">F8D2E433E725C0EE9E15C03E71938D8B97C72468</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.02_3of4.zip</name>
+        <size>2344274126</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.02_3of4.zip?aru=25584127&patch_file=PEOPLETOOLS-WIN-8.61.02_3of4.zip]]></download_url> 
+        <digest type="SHA-1">051418431F7503DE9F0B993423B14CCA28E450C1</digest> 
+        <digest type="SHA-256">A94B54D2CC911FC5DEF0C424B538D19C34E5FC80F2815A5C66B2514E7DB020DA</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.02_2of4.zip</name>
+        <size>2498946884</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.02_2of4.zip?aru=25584127&patch_file=PEOPLETOOLS-WIN-8.61.02_2of4.zip]]></download_url> 
+        <digest type="SHA-256">33AB11D13B23AD11433A58516E59D9E24671C7A4E9EBE17708697B389A4B329A</digest> 
+        <digest type="SHA-1">377E6B8667EFE7717F670F10966F89AF2D6ABE13</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1709084981000">2024-02-28 01:49:41</updated_date> 
+    <released_date in_epoch_ms="1709122664000">2024-02-28 12:17:44</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>36022275</number>
+      <abstract><![CDATA[PT 8.61.01 PRODUCT PATCH DPK]]></abstract>
+    </bug> 
+    <name>36022275</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=25531179]]></patch_readme> 
+      <patch_details><![CDATA[/download/36022275.html]]></patch_details>
+    </url> 
+    <request_id>25531179</request_id>
+    <product id="21917" bugdb_id="11079"><![CDATA[PeopleSoft PeopleTools Family]]></product> 
+    <release id="600000000204773" name="8.61.0" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft PeopleTools 8.61]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>35727509</number>
+        <abstract><![CDATA[861: DCW - MSS DB CREATION FAILS WHEN USING MICROSOFT ODBC DRIVER 18 FOR SQL SERVER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35777353</number>
+        <abstract><![CDATA[[8.61] OS-RTI- PARSE ERRORS FOR INDEXING SEARCH JOB DATA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35777947</number>
+        <abstract><![CDATA[WCAG:HCC:IMPORT SECTION:MISSING BORDERS FOR THE POP UP OVERLAYED ON OTHER POPUP]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35850756</number>
+        <abstract><![CDATA[OS-QE_ASSOCIATION_CD_H FACET IS NOT DISPLAYING RESULTS IN STP FOR MULTIPLE LEVEL]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35873419</number>
+        <abstract><![CDATA[RTI HC_POSITION_DATA_INDEX: INCORRECT SQL IN PTSF_INDEXDSEC & PTSF_INDEX_DQ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35892717</number>
+        <abstract><![CDATA[[8.61] RTI HC_POSITION_DATA_INDEX: SUPPORT DELETE USECASE AND NULL NUMBER FIELD SHOULD BE INDEXED AS ZERO IN JSON]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35906269</number>
+        <abstract><![CDATA[INSERT PTSF_INSIGHTS TO SEARCH CONTEXT IF NOT AVAILABLE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35926300</number>
+        <abstract><![CDATA[PHC METRICS NOT POPULATED ON DASHBOARD]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35937385</number>
+        <abstract><![CDATA[OS-DP-RESCHEDULE QUERY TYPE SD WITH NEW RUN CONTROL SHOWS WRONG DATA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>35960841</number>
+        <abstract><![CDATA[BASS2 - CODING - SUPPORT ML PRPS - PTADS PROJECT NOT CREATED FOR MLPRP]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>6265553412</size>
+    <files> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.01_1of4.zip</name>
+        <size>87178517</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.01_1of4.zip?aru=25531179&patch_file=PEOPLETOOLS-WIN-8.61.01_1of4.zip]]></download_url> 
+        <digest type="SHA-256">331F216E2C1C7D23C7B3C031468F293F6EED26840AC197E73D0F9C166D565F4A</digest> 
+        <digest type="SHA-1">9DF270307C6DEF48E2E969EC06B956BB3EA9AE32</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.01_2of4.zip</name>
+        <size>2497433634</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.01_2of4.zip?aru=25531179&patch_file=PEOPLETOOLS-WIN-8.61.01_2of4.zip]]></download_url> 
+        <digest type="SHA-256">750C75FC84E4F7C8B6C38706B8E8D8DC7FC5E3F6AF902263310281CF239D613B</digest> 
+        <digest type="SHA-1">544258283E91B3659AF2D14A7BC7358189F69A30</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.01_4of4.zip</name>
+        <size>1338610053</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.01_4of4.zip?aru=25531179&patch_file=PEOPLETOOLS-WIN-8.61.01_4of4.zip]]></download_url> 
+        <digest type="SHA-256">B0FC654022D3696F1078B116C8B3EB784EE82CBD6134A68436405BBFC48205C8</digest> 
+        <digest type="SHA-1">7D602F552C4F408D53854235FA0D445146448093</digest> 
+      </file> 
+      <file> 
+        <name>PEOPLETOOLS-WIN-8.61.01_3of4.zip</name>
+        <size>2342331208</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/PEOPLETOOLS-WIN-8.61.01_3of4.zip?aru=25531179&patch_file=PEOPLETOOLS-WIN-8.61.01_3of4.zip]]></download_url> 
+        <digest type="SHA-256">A614C7A7C934355FE8647FE7F074DFC4A793D6C96444D021735E1AD593423253</digest> 
+        <digest type="SHA-1">124131172CE4CD201B80E6B597F3D1919614B4C0</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1705417530000">2024-01-16 15:05:30</updated_date> 
+    <released_date in_epoch_ms="1705406420000">2024-01-16 12:00:20</released_date> 
+  </patch> 
+</results>

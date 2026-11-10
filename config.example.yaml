@@ -1,0 +1,53 @@
+# opatchbot configuration. Copy to /etc/opatchbot/config.yaml and edit.
+stage_root: /stage/oracle-patches
+state_dir: /var/lib/opatchbot
+keep_cycles: 3
+window_before_days: 7
+window_after_days: 14
+cpu_months: [1, 4, 7, 10]
+auto_login: true     # when the saved Oracle session expires, sign in again unattended (needs MOS_TOTP_SEED)
+
+notify:
+  mode: smtp                      # smtp | stdout
+  smtp_host: RELAY.butler.edu     # Proofpoint-managed relay, no auth
+  smtp_port: 25
+  sender: opatchbot@butler.edu
+  recipients: [dawhisma@butler.edu]
+
+# ARU ids (from updates.oracle.com metadata, 2026-11-09):
+#   platforms: 233 Microsoft Windows x64, 226 Linux x86-64, 2000 Generic
+#   products : 21917 PeopleSoft PeopleTools (family), 21858 PeopleSoft HCM (family),
+#              21591 PeopleSoft CS (family), 9480 Oracle Database (family)
+#   releases : 600000000204773 PeopleTools 8.61, 600000000214961 PeopleTools 8.62,
+#              600000000101150 Oracle Database 19.0.0.0.0, 600000000153639 Oracle Database 21.0.0.0.0,
+#              27001300090200 "PeopleSoft 9.2"
+# selector values: pt_product_dpk | pt_mw_dpk | app_release_patchset | app_update_image |
+#                  db_release_update | db_ojvm | db_jdk | opatch
+inventory:
+  - {name: pt-8.61,   area: peopletools, selector: pt_product_dpk, cadence: monthly, platform_id: 233, product_id: 21917, release_id: 600000000204773, params: {file_prefix: "PEOPLETOOLS-WIN-8.61"}}
+  - {name: pt-8.62,   area: peopletools, selector: pt_product_dpk, cadence: monthly, platform_id: 233, product_id: 21917, release_id: 600000000214961, params: {file_prefix: "PEOPLETOOLS-WIN-8.62"}}
+  - {name: ptmw-8.61, area: middleware,  selector: pt_mw_dpk,      cadence: monthly, platform_id: 233, product_id: 21917, release_id: 600000000204773, params: {abstract_regex: "^PT-MW-DPK"}}
+  - {name: ptmw-8.62, area: middleware,  selector: pt_mw_dpk,      cadence: monthly, platform_id: 233, product_id: 21917, release_id: 600000000214961, params: {abstract_regex: "^PT-MW-DPK"}}
+  # PeopleSoft applications (live discovery 2026-11-09):
+  #  - "PEOPLESOFT RELEASE PATCHSET: HCM - MMDDYYYY" ships WEEKLY on the Generic platform; a search with
+  #    product=21858 (HCM family) release=27001300090200 platform=233 lists them (platform filter is permissive).
+  #  - FSCM release patchsets are listed under product 21714 (PeopleSoft Enterprise FIN General Ledger), not a family id.
+  #  - Campus Solutions has NO release patchsets; its fixes ship in "PEOPLESOFT CS UPDATE IMAGE 9.2.0xx - NATIVE OS"
+  #    (platform 233). cs-9.2 therefore selects the newest NATIVE OS update image.
+  - {name: hcm-9.2,  area: apps, selector: app_release_patchset, cadence: monthly, platform_id: 233, product_id: 21858, release_id: 27001300090200, params: {app_code: HCM}}
+  - {name: fscm-9.2, area: apps, selector: app_release_patchset, cadence: monthly, platform_id: 233, product_id: 21714, release_id: 27001300090200, params: {app_code: FSCM}}
+  # Opt-in: the CS update image is ~22 GB per cycle and is a PUM image, not a security patchset. Live discovery
+  # (2026-11-09) found no 'PEOPLESOFT RELEASE PATCHSET: CS' under the CS family or any of its 17 component products.
+  # - {name: cs-9.2,   area: apps, selector: app_update_image,     cadence: monthly, platform_id: 233, product_id: 21591, release_id: 27001300090200, params: {abstract_regex: "^PEOPLESOFT CS UPDATE IMAGE .* - NATIVE OS$"}}
+  # Database, Linux x86-64 (live discovery 2026-11-09): ARU's default search returns only patchsets; database
+  # Release Updates are plain patches, so these items pass search: {patch_type: all}. Records carry a bundle label
+  # (<psu_bundle>) such as "Oracle Database 19.33.0.0.0 DBRU" / "OJVMRU"; abstracts are
+  # "DATABASE RELEASE UPDATE 19.33.0.0.0", "OJVM RELEASE UPDATE 19.33.0.0.0", "JDK BUNDLE PATCH 19.0.0.0.261023".
+  - {name: db19-ru,     area: database, selector: db_release_update, cadence: quarterly, platform_id: 226, product_id: 9480, release_id: 600000000101150, params: {abstract_regex: "^DATABASE RELEASE UPDATE 19\\.", bundle_suffix: DBRU, search: {patch_type: all}}}
+  - {name: db19-ojvm,   area: database, selector: db_ojvm,           cadence: quarterly, platform_id: 226, product_id: 9480, release_id: 600000000101150, params: {abstract_regex: "^OJVM RELEASE UPDATE 19\\.", bundle_suffix: OJVMRU, search: {patch_type: all}}}
+  - {name: db19-jdk,    area: database, selector: db_jdk,            cadence: quarterly, platform_id: 226, product_id: 9480, release_id: 600000000101150, params: {abstract_regex: "^JDK BUNDLE PATCH 19\\.", search: {patch_type: all}}}
+  - {name: db19-opatch, area: database, selector: opatch,            cadence: quarterly, platform_id: 226, product_id: 9480, release_id: 600000000101150, params: {bug: 6880880, release_prefix: "19."}}
+  - {name: db21-ru,     area: database, selector: db_release_update, cadence: quarterly, platform_id: 226, product_id: 9480, release_id: 600000000153639, params: {abstract_regex: "^DATABASE RELEASE UPDATE 21\\.", bundle_suffix: DBRU, search: {patch_type: all}}}
+  - {name: db21-ojvm,   area: database, selector: db_ojvm,           cadence: quarterly, platform_id: 226, product_id: 9480, release_id: 600000000153639, params: {abstract_regex: "^OJVM RELEASE UPDATE 21\\.", bundle_suffix: OJVMRU, search: {patch_type: all}}}
+  - {name: db21-jdk,    area: database, selector: db_jdk,            cadence: quarterly, platform_id: 226, product_id: 9480, release_id: 600000000153639, params: {abstract_regex: "^JDK BUNDLE PATCH 21\\.", search: {patch_type: all}}}
+  - {name: db21-opatch, area: database, selector: opatch,            cadence: quarterly, platform_id: 226, product_id: 9480, release_id: 600000000153639, params: {bug: 6880880, release_prefix: "21."}}

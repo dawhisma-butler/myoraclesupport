@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+  Session-longevity spike (macOS, exploratory only): once a day, mint a token from the saved session
+  WITHOUT logging in, and append the outcome to docs/superpowers/plans/spike-log.md.
+  Load (one line, as yourself):
+    cp deploy/com.mocs.opatchbot-spike.plist ~/Library/LaunchAgents/ && launchctl bootstrap gui/$(id -u) ~/Library/LaunchAgents/com.mocs.opatchbot-spike.plist
+  Unload after a week:
+    launchctl bootout gui/$(id -u)/com.mocs.opatchbot-spike
+-->
+<plist version="1.0"><dict>
+  <key>Label</key><string>com.mocs.opatchbot-spike</string>
+  <key>ProgramArguments</key><array>
+    <string>/bin/bash</string><string>-lc</string>
+    <string>cd "$HOME/mocs/oracle-patch" &amp;&amp; . .venv/bin/activate &amp;&amp; out="$(opatchbot --config ~/.mos/local-config.yaml token 2&gt;&amp;1)"; rc=$?; echo "| $(date '+%Y-%m-%d %H:%M') | spike: opatchbot token (saved session, no login) | exit $rc: $out |" &gt;&gt; docs/superpowers/plans/spike-log.md</string>
+  </array>
+  <key>StartCalendarInterval</key><dict><key>Hour</key><integer>9</integer><key>Minute</key><integer>0</integer></dict>
+  <key>StandardErrorPath</key><string>/tmp/opatchbot-spike.err</string>
+</dict></plist>

@@ -1,0 +1,8 @@
+[Unit]
+Description=opatchbot monthly heartbeat email
+
+[Service]
+Type=oneshot
+User=opatchbot
+Environment=OPATCHBOT_CONFIG=/etc/opatchbot/config.yaml
+ExecStart=/opt/opatchbot/venv/bin/opatchbot heartbeat

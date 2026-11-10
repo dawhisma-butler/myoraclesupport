@@ -9,8 +9,9 @@
 # Usage (interactive, prompts for password; nothing is echoed):
 #   bash mos_mint_token.sh [username] [token_out_file]
 #
-# Unattended (password from env, e.g. read from the 0600 file /home/oracle/.mos/password):
-#   MOS_USER=you@example.edu MOS_PASS="$(cat /home/oracle/.mos/password)" bash mos_mint_token.sh
+# Unattended (password from env or macOS Keychain):
+#   MOS_USER=you@example.edu MOS_PASS="$(security find-generic-password -a you@example.edu -s mos -w)" \
+#     bash mos_mint_token.sh
 set -euo pipefail
 
 TOKEN_ENDPOINT="https://login-ext.identity.oraclecloud.com/oauth2/v1/token"
@@ -29,8 +30,7 @@ if [[ -n "${MOS_SCOPE:-}" ]]; then SCOPES=("$MOS_SCOPE"); else
 fi
 
 USER_NAME="${MOS_USER:-${1:-}}"
-MOS_DIR="${MOS_DIR:-/home/oracle/.mos}"
-OUT="${2:-$MOS_DIR/token.txt}"
+OUT="${2:-$HOME/.mos/token.txt}"
 
 if [[ -z "$USER_NAME" ]]; then read -r -p "MOS username (email): " USER_NAME; fi
 if [[ -z "${MOS_PASS:-}" ]]; then read -r -s -p "MOS password (not shown): " MOS_PASS; echo; fi

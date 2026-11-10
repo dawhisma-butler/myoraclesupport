@@ -1,0 +1,13 @@
+[Unit]
+Description=opatchbot daily monitor (Oracle CPU/CSPU detection and patch staging)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=opatchbot
+Group=opatchbot
+Environment=OPATCHBOT_CONFIG=/etc/opatchbot/config.yaml
+Environment=OPATCHBOT_SECRETS=/etc/opatchbot/secrets.env
+ExecStart=/opt/opatchbot/venv/bin/opatchbot monitor
+Nice=10

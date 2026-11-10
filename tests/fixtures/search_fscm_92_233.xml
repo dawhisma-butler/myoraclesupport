@@ -1,0 +1,2569 @@
+<results md5_sum="2250286dbf329d1f9df447317343c39c">
+  <generated_date in_epoch_ms="1794283282000">2026-11-10 04:01:22</generated_date>
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40219247</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 10292026]]></abstract>
+    </bug> 
+    <name>40219247</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29544475]]></patch_readme> 
+      <patch_details><![CDATA[/download/40219247.html]]></patch_details>
+    </url> 
+    <request_id>29544475</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39732052</number>
+        <abstract><![CDATA[PCARD TRANS IN APPROVAL REMAIN IN THE APPROVALS PAGE AFTER RUNNING LOAD VOUCHER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40013936</number>
+        <abstract><![CDATA[INCORRECT WARNING SHOWN FOR INTERUNIT TRANSFER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40161126</number>
+        <abstract><![CDATA[IN DB2  INCORRECT AMOUNTS POSTED  TO  LEDGER ADB]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40171728</number>
+        <abstract><![CDATA[THE SPA_PROJ_EXP PROCESS FAILS WHEN THE PROGRESS LOG CONTAINS MORE THAN THREE ACTIVITIES.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40219247</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 10292026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>609713</size>
+    <files> 
+      <file> 
+        <name>updPRJ40219247.zip</name>
+        <size>609713</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40219247.zip?aru=29544475&patch_file=updPRJ40219247.zip]]></download_url> 
+        <digest type="SHA-256">AA9D2374977BD0BE6000F80672E22C772670FA35A386C1641B2E7C84F42849C4</digest> 
+        <digest type="SHA-1">2E1E1065D73E53E3E1FD158CC34BF1C7CA1411EF</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1793175486000">2026-10-28 08:18:06</updated_date> 
+    <released_date in_epoch_ms="1793175486000">2026-10-28 08:18:06</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40121472</number>
+      <abstract><![CDATA[AP: NEW 2026 IRS REQUIREMENTS FOR REPORTING 1099 - MAIN - UPDATED]]></abstract>
+    </bug> 
+    <name>40121472</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29535250]]></patch_readme> 
+      <patch_details><![CDATA[/download/40121472.html]]></patch_details>
+    </url> 
+    <request_id>29535250</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>40121472</number>
+        <abstract><![CDATA[AP: NEW 2026 IRS REQUIREMENTS FOR REPORTING 1099 - MAIN - UPDATED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40140900</number>
+        <abstract><![CDATA[AP: NEW 2026 IRS REQUIREMENTS FOR REPORTING 1099 - SEND DETAIL SUBRECORDS - UPDATED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40160454</number>
+        <abstract><![CDATA[AP: NEW 2026 IRS REQUIREMENTS FOR REPORTING 1099 - WTHD_FIELDS_SBR - UPDATED]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>643730</size>
+    <files> 
+      <file> 
+        <name>updPRJ40121472.zip</name>
+        <size>643730</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40121472.zip?aru=29535250&patch_file=updPRJ40121472.zip]]></download_url> 
+        <digest type="SHA-1">58D44EA2C2681E6BA52B60A3F666AADA3492EE22</digest> 
+        <digest type="SHA-256">923EA05DD3B9D2E18D34753FD2F3528B4F529B3BDD4F49AF9E963836B0422750</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792979004000">2026-10-26 01:43:24</updated_date> 
+    <released_date in_epoch_ms="1792979004000">2026-10-26 01:43:24</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40189810</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 10222026]]></abstract>
+    </bug> 
+    <name>40189810</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29530632]]></patch_readme> 
+      <patch_details><![CDATA[/download/40189810.html]]></patch_details>
+    </url> 
+    <request_id>29530632</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>40061794</number>
+        <abstract><![CDATA[CM: IMPORT_FILES ERROR WHEN IMPORTING AN EMPTY PSBD1 FILE, âCOULD NOT FIND FILE(S) SPECIFIEDâ]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40153865</number>
+        <abstract><![CDATA[AP: LOCATION DETAILS SUBPAGE (PANEL VNDR_APPL_LOC_FL) DOES NOT LOAD IN FLUID SUPPLIER APPROVALS COMPONENT WHEN SELECTED LOCATION ID CONTAINS A BLANK SPACE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40189810</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 10222026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>500053</size>
+    <files> 
+      <file> 
+        <name>updPRJ40189810.zip</name>
+        <size>500053</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40189810.zip?aru=29530632&patch_file=updPRJ40189810.zip]]></download_url> 
+        <digest type="SHA-1">4F4170C28A52CBAEA81109B23C4609BF45636A44</digest> 
+        <digest type="SHA-256">44BB6C7F34B091F5A8F8FC14500DBF8FC90AC16316A8BB2A0833878E0635667C</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1792662197000">2026-10-22 09:43:17</updated_date> 
+    <released_date in_epoch_ms="1792662197000">2026-10-22 09:43:17</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40157090</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 10152026]]></abstract>
+    </bug> 
+    <name>40157090</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29511692]]></patch_readme> 
+      <patch_details><![CDATA[/download/40157090.html]]></patch_details>
+    </url> 
+    <request_id>29511692</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39750005</number>
+        <abstract><![CDATA[MESSAGE CHANGES FOR 39749987]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39750019</number>
+        <abstract><![CDATA[RECORD CHANGES FOR 39749987]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39750046</number>
+        <abstract><![CDATA[ONLINE FUNCLIB COMPCHANGES FOR 39749987]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39755025</number>
+        <abstract><![CDATA[ONLINE COSTBAL COMPCHANGES FOR 39749987]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39901973</number>
+        <abstract><![CDATA[EAM: ABILITY TO UPDATE CUSTODIAN CHARTFIELDS BEFORE INTERUNIT TRANSFER ON THE COST ADJUST/TRANSFER PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39945199</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39951426</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39951981</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39952037</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39969209</number>
+        <abstract><![CDATA[EAM: ABILITY TO UPDATE CUSTODIAN CHARTFIELDS BEFORE INTERUNIT TRANSFER ON THE COST ADJUST/TRANSFER PAGE - PAGE]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>835975</size>
+    <files> 
+      <file> 
+        <name>updPRJ40157090.zip</name>
+        <size>835975</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40157090.zip?aru=29511692&patch_file=updPRJ40157090.zip]]></download_url> 
+        <digest type="SHA-1">B036F08D6D00E2A93EE6821B6E94C92EC65C8557</digest> 
+        <digest type="SHA-256">72E06D826FA634168A47557C72C82112D9B1D8FF9DD1FB9EC36A31162BE1E5D0</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1791970468000">2026-10-14 09:34:28</updated_date> 
+    <released_date in_epoch_ms="1791970468000">2026-10-14 09:34:28</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40121629</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 10082026]]></abstract>
+    </bug> 
+    <name>40121629</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29491794]]></patch_readme> 
+      <patch_details><![CDATA[/download/40121629.html]]></patch_details>
+    </url> 
+    <request_id>29491794</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39893984</number>
+        <abstract><![CDATA[WRONG ERROR MESSAGE IS DISPLAYED WHEN PICKED QUANTITY EXCEEDS THE REQESTED QTY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39934831</number>
+        <abstract><![CDATA[PURCHASE ORDER CREATED FROM RFQ HAS MISSING ATTACHMENTS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39958035</number>
+        <abstract><![CDATA[MS-SQL DATABASE DOWNLOAD TO EXCEL ERROR "SQL ERROR IN EXEC. (2,280) JRNL_PANELS_WRK.DOWNLOAD_TO_FILE.FIELDCHANGE  PCPC:8559  STATEMENT:124]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40086618</number>
+        <abstract><![CDATA[SPA_PROJ_EXP PROCESS ABENDED AT STEP SPA_PROJ_EXP.UPDRESID.UPDSTG3]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40121629</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 10082026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>602686</size>
+    <files> 
+      <file> 
+        <name>updPRJ40121629.zip</name>
+        <size>602686</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40121629.zip?aru=29491794&patch_file=updPRJ40121629.zip]]></download_url> 
+        <digest type="SHA-256">E78ABBD6CBC37C08A7F4663DDB6120FFD6A33462822721EE3A73E1CFA0ADDF4A</digest> 
+        <digest type="SHA-1">E275445DDF6B2023B4D3F5DD3B405C3C28EEABFD</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1791364866000">2026-10-07 09:21:06</updated_date> 
+    <released_date in_epoch_ms="1791364866000">2026-10-07 09:21:06</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40092406</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 10012026]]></abstract>
+    </bug> 
+    <name>40092406</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29474560]]></patch_readme> 
+      <patch_details><![CDATA[/download/40092406.html]]></patch_details>
+    </url> 
+    <request_id>29474560</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39924024</number>
+        <abstract><![CDATA[AP: 1099 CSV FILE NOT GENERATING CORRECTLY IN IMAGE 57 WITH SPECIAL CHARACTERS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39948047</number>
+        <abstract><![CDATA[AP: WITHHOLDING SENT PROCESS GOES TO NO SUCCESS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39953625</number>
+        <abstract><![CDATA[VOUCHER CAN BE SAVED AND PAID WHEN INDIVIDUAL PAYMENT SCHEDULE AMOUNT EXCEEDS VOUCHER GROSS AMOUNT AFTER WITHHOLDING PAYMENT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39994377</number>
+        <abstract><![CDATA[AP: NEW 2026 IRS REQUIREMENTS FOR REPORTING 1099 - WTHD_FIELDS_SBR]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39994651</number>
+        <abstract><![CDATA[AP: NEW 2026 IRS REQUIREMENTS FOR REPORTING 1099 - SEND DETAIL SUBRECORDS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39995022</number>
+        <abstract><![CDATA[AP: NEW 2026 IRS REQUIREMENTS FOR REPORTING 1099 - SUPPLIER WITHHOLDING INFO]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39995030</number>
+        <abstract><![CDATA[AP: NEW 2026 IRS REQUIREMENTS FOR REPORTING 1099 - WITHHOLDING SETUP]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39995036</number>
+        <abstract><![CDATA[AP: NEW 2026 IRS REQUIREMENTS FOR REPORTING 1099 - MAIN]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40010830</number>
+        <abstract><![CDATA[AP: NEW 2026 IRS REQUIREMENTS FOR REPORTING 1099 - SUPPLIER WITHHOLDING PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40011070</number>
+        <abstract><![CDATA[AP: NEW 2026 IRS REQUIREMENTS FOR REPORTING 1099 - SUPPLIER WITHHOLDING RECORDS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1286510</size>
+    <files> 
+      <file> 
+        <name>updPRJ40092406.zip</name>
+        <size>1286510</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40092406.zip?aru=29474560&patch_file=updPRJ40092406.zip]]></download_url> 
+        <digest type="SHA-1">162912104DC9B2C4E28594A226CA7B3F9765976F</digest> 
+        <digest type="SHA-256">355CAE8DB43E784452ACC2C5AC1C9CBC8108162B27833C9D935AFA54E84B28C8</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1790763487000">2026-09-30 10:18:07</updated_date> 
+    <released_date in_epoch_ms="1790763487000">2026-09-30 10:18:07</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40062330</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 09242026]]></abstract>
+    </bug> 
+    <name>40062330</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29457175]]></patch_readme> 
+      <patch_details><![CDATA[/download/40062330.html]]></patch_details>
+    </url> 
+    <request_id>29457175</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39480538</number>
+        <abstract><![CDATA[WHEN A PURCHASE ORDER CONTAINS MULTIPLE ATTACHMENTS WITH BLANK COMMENTS, ALL ATTACHMENTS DUPLICATED ON RECEIPTS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39810565</number>
+        <abstract><![CDATA[EX: TRAVEL AUTHORIZATION LINES AMOUNTS CLEAR OFF WHEN TRAVEL TO FIELD IS ADDED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39847024</number>
+        <abstract><![CDATA[RECEIPT COMMENTS AND ATTACHMENTS ARE NOT COPIED FROM PO]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39935865</number>
+        <abstract><![CDATA[TRANSACTIONS CREATED BY ASSET REVERSAL ARE NOT AVAILABLE IN ASSIGN COST TO ASSET]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39993666</number>
+        <abstract><![CDATA[LONG DESCRIPTION AND REFERENCE FIELDS TO ADDED TO  JOURNAL LINE BUG  38072407 IS NOT ADDED TO JRNL_LN_H]]></abstract>
+      </bug> 
+      <bug> 
+        <number>40062330</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 09242026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>675820</size>
+    <files> 
+      <file> 
+        <name>updPRJ40062330.zip</name>
+        <size>675820</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40062330.zip?aru=29457175&patch_file=updPRJ40062330.zip]]></download_url> 
+        <digest type="SHA-1">47B64FF2EBF851C85506AA61C88F1A366801151E</digest> 
+        <digest type="SHA-256">284EB12301BDC2923203F276AE112B4F9B834FD698792EF496BE88DA7DD7781B</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1790154419000">2026-09-23 09:06:59</updated_date> 
+    <released_date in_epoch_ms="1790154419000">2026-09-23 09:06:59</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>40030040</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 09172026]]></abstract>
+    </bug> 
+    <name>40030040</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29440901]]></patch_readme> 
+      <patch_details><![CDATA[/download/40030040.html]]></patch_details>
+    </url> 
+    <request_id>29440901</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39638775</number>
+        <abstract><![CDATA[GC:THE PAM PAYMENT FORMATS FOR TREASURY (FINEFT98.SQC) NEED TO INCLUDE A DNP REC]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39662032</number>
+        <abstract><![CDATA[PI57_AUTOMATION_ORACLE_AP: PAYMENT JUSTIFICATION FIELD IS BEING DISPLAYED EVEN WHEN FEDERAL PAYMENT IS DISABLE IN INSTALLATION OPTIONS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39741059</number>
+        <abstract><![CDATA[AN ERROR OCCURRED WHEN PERFORMED BULK SELECTION ON ALL ROWS OF DATA IN THE WORK CENTER GRID ANY WORK LINK ID]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39741087</number>
+        <abstract><![CDATA[INVALID DATETIME PEOPLECODE ERROR WHILE PERFORMING WORK MANAGEMENT ACTION FOR THE WORK ITEM HAVING DATE TIME FIELD]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39748594</number>
+        <abstract><![CDATA[PSFTCO-909: WORK MANAGEMENT FRAMEWORK - CONTEXT PASSING FOR EMBEDDED INSIGHTS - APP PKG CODE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39748680</number>
+        <abstract><![CDATA[PSFTCO-909: WORK MANAGEMENT FRAMEWORK - CONTEXT PASSING FOR EMBEDDED INSIGHTS - INSIGHT APP PKG STRUCT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39749019</number>
+        <abstract><![CDATA[PSFTCO-909: WORK MANAGEMENT FRAMEWORK - CONTEXT PASSING FOR EMBEDDED INSIGHTS - INSIGHT APP PKG CODE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39822789</number>
+        <abstract><![CDATA[THE PAM PAYMENT FORMATS FOR TREASURY (FINEFT98.SQC) NEED TO INCLUDE A DNP REC]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39862377</number>
+        <abstract><![CDATA[EAM: THE "AM ACCTG TEMPLATES EN MASSE" PROCESS (AMAEMASS) CREATES ADDITIONAL ACCUMULATED DEPRECIATION GAIN LOSS ACCOUNTING ENTRY TYPES WHEN EVERY ACCOUNTING ENTRY TEMPLATE ID FEATURE IS DESELECTED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39870265</number>
+        <abstract><![CDATA[EAM: AM PHYSICAL INVENTORY REPORT AMPI2100 DISPLAYS THE INVENTORY (I) MATCH STATUS AS BLANK]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1088925</size>
+    <files> 
+      <file> 
+        <name>updPRJ40030040.zip</name>
+        <size>1088925</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ40030040.zip?aru=29440901&patch_file=updPRJ40030040.zip]]></download_url> 
+        <digest type="SHA-1">2D1D57377A3E5BF4867388B8F5B1C034128994E0</digest> 
+        <digest type="SHA-256">C88932327EB984691EDD6DAF9DE3E47D2D29BEB3C72A24BE1D94B74593AEF00D</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1789607632000">2026-09-17 01:13:52</updated_date> 
+    <released_date in_epoch_ms="1789607632000">2026-09-17 01:13:52</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39996162</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 09102026]]></abstract>
+    </bug> 
+    <name>39996162</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29211342]]></patch_readme> 
+      <patch_details><![CDATA[/download/39996162.html]]></patch_details>
+    </url> 
+    <request_id>29211342</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39782549</number>
+        <abstract><![CDATA[FSCM92-D030-GLD PI57 VBOX DEPLOYMENT VALIDATION - PEOPLECODE COMPILATION ERROR - AP]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39958095</number>
+        <abstract><![CDATA[EX: EXPENSE LINE IS GETTING ADDED IN INCORRECT DATE BUCKET WHEN ADDING A NEW LINE FROM EXPENSE LINE PAGE.]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39996162</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 09102026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>501763</size>
+    <files> 
+      <file> 
+        <name>updPRJ39996162.zip</name>
+        <size>501763</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39996162.zip?aru=29211342&patch_file=updPRJ39996162.zip]]></download_url> 
+        <digest type="SHA-256">C96BCDD5390FA3A8843DA53F7B2831FEEB2E9DCDAB4A8DE66883F9CB7B2CA694</digest> 
+        <digest type="SHA-1">298DE0C1A11F7E34D8BE4C06C77B8A69FB3D84FE</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1788946877000">2026-09-09 09:41:17</updated_date> 
+    <released_date in_epoch_ms="1788946877000">2026-09-09 09:41:17</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39959718</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 09032026]]></abstract>
+    </bug> 
+    <name>39959718</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29084305]]></patch_readme> 
+      <patch_details><![CDATA[/download/39959718.html]]></patch_details>
+    </url> 
+    <request_id>29084305</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39310579</number>
+        <abstract><![CDATA[OPTION FIELD HAS ALIGNMENT ISSUE FOR RUN CONTROL OF PC_KK_TO_PC PROCESS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39488447</number>
+        <abstract><![CDATA[EX: EXPENSE REPORT LINES FLAGGED WITH RECEIPT REQUIRED AND RECEIPT ATTACHED AS YES EVEN THOUGH AT EXPENSES BUSINESS UNIT DEFINITION THE RECEIPTS REQUIRED FUNCTIONALITY HAS BEEN SET TO NEVER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39871032</number>
+        <abstract><![CDATA[SUPPLIER CHANGE REQUEST WAS SAVED WITHOUT A MANDATORY VALUE OF PROFILE QUESTION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39921465</number>
+        <abstract><![CDATA[EX: EX_SHEET_LINE.EXPENSE_TYPE PEOPLECODE CHANGES FOR BASE BUG 39488447]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39921477</number>
+        <abstract><![CDATA[EX: EX_SHEET_LINE.TXN_AMOUNT PEOPLECODE CHANGES FOR BASE BUG 39488447]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39921491</number>
+        <abstract><![CDATA[EX: EX:BUSINESS:EXPENSEREPORTLINE APP PACKAGE PEOPLECODE CHANGES FOR BASE BUG 39488447]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39939975</number>
+        <abstract><![CDATA[REMOVAL OF UNUSED FIELD PC BUSINESS UNIT ON REVIEW REVENUE PLANS/EVENTS PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39957366</number>
+        <abstract><![CDATA[EX: CHANGES TO PREVENT EXPENSE SHEET ID GENERATED AS NEXT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39959718</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 09032026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>640170</size>
+    <files> 
+      <file> 
+        <name>updPRJ39959718.zip</name>
+        <size>640170</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39959718.zip?aru=29084305&patch_file=updPRJ39959718.zip]]></download_url> 
+        <digest type="SHA-1">8885F6332D681CEAE75977BA0E4541DBAFBF9512</digest> 
+        <digest type="SHA-256">3A650443D9A233425DEBDD11D961E97EF5D8A6288273944B790644DA9097D635</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1788344816000">2026-09-02 10:26:56</updated_date> 
+    <released_date in_epoch_ms="1788344816000">2026-09-02 10:26:56</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39932624</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 08272026]]></abstract>
+    </bug> 
+    <name>39932624</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29063827]]></patch_readme> 
+      <patch_details><![CDATA[/download/39932624.html]]></patch_details>
+    </url> 
+    <request_id>29063827</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39304137</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39549939</number>
+        <abstract><![CDATA[AP: MSSQL PAY CYCLE ERROR: SAMFETCH: [MICROSOFT][ODBC DRIVER 17 FOR SQL SERVER] FUNCTION SEQUENCE ERROR (SQLSTATE HY010) 0. (2,294)]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39562021</number>
+        <abstract><![CDATA[BI9.2 BILLING INTERFACE ABENDED AT STEP BIIF0001.EDEXS.TXAUTHCD FOR AM GST DATA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39597153</number>
+        <abstract><![CDATA[AP: CHARACTER ISSUE WITH GENX PAYMENT FILE LAYOUT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39763948</number>
+        <abstract><![CDATA[ON PAGE ASSIGN COST TO ASSET, DATE OPTION CAN BE BLANK, CAUSES ERROR]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39870153</number>
+        <abstract><![CDATA[EAM: AM PHYSICAL INVENTORY REPORT AMPI2220, AMPI2210, AND AMPI2200 TRUNCATE THE DEPARTMENT, DISPLAYING ONLY THE FIRST FIVE CHARACTERS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39878438</number>
+        <abstract><![CDATA[GL: YEAREND CLOSE PROCESS, GL_YC, DID NOT GENERATE THE JOURNAL NET STATISTICAL UNITS AMOUNT FOR A STATISTICAL JOURNAL]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39932624</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 08272026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>745087</size>
+    <files> 
+      <file> 
+        <name>updPRJ39932624.zip</name>
+        <size>745087</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39932624.zip?aru=29063827&patch_file=updPRJ39932624.zip]]></download_url> 
+        <digest type="SHA-1">B37B9099FFBA813D6D5686216DE86D1BCD906476</digest> 
+        <digest type="SHA-256">D2B4DA8446E39DDDFB414C3DAA7AA5491C42986EBDC8844A2F98509A00B24F2A</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1787745231000">2026-08-26 11:53:51</updated_date> 
+    <released_date in_epoch_ms="1787745231000">2026-08-26 11:53:51</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39900758</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 08202026]]></abstract>
+    </bug> 
+    <name>39900758</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29046895]]></patch_readme> 
+      <patch_details><![CDATA[/download/39900758.html]]></patch_details>
+    </url> 
+    <request_id>29046895</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="185">Security</classification> 
+    <patch_classification id="185">Security</patch_classification> 
+    <life_cycle id="175">Recommended</life_cycle> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39603145</number>
+        <abstract><![CDATA[1099 XML FORMATTING ISSUES FOR A2A]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39888915</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39900758</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 08202026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>738122</size>
+    <files> 
+      <file> 
+        <name>updPRJ39900758.zip</name>
+        <size>738122</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39900758.zip?aru=29046895&patch_file=updPRJ39900758.zip]]></download_url> 
+        <digest type="SHA-1">EF09BEC5B8FAFD96D98AA7A4C42C7E58504C57C5</digest> 
+        <digest type="SHA-256">CFBE6F2F1B2DD9D07486D53F68B3909597D96D4C9CEB4C82F46E223ACA73FA86</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1787132021000">2026-08-19 09:33:41</updated_date> 
+    <released_date in_epoch_ms="1787132021000">2026-08-19 09:33:41</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39867105</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 08132026]]></abstract>
+    </bug> 
+    <name>39867105</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29025780]]></patch_readme> 
+      <patch_details><![CDATA[/download/39867105.html]]></patch_details>
+    </url> 
+    <request_id>29025780</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>38888867</number>
+        <abstract><![CDATA[EX: FLUID EXPENSE REPORT COMPONENT ALLOWS AUTHORIZED PROXY USER THE CREATION OF NEW TRANSACTIONS FOR EMPLOYEES WHO HAVE BEEN TERMINATED WELL AFTER BUSINESS UNIT GRACE PERIOD DAYS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39530161</number>
+        <abstract><![CDATA[EAM: WARNING MESSAGE "PC BUSINESS UNIT AND ACTIVITY ID IS NOT VALID FOR INTERUNIT TRANSFER. (8005,320)" NOT APPEARING CONSISTENTLY WHILE PERFORMING INTERUNIT TRANSFER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39530541</number>
+        <abstract><![CDATA[WHILE RUNNING CA_LIMITS, REVENUE LIMIT GETS UPDATED WITH BILLING LIMIT VALUE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39722680</number>
+        <abstract><![CDATA[EAM: PHYSICAL INVENTORY REPORTS LOCATION AND DEPARTMENT VALUES NOT DISPLAYED BASED ON THE PI OCCURRENCE BUSINESS UNIT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39765118</number>
+        <abstract><![CDATA['REVIEW OR CREATE ACCOUNTING ENTRIES' BUTTON DISABLED FOR PR AND OA ENTRY TYPES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39770171</number>
+        <abstract><![CDATA["PAGE DATA IS INCONSISTENT WITH DATABASE." WHEN DELETING PROJECT ATTACHMENTS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39819394</number>
+        <abstract><![CDATA[AP: PAMMISC FORMAT WITH SAM SUPPLIER AND SSN, GENERATES A VOUCHER ERROR, "ADDITIONAL ID IS REQUIRED FOR PAYMENT TO VENDOR SHARE - 0000000XXX FOR LOCATION MAIN (7015,426)"]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39823972</number>
+        <abstract><![CDATA[EAM: WARNING MESSAGE "PC BUSINESS UNIT AND ACTIVITY ID IS NOT VALID FOR INTERUNIT TRANSFER. (8005,320)" NOT APPEARING CONSISTENTLY WHILE PERFORMING INTERUNIT TRANSFER - MESSAGE CATALOG]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39824906</number>
+        <abstract><![CDATA[EAM: WARNING MESSAGE "PC BUSINESS UNIT AND ACTIVITY ID IS NOT VALID FOR INTERUNIT TRANSFER. (8005,320)" NOT APPEARING CONSISTENTLY WHILE PERFORMING INTERUNIT TRANSFER - Record Peoplecode]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39839725</number>
+        <abstract><![CDATA[AP: PAMMISC PAYMENT FILE FOR A SAM VENDOR GENERATES AN EIN TINTYPE VALUE WHICH IS NOT COMPLIANT FOR THE US TREASURY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>784712</size>
+    <files> 
+      <file> 
+        <name>updPRJ39867105.zip</name>
+        <size>784712</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39867105.zip?aru=29025780&patch_file=updPRJ39867105.zip]]></download_url> 
+        <digest type="SHA-256">CBB6C71020A5AF7153B24EEA894BDCB0DDB569BEDF6FDEECF28B99CBD4198BAF</digest> 
+        <digest type="SHA-1">2A084B513EE4AD65E7992F13A8C71E3F5107A511</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1786525792000">2026-08-12 09:09:52</updated_date> 
+    <released_date in_epoch_ms="1786525792000">2026-08-12 09:09:52</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39833712</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 08062026]]></abstract>
+    </bug> 
+    <name>39833712</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=29010432]]></patch_readme> 
+      <patch_details><![CDATA[/download/39833712.html]]></patch_details>
+    </url> 
+    <request_id>29010432</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39367379</number>
+        <abstract><![CDATA[AM: ASSET IS AVAILABLE FOR DISPOSAL EVEN IF RET ENTRIES ARE ALREADY STAGED INTO]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39550764</number>
+        <abstract><![CDATA[MOBILE PHYSICAL INVENTORY - BU SECURITY ON FIND ASSET TILE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39582638</number>
+        <abstract><![CDATA[DEPRECIATION DOES NOT CALCULATE CORRECTLY AFTER A COST ADJUSTMENT FOR PROFILES WITH LIMITS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39651653</number>
+        <abstract><![CDATA[DATA CONFLICT ERROR WHEN CREATING PURCHASE ORDER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39660349</number>
+        <abstract><![CDATA[EAM: THE "AM ACCTG TEMPLATES EN MASSE" PROCESS (AMAEMASS) DOES NOT POPULATE THE EXPENSE (EX) ACCOUNT WHERE THE TRANSACTION TYPE = RET AND OTHER INFLATION ACCOUNTS WHEN EVERY ACCOUNTING ENTRY TEMPLATE ID FEATURE IS DESELECTED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39676631</number>
+        <abstract><![CDATA[CONTROL CHARTFIELD  DISPLAYS INCORRECT VALUES AFTER VALIDATION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39715269</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39736073</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39765864</number>
+        <abstract><![CDATA[EEX 9.2: CARD NUMBER FIELD VISIBLE AFTER SPLITTING RECEIPTS ON AN EXPENSE REPORT THAT HAS MULTIPLE LINES]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39794641</number>
+        <abstract><![CDATA[SUPPORTING BUG FOR 39550764 - NEW DYNAMIC VIEWS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1563257</size>
+    <files> 
+      <file> 
+        <name>updPRJ39833712.zip</name>
+        <size>1563257</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39833712.zip?aru=29010432&patch_file=updPRJ39833712.zip]]></download_url> 
+        <digest type="SHA-256">E5170140BDE98E6E0202C755DEA4EBAD9D6081990D06B6172F696286E7D6ECD5</digest> 
+        <digest type="SHA-1">6721C832B20D5D2E78E8D6E3D6345C4CC6A02521</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1785922053000">2026-08-05 09:27:33</updated_date> 
+    <released_date in_epoch_ms="1785922053000">2026-08-05 09:27:33</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39801699</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 07302026]]></abstract>
+    </bug> 
+    <name>39801699</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28972215]]></patch_readme> 
+      <patch_details><![CDATA[/download/39801699.html]]></patch_details>
+    </url> 
+    <request_id>28972215</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39619027</number>
+        <abstract><![CDATA[PSA_ACCTGGL PERFORMANCE ISSUE AT SEL_PC.INSLOCK STEP]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39721558</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39801699</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 07302026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>584107</size>
+    <files> 
+      <file> 
+        <name>updPRJ39801699_I57.zip</name>
+        <size>584107</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39801699_I57.zip?aru=28972215&patch_file=updPRJ39801699_I57.zip]]></download_url> 
+        <digest type="SHA-1">0A980FB45A88C51FD68D38BA64A8FF7B39CC7169</digest> 
+        <digest type="SHA-256">8F49AC13C314162CFF97BC49F8D29F98BEB5862A2AD2A723A4DEAB7F55D75163</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1785319813000">2026-07-29 10:10:13</updated_date> 
+    <released_date in_epoch_ms="1785319813000">2026-07-29 10:10:13</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39767328</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 07232026]]></abstract>
+    </bug> 
+    <name>39767328</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28970904]]></patch_readme> 
+      <patch_details><![CDATA[/download/39767328.html]]></patch_details>
+    </url> 
+    <request_id>28970904</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39246409</number>
+        <abstract><![CDATA[REQUISITION MERCHANDISE AND BASE AMOUNTS DONOT MATCH WHEN CHANGING DISTRIBUTE BY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39522137</number>
+        <abstract><![CDATA[NO WARNING MESSAGE APPEARS WHEN CLICKING 'CONTRACT RELEASES' ON THE CONTRACTS PA]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39546248</number>
+        <abstract><![CDATA[INACTIVATED TRANSLATE VALUES FOR PC_AM_RUN_OPTN STILL SHOWS UP]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39636161</number>
+        <abstract><![CDATA[GL: INTERUNIT JOURNAL EDIT IS VALID BUT TOTALS PAGE SHOWS OUT OF BALANCE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39761018</number>
+        <abstract><![CDATA[FUNCLIB_PC RECORD PEOPLECODE CHANGES FOR BUG 39546248]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39767328</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 07232026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>676975</size>
+    <files> 
+      <file> 
+        <name>updPRJ39767328_I57.zip</name>
+        <size>676975</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39767328_I57.zip?aru=28970904&patch_file=updPRJ39767328_I57.zip]]></download_url> 
+        <digest type="SHA-256">AAEA8A2C7451D4257E83DE55C9CD69CD56EDC777CD79F691314159700B961876</digest> 
+        <digest type="SHA-1">0429EB072242EF1FDD334DC07CA6D99E2BB7836A</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1785319511000">2026-07-29 10:05:11</updated_date> 
+    <released_date in_epoch_ms="1785319511000">2026-07-29 10:05:11</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39700942</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 07092026]]></abstract>
+    </bug> 
+    <name>39700942</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28970777]]></patch_readme> 
+      <patch_details><![CDATA[/download/39700942.html]]></patch_details>
+    </url> 
+    <request_id>28970777</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>39598615</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39602613</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39618368</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39681703</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39700942</number>
+        <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 07092026]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1716678</size>
+    <files> 
+      <file> 
+        <name>updPRJ39700942_I57.zip</name>
+        <size>1716678</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39700942_I57.zip?aru=28970777&patch_file=updPRJ39700942_I57.zip]]></download_url> 
+        <digest type="SHA-1">072744B609880A169D5B5C35C5D19D4F3681F527</digest> 
+        <digest type="SHA-256">4525FCA70DB7C0575A64D9A4602CCB69A181369DBBB86C4DB138F1624FAE142E</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1785319445000">2026-07-29 10:04:05</updated_date> 
+    <released_date in_epoch_ms="1785319445000">2026-07-29 10:04:05</released_date> 
+  </patch> 
+  <patch has_prereqs="y" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39734753</number>
+      <abstract><![CDATA[PEOPLESOFT RELEASE PATCHSET: FSCM - 07162026]]></abstract>
+    </bug> 
+    <name>39734753</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28970903]]></patch_readme> 
+      <patch_details><![CDATA[/download/39734753.html]]></patch_details>
+    </url> 
+    <request_id>28970903</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="185">Security</classification> 
+    <patch_classification id="185">Security</patch_classification> 
+    <life_cycle id="175">Recommended</life_cycle> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>39427734</number>
+        <abstract><![CDATA[RS: RECORD PS_RS_SCHED_TASK IS INCORRECTLY UPDATED BY KEEPING ASSIGNMENT DETAILS FOR PARTIAL HOURS EVEN IF THE âSKIP INELIGIBLE DAYSâ CHECK-BOX IS SELECTED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39697003</number>
+        <abstract><![CDATA[FILTER FOR CONVERSATION TO REVIEW FROM AR WORKCENTER 'IN VALUES' LIMITED TO LONG(1999) CHARACTERS ONLINE - FIELD]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39697498</number>
+        <abstract><![CDATA[FILTER FOR CONVERSATION TO REVIEW FROM AR WORKCENTER 'IN VALUES' LIMITED TO LONG(1999) CHARACTERS ONLINE - CAF RECORDS]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39697627</number>
+        <abstract><![CDATA[FILTER FOR CONVERSATION TO REVIEW FROM AR WORKCENTER 'IN VALUES' LIMITED TO LONG(1999) CHARACTERS ONLINE - WC RECORDS 1]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39697672</number>
+        <abstract><![CDATA[FILTER FOR CONVERSATION TO REVIEW FROM AR WORKCENTER 'IN VALUES' LIMITED TO LONG(1999) CHARACTERS ONLINE - WC RECORDS 2]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39697794</number>
+        <abstract><![CDATA[FILTER FOR CONVERSATION TO REVIEW FROM AR WORKCENTER 'IN VALUES' LIMITED TO LONG(1999) CHARACTERS ONLINE - WC RECORDS - 3]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39697815</number>
+        <abstract><![CDATA[FILTER FOR CONVERSATION TO REVIEW FROM AR WORKCENTER 'IN VALUES' LIMITED TO LONG(1999) CHARACTERS ONLINE - WC RECORDS - 4]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39698054</number>
+        <abstract><![CDATA[FILTER FOR CONVERSATION TO REVIEW FROM AR WORKCENTER 'IN VALUES' (FSFB_FLTRVALS.FSFB_VALUEIN_01) LIMITED TO LONG(1999) CHARACTERS ONLINE WHILE IN DATABASE THE FIELD IS A CLOB WITH NO LIMIT]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39707286</number>
+        <abstract><![CDATA[EEX 9.2: FIXING CASH ADVANCE GROUPBOX PLACEMENT IN ORGANIZATIONAL DATA TAB IN UPDATE EMPLOYEE DETAIL PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>39721447</number>
+        <abstract><![CDATA[POTENTIAL SECURITY VULNERABILITY]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>1336950</size>
+    <files> 
+      <file> 
+        <name>updPRJ39734753_I57.zip</name>
+        <size>1336950</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/updPRJ39734753_I57.zip?aru=28970903&patch_file=updPRJ39734753_I57.zip]]></download_url> 
+        <digest type="SHA-256">FA3AE539F223DB7BDCA85A70851D7DE0F82B842BEB4885CA5B8B1B68AA926E93</digest> 
+        <digest type="SHA-1">D3B28EBC7FB85B663D3A02F97C9E18D7C0A281E3</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1785319397000">2026-07-29 10:03:17</updated_date> 
+    <released_date in_epoch_ms="1785319397000">2026-07-29 10:03:17</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39347462</number>
+      <abstract><![CDATA[PEOPLESOFT FSCM UPDATE IMAGE 9.2.057 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>39347462</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28962664]]></patch_readme> 
+      <patch_details><![CDATA[/download/39347462.html]]></patch_details>
+    </url> 
+    <request_id>28962664</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>37745042</number>
+        <abstract><![CDATA[LEASE INSIGHTS DASHBOARD NOT REFRESHING LEASE DATA WITH RTI ENABLED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37779733</number>
+        <abstract><![CDATA[LA INSIGHTS RTI REFRESH ISSUE 37745042 - LEASE SCHEDULE BACK UP SHOULD BE TAKEN CARE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37848479</number>
+        <abstract><![CDATA[INCORRECT MESSAGE IS DISPLAYED WHEN SUPPLIER IS NOT CHANGED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38092380</number>
+        <abstract><![CDATA[MASK SENSITIVE FIELDS ON SUPPLIER CONTRACTS OAUTH PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38165897</number>
+        <abstract><![CDATA[EXTENDED AMT ON VIEW PRINTABLE VERSION SHOWS ZERO IF XMLP IS DISABLED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38255342</number>
+        <abstract><![CDATA[PSFTPO-15967-QAP2 -  MISSING APPROVAL CHAIN LINK IN RECONCILE PCARD STATEMENT PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38337049</number>
+        <abstract><![CDATA[DOCUSIGN ERROR-"REQUEST_ENTITY_TOO_LARGE" WHEN SUBMITTING DOCUMENTS GREATER THAN 25MB IN REST API]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38379839</number>
+        <abstract><![CDATA[PSFTPO-15967-QAP2  - DISTRIBUTION CHANGES MADE IN AN APPROVED TRANSACTION DOES NOT TRIGGER NOTIFICATION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38396280</number>
+        <abstract><![CDATA[VAT NOT IN FREIGHT/TAX/MISC. PO HEADER FOR EU PURCHASING BU AND NON-EU SUPPLIER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38409100</number>
+        <abstract><![CDATA[EX: ALTERNATE ACCOUNT CHARTFIELD DISPLAYED AND EDITABLE AT FLUID EXPENSE REPORT LINE DISTRIBUTION, EVEN WHEN GL UNIT IS NOT USING THIS FEATURE]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>29206382729</size>
+    <files> 
+      <file> 
+        <name>FSCM-920-UPD-057-WIN_2of11.zip</name>
+        <size>2139849732</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-WIN_2of11.zip?aru=28962664&patch_file=FSCM-920-UPD-057-WIN_2of11.zip]]></download_url> 
+        <digest type="SHA-1">BCFD632220942B6CFBDC6048A6C02182D74EBE83</digest> 
+        <digest type="SHA-256">34DF97163A2461AE5FB0A591E60DC2A6E7B51FEF8553636BBA53BCEC17279A35</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-WIN_1of11.zip</name>
+        <size>97051477</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-WIN_1of11.zip?aru=28962664&patch_file=FSCM-920-UPD-057-WIN_1of11.zip]]></download_url> 
+        <digest type="SHA-256">D441589BF6ADE0A3FE96747E7630FAA5566EB3A3C9F958F6D60ADEFE0D461B47</digest> 
+        <digest type="SHA-1">5963B0A031B02AF2F09A1200A891B6FC571BDB6C</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-WIN_10of11.zip</name>
+        <size>4970916930</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-WIN_10of11.zip?aru=28962664&patch_file=FSCM-920-UPD-057-WIN_10of11.zip]]></download_url> 
+        <digest type="SHA-256">E6283A5DEB0DE7BF861DEB8A345EC9342C96415BCA12C58409D03805A73D82E1</digest> 
+        <digest type="SHA-1">810D81B31573FDD0CDEEFD868363FCA7DA29335A</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-WIN_7of11.zip</name>
+        <size>933169456</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-WIN_7of11.zip?aru=28962664&patch_file=FSCM-920-UPD-057-WIN_7of11.zip]]></download_url> 
+        <digest type="SHA-256">A921FF25864A1D3D7A679BDBFD116425824BFCB250F8F59766EF9DBC45BB907D</digest> 
+        <digest type="SHA-1">EE61D1FDE7A8E915AB21C9C02255F2AAC7F6B035</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-WIN_3of11.zip</name>
+        <size>2450164707</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-WIN_3of11.zip?aru=28962664&patch_file=FSCM-920-UPD-057-WIN_3of11.zip]]></download_url> 
+        <digest type="SHA-256">5F26C78AC9D0B5EDC374C211118A829A387DAC53B1F37A871A938A4BCB0FA528</digest> 
+        <digest type="SHA-1">ED55694BDDF4CA9D7A9D0CE18875FCBEE11B85E6</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-WIN_4of11.zip</name>
+        <size>1320269709</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-WIN_4of11.zip?aru=28962664&patch_file=FSCM-920-UPD-057-WIN_4of11.zip]]></download_url> 
+        <digest type="SHA-1">930FEEB239B6F54F657F22CE13906C5AFEC64E3E</digest> 
+        <digest type="SHA-256">F67F1FCD6FA7CBABD6A6D0ED9E65FE3E0FA107037B8C0122F361EF363688A960</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-WIN_8of11.zip</name>
+        <size>6435435779</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-WIN_8of11.zip?aru=28962664&patch_file=FSCM-920-UPD-057-WIN_8of11.zip]]></download_url> 
+        <digest type="SHA-1">AB8AE19E4E835DEEF8F04A5F5AB80A4C138FCAB8</digest> 
+        <digest type="SHA-256">69BBD0F54612F8051CBDF2E92B1A3A266B0BB6D198F203CE7ECE70292D4C7439</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-WIN_5of11.zip</name>
+        <size>1332571964</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-WIN_5of11.zip?aru=28962664&patch_file=FSCM-920-UPD-057-WIN_5of11.zip]]></download_url> 
+        <digest type="SHA-1">596265B46B56895E4027E18C603F7D8F3513FE4E</digest> 
+        <digest type="SHA-256">B61B7C97077CB14E4E0C8EBC2C262DF336079441C83DDEDDF9BE90F602E8EACB</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-WIN_11of11.zip</name>
+        <size>4282534675</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-WIN_11of11.zip?aru=28962664&patch_file=FSCM-920-UPD-057-WIN_11of11.zip]]></download_url> 
+        <digest type="SHA-256">572E89B949BAA38467B013E28B3DE8CEC60E7615B5339F523F90B5DAC466C8BB</digest> 
+        <digest type="SHA-1">0D31CDCB3676C58D523570E9FB657E3BF90F6468</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-WIN_6of11.zip</name>
+        <size>1307483389</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-WIN_6of11.zip?aru=28962664&patch_file=FSCM-920-UPD-057-WIN_6of11.zip]]></download_url> 
+        <digest type="SHA-1">902BBB14A24B0A86A932DA2C9925CD82A1D3E14F</digest> 
+        <digest type="SHA-256">318300327EB8B24699B74CF5D74B4C495877FD64F66903F2023BF57B229F05BF</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-WIN_9of11.zip</name>
+        <size>3936934911</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-WIN_9of11.zip?aru=28962664&patch_file=FSCM-920-UPD-057-WIN_9of11.zip]]></download_url> 
+        <digest type="SHA-256">4B81544B739142B8406D36957E15798005FF4F06A5A3EEE1AF37231949DBF9F6</digest> 
+        <digest type="SHA-1">9C8A0AFCEEBB1C8E257791D4512B20F7B322FFD9</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1785316188000">2026-07-29 09:09:48</updated_date> 
+    <released_date in_epoch_ms="1785136238000">2026-07-27 07:10:38</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>39346767</number>
+      <abstract><![CDATA[PEOPLESOFT FSCM UPDATE IMAGE 9.2.057 - PUM CONTAINER]]></abstract>
+    </bug> 
+    <name>39346767</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=28962653]]></patch_readme> 
+      <patch_details><![CDATA[/download/39346767.html]]></patch_details>
+    </url> 
+    <request_id>28962653</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="yes"> 
+      <bug> 
+        <number>37745042</number>
+        <abstract><![CDATA[LEASE INSIGHTS DASHBOARD NOT REFRESHING LEASE DATA WITH RTI ENABLED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37779733</number>
+        <abstract><![CDATA[LA INSIGHTS RTI REFRESH ISSUE 37745042 - LEASE SCHEDULE BACK UP SHOULD BE TAKEN CARE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>37848479</number>
+        <abstract><![CDATA[INCORRECT MESSAGE IS DISPLAYED WHEN SUPPLIER IS NOT CHANGED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38092380</number>
+        <abstract><![CDATA[MASK SENSITIVE FIELDS ON SUPPLIER CONTRACTS OAUTH PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38165897</number>
+        <abstract><![CDATA[EXTENDED AMT ON VIEW PRINTABLE VERSION SHOWS ZERO IF XMLP IS DISABLED]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38255342</number>
+        <abstract><![CDATA[PSFTPO-15967-QAP2 -  MISSING APPROVAL CHAIN LINK IN RECONCILE PCARD STATEMENT PAGE]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38337049</number>
+        <abstract><![CDATA[DOCUSIGN ERROR-"REQUEST_ENTITY_TOO_LARGE" WHEN SUBMITTING DOCUMENTS GREATER THAN 25MB IN REST API]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38379839</number>
+        <abstract><![CDATA[PSFTPO-15967-QAP2  - DISTRIBUTION CHANGES MADE IN AN APPROVED TRANSACTION DOES NOT TRIGGER NOTIFICATION]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38396280</number>
+        <abstract><![CDATA[VAT NOT IN FREIGHT/TAX/MISC. PO HEADER FOR EU PURCHASING BU AND NON-EU SUPPLIER]]></abstract>
+      </bug> 
+      <bug> 
+        <number>38409100</number>
+        <abstract><![CDATA[EX: ALTERNATE ACCOUNT CHARTFIELD DISPLAYED AND EDITABLE AT FLUID EXPENSE REPORT LINE DISTRIBUTION, EVEN WHEN GL UNIT IS NOT USING THIS FEATURE]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>23258717705</size>
+    <files> 
+      <file> 
+        <name>FSCM-920-UPD-057-CNT_2of6.zip</name>
+        <size>5241831706</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-CNT_2of6.zip?aru=28962653&patch_file=FSCM-920-UPD-057-CNT_2of6.zip]]></download_url> 
+        <digest type="SHA-256">C51771FCFC093CEE01C282C618455CDF3770F1BD6125789BB6B02D250AE54DBA</digest> 
+        <digest type="SHA-1">36030F694BA8617315F82D417B4D32A4725C82BE</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-CNT_3of6.zip</name>
+        <size>5241831706</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-CNT_3of6.zip?aru=28962653&patch_file=FSCM-920-UPD-057-CNT_3of6.zip]]></download_url> 
+        <digest type="SHA-256">1B9EAD762C6C879638E29B80D2CF5F8AC55B2A9545FECB27CDCE7BC44B9ED742</digest> 
+        <digest type="SHA-1">C0BC8FE55E70DD20D0772A325B421F49D75C261D</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-CNT_5of6.zip</name>
+        <size>5241831706</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-CNT_5of6.zip?aru=28962653&patch_file=FSCM-920-UPD-057-CNT_5of6.zip]]></download_url> 
+        <digest type="SHA-1">F04B003863C228A73C9E8CC83B31CF8141C4B2B6</digest> 
+        <digest type="SHA-256">7D68A034DE93ED93E15401D7F28A40859F4C77EB37E33FC1E6BD1569F0153374</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-CNT_6of6.zip</name>
+        <size>2285904990</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-CNT_6of6.zip?aru=28962653&patch_file=FSCM-920-UPD-057-CNT_6of6.zip]]></download_url> 
+        <digest type="SHA-1">59527CA60C275876331A628018266018F9F3E93A</digest> 
+        <digest type="SHA-256">3C57A82FCBB0B03CFBEBBFBD515AAFFF7B0DFB631853F7436E8944C2DC939BE8</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-CNT_1of6.zip</name>
+        <size>5485891</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-CNT_1of6.zip?aru=28962653&patch_file=FSCM-920-UPD-057-CNT_1of6.zip]]></download_url> 
+        <digest type="SHA-1">1FB167A4E5AECE94B103AE90786533B78F2F0259</digest> 
+        <digest type="SHA-256">D9F3F5292488CC0D07ECAF9AA56154AC34BCF7AF72335DC0B4F438E8EE15BA09</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPD-057-CNT_4of6.zip</name>
+        <size>5241831706</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPD-057-CNT_4of6.zip?aru=28962653&patch_file=FSCM-920-UPD-057-CNT_4of6.zip]]></download_url> 
+        <digest type="SHA-256">38711FD1DB2AACCCE102444BADBD54BCE3DAF9D3D1C4BEFD7DF5B95A2E997639</digest> 
+        <digest type="SHA-1">04932BD490989EDF6F25AF9B87FD368AB795D1F9</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1785316149000">2026-07-29 09:09:09</updated_date> 
+    <released_date in_epoch_ms="1785136235000">2026-07-27 07:10:35</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>31302392</number>
+      <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.006 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>31302392</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=23570996]]></patch_readme> 
+      <patch_details><![CDATA[/download/31302392.html]]></patch_details>
+    </url> 
+    <request_id>23570996</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>31302392</number>
+        <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.006  -  NATIVE OS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>22923403143</size>
+    <files> 
+      <file> 
+        <name>FSCM-920-UPG-006-WIN_7of9.zip</name>
+        <size>4262199537</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-WIN_7of9.zip?aru=23570996&patch_file=FSCM-920-UPG-006-WIN_7of9.zip]]></download_url> 
+        <digest type="SHA-1">7D76ECB6B7A350AE1E47EF365C0E3AD35EF5006C</digest> 
+        <digest type="SHA-256">2A404D34714689B54AA479EFA43A58F3E2F8B16166705706A193904DDEF1E507</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-WIN_1of9.zip</name>
+        <size>118423569</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-WIN_1of9.zip?aru=23570996&patch_file=FSCM-920-UPG-006-WIN_1of9.zip]]></download_url> 
+        <digest type="SHA-1">B7447B7DCBC9653E892CAC9812CBB2C32F9007B0</digest> 
+        <digest type="SHA-256">9870C2F84B8BBECD530000C0D90733C512ED7CBD0EDA7542C0279C0EF6F9CEA1</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-WIN_4of9.zip</name>
+        <size>1425919963</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-WIN_4of9.zip?aru=23570996&patch_file=FSCM-920-UPG-006-WIN_4of9.zip]]></download_url> 
+        <digest type="SHA-1">7EC4E799B99E8EA0DAF1379D1F33FA053737FC62</digest> 
+        <digest type="SHA-256">95FBF03A2299DD8605B89504F785F6928F8C81EFE236F0D117366F6A45FD1FC3</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-WIN_3of9.zip</name>
+        <size>2537217619</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-WIN_3of9.zip?aru=23570996&patch_file=FSCM-920-UPG-006-WIN_3of9.zip]]></download_url> 
+        <digest type="SHA-1">612AB3083C2481EA1325596F8EC65C2406A59A73</digest> 
+        <digest type="SHA-256">CF8AB68BC0924EE75EB259DFAA0D8C2974D63F59056C95EEC0CB2B50B1AA2E36</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-WIN_2of9.zip</name>
+        <size>2871749920</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-WIN_2of9.zip?aru=23570996&patch_file=FSCM-920-UPG-006-WIN_2of9.zip]]></download_url> 
+        <digest type="SHA-256">6F2E5D5BBA0219591C839B017D08674FBFBB0A8E437A67E50A3718CF83DE13D8</digest> 
+        <digest type="SHA-1">353580486CDC14D3FCB542F7593140A0C604C568</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-WIN_5of9.zip</name>
+        <size>1412046925</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-WIN_5of9.zip?aru=23570996&patch_file=FSCM-920-UPG-006-WIN_5of9.zip]]></download_url> 
+        <digest type="SHA-256">366E3A8A2BD058BA73FB6B0360206419A690D97FB4623F247C2C85ADE5BE8DC7</digest> 
+        <digest type="SHA-1">DE1FC159E7AB69C6B265F56563E95066410D12FC</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-WIN_8of9.zip</name>
+        <size>2561944232</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-WIN_8of9.zip?aru=23570996&patch_file=FSCM-920-UPG-006-WIN_8of9.zip]]></download_url> 
+        <digest type="SHA-1">58C14DEB4126E79501B112CD6201CE525FBFBC1F</digest> 
+        <digest type="SHA-256">A9B2EECD24A97B7618006D215C6C6654CBC61235559D7E78D5D88E58FF07ADA6</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-WIN_9of9.zip</name>
+        <size>2154347274</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-WIN_9of9.zip?aru=23570996&patch_file=FSCM-920-UPG-006-WIN_9of9.zip]]></download_url> 
+        <digest type="SHA-1">C5C4FFFB5250BA5C114E6E9CF9DAF6D05F3C9349</digest> 
+        <digest type="SHA-256">121C0A00DFEAFD98B5F23D4B1004DF9813EE72E6F520D7125E20A86FE7323D45</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-WIN_6of9.zip</name>
+        <size>5579554104</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-WIN_6of9.zip?aru=23570996&patch_file=FSCM-920-UPG-006-WIN_6of9.zip]]></download_url> 
+        <digest type="SHA-1">8BC3BAB0035AD020C08DB88688E26FBA742EB206</digest> 
+        <digest type="SHA-256">C68974B9B1821024717BD6EBC5E2BE0658F839F11242C91CB47A4EDA9F9493EA</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1589502362000">2020-05-15 00:26:02</updated_date> 
+    <released_date in_epoch_ms="1589497412000">2020-05-14 23:03:32</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>31302384</number>
+      <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.006 - VIRTUAL BOX]]></abstract>
+    </bug> 
+    <name>31302384</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=23570939]]></patch_readme> 
+      <patch_details><![CDATA[/download/31302384.html]]></patch_details>
+    </url> 
+    <request_id>23570939</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>31302384</number>
+        <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.006 - VIRTUAL BOX]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>22866701799</size>
+    <files> 
+      <file> 
+        <name>FSCM-920-UPG-006-OVA_3of11.zip</name>
+        <size>2878897897</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-OVA_3of11.zip?aru=23570939&patch_file=FSCM-920-UPG-006-OVA_3of11.zip]]></download_url> 
+        <digest type="SHA-1">2571B21D42A10C56A23FD4EDCD9FCB669471A281</digest> 
+        <digest type="SHA-256">6E045E4A80D1075E35907E843C3A9857FE51758BE09651CD9CC6E3F1F68F6801</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-OVA_9of11.zip</name>
+        <size>2056597710</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-OVA_9of11.zip?aru=23570939&patch_file=FSCM-920-UPG-006-OVA_9of11.zip]]></download_url> 
+        <digest type="SHA-256">92EF47F3AB7A73B31860363E1AC8D8122F37EC791AF53FE6BA6D81B7E9783276</digest> 
+        <digest type="SHA-1">05AC38B891C7CB35C3848126D0DE54D2C482E689</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-OVA_1of11.zip</name>
+        <size>183612846</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-OVA_1of11.zip?aru=23570939&patch_file=FSCM-920-UPG-006-OVA_1of11.zip]]></download_url> 
+        <digest type="SHA-1">C48D07DC1816648E8B639F788E551577D644CF62</digest> 
+        <digest type="SHA-256">72749B6FD3A1CC5F638DB48F7058EB51D38BC580216160956705B9FADA1C4D91</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-OVA_5of11.zip</name>
+        <size>1412046977</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-OVA_5of11.zip?aru=23570939&patch_file=FSCM-920-UPG-006-OVA_5of11.zip]]></download_url> 
+        <digest type="SHA-1">88DED17499A63647DB5D9FA30E0F218198F51BFA</digest> 
+        <digest type="SHA-256">2963C0FCFBD6777A5EC14CFBBD39AA09810BAA76FF83DDEA8DECB36D11E826A8</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-OVA_4of11.zip</name>
+        <size>1425920015</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-OVA_4of11.zip?aru=23570939&patch_file=FSCM-920-UPG-006-OVA_4of11.zip]]></download_url> 
+        <digest type="SHA-256">4F61AA56990AD31D048FBB5DF15CB0A2FBB6FC0A614949728AD14629A9F19692</digest> 
+        <digest type="SHA-1">D14378FC414B819BF162B3D91C71630323771B9E</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-OVA_6of11.zip</name>
+        <size>4912990787</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-OVA_6of11.zip?aru=23570939&patch_file=FSCM-920-UPG-006-OVA_6of11.zip]]></download_url> 
+        <digest type="SHA-256">5E7E52E1CC003450853DCBE7372A16051044F59682EA32CAAE8182F7849779D3</digest> 
+        <digest type="SHA-1">2B4258553253892C2E808AE3B095D273F0501CEA</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-OVA_7of11.zip</name>
+        <size>3068849819</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-OVA_7of11.zip?aru=23570939&patch_file=FSCM-920-UPG-006-OVA_7of11.zip]]></download_url> 
+        <digest type="SHA-256">EFFB73CBB52AE5FCAF0B5510DB2A2C078BAC742ECD4710D7CF492781EBF67BC1</digest> 
+        <digest type="SHA-1">7097D369706329C6871CC3FEBD5C6789FE67BF6B</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-OVA_8of11.zip</name>
+        <size>2432167980</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-OVA_8of11.zip?aru=23570939&patch_file=FSCM-920-UPG-006-OVA_8of11.zip]]></download_url> 
+        <digest type="SHA-1">5B6A15FD98A22BFEC2405FA90D0F55B6A6553710</digest> 
+        <digest type="SHA-256">3EA214FF6ABC4C650A64F40892A6DE03CE613D1F131949BC3ED1B4F4E4BACFF2</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-OVA_11of11.zip</name>
+        <size>601337879</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-OVA_11of11.zip?aru=23570939&patch_file=FSCM-920-UPG-006-OVA_11of11.zip]]></download_url> 
+        <digest type="SHA-1">CE6CCD301641A8E631DDF8357FD6814F7B98D61C</digest> 
+        <digest type="SHA-256">F5B1D3C098056A403B5392BE2B6772E26F377D0D1097F3F66267658266C17D2F</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-OVA_2of11.zip</name>
+        <size>1990850985</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-OVA_2of11.zip?aru=23570939&patch_file=FSCM-920-UPG-006-OVA_2of11.zip]]></download_url> 
+        <digest type="SHA-256">6A1E2DE07B495F5A1A501454A5E7A0D09C5D2D3740FFB74CA33133F4420AD3DA</digest> 
+        <digest type="SHA-1">72F0C242BA5336844DD75DDB9FC729A67DA5CED0</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-006-OVA_10of11.zip</name>
+        <size>1903428904</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-006-OVA_10of11.zip?aru=23570939&patch_file=FSCM-920-UPG-006-OVA_10of11.zip]]></download_url> 
+        <digest type="SHA-1">1D36DE13F9A0AB41BD68C29C94BAB2DDC230E0E5</digest> 
+        <digest type="SHA-256">17DD8B250C509174B5D3DC83D02EE7A61832E68A7B290D9976E71AE425814575</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1589499992000">2020-05-14 23:46:32</updated_date> 
+    <released_date in_epoch_ms="1589496012000">2020-05-14 22:40:12</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>29313986</number>
+      <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.005 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>29313986</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=22729179]]></patch_readme> 
+      <patch_details><![CDATA[/download/29313986.html]]></patch_details>
+    </url> 
+    <request_id>22729179</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>29313986</number>
+        <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.005  -  NATIVE OS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>19868119360</size>
+    <files> 
+      <file> 
+        <name>FSCM-920-UPG-005-WIN_1of9.zip</name>
+        <size>77125214</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-WIN_1of9.zip?aru=22729179&patch_file=FSCM-920-UPG-005-WIN_1of9.zip]]></download_url> 
+        <digest type="SHA-1">9E0857971D236FE1B1327B25313D1E9DB964D83A</digest> 
+        <digest type="SHA-256">9CD6FEC105572199BE4D7C65D35ACA2A5F9219D377E38E41C670AC4EDCB563F3</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-WIN_2of9.zip</name>
+        <size>2943305991</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-WIN_2of9.zip?aru=22729179&patch_file=FSCM-920-UPG-005-WIN_2of9.zip]]></download_url> 
+        <digest type="SHA-256">9F913C07CCB808310A7679B89E8C5A89E3546255575D395F123BE3D0F3C0F696</digest> 
+        <digest type="SHA-1">A6AD3E240CA0AB60899807EDD63634D1D7F28980</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-WIN_3of9.zip</name>
+        <size>2359107980</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-WIN_3of9.zip?aru=22729179&patch_file=FSCM-920-UPG-005-WIN_3of9.zip]]></download_url> 
+        <digest type="SHA-1">3344C2C1430688EA9DF3A25B9FA6FA7394967A13</digest> 
+        <digest type="SHA-256">57944AA0591E2A6630719A021C506F696B7DD1B74C3C688060DB19232592BD76</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-WIN_4of9.zip</name>
+        <size>1401695924</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-WIN_4of9.zip?aru=22729179&patch_file=FSCM-920-UPG-005-WIN_4of9.zip]]></download_url> 
+        <digest type="SHA-1">F29091ADCF707B15AF2FE4080558FEFBE0C160BA</digest> 
+        <digest type="SHA-256">F326407F6EB20702E40AD7DADDA2FBDC845F0F0C1B7ED64C627A40376B7761D7</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-WIN_5of9.zip</name>
+        <size>1242713078</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-WIN_5of9.zip?aru=22729179&patch_file=FSCM-920-UPG-005-WIN_5of9.zip]]></download_url> 
+        <digest type="SHA-1">98BC769E7CC63A884E6B34D3D8303EDFA73A9FC4</digest> 
+        <digest type="SHA-256">A7F4CBA348563222D12EF5AF6026C066568789F38441002008C5934A37C34FE0</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-WIN_6of9.zip</name>
+        <size>3316977833</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-WIN_6of9.zip?aru=22729179&patch_file=FSCM-920-UPG-005-WIN_6of9.zip]]></download_url> 
+        <digest type="SHA-1">D30F26ECEDFD75CAD1641E895E488A14DC6C13B4</digest> 
+        <digest type="SHA-256">DB05B20C2AC301EC08F3EA28DD79F816EB752D9FAA178F80CF9C26571DF7BE69</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-WIN_7of9.zip</name>
+        <size>4249090844</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-WIN_7of9.zip?aru=22729179&patch_file=FSCM-920-UPG-005-WIN_7of9.zip]]></download_url> 
+        <digest type="SHA-256">9FFC8DA51C62D06DE5CE058429082DBC0BEE38902872BBE19D31799029B869D8</digest> 
+        <digest type="SHA-1">75265268C6AD474B27E46140DD59498225935C09</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-WIN_8of9.zip</name>
+        <size>2571742470</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-WIN_8of9.zip?aru=22729179&patch_file=FSCM-920-UPG-005-WIN_8of9.zip]]></download_url> 
+        <digest type="SHA-1">4C7258B775C8F610BA47DFC0E9AC778154A24BED</digest> 
+        <digest type="SHA-256">E2F890CD6AD169224FC95233833A47347D20B1728FDFA71BEC89336FEF38250F</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-WIN_9of9.zip</name>
+        <size>1706360026</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-WIN_9of9.zip?aru=22729179&patch_file=FSCM-920-UPG-005-WIN_9of9.zip]]></download_url> 
+        <digest type="SHA-256">1C8046EFA38D4D471C36FEF053DA419F47B844F76C02FC2A12A9F493C51BBB5C</digest> 
+        <digest type="SHA-1">C08EB3E93E8BBF6EB4EAB045E633A2F5F532BBDB</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1549586064000">2019-02-08 00:34:24</updated_date> 
+    <released_date in_epoch_ms="1549578467000">2019-02-07 22:27:47</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>29313969</number>
+      <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.005 - VIRTUAL BOX]]></abstract>
+    </bug> 
+    <name>29313969</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=22728998]]></patch_readme> 
+      <patch_details><![CDATA[/download/29313969.html]]></patch_details>
+    </url> 
+    <request_id>22728998</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>29313969</number>
+        <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.005 - VIRTUAL BOX]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>19983377046</size>
+    <files> 
+      <file> 
+        <name>FSCM-920-UPG-005-OVA_10of11.zip</name>
+        <size>1319420154</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-OVA_10of11.zip?aru=22728998&patch_file=FSCM-920-UPG-005-OVA_10of11.zip]]></download_url> 
+        <digest type="SHA-1">4D041109EA9CB35FF170356F9B018DC3E95CFE57</digest> 
+        <digest type="SHA-256">6641512D53181485633A373B445B0050901757C0F50CE8D9A05E3AC370C01444</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-OVA_11of11.zip</name>
+        <size>399391678</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-OVA_11of11.zip?aru=22728998&patch_file=FSCM-920-UPG-005-OVA_11of11.zip]]></download_url> 
+        <digest type="SHA-256">874DF5972BDC1A13451588F5BE71F0B3FDBBBA24DFB77945F4E6F651019C014E</digest> 
+        <digest type="SHA-1">876A915593CAD3A631AC854AFC2CF7C550C4DB9E</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-OVA_1of11.zip</name>
+        <size>127766320</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-OVA_1of11.zip?aru=22728998&patch_file=FSCM-920-UPG-005-OVA_1of11.zip]]></download_url> 
+        <digest type="SHA-1">C06835EA557C95AAC8423D226C98D4C90AF9D08D</digest> 
+        <digest type="SHA-256">9883298A58278D85ACE681B50C39A9D9CA18208DC9E96C2F19C739A4ACE55071</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-OVA_2of11.zip</name>
+        <size>1967111119</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-OVA_2of11.zip?aru=22728998&patch_file=FSCM-920-UPG-005-OVA_2of11.zip]]></download_url> 
+        <digest type="SHA-1">6C60177DB17CE940E55FE1F84E1B20C358001046</digest> 
+        <digest type="SHA-256">CC37C875151BBCEBE25F397A9B6FEBD464707DD6457BE8A077C209F454AE72F4</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-OVA_3of11.zip</name>
+        <size>2621168608</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-OVA_3of11.zip?aru=22728998&patch_file=FSCM-920-UPG-005-OVA_3of11.zip]]></download_url> 
+        <digest type="SHA-1">3B37457D784E0C828189DDB844EFF052F68770FC</digest> 
+        <digest type="SHA-256">4478E28D7AD3787C0103A2DF48686624FA865EA100803E15D89CF21733879549</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-OVA_4of11.zip</name>
+        <size>1401695976</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-OVA_4of11.zip?aru=22728998&patch_file=FSCM-920-UPG-005-OVA_4of11.zip]]></download_url> 
+        <digest type="SHA-256">AC38C390C2F789034C20A1BDA369427029D37A5D127B8E83B4178FDF04EC452A</digest> 
+        <digest type="SHA-1">A9D077326C868296D814D6FC422D08F3C8912FB1</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-OVA_5of11.zip</name>
+        <size>1242713130</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-OVA_5of11.zip?aru=22728998&patch_file=FSCM-920-UPG-005-OVA_5of11.zip]]></download_url> 
+        <digest type="SHA-1">F8909D382A7B88CDFF5C081C4CD8FED7682BFD46</digest> 
+        <digest type="SHA-256">61EE73EA858AB7BE25C07177A749BE7BDD3A87179174504DED6CA9FBE0640720</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-OVA_6of11.zip</name>
+        <size>3657280018</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-OVA_6of11.zip?aru=22728998&patch_file=FSCM-920-UPG-005-OVA_6of11.zip]]></download_url> 
+        <digest type="SHA-1">E521A9B197F54601B1B41410428DE2F05329317D</digest> 
+        <digest type="SHA-256">1AF5D9B6FC86728CE186E0F4670DC5CBD000FF77EB369199879416D8AA6FE8FF</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-OVA_7of11.zip</name>
+        <size>3059747465</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-OVA_7of11.zip?aru=22728998&patch_file=FSCM-920-UPG-005-OVA_7of11.zip]]></download_url> 
+        <digest type="SHA-256">D3B2B83688BF1416370B7419E00210C54EA219EFE6BD4E216D653DA425DD980D</digest> 
+        <digest type="SHA-1">26403B387E567239852C014BFEE33876787BCD47</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-OVA_8of11.zip</name>
+        <size>2571769356</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-OVA_8of11.zip?aru=22728998&patch_file=FSCM-920-UPG-005-OVA_8of11.zip]]></download_url> 
+        <digest type="SHA-1">3D79A62C0B59D3D416E4483F0A9A06EEBCDE2724</digest> 
+        <digest type="SHA-256">8695C16086383A01436DFADD6021AC343FB3B85C1D6DC30D2241CFE96D093FD1</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-005-OVA_9of11.zip</name>
+        <size>1615313222</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-005-OVA_9of11.zip?aru=22728998&patch_file=FSCM-920-UPG-005-OVA_9of11.zip]]></download_url> 
+        <digest type="SHA-256">6B8F5345B6938BC89DCDD4FF5A20FD5ECFAC946F685EED917078A70205C7007E</digest> 
+        <digest type="SHA-1">D786CFBBA1C0F0A723AA09049B5F9C5DFCC1AAEB</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1549577892000">2019-02-07 22:18:12</updated_date> 
+    <released_date in_epoch_ms="1549573423000">2019-02-07 21:03:43</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>27326376</number>
+      <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.004 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>27326376</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=21835624]]></patch_readme> 
+      <patch_details><![CDATA[/download/27326376.html]]></patch_details>
+    </url> 
+    <request_id>21835624</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>27326376</number>
+        <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.004  -  NATIVE OS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>21958636448</size>
+    <files> 
+      <file> 
+        <name>FSCM-920-UPG-004-WIN_10of11.zip</name>
+        <size>2137262945</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-WIN_10of11.zip?aru=21835624&patch_file=FSCM-920-UPG-004-WIN_10of11.zip]]></download_url> 
+        <digest type="SHA-1">AB13222E725CC5C2E9CDCA6A13F3B3A60F3F4F34</digest> 
+        <digest type="SHA-256">9F0C17D1F1DBA8F63477F6E78243096AAE925D7CA7BF1A5CD623A37710B59083</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-WIN_11of11.zip</name>
+        <size>1706286017</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-WIN_11of11.zip?aru=21835624&patch_file=FSCM-920-UPG-004-WIN_11of11.zip]]></download_url> 
+        <digest type="SHA-256">2C36706152EAB9561D110C82FDE8B9217610399F92F24B97324DE285B639E529</digest> 
+        <digest type="SHA-1">C6EB3BB9175F1B54CBFA0CC9CBA34A3CBDCE2F83</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-WIN_1of11.zip</name>
+        <size>55383440</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-WIN_1of11.zip?aru=21835624&patch_file=FSCM-920-UPG-004-WIN_1of11.zip]]></download_url> 
+        <digest type="SHA-256">AC795D49114A77FB343C5080998E1E7581410E49505CC1BC0F2EBC35A70F08E4</digest> 
+        <digest type="SHA-1">2EA02FA57A2F7BB178C96FC3573A582F45A4D588</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-WIN_2of11.zip</name>
+        <size>2860053710</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-WIN_2of11.zip?aru=21835624&patch_file=FSCM-920-UPG-004-WIN_2of11.zip]]></download_url> 
+        <digest type="SHA-1">B685A2E7C72B7EB13BDB4C1DB01A8B62399E15BF</digest> 
+        <digest type="SHA-256">997D4AF919330B6C13675BCC16B563C6434CBA4E70D7CE37CC4C0953C1C73CC2</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-WIN_3of11.zip</name>
+        <size>2497943378</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-WIN_3of11.zip?aru=21835624&patch_file=FSCM-920-UPG-004-WIN_3of11.zip]]></download_url> 
+        <digest type="SHA-1">167763BC2E4C0F0707EB6D2A721C1E979F35D4A1</digest> 
+        <digest type="SHA-256">28817F7351223FB97291BE4866A7C91E0664581D602E29FD9324E5F9AF33CA4D</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-WIN_4of11.zip</name>
+        <size>1036543150</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-WIN_4of11.zip?aru=21835624&patch_file=FSCM-920-UPG-004-WIN_4of11.zip]]></download_url> 
+        <digest type="SHA-256">F50894783BE6E0F1661B5A4E5FED523F9DE3A3CF681F9E88BE6E96ABFB88F9B2</digest> 
+        <digest type="SHA-1">FD23C02A5628906716989592B3B6308B7ACAC61B</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-WIN_5of11.zip</name>
+        <size>1549549577</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-WIN_5of11.zip?aru=21835624&patch_file=FSCM-920-UPG-004-WIN_5of11.zip]]></download_url> 
+        <digest type="SHA-256">7B342C211BEFBE4D77D5D4C50ECF66323B427639D0793F5D7F707CE9D109220D</digest> 
+        <digest type="SHA-1">5B0736358F462DBCCAF07CA822AC678EC6C242AC</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-WIN_6of11.zip</name>
+        <size>1339057553</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-WIN_6of11.zip?aru=21835624&patch_file=FSCM-920-UPG-004-WIN_6of11.zip]]></download_url> 
+        <digest type="SHA-1">B090CD9301EBA050F0E64E1DCF597F8B260DAB55</digest> 
+        <digest type="SHA-256">A45A25B6719EF6885C08104F851B2A3C803DF6517B06369CBF7C44A8057D8AED</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-WIN_7of11.zip</name>
+        <size>1242669889</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-WIN_7of11.zip?aru=21835624&patch_file=FSCM-920-UPG-004-WIN_7of11.zip]]></download_url> 
+        <digest type="SHA-256">8E6EAFDC066C377D8BE175F877C818509731649EF894361357ACDABDC7199C6F</digest> 
+        <digest type="SHA-1">66B18DD0897D9C3EEC0AC8752E6483A98E4C332E</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-WIN_8of11.zip</name>
+        <size>3300516042</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-WIN_8of11.zip?aru=21835624&patch_file=FSCM-920-UPG-004-WIN_8of11.zip]]></download_url> 
+        <digest type="SHA-256">9EBFD6AB1C95A6BE6AA66B148ED434DBB0D6584C6F76CFF78A2B51C4E84D27B5</digest> 
+        <digest type="SHA-1">6058A028CE92CB97269C7B0E219189747C5FC154</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-WIN_9of11.zip</name>
+        <size>4233370747</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-WIN_9of11.zip?aru=21835624&patch_file=FSCM-920-UPG-004-WIN_9of11.zip]]></download_url> 
+        <digest type="SHA-1">4B1166B80ECBB9506841F2CD5CCB6618EA4A3B03</digest> 
+        <digest type="SHA-256">615C600237B51643037F6075C063D2EC80A7A1558236B88284A15FD0F0A47184</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1514562175000">2017-12-29 15:42:55</updated_date> 
+    <released_date in_epoch_ms="1514536794000">2017-12-29 08:39:54</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>27306904</number>
+      <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.004 - VIRTUAL BOX]]></abstract>
+    </bug> 
+    <name>27306904</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=21833955]]></patch_readme> 
+      <patch_details><![CDATA[/download/27306904.html]]></patch_details>
+    </url> 
+    <request_id>21833955</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>27306904</number>
+        <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.004 - VIRTUAL BOX]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>21058148773</size>
+    <files> 
+      <file> 
+        <name>FSCM-920-UPG-004-OVA_10of12.zip</name>
+        <size>2017102885</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-OVA_10of12.zip?aru=21833955&patch_file=FSCM-920-UPG-004-OVA_10of12.zip]]></download_url> 
+        <digest type="SHA-1">3F307F46D4676B9AE52D28159C3E3B112DD39DB4</digest> 
+        <digest type="SHA-256">AA753F12E51DC2CA32799254F126C942D5ECDA5CFF536FFF43A4F708A11EF1EF</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-OVA_11of12.zip</name>
+        <size>1615360175</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-OVA_11of12.zip?aru=21833955&patch_file=FSCM-920-UPG-004-OVA_11of12.zip]]></download_url> 
+        <digest type="SHA-1">5410FE8D9E5D4AC0CA3D31269CD3B6F42FF43C52</digest> 
+        <digest type="SHA-256">B1A08754802FBED5ED9023657710375599579643F561ED7010CD5F4724847119</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-OVA_12of12.zip</name>
+        <size>1175317707</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-OVA_12of12.zip?aru=21833955&patch_file=FSCM-920-UPG-004-OVA_12of12.zip]]></download_url> 
+        <digest type="SHA-1">5A13C3454BD77E55C6B77C2A4387D60666180783</digest> 
+        <digest type="SHA-256">E9E27C4AC515FF8842D8A37EACC8C7D154F3103B0BAF6A2BDCC3D067C7C074FA</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-OVA_1of12.zip</name>
+        <size>189103611</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-OVA_1of12.zip?aru=21833955&patch_file=FSCM-920-UPG-004-OVA_1of12.zip]]></download_url> 
+        <digest type="SHA-1">1B7E2A5F9DC71AECE6EF770BF1C96FB7C48CD1D1</digest> 
+        <digest type="SHA-256">79AB0A3555AE926835E2018B96A27476258CFCE645A9DBB425A81EAAB5742461</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-OVA_2of12.zip</name>
+        <size>1878822572</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-OVA_2of12.zip?aru=21833955&patch_file=FSCM-920-UPG-004-OVA_2of12.zip]]></download_url> 
+        <digest type="SHA-1">A28500C662B6295C452C03FBDA6217783E994774</digest> 
+        <digest type="SHA-256">4C36C692BD9ECFE0D438C2D47FBEC3FC4B266C362205461E6A34F6E22E496021</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-OVA_3of12.zip</name>
+        <size>2689741070</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-OVA_3of12.zip?aru=21833955&patch_file=FSCM-920-UPG-004-OVA_3of12.zip]]></download_url> 
+        <digest type="SHA-1">DCAE217A5AC16A52E2B7B5399CDC111B19700E4B</digest> 
+        <digest type="SHA-256">39BC7EB149C18562B3A18D4C01772C3191265B1212603E38DEB5D9C927B2D5E4</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-OVA_4of12.zip</name>
+        <size>1036543202</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-OVA_4of12.zip?aru=21833955&patch_file=FSCM-920-UPG-004-OVA_4of12.zip]]></download_url> 
+        <digest type="SHA-1">4A947949EA4DC7C4096F25EEDB825EAD991614E3</digest> 
+        <digest type="SHA-256">F5C7375810EFD157423E61A77A17781779819308A13C1677DA45FFA01F9DD5B1</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-OVA_5of12.zip</name>
+        <size>1549549629</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-OVA_5of12.zip?aru=21833955&patch_file=FSCM-920-UPG-004-OVA_5of12.zip]]></download_url> 
+        <digest type="SHA-1">11228162E2FD75807BB8FB0918D8D8A35BF88009</digest> 
+        <digest type="SHA-256">476C9AECC71FD2C303D58AEC29E3B6048B6AE4FE351C2A8A93E49C798848501C</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-OVA_6of12.zip</name>
+        <size>1339057605</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-OVA_6of12.zip?aru=21833955&patch_file=FSCM-920-UPG-004-OVA_6of12.zip]]></download_url> 
+        <digest type="SHA-256">D25AF208E8FFBE121DA0C83E4F17DFC79BC17FAC53866AB0C7497C5C06E7A1B6</digest> 
+        <digest type="SHA-1">08A8FD29D066D1265C3A304A768E4F5D7681C69C</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-OVA_7of12.zip</name>
+        <size>1242669941</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-OVA_7of12.zip?aru=21833955&patch_file=FSCM-920-UPG-004-OVA_7of12.zip]]></download_url> 
+        <digest type="SHA-1">2EDBE5BFFA8B519DD6C3B5B6AB5A7AB8F00FC341</digest> 
+        <digest type="SHA-256">55DAB10F8FDDB4197F501BEAF549B32F9F5BA1492AEACE3A7D35A8E8FF8520DA</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-OVA_8of12.zip</name>
+        <size>3285611435</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-OVA_8of12.zip?aru=21833955&patch_file=FSCM-920-UPG-004-OVA_8of12.zip]]></download_url> 
+        <digest type="SHA-1">396C29F6E07803AFD9B16EF390C73ADFEA58EB0E</digest> 
+        <digest type="SHA-256">D5FA0C2444D368DE2AE6A0574A12D52D2849802ACC2F34F37730C6C0175820D5</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-004-OVA_9of12.zip</name>
+        <size>3039268941</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-004-OVA_9of12.zip?aru=21833955&patch_file=FSCM-920-UPG-004-OVA_9of12.zip]]></download_url> 
+        <digest type="SHA-256">F6AFCBF0B781B99DCEB3B17ABC11A0A6AD4259563B7DED6A99022558F33BD3B5</digest> 
+        <digest type="SHA-1">B25C8CE4AA4082A8C0FDC8CF9A1279CB6BDA986D</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1514501377000">2017-12-28 22:49:37</updated_date> 
+    <released_date in_epoch_ms="1514493162000">2017-12-28 20:32:42</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>23224411</number>
+      <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.002]]></abstract>
+    </bug> 
+    <name>23224411</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=20171190]]></patch_readme> 
+      <patch_details><![CDATA[/download/23224411.html]]></patch_details>
+    </url> 
+    <request_id>20171190</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>23224411</number>
+        <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.002]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>38325869369</size>
+    <files> 
+      <file> 
+        <name>FSCM-920-UPG-002_OVA_10of11.zip</name>
+        <size>3883597472</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002_OVA_10of11.zip?aru=20171190&patch_file=FSCM-920-UPG-002_OVA_10of11.zip]]></download_url> 
+        <digest type="SHA-256">0A7A58E57BB54A0EE3A2E3A45233FFBC9F58123CC4E4F8707B209E702EF0181A</digest> 
+        <digest type="SHA-1">509B801D65DB318AEAA8298C6BA9F35A50C8E968</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002_OVA_11of11.zip</name>
+        <size>3579782847</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002_OVA_11of11.zip?aru=20171190&patch_file=FSCM-920-UPG-002_OVA_11of11.zip]]></download_url> 
+        <digest type="SHA-1">C7848D6CB611B750D174946C359AC3A5F412AB27</digest> 
+        <digest type="SHA-256">DBAA38F7C7B7755460A91CD00822C74A06B237A735ED659D8C60D0CB7BD28ACC</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002_OVA_1of11.zip</name>
+        <size>2780</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002_OVA_1of11.zip?aru=20171190&patch_file=FSCM-920-UPG-002_OVA_1of11.zip]]></download_url> 
+        <digest type="SHA-1">DC4D3134C4FFD929E83D2325C5390B3CBEC250DB</digest> 
+        <digest type="SHA-256">4664B117693DDC3828C7D1A07E41640BDF99613FCB754D9953E75E43DF27F1C3</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002_OVA_2of11.zip</name>
+        <size>3840637548</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002_OVA_2of11.zip?aru=20171190&patch_file=FSCM-920-UPG-002_OVA_2of11.zip]]></download_url> 
+        <digest type="SHA-1">4447D415AE195433D5101796F0176800584EA84C</digest> 
+        <digest type="SHA-256">1CEE5AD5BC677BBEE35F73E5C904D81DDB1C6B3A672E43958B175FA58DB097B4</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002_OVA_3of11.zip</name>
+        <size>3860860399</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002_OVA_3of11.zip?aru=20171190&patch_file=FSCM-920-UPG-002_OVA_3of11.zip]]></download_url> 
+        <digest type="SHA-256">CA1B175509F1A7C4DEC7EBFE1075CFE1B7C939353BD8D6AFC591D7F86E4D4D20</digest> 
+        <digest type="SHA-1">44426754CCCA1253C4C39BE4211192C67A047F7B</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002_OVA_4of11.zip</name>
+        <size>3890268944</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002_OVA_4of11.zip?aru=20171190&patch_file=FSCM-920-UPG-002_OVA_4of11.zip]]></download_url> 
+        <digest type="SHA-1">346863D0FAE191E8E08A6B3F4F444F5F52EA0790</digest> 
+        <digest type="SHA-256">6F67CD3CD5893FA25577FD1B8B264B74C31E28BE9EC2A61C0CE4BA39A605C531</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002_OVA_5of11.zip</name>
+        <size>3704835824</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002_OVA_5of11.zip?aru=20171190&patch_file=FSCM-920-UPG-002_OVA_5of11.zip]]></download_url> 
+        <digest type="SHA-1">7283E3DED33418A0EB7447A175CDF015CCE2FD17</digest> 
+        <digest type="SHA-256">0258EFE8BB4BFD2D32C1FF4963BF9F7FAAC2D9A3E8DCB88CDB6DAC8AF571228D</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002_OVA_6of11.zip</name>
+        <size>3880094458</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002_OVA_6of11.zip?aru=20171190&patch_file=FSCM-920-UPG-002_OVA_6of11.zip]]></download_url> 
+        <digest type="SHA-1">A47732FF159D71376664864F0CE70A5A048F1042</digest> 
+        <digest type="SHA-256">E5E33920042E4A805EC4A21F0DE7F313E306F2E253393BD52741807C89493D0E</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002_OVA_7of11.zip</name>
+        <size>3898922457</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002_OVA_7of11.zip?aru=20171190&patch_file=FSCM-920-UPG-002_OVA_7of11.zip]]></download_url> 
+        <digest type="SHA-256">D9B5F6C14AA115D8274F049E645848D9B9B04F6B68C4BFBCF7B0E6EF6449133F</digest> 
+        <digest type="SHA-1">BD983E56F4925B7C06CC2AC3B255A8B5A62B818B</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002_OVA_8of11.zip</name>
+        <size>3907707798</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002_OVA_8of11.zip?aru=20171190&patch_file=FSCM-920-UPG-002_OVA_8of11.zip]]></download_url> 
+        <digest type="SHA-1">894586DA14CE03A31E686F97B71890CEC23BBC2F</digest> 
+        <digest type="SHA-256">932651EB90984AEEA29503988B4C447B0CF8ECAFB578C0B03EB6AED365EC9D1E</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002_OVA_9of11.zip</name>
+        <size>3879158842</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002_OVA_9of11.zip?aru=20171190&patch_file=FSCM-920-UPG-002_OVA_9of11.zip]]></download_url> 
+        <digest type="SHA-1">A942E0AF823D669B9B78CD42E39F973226F3B389</digest> 
+        <digest type="SHA-256">543B6AF110AC02EADD4165F3E3855F698CA2E4B916C75ECE76D4E7E62E77658B</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1462498879000">2016-05-06 01:41:19</updated_date> 
+    <released_date in_epoch_ms="1462481885000">2016-05-05 20:58:05</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>23038679</number>
+      <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.002 - NATIVE OS]]></abstract>
+    </bug> 
+    <name>23038679</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=20054471]]></patch_readme> 
+      <patch_details><![CDATA[/download/23038679.html]]></patch_details>
+    </url> 
+    <request_id>20054471</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="233" bugdb_id="233"><![CDATA[Microsoft Windows x64 (64-bit)]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>23038679</number>
+        <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.002 - NATIVE OS]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>17641805510</size>
+    <files> 
+      <file> 
+        <name>FSCM-920-UPG-002-WIN_10of10.zip</name>
+        <size>2191656276</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-WIN_10of10.zip?aru=20054471&patch_file=FSCM-920-UPG-002-WIN_10of10.zip]]></download_url> 
+        <digest type="SHA-256">86405EEBE15DB7EC538C273EA44E57C7A0FBF3BDC6D60E8A5B9A1F8BA356F1A9</digest> 
+        <digest type="SHA-1">9F4675AB665C950AD44CC5A308D5AA2E9CB97BE8</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-WIN_1of10.zip</name>
+        <size>83809656</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-WIN_1of10.zip?aru=20054471&patch_file=FSCM-920-UPG-002-WIN_1of10.zip]]></download_url> 
+        <digest type="SHA-1">F66B0C8028F55E6008D8F11E623890A1289B0C46</digest> 
+        <digest type="SHA-256">F04D6483A913A0835D8184B4887AA76B164A7D9A9A7601689A8B5768D8358FC2</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-WIN_2of10.zip</name>
+        <size>3917154641</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-WIN_2of10.zip?aru=20054471&patch_file=FSCM-920-UPG-002-WIN_2of10.zip]]></download_url> 
+        <digest type="SHA-256">BF4A1BC481C5F792467C1C260C1B9EA37475DE23523EC7BB182196D85CD0F3AE</digest> 
+        <digest type="SHA-1">378DA7654BB9C9DE70D78EBC67210D9D614ACFBF</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-WIN_3of10.zip</name>
+        <size>2401014994</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-WIN_3of10.zip?aru=20054471&patch_file=FSCM-920-UPG-002-WIN_3of10.zip]]></download_url> 
+        <digest type="SHA-256">F7E0475D86AABEBA19CFBD9EBA0925B3597EF70A86F782AF3081FBC48385DE63</digest> 
+        <digest type="SHA-1">0ADF29F953A3014D3745AD9C3687AE7EC018C0F0</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-WIN_4of10.zip</name>
+        <size>981754542</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-WIN_4of10.zip?aru=20054471&patch_file=FSCM-920-UPG-002-WIN_4of10.zip]]></download_url> 
+        <digest type="SHA-1">B08CE44276642BB12FC92AB186C2504D6459C096</digest> 
+        <digest type="SHA-256">6CB7FAEB533DFC7B696700F0414C06F16464A5121997D313C138F730B0130506</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-WIN_5of10.zip</name>
+        <size>1057972314</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-WIN_5of10.zip?aru=20054471&patch_file=FSCM-920-UPG-002-WIN_5of10.zip]]></download_url> 
+        <digest type="SHA-256">81BB2D0916C826804DFEF70D0C54B863AF3928C0EEBFE8B2E85564B72FACE76E</digest> 
+        <digest type="SHA-1">63077FCC34B07EA7481EDB987E7B4383431C405C</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-WIN_6of10.zip</name>
+        <size>1575219145</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-WIN_6of10.zip?aru=20054471&patch_file=FSCM-920-UPG-002-WIN_6of10.zip]]></download_url> 
+        <digest type="SHA-256">753AEF2521507860BD825B2076F287856CF1F83E63F92BC82D9B514DDFA56D3F</digest> 
+        <digest type="SHA-1">C5C26DB7A38D23B1E27D7EDD3ACBCB02B218C7B0</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-WIN_7of10.zip</name>
+        <size>1242669889</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-WIN_7of10.zip?aru=20054471&patch_file=FSCM-920-UPG-002-WIN_7of10.zip]]></download_url> 
+        <digest type="SHA-1">66B18DD0897D9C3EEC0AC8752E6483A98E4C332E</digest> 
+        <digest type="SHA-256">8E6EAFDC066C377D8BE175F877C818509731649EF894361357ACDABDC7199C6F</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-WIN_8of10.zip</name>
+        <size>3149450753</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-WIN_8of10.zip?aru=20054471&patch_file=FSCM-920-UPG-002-WIN_8of10.zip]]></download_url> 
+        <digest type="SHA-1">53C5F731FCCA84E60E700EC48B8C45D0FA787FEF</digest> 
+        <digest type="SHA-256">866D1D82822BCB5E6670333E28FAFB372C9AE4822745B4C6076FFCC1C40DC234</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-WIN_9of10.zip</name>
+        <size>1041103300</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-WIN_9of10.zip?aru=20054471&patch_file=FSCM-920-UPG-002-WIN_9of10.zip]]></download_url> 
+        <digest type="SHA-1">09CAA04841029B5AD9AD1A106B74F7252C4FE519</digest> 
+        <digest type="SHA-256">884A2F34B7F9D1AE0452868E58104CE35AEC78F6EEB8FAD1B9B065C52F38B216</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1459807209000">2016-04-04 22:00:09</updated_date> 
+    <released_date in_epoch_ms="1459755352000">2016-04-04 07:35:52</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>20667275</number>
+      <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.002 - VIRTUAL BOX]]></abstract>
+    </bug> 
+    <name>20667275</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=20054470]]></patch_readme> 
+      <patch_details><![CDATA[/download/20667275.html]]></patch_details>
+    </url> 
+    <request_id>20054470</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>20667275</number>
+        <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.002 - VIRTUAL BOX]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>17086368056</size>
+    <files> 
+      <file> 
+        <name>FSCM-920-UPG-002-OVA_10of11.zip</name>
+        <size>2069723019</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-OVA_10of11.zip?aru=20054470&patch_file=FSCM-920-UPG-002-OVA_10of11.zip]]></download_url> 
+        <digest type="SHA-1">3D92129CCB6EA178AEF1F7474F00338258A062ED</digest> 
+        <digest type="SHA-256">2B1D68B76333AD7EFD78C20544BFE23C54E200E63D61700FE1F0165018770E2D</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-OVA_11of11.zip</name>
+        <size>743152827</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-OVA_11of11.zip?aru=20054470&patch_file=FSCM-920-UPG-002-OVA_11of11.zip]]></download_url> 
+        <digest type="SHA-1">423283595217EB9FC846937432765F9CC8A91293</digest> 
+        <digest type="SHA-256">EBB695C8304E3BEB4B5FB906D75A53C1178E25E6ABFB5C89D70CFE462A32B8F5</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-OVA_1of11.zip</name>
+        <size>83809989</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-OVA_1of11.zip?aru=20054470&patch_file=FSCM-920-UPG-002-OVA_1of11.zip]]></download_url> 
+        <digest type="SHA-256">924AD824B51C571405F87BA535DEF1F0F293990722F6CF58E37149A4560452DB</digest> 
+        <digest type="SHA-1">D55EA9570101F7E6D4AFC020DA8805C5250F3E90</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-OVA_2of11.zip</name>
+        <size>2747801869</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-OVA_2of11.zip?aru=20054470&patch_file=FSCM-920-UPG-002-OVA_2of11.zip]]></download_url> 
+        <digest type="SHA-1">DA6284212ABBD542D3CA228ABC17ACA4A5116698</digest> 
+        <digest type="SHA-256">0A45D6BE97787C2D4403883E8ECE76C22722E2222AB0F6E0D114161AF2FE3565</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-OVA_3of11.zip</name>
+        <size>2488823881</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-OVA_3of11.zip?aru=20054470&patch_file=FSCM-920-UPG-002-OVA_3of11.zip]]></download_url> 
+        <digest type="SHA-256">9B6E725B6E32D0F4B3D91E720904914CFA39B6D62E8E40D540C8F9D168B8DA63</digest> 
+        <digest type="SHA-1">68027EDACB9B8EF763EDC206CD22E4A83328A4A2</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-OVA_4of11.zip</name>
+        <size>981754594</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-OVA_4of11.zip?aru=20054470&patch_file=FSCM-920-UPG-002-OVA_4of11.zip]]></download_url> 
+        <digest type="SHA-1">DF3526E3AA831B0D42C38FD718ACF98E5F6E136F</digest> 
+        <digest type="SHA-256">A8DF6291A72F0A38B7700F50B495D4F0963E9A8BEFB4D5F7E668FF9926A7EBEB</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-OVA_5of11.zip</name>
+        <size>1057972366</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-OVA_5of11.zip?aru=20054470&patch_file=FSCM-920-UPG-002-OVA_5of11.zip]]></download_url> 
+        <digest type="SHA-1">FECBB51D4F8C15C7F7E0444B993D334C8F39EAD2</digest> 
+        <digest type="SHA-256">763313025FF4130210ECC238944D6BD752C3990A92CD16BFEB0B7ACEDCF9C471</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-OVA_6of11.zip</name>
+        <size>1575219197</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-OVA_6of11.zip?aru=20054470&patch_file=FSCM-920-UPG-002-OVA_6of11.zip]]></download_url> 
+        <digest type="SHA-1">2579F3B80A8806FB09E56B378E68E54C7F236694</digest> 
+        <digest type="SHA-256">9E39B1F2D4D8B2DFB1F6FD4731C88F84B337AE85C54F8F49B9C3CCA7F574EBC3</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-OVA_7of11.zip</name>
+        <size>1242669941</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-OVA_7of11.zip?aru=20054470&patch_file=FSCM-920-UPG-002-OVA_7of11.zip]]></download_url> 
+        <digest type="SHA-1">892F8B4A7D100D5F184FC530F6D613EE3EB8C11B</digest> 
+        <digest type="SHA-256">2054691E5F285D6A5F3B6BB2A820A55BEC46A3AA30FD3347D8A0AD912884B578</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-OVA_8of11.zip</name>
+        <size>3094535366</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-OVA_8of11.zip?aru=20054470&patch_file=FSCM-920-UPG-002-OVA_8of11.zip]]></download_url> 
+        <digest type="SHA-1">F959E2C6F6C1642EDB96CC2963A084A37D842D58</digest> 
+        <digest type="SHA-256">23464E8AD242B723F48A9E35E101323CA0AB3D87574E58527AF5F6506B799999</digest> 
+      </file> 
+      <file> 
+        <name>FSCM-920-UPG-002-OVA_9of11.zip</name>
+        <size>1000905007</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCM-920-UPG-002-OVA_9of11.zip?aru=20054470&patch_file=FSCM-920-UPG-002-OVA_9of11.zip]]></download_url> 
+        <digest type="SHA-1">09E225B5C728F02012ACD4EFD2C77997B1C3D09B</digest> 
+        <digest type="SHA-256">7E2A7106AB43A4971307DDE4D559C2CE415AED56BBE45C72A0E4C4BA64B82CBC</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1459806947000">2016-04-04 21:55:47</updated_date> 
+    <released_date in_epoch_ms="1426698337000">2015-03-18 17:05:37</released_date> 
+  </patch> 
+  <patch has_prereqs="n" has_postreqs="n" is_system_patch="n"> 
+    <bug> 
+      <number>18396054</number>
+      <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.001]]></abstract>
+    </bug> 
+    <name>18396054</name>
+    <type>Patchset</type>
+    <status>Available</status>
+    <access id="m">Open access</access> 
+    <url> 
+      <patch_readme host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=readme&aru=18786055]]></patch_readme> 
+      <patch_details><![CDATA[/download/18396054.html]]></patch_details>
+    </url> 
+    <request_id>18786055</request_id>
+    <product id="21707" bugdb_id="11082"><![CDATA[PeopleSoft FMS Family]]></product> 
+    <release id="27001300090200" name="9.2" platform_patch_not_required="Y" cc="N"><![CDATA[PeopleSoft 9.2]]></release> 
+    <platform id="2000" bugdb_id="289"><![CDATA[Generic Platform]]></platform> 
+    <language id="0" iso_code="EN"><![CDATA[American English]]></language> 
+    <translations_available>No</translations_available> 
+    <classification id="174">General</classification> 
+    <patch_classification id="174">General</patch_classification> 
+    <license_url file_id="1400" name="PeopleSoft License" host="https://updates.oracle.com"><![CDATA[/Orion/Services/download?type=license&file_id=1400]]></license_url> 
+    <support_level id="G">General Support</support_level> 
+    <entitlements> 
+      <entitlement code="SW"/> 
+    </entitlements> 
+    <fixes_bugs truncated="no"> 
+      <bug> 
+        <number>18396054</number>
+        <abstract><![CDATA[PEOPLESOFT FSCM UPGRADE SOURCE IMAGE 9.2.001]]></abstract>
+      </bug> 
+    </fixes_bugs> 
+    <size>26355557661</size>
+    <files> 
+      <file> 
+        <name>FSCMDB-85309-UI001_OVA_1of8.zip</name>
+        <size>2645</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCMDB-85309-UI001_OVA_1of8.zip?aru=18786055&patch_file=FSCMDB-85309-UI001_OVA_1of8.zip]]></download_url> 
+        <digest type="SHA-1">500ED50E9486DF14EA4638D35E05F2DD847FC860</digest> 
+        <digest type="SHA-256">77D5949B48FE09333EAA28F518F2FEB5A6A5AE8B466C7F8ABA5915F7BE1785C1</digest> 
+      </file> 
+      <file> 
+        <name>FSCMDB-85309-UI001_OVA_2of8.zip</name>
+        <size>3871236210</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCMDB-85309-UI001_OVA_2of8.zip?aru=18786055&patch_file=FSCMDB-85309-UI001_OVA_2of8.zip]]></download_url> 
+        <digest type="SHA-256">ED8BF21E4804ED7A392FA5678A190F6641EA58795D09317092BF0028CA6C42B1</digest> 
+        <digest type="SHA-1">5CDF0B7165E4922AC4D68757E9FAC2EA48484794</digest> 
+      </file> 
+      <file> 
+        <name>FSCMDB-85309-UI001_OVA_3of8.zip</name>
+        <size>3820277009</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCMDB-85309-UI001_OVA_3of8.zip?aru=18786055&patch_file=FSCMDB-85309-UI001_OVA_3of8.zip]]></download_url> 
+        <digest type="SHA-256">C305B25219011D1069655B1BAA934EEA4BCA48A020B1034563DCA466ECC6F34D</digest> 
+        <digest type="SHA-1">9870C5A7742B5027FACE3AC92132E0F4B76EF062</digest> 
+      </file> 
+      <file> 
+        <name>FSCMDB-85309-UI001_OVA_4of8.zip</name>
+        <size>3759275878</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCMDB-85309-UI001_OVA_4of8.zip?aru=18786055&patch_file=FSCMDB-85309-UI001_OVA_4of8.zip]]></download_url> 
+        <digest type="SHA-256">7DA1A7CAE82AEE83F5FD72394014FCB83551544BFA7479CBD21B4F03C4D11D05</digest> 
+        <digest type="SHA-1">63627233255D9F575560628C591A1A4D79967B85</digest> 
+      </file> 
+      <file> 
+        <name>FSCMDB-85309-UI001_OVA_5of8.zip</name>
+        <size>3872042529</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCMDB-85309-UI001_OVA_5of8.zip?aru=18786055&patch_file=FSCMDB-85309-UI001_OVA_5of8.zip]]></download_url> 
+        <digest type="SHA-256">83AC0F832D0A44ED51F4FC5F1E6B546C0D7F0EAFB2AEB1B679587E9F6D205659</digest> 
+        <digest type="SHA-1">D972180B4DF1286F42ADFCAE03C1741497F4F14D</digest> 
+      </file> 
+      <file> 
+        <name>FSCMDB-85309-UI001_OVA_6of8.zip</name>
+        <size>3902670563</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCMDB-85309-UI001_OVA_6of8.zip?aru=18786055&patch_file=FSCMDB-85309-UI001_OVA_6of8.zip]]></download_url> 
+        <digest type="SHA-1">6BEE9C996B8C332F2657892F5D9A7DA0C9FD35E2</digest> 
+        <digest type="SHA-256">300EA9E6DA4386684C99B9348481E1BD344BA7E697A4836F6EC35BA457014BC0</digest> 
+      </file> 
+      <file> 
+        <name>FSCMDB-85309-UI001_OVA_7of8.zip</name>
+        <size>3892391772</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCMDB-85309-UI001_OVA_7of8.zip?aru=18786055&patch_file=FSCMDB-85309-UI001_OVA_7of8.zip]]></download_url> 
+        <digest type="SHA-1">0E2057BEB3FE773A3AABB008E555973BA560AE09</digest> 
+        <digest type="SHA-256">3B8DD7E9A4BE57B17F41208F8F25D5F68E001916DC7FC07AEC8886F217AEDC24</digest> 
+      </file> 
+      <file> 
+        <name>FSCMDB-85309-UI001_OVA_8of8.zip</name>
+        <size>3237661055</size>
+        <download_url host="https://updates.oracle.com"><![CDATA[/Orion/Services/download/FSCMDB-85309-UI001_OVA_8of8.zip?aru=18786055&patch_file=FSCMDB-85309-UI001_OVA_8of8.zip]]></download_url> 
+        <digest type="SHA-1">6E77D9CC021AB17A572091F7EC10B8B7595B6027</digest> 
+        <digest type="SHA-256">41C963989CB740FB28BF871918D200762FFBA2FB1553A440303162C61E51548E</digest> 
+      </file> 
+    </files> 
+    <updated_date in_epoch_ms="1394826808000">2014-03-14 19:53:28</updated_date> 
+    <released_date in_epoch_ms="1394826808000">2014-03-14 19:53:28</released_date> 
+  </patch> 
+</results>
