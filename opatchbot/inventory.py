@@ -9,6 +9,7 @@ Only the inventory lines being added or removed change; every comment and note i
 from __future__ import annotations
 
 import json
+import logging
 import os
 import re
 import shutil
@@ -17,9 +18,11 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 from typing import Any
 
+from .aru import AuthError
 from .config import TYPES, InventoryItem
 from .resolve import Window, resolve_item
 
+log = logging.getLogger(__name__)
 CODE_FOR_AREA = {v: k for k, v in TYPES.items()}
 
 # Product family ids (from live ARU discovery 2026-11-09). Families do not change between versions; the
@@ -35,6 +38,8 @@ PRODUCTS = {
 APPS = ("HCM", "FSCM", "CS")
 DEFAULT_PLATFORM = {"DB": "Linux x86-64", "PT": "Microsoft Windows x64", "MW": "Microsoft Windows x64",
                     "AP": "Microsoft Windows x64"}
+# Used when Oracle refuses the platform catalogue (metadata service): ids seen in live ARU data.
+KNOWN_PLATFORMS = [(226, "Linux x86-64"), (233, "Microsoft Windows x64 (64-bit)"), (2000, "Generic Platform")]
 PT_FILE_OS = {233: "WIN", 226: "LNX"}  # PEOPLETOOLS-<OS>-<ver>... ; LNX not yet seen live
 DB_COMPONENTS = ("ru", "ojvm", "jdk", "opatch")
 # Marketing names whose release number differs: Oracle AI Database 26ai is version 23.26.
@@ -89,7 +94,11 @@ def item_names(type_code: str, args: list[str]) -> list[str]:
 
 # -- Oracle catalogue lookups ------------------------------------------------------------------------------
 def find_platform(client, wanted: str) -> tuple[int, str]:
-    rows = client.metadata("aru_platforms")
+    try:
+        rows = client.metadata("aru_platforms")
+    except AuthError:
+        log.warning("Oracle refused the platform catalogue; matching against the built-in platform list")
+        rows = KNOWN_PLATFORMS
     if wanted.isdigit():
         for pid, name in rows:
             if pid == int(wanted):
@@ -128,9 +137,35 @@ def release_candidates(type_code: str, args: list[str], rows: list[tuple[int, st
     raise InventoryError(f"unknown patch type {type_code!r}")
 
 
+def _release_rows_from_search(client, type_code: str, args: list[str], platform_id: int,
+                              product_id: int | None) -> list[tuple[int, str]]:
+    """Release (id, name) pairs taken from patch search results, for when Oracle refuses the release catalogue.
+    Search records carry <release id=... name="19.0.0.0.0">; names are rebuilt in catalogue form."""
+    t = type_code.upper()
+    pid = product_id or PRODUCTS[args[0].upper() if t == "AP" else t]
+    patches = client.search(product=pid, platform=platform_id) or client.search(product=pid)
+    seen: dict[int, str] = {}
+    for p in patches:
+        if p.release_id is None or not p.release_name:
+            continue
+        n = p.release_name.strip()
+        if t == "DB":
+            seen[p.release_id] = f"Oracle Database {n}"
+        elif t in ("PT", "MW"):
+            seen[p.release_id] = "PeopleSoft PeopleTools " + re.sub(r"\.0$", "", n)
+        else:
+            seen[p.release_id] = f"PeopleSoft {n}"
+    return sorted(seen.items())
+
+
 def lookup(client, type_code: str, args: list[str], platform: str | None = None,
-           release_id: int | None = None) -> Lookup:
-    rows = client.metadata("aru_releases")
+           release_id: int | None = None, product_id: int | None = None) -> Lookup:
+    pid, pname = find_platform(client, platform or DEFAULT_PLATFORM[type_code.upper()])
+    try:
+        rows = client.metadata("aru_releases")
+    except AuthError:
+        log.warning("Oracle refused the release catalogue; reading release ids from patch search results")
+        rows = _release_rows_from_search(client, type_code, args, pid, product_id)
     if release_id is not None:
         name = next((n for i, n in rows if i == release_id), None)
         if name is None:
@@ -146,7 +181,6 @@ def lookup(client, type_code: str, args: list[str], platform: str | None = None,
             raise InventoryError("several Oracle releases match: " + "; ".join(f"{i} {n}" for i, n in cands)
                                  + ". Pass --release-id with the one you run.")
         rel = cands[0]
-    pid, pname = find_platform(client, platform or DEFAULT_PLATFORM[type_code.upper()])
     return Lookup(rel[0], rel[1].strip(), pid, pname)
 
 
@@ -367,7 +401,7 @@ def plan_add(client, config_path: Path, type_code: str, args: list[str], today: 
     dupes = [n for n in item_names(t, args) if n in existing]
     if dupes:
         raise InventoryError(f"already in config.yaml: {', '.join(dupes)} (remove first with `opatchbot del`)")
-    lk = lookup(client, t, args, platform, release_id)
+    lk = lookup(client, t, args, platform, release_id, product_id)
     items = build_items(t, args, lk, components, product_id, file_prefix)
     checks, missing = check_items(client, items, today)
     comment = (f"added {today.isoformat()} by `opatchbot add {t} {' '.join(args)}`: {lk.release_name} "

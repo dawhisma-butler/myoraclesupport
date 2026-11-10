@@ -6,6 +6,7 @@ callable so it can be refreshed mid-run; it is only ever placed in a request hea
 from __future__ import annotations
 
 import hashlib
+import logging
 import re
 from dataclasses import dataclass, field
 from datetime import datetime, timezone
@@ -18,6 +19,7 @@ from defusedxml import ElementTree as ET
 BASE = "https://updates.oracle.com"
 SERVICES = f"{BASE}/Orion/Services"
 SAFE_NAME = re.compile(r"^[A-Za-z0-9._-]+$")
+log = logging.getLogger(__name__)
 
 
 class AruError(Exception):
@@ -135,14 +137,28 @@ class AruClient:
             h.update(extra)
         return h
 
-    def _get_text(self, url: str, params: dict | None = None) -> str:
+    def _refresh_token(self) -> bool:
+        """Force a new token from the provider (if it can) before one retry after a 401/403."""
+        refresh = getattr(self._token, "force_refresh", None)
+        if not callable(refresh):
+            return False
+        refresh()
+        return True
+
+    def _get_text(self, url: str, params: dict | None = None, retry: bool = True) -> str:
         r = self._s.get(url, params=params, headers=self._headers(), timeout=self._timeout, allow_redirects=True)
-        if r.status_code in (401, 403):
-            raise AuthError(f"HTTP {r.status_code} from {url}")
+        denied = r.status_code in (401, 403) or (r.status_code == 200 and looks_like_signin(r.text))
+        if denied:
+            # what Oracle said (never contains the token); helps tell an expired token from a refused service
+            log.warning("HTTP %s from %s %s: %s", r.status_code, url, params or "", " ".join(r.text[:300].split()))
+            if retry and self._refresh_token():
+                log.warning("retrying once with a freshly fetched token")
+                return self._get_text(url, params, retry=False)
+            if r.status_code in (401, 403):
+                raise AuthError(f"HTTP {r.status_code} from {url}")
+            raise AuthError(f"sign-in page returned for {url} (token expired?)")
         if r.status_code != 200:
             raise AruError(f"HTTP {r.status_code} from {url}")
-        if looks_like_signin(r.text):
-            raise AuthError(f"sign-in page returned for {url} (token expired?)")
         return r.text
 
     def search(self, **params: int | str) -> list[Patch]:
@@ -162,9 +178,11 @@ class AruClient:
                     rows.append((i, (el.text or "").strip()))
         return rows
 
-    def head(self, url: str) -> int:
+    def head(self, url: str, retry: bool = True) -> int:
         r = self._s.head(url, headers=self._headers(), timeout=self._timeout, allow_redirects=True)
         if r.status_code in (401, 403):
+            if retry and self._refresh_token():
+                return self.head(url, retry=False)
             raise AuthError(f"HTTP {r.status_code} from HEAD {url}")
         return int(r.headers.get("Content-Length") or 0)
 

@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 from pathlib import Path
 
 from . import __version__
-from .aru import AruClient
+from .aru import AruClient, AruError, AuthError
 from .config import TYPES, ConfigError, load_config, load_secrets, parse_types
 from .notify import Notifier
 from .run import Services, heartbeat, monitor_once, prune, run_cycle
@@ -181,6 +181,19 @@ def main(argv: list[str] | None = None, services: Services | None = None) -> int
             print("another opatchbot run is in progress (monitor/run/fetch/add/del); try again later", file=sys.stderr)
             return EXIT_BUSY
     today = date.fromisoformat(args.today) if args.today else date.today()
+    try:
+        return _dispatch(args, svc, today)
+    except (AuthError, SessionExpired) as e:
+        print(f"Oracle refused the request: {e}. A fresh token was already tried once; see "
+              f"{svc.cfg.state_dir / 'log' / 'opatchbot.log'} for Oracle's reply. If it persists, run `opatchbot login`.",
+              file=sys.stderr)
+        return 2
+    except AruError as e:
+        print(f"Oracle patch service error: {e}", file=sys.stderr)
+        return 4
+
+
+def _dispatch(args, svc, today) -> int:
 
     if args.cmd == "login":
         try:
