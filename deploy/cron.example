@@ -1,5 +1,5 @@
-# /etc/cron.d/opatchbot  (alternative to the systemd timers)
-# m h dom mon dow user      command
-0 7 * * *   opatchbot  OPATCHBOT_CONFIG=/etc/opatchbot/config.yaml /opt/opatchbot/venv/bin/opatchbot monitor
-30 7 1 * *  opatchbot  OPATCHBOT_CONFIG=/etc/opatchbot/config.yaml /opt/opatchbot/venv/bin/opatchbot heartbeat
-30 6 * * 0  opatchbot  OPATCHBOT_CONFIG=/etc/opatchbot/config.yaml OPATCHBOT_SECRETS=/etc/opatchbot/secrets.env /opt/opatchbot/venv/bin/opatchbot login
+# /etc/cron.d/opatchbot  (alternative to the systemd timers; runs as oracle)
+# m h dom mon dow user    command
+0 7 * * *   oracle  /opt/app/patch/venv/bin/opatchbot monitor
+30 7 1 * *  oracle  /opt/app/patch/venv/bin/opatchbot heartbeat
+30 6 * * 0  oracle  /opt/app/patch/venv/bin/opatchbot login

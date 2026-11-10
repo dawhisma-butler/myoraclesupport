@@ -76,11 +76,16 @@ def extract_jwt(text: str) -> str | None:
 
 
 def _write_private(path: Path, data: str) -> None:
+    """Write a 0600 file atomically (temp file + rename), so a concurrent reader (e.g. a download run while
+    the weekly login refreshes the session) never sees a half-written file."""
+    path = Path(path)
     path.parent.mkdir(parents=True, exist_ok=True)
-    fd = os.open(path, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
+    tmp = path.with_name(f".{path.name}.tmp-{os.getpid()}")
+    fd = os.open(tmp, os.O_WRONLY | os.O_CREAT | os.O_TRUNC, 0o600)
     with os.fdopen(fd, "w", encoding="utf-8") as fh:
         fh.write(data)
-    os.chmod(path, 0o600)
+    os.chmod(tmp, 0o600)
+    os.replace(tmp, path)
 
 
 class TokenStore:

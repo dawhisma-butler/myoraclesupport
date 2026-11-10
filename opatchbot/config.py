@@ -72,6 +72,11 @@ class Config:
     inventory: list[InventoryItem]
     cpu_months: tuple[int, ...] = (1, 4, 7, 10)
     auto_login: bool = True  # re-run the unattended login when the saved session has expired
+    secrets_dir: Path | None = None  # session.json + token.txt; defaults to state_dir
+
+    @property
+    def secret_dir(self) -> Path:
+        return self.secrets_dir or self.state_dir
 
 
 @dataclass
@@ -95,6 +100,7 @@ def load_config(path: Path) -> Config:
         inventory=inventory,
         cpu_months=tuple(raw.get("cpu_months", (1, 4, 7, 10))),
         auto_login=bool(raw.get("auto_login", True)),
+        secrets_dir=Path(raw["secrets_dir"]) if raw.get("secrets_dir") else None,
     )
 
 

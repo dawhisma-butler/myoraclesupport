@@ -17,6 +17,11 @@ from .run import Services, heartbeat, monitor_once, prune, run_cycle
 from .state import StateStore
 from .token import BrowserSession, SessionExpired, TokenStore, fetch_token_with_relogin, make_relogin, make_token_provider
 
+DEFAULT_CONFIG = "/opt/app/patch/config.yaml"
+DEFAULT_SECRETS = "/home/oracle/.mos/secrets.env"
+LOCKED = ("monitor", "run", "fetch", "add", "del")  # one at a time: they download or edit shared files
+EXIT_BUSY = 5
+
 COMMANDS = ("login", "token", "status", "monitor", "resolve", "fetch", "run", "heartbeat", "prune",
             "add", "del", "list", "discover")
 
@@ -24,8 +29,8 @@ COMMANDS = ("login", "token", "status", "monitor", "resolve", "fetch", "run", "h
 def build_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(prog="opatchbot", description="Oracle CPU/CSPU patch monitor and stager")
     ap.add_argument("--version", action="version", version=__version__)
-    ap.add_argument("--config", default=os.environ.get("OPATCHBOT_CONFIG", "/etc/opatchbot/config.yaml"))
-    ap.add_argument("--secrets", default=os.environ.get("OPATCHBOT_SECRETS", "/etc/opatchbot/secrets.env"))
+    ap.add_argument("--config", default=os.environ.get("OPATCHBOT_CONFIG", DEFAULT_CONFIG))
+    ap.add_argument("--secrets", default=os.environ.get("OPATCHBOT_SECRETS", DEFAULT_SECRETS))
     # --notify/--today are accepted before or after the subcommand. The subcommand copies use SUPPRESS so
     # they do not overwrite a value given before the subcommand (argparse subparser defaults win otherwise).
     ap.add_argument("--notify", choices=["smtp", "stdout"], default=None, help="override notify mode")
@@ -131,23 +136,46 @@ def build_services(args) -> Services:
     if args.notify:
         cfg.notify.mode = args.notify
     cfg.state_dir.mkdir(parents=True, exist_ok=True)
+    cfg.secret_dir.mkdir(parents=True, exist_ok=True, mode=0o700)
     logdir = cfg.state_dir / "log"; logdir.mkdir(exist_ok=True)
     handler = RotatingFileHandler(logdir / "opatchbot.log", maxBytes=5_000_000, backupCount=5)
     handler.setFormatter(logging.Formatter("%(asctime)s %(levelname)s %(name)s: %(message)s"))
     root = logging.getLogger(); root.setLevel(logging.INFO); root.addHandler(handler)
     err = logging.StreamHandler(sys.stderr); err.setLevel(logging.WARNING); root.addHandler(err)
     store = StateStore(cfg.state_dir)
-    token_store = TokenStore(cfg.state_dir / "token.txt")
-    browser = BrowserSession(cfg.state_dir / "session.json")
+    token_store = TokenStore(cfg.secret_dir / "token.txt")
+    browser = BrowserSession(cfg.secret_dir / "session.json")
     relogin = make_relogin(browser, Path(args.secrets), cfg.auto_login)
     client = AruClient(make_token_provider(token_store, browser, relogin=relogin))
     return Services(cfg=cfg, store=store, client=client, notifier=Notifier(cfg.notify), browser=browser,
                     token_store=token_store, secrets_path=Path(args.secrets), config_path=Path(args.config))
 
 
+def _single_instance(state_dir: Path):
+    """Exclusive lock on state_dir/opatchbot.lock, or None if another locked command is running."""
+    import fcntl
+    state_dir.mkdir(parents=True, exist_ok=True)
+    fh = open(state_dir / "opatchbot.lock", "w")
+    try:
+        fcntl.flock(fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
+    except BlockingIOError:
+        fh.close()
+        return None
+    return fh  # held until the process exits
+
+
 def main(argv: list[str] | None = None, services: Services | None = None) -> int:
     args = build_parser().parse_args(argv)
+    if services is None and hasattr(os, "geteuid") and os.geteuid() == 0 and not os.environ.get("OPATCHBOT_ALLOW_ROOT"):
+        print("opatchbot must not run as root (files it writes must stay owned by the service user). "
+              "Run it as oracle, e.g. `sudo -u oracle opatchbot ...`.", file=sys.stderr)
+        return 1
     svc = services or build_services(args)
+    if services is None and args.cmd in LOCKED:
+        lock = _single_instance(svc.cfg.state_dir)
+        if lock is None:
+            print("another opatchbot run is in progress (monitor/run/fetch/add/del); try again later", file=sys.stderr)
+            return EXIT_BUSY
     today = date.fromisoformat(args.today) if args.today else date.today()
 
     if args.cmd == "login":

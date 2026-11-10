@@ -1,6 +1,9 @@
-# opatchbot configuration. Copy to /etc/opatchbot/config.yaml and edit.
-stage_root: /stage/oracle-patches
-state_dir: /var/lib/opatchbot
+# opatchbot configuration. deploy/install_ol.sh copies this to /opt/app/patch/config.yaml (owned by oracle).
+# The inventory below is maintained with `opatchbot add` / `opatchbot del` (see README); hand edits also work,
+# as long as each item stays on one line.
+stage_root: /opt/data2/download/patch    # downloads: <stage_root>/<YYYY-MM-CPU|CSPU>/<area>/<item>/<file>
+state_dir: /opt/app/patch/state          # cycles.json, logs (state/log/opatchbot.log), run lock
+secrets_dir: /home/oracle/.mos           # session.json + token.txt (mode 0600); secrets.env lives here too
 keep_cycles: 3
 window_before_days: 7
 window_after_days: 14
