@@ -8,11 +8,10 @@
 #   secrets   /home/oracle/.mos             (MOS_DIR, mode 0700)
 #     user        MOS username (email)
 #     password    MOS password, mode 0600 (only used if Oracle ever allows the password grant)
-#     token.txt   current download token (written by this job)
-#     edge-profile/  dedicated signed-in browser profile
+#     token.txt   current 60-minute download token (installed with mos_set_token.sh)
 #   logs      /opt/app/patch/logs/mos-patch-sync.log
 #
-# Intended to be run by the systemd timer in systemd/ (or cron; see README).
+# Normally started by mos_set_token.sh right after a token is installed (see README).
 set -uo pipefail
 HERE="$(cd "$(dirname "$0")" && pwd)"
 APP_HOME="${APP_HOME:-/opt/app/patch}"
@@ -38,27 +37,38 @@ if ! flock -n 9; then echo "$(date '+%F %T') another weekly_sync is running; exi
 echo "===== $(date '+%F %T') weekly_sync start (user=$(id -un) host=$(hostname -s)) ====="
 [[ "$(id -un)" == "oracle" ]] || echo "WARNING: running as $(id -un), expected oracle"
 
-# 1. get a fresh token.
-#    Primary: headless Edge/Chromium using the dedicated signed-in profile ($MOS_DIR/edge-profile).
-#    Optional: OAuth2 password grant, only if a password file exists AND Oracle ever allows it.
-minted=0
-if [[ -d "$MOS_DIR/edge-profile" ]]; then
-  if bash "$HERE/mos_browser_token.sh" "$TOKEN_FILE"; then minted=1
-  else echo "browser token failed (rc=$?). If 'SESSION EXPIRED', re-run the one-time sign-in in README."; fi
-fi
-if (( ! minted )) && [[ -n "$MOS_USER" && -r "$PASS_FILE" ]]; then
-  if [[ -n "$(find "$PASS_FILE" -perm /077 2>/dev/null)" ]]; then
-    echo "REFUSING $PASS_FILE: permissions too open (chmod 600 $PASS_FILE)"
-  else
-    MOS_PASS="$(head -n1 "$PASS_FILE" | tr -d '\r\n')"
-    export MOS_USER MOS_PASS
-    if bash "$HERE/mos_mint_token.sh" "$MOS_USER" "$TOKEN_FILE"; then minted=1; fi
-    unset MOS_PASS
+# 1. need a usable token. Servers are headless (no browser), so a token comes from:
+#    a) a token a human installed with mos_set_token.sh within the last hour, or
+#    b) the OAuth2 password grant, if a password file exists AND Oracle ever allows it.
+token_minutes_left() {
+  python3 -I - "$TOKEN_FILE" <<'PY' 2>/dev/null || echo -1
+import sys, json, base64, time
+t = open(sys.argv[1]).read().split()[0]
+p = t.split(".")[1]; p += "=" * (-len(p) % 4)
+print(int((json.loads(base64.urlsafe_b64decode(p))["exp"] - time.time()) // 60))
+PY
+}
+left="$(token_minutes_left)"
+if (( left >= 10 )); then
+  echo "using installed token ($left minutes left)"
+else
+  minted=0
+  if [[ -n "$MOS_USER" && -r "$PASS_FILE" ]]; then
+    if [[ -n "$(find "$PASS_FILE" -perm /077 2>/dev/null)" ]]; then
+      echo "REFUSING $PASS_FILE: permissions too open (chmod 600 $PASS_FILE)"
+    else
+      MOS_PASS="$(head -n1 "$PASS_FILE" | tr -d '\r\n')"
+      export MOS_USER MOS_PASS
+      if bash "$HERE/mos_mint_token.sh" "$MOS_USER" "$TOKEN_FILE"; then minted=1; fi
+      unset MOS_PASS
+    fi
   fi
-fi
-if (( ! minted )); then
-  echo "TOKEN MINT FAILED - a human must re-authenticate (see README 'Fallback')."
-  exit 2
+  if (( ! minted )); then
+    echo "NEED TOKEN: no valid token (minutes left: $left). Get one from"
+    echo "  https://updates.oracle.com/Orion/GenToken/get_token on a machine with a browser, then run"
+    echo "  $APP_HOME/mos_set_token.sh   (as oracle on this server)"
+    exit 2
+  fi
 fi
 
 # 2. sync each target

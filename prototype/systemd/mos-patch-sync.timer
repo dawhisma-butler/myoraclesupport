@@ -1,4 +1,5 @@
 # /etc/systemd/system/mos-patch-sync.timer
+# Only useful once unattended login works (see README "Can it run unattended?").
 # Runs mos-patch-sync.service every Monday at 06:00 (server local time).
 # Enable:  sudo systemctl enable --now mos-patch-sync.timer
 # Check:   systemctl list-timers mos-patch-sync.timer

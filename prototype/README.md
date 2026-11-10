@@ -1,7 +1,7 @@
-# MOS patch automation (PeopleTools) — Linux server
+# MOS patch automation (PeopleTools) — headless Linux server
 
 Scripts that find and download the newest PeopleTools product patch from My Oracle Support
-without a browser, using Oracle's ARU XML services at `https://updates.oracle.com/Orion/Services/`
+with curl only (no browser on the server), using Oracle's ARU XML services at `https://updates.oracle.com/Orion/Services/`
 and a short-lived (1 hour) OAuth2 download token.
 
 ## How Oracle's download auth actually works (learned 2026-11-09)
@@ -27,6 +27,24 @@ and a short-lived (1 hour) OAuth2 download token.
 These endpoints are not formally documented by Oracle; they are what Enterprise Manager
 (`emcli search_patches`, `list_aru_*`) and AutoUpgrade use, and community tools such as getMOSPatch.
 
+## Headless servers: how the token gets to the server
+
+The servers have no GUI and no browser; everything on them is command line and curl.
+Oracle's sign-in (login.oracle.com / Oracle Cloud identity, with MFA) is a JavaScript application,
+so neither curl nor a text browser (lynx, w3m, elinks) can complete it. The only verified
+curl-only route is therefore:
+
+1. A person signs in to My Oracle Support **in a browser on any other device** (workstation,
+   laptop, phone) and opens https://updates.oracle.com/Orion/GenToken/get_token.
+2. They hand that token (valid **60 minutes**) to the server with `mos_set_token.sh`.
+3. `mos_set_token.sh` saves it and immediately starts the sync in the background, all with curl.
+
+Downloads resume, so if a large download outlives the token, install a new token and the next run
+continues where it stopped and re-verifies the SHA-256 checksums.
+
+Whether fully unattended (scheduled) runs are possible with curl alone depends on what Oracle allows
+for your account; `mos_curl_login_probe.sh` tests that (see "Can it run unattended?").
+
 ## Linux deployment layout
 
 | what | where |
@@ -36,114 +54,101 @@ These endpoints are not formally documented by Oracle; they are what Enterprise 
 | owner / runtime user | `oracle` (home `/home/oracle`) |
 | secrets directory (mode 0700) | `/home/oracle/.mos` |
 | log | `/opt/app/patch/logs/mos-patch-sync.log` |
-| schedule | systemd `mos-patch-sync.timer` (Mondays 06:00) |
 
-All scripts default to these paths; override with `APP_HOME`, `MOS_DIR`, `MOS_OUTDIR`,
-`MOS_LOG_DIR`, `MOS_EDGE_BIN`, `MOS_EDGE_PROFILE` if needed.
+All scripts default to these paths; override with `APP_HOME`, `MOS_DIR`, `MOS_OUTDIR`, `MOS_LOG_DIR`.
 
 Contents of `/home/oracle/.mos`:
 
 | file | purpose |
 |---|---|
 | `user` | MOS username (email) |
-| `password` | MOS password, mode 0600. Only used if Oracle ever allows the password grant (it currently does not; see Fallback). The job refuses the file if group/other can read it. |
-| `token.txt` | current 1-hour download token, written by the job (0600) |
-| `edge-profile/` | dedicated browser profile signed in to login.oracle.com |
+| `token.txt` | current 60-minute download token (0600), written by `mos_set_token.sh` |
+| `password` | optional, 0600: only useful if the probe shows Oracle accepts a password login. The job refuses the file if group/other can read it. |
 
-Requirements: `bash`, `curl`, `python3`, `flock` (util-linux), `sha256sum` (coreutils), `file`, and
-Microsoft Edge or Google Chrome/Chromium for headless token minting
-(e.g. `dnf install microsoft-edge-stable` from packages.microsoft.com, or `chromium`).
+Requirements (all command line): `bash`, `curl`, `python3`, `flock`, `setsid` (util-linux),
+`sha256sum` (coreutils), `file`. No browser, X11 or desktop packages.
 
 ## Files
 
 | file | purpose |
 |---|---|
-| `mos_token_probe.sh` | Inspect a token file: expiry, lifetime, endpoint status codes. Never prints the token. |
-| `mos_mint_token.sh` | Try to mint a token with username/password (OAuth2 password grant). Prompts for the password or reads `MOS_PASS`. |
-| `mos_browser_token.sh` | Mint a token headlessly from the signed-in browser profile. |
+| `mos_set_token.sh` | Install a token pasted (or piped) in, check its expiry, start the sync in the background. |
+| `weekly_sync.sh` | The sync job: checks for a valid token (or tries the password grant), downloads, logs. Uses `flock` so runs never overlap. |
 | `mos_patch_sync.sh` | Resolve newest `PT 8.61.xx PRODUCT PATCH DPK` for a platform, download (resumable), verify SHA-256. `--list`, `--dry-run`. |
-| `weekly_sync.sh` | Unattended wrapper: browser token (or password file) → sync. Logs to `/opt/app/patch/logs/mos-patch-sync.log`. Uses `flock` so runs never overlap. |
-| `systemd/mos-patch-sync.service`, `.timer` | systemd schedule (Mondays 06:00, runs as `oracle`). |
-| `install_linux.sh` | Root installer: creates directories with correct ownership, copies scripts, installs the systemd units. |
-| `wget_40014041_win_x64.sh` | Oracle-generated wget.sh for patch 40014041 (reference). |
+| `mos_token_probe.sh` | Inspect a token file: expiry, lifetime, endpoint status codes. Never prints the token. |
+| `mos_curl_login_probe.sh` | Tests whether curl-only login (classic SSO Basic auth, OAuth2 device code) works for your account. |
+| `mos_mint_token.sh` | Tests/uses the OAuth2 password grant (refused by Oracle as of 2026-11-09). |
+| `install_linux.sh` | Root installer: directories with correct ownership, scripts, systemd units. |
+| `systemd/` | Optional weekly timer; only useful once unattended login works. |
+| `wget_40014041_win_x64.sh` | Oracle-generated wget.sh for patch 40014041 (reference; also token based). |
 
 ## Install
 
 ```bash
 sudo bash install_linux.sh
-```
-
-This creates `/opt/app/patch`, `/opt/app/patch/logs`, `/opt/data2/download/patch` and
-`/home/oracle/.mos` owned by `oracle`, copies the scripts, and installs (but does not enable) the
-systemd timer.
-
-## One-time setup (as oracle)
-
-```bash
 sudo -iu oracle
 echo 'you@butler.edu' > /home/oracle/.mos/user
 ```
 
-Create the dedicated browser profile and sign in once (MFA). This needs a display: connect with
-X11 forwarding (`ssh -X oracle@server`, with `xorg-x11-xauth` installed on the server) or use a VNC
-session. `--password-store=basic` is required so the later headless runs, which have no desktop
-keyring, can read the profile's cookies:
+## Run a download
+
+On any device with a browser: sign in to My Oracle Support, open
+https://updates.oracle.com/Orion/GenToken/get_token and copy the token. Then either
 
 ```bash
-mkdir -p /home/oracle/.mos/edge-profile && chmod 700 /home/oracle/.mos
-microsoft-edge --password-store=basic --user-data-dir=/home/oracle/.mos/edge-profile --no-first-run \
-  "https://updates.oracle.com/Orion/GenToken/get_token"
+# on the server, as oracle: paste the token when prompted (it is not shown)
+/opt/app/patch/mos_set_token.sh
 ```
 
-Sign in, confirm a token is displayed, then close that browser window. (Use `google-chrome` or
-`chromium` in place of `microsoft-edge` if that is what is installed.) A profile created on a Mac or
-Windows machine cannot be copied over: its cookies are encrypted with that machine's keystore.
-
-Test headless minting and the whole chain:
+or, from a workstation that has the token saved in a file, in one command:
 
 ```bash
-bash /opt/app/patch/mos_browser_token.sh && bash /opt/app/patch/mos_token_probe.sh
-bash /opt/app/patch/mos_patch_sync.sh --dry-run
-bash /opt/app/patch/weekly_sync.sh; tail -30 /opt/app/patch/logs/mos-patch-sync.log
+ssh oracle@SERVER /opt/app/patch/mos_set_token.sh < token.txt
 ```
 
-## Schedule
+Follow progress:
 
 ```bash
-sudo systemctl enable --now mos-patch-sync.timer
-systemctl list-timers mos-patch-sync.timer
-sudo systemctl start mos-patch-sync.service      # run now
-journalctl -u mos-patch-sync                       # systemd's view; details are in the log file
+tail -f /opt/app/patch/logs/mos-patch-sync.log
 ```
 
-Without systemd, use oracle's crontab instead (`crontab -e` as oracle):
-
-```
-0 6 * * 1 /bin/bash /opt/app/patch/weekly_sync.sh
-```
-
-## Manual use (token from a browser elsewhere)
-
-Sign in to the portal on any machine, open https://updates.oracle.com/Orion/GenToken/get_token,
-copy the token, then on the server as oracle:
+Other useful commands (as oracle, while the token is valid):
 
 ```bash
-read -rs TOK && printf '%s\n' "$TOK" > /home/oracle/.mos/token.txt && chmod 600 /home/oracle/.mos/token.txt; unset TOK
-bash /opt/app/patch/mos_token_probe.sh            # shows remaining lifetime
+bash /opt/app/patch/mos_token_probe.sh            # remaining lifetime + endpoint checks
 bash /opt/app/patch/mos_patch_sync.sh --list      # candidate patches
-bash /opt/app/patch/mos_patch_sync.sh             # download newest to /opt/data2/download/patch
+bash /opt/app/patch/mos_patch_sync.sh --dry-run   # what would be downloaded
+/opt/app/patch/mos_set_token.sh --foreground      # run the sync in this terminal instead
 ```
 
-## Fallback if tokens cannot be minted headlessly (current state, 2026-11-09)
+## Can it run unattended?
 
-`mos_mint_token.sh` returns `invalid_request` for every scope: the `UPDATES_PROD` client is
-confidential and the password grant needs its secret, which only Oracle's tools hold. So the
-job uses a **dedicated browser profile** that stays signed in to login.oracle.com; the scheduled run
-opens the token page headlessly in that profile (`mos_browser_token.sh`), saves the token, and
-then runs `mos_patch_sync.sh`. A human re-authenticates only when Oracle expires that session.
+Only if Oracle lets this account log in without a browser. Test once, as oracle on the server:
 
-In `weekly_sync.sh`, token minting falls back to `mos_mint_token.sh` (with `/home/oracle/.mos/password`)
-when the browser token fails. If the log shows "SESSION EXPIRED", re-run the one-time sign-in above.
+```bash
+bash /opt/app/patch/mos_curl_login_probe.sh
+bash /opt/app/patch/mos_mint_token.sh
+```
+
+They print status codes and Oracle error codes only, never the password or a token. Outcomes:
+
+* **Classic SSO Basic auth WORKS**: curl can log in with username/password and keep session
+  cookies (how Oracle's older wget.sh scripts worked). `mos_patch_sync.sh` then needs a cookie mode
+  added; after that the systemd timer can run weekly. Expect this to fail if the account requires MFA.
+* **Device code WORKS**: you would approve a short code on your phone once and the server could
+  then refresh tokens itself; this needs a small addition to the scripts.
+* **Password grant WORKS** (`mos_mint_token.sh` prints "token issued"): put the password in
+  `/home/oracle/.mos/password` (`chmod 600`) and enable the timer; `weekly_sync.sh` already uses it.
+* **Nothing works** (expected today): keep the hand-off above. The run takes one paste per patch cycle.
+
+To enable the schedule once one of the above works:
+
+```bash
+sudo systemctl enable --now mos-patch-sync.timer      # Mondays 06:00 as oracle
+```
+
+or in oracle's crontab: `0 6 * * 1 /bin/bash /opt/app/patch/weekly_sync.sh`.
+Without unattended login, a scheduled run just logs `NEED TOKEN` and exits 2.
 
 ## Notes
 
